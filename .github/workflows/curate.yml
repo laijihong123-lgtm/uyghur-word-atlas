@@ -1,0 +1,27 @@
+name: Curate 2000 vocabulary candidates from source dictionaries
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "tools/curate_2000.py"
+      - ".github/workflows/curate.yml"
+permissions:
+  contents: read
+jobs:
+  curate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Chinese usage-frequency library
+        run: python3 -m pip install wordfreq==3.1.1
+      - name: Extract and rank Uyghur-Chinese words with separate orthographic checks
+        run: python3 tools/curate_2000.py
+      - name: Publish candidate data and QA report for inspection
+        uses: actions/upload-artifact@v4
+        with:
+          name: uyghur-2000-reviewed-candidates
+          path: |
+            data/word_bank_2000.json
+            data/word_bank_2000.tsv
+            data/curation_report.json
+          retention-days: 30
