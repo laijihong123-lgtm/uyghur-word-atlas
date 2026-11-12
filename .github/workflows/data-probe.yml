@@ -16,6 +16,7 @@ jobs:
           python3 - <<'PY'
           import json,urllib.request
           urls=[
+           'https://reciteword.cosoft.org.cn/stardict-iso/stardict-dic/zh_CN/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.bz2',
            'https://huggingface.co/api/datasets/mustafakali/UyZh-FolkSpeech/tree/main?recursive=true',
            'https://huggingface.co/api/datasets/UyghurReferenceTexts/uyghur-headword-lists/tree/main?recursive=true',
            'https://raw.githubusercontent.com/gheyret/Uyghur-ChineseDictionary/master/1Words_1~3000',
@@ -26,7 +27,9 @@ jobs:
             with urllib.request.urlopen(req, timeout=25) as f:
              content=f.read(1500000)
             print('\nSOURCE',url,'bytes',len(content))
-            if 'tree/main' in url:
+            if 'tar.bz2' in url:
+             print('STARDICT_HEADER', repr(content[:60]))
+            elif 'tree/main' in url:
              data=json.loads(content)
              print('PATHS',[(x.get('path'),x.get('size')) for x in data[:150]])
             else:
