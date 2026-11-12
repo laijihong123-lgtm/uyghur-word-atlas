@@ -36,3 +36,28 @@ jobs:
              print('SAMPLE',repr(content[:1000]))
            except Exception as exc: print('ERROR',url,str(exc))
           PY
+
+      - name: Inspect GPL Anatilim archive
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import urllib.request, tempfile,tarfile,os
+          urls=[
+            'https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz',
+            'https://raw.githubusercontent.com/xhacker/chinese-uyghur/master/raw/ChineseUyghurStarDict_UyCn.txt',
+          ]
+          for u in urls:
+           try:
+            with urllib.request.urlopen(urllib.request.Request(u,headers={'User-Agent':'UyghurAtlas'}),timeout=55) as r:
+             body=r.read()
+            print('DOWNLOADED',u,len(body))
+            if u.endswith('.tar.gz'):
+             import io
+             tf=tarfile.open(fileobj=io.BytesIO(body),mode='r:gz')
+             members=tf.getmembers()
+             print('MEMBERS',[(a.name,a.size) for a in members[:20]])
+             ifos=[m for m in members if m.name.endswith('.ifo')]
+             if ifos: print('IFO',tf.extractfile(ifos[0]).read().decode('utf-8','replace')[:800])
+            else:print('TEXT_HEAD',repr(body[:900]))
+           except Exception as e: print('EXC',str(e))
+          PY
