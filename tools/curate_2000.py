@@ -24,6 +24,8 @@ OUTPUT=ROOT/"data"
 OUTPUT.mkdir(exist_ok=True)
 SOURCES={
  "imla":"https://huggingface.co/datasets/UyghurReferenceTexts/uyghur-headword-lists/resolve/main/data/imla_lughiti_2009/imla_lughiti_2009_headwords.tsv",
+ "imla2011v1":"https://huggingface.co/datasets/UyghurReferenceTexts/uyghur-headword-lists/resolve/main/data/izahliq_lughet_2011/izahliq_lughet_2011_v1_headwords.tsv",
+ "imla2011v2":"https://huggingface.co/datasets/UyghurReferenceTexts/uyghur-headword-lists/resolve/main/data/izahliq_lughet_2011/izahliq_lughet_2011_v2_headwords.tsv",
  "anatilim":"https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
  "reverse":"https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-chinese-uyghur_cn-uy-2.4.2.tar.gz",
  "frequency":"https://raw.githubusercontent.com/Uyghur-LRs/Uyghur-Wordlist/master/wordlist-Internet-v0.1.zip",
@@ -54,20 +56,20 @@ def valid_word(w):
  return 2<=len(w)<=24 and re.fullmatch(r"[\u0621-\u06ff]+(?: [\u0621-\u06ff]+)?",w) is not None and not re.search(r"[\u064b-\u065f\u0660-\u0669]",w)
 
 def read_verified_2009():
- dat=get(SOURCES["imla"]).decode("utf-8-sig")
- reader=csv.DictReader(io.StringIO(dat),delimiter="\t")
- result=set()
- levels={}
- for row in reader:
-  w=norm(row.get("entry",""))
-  if not valid_word(w) or row.get("type") not in ("headword","corrected_form","verb_stem"):
-   continue
-  status=next((row[k].strip().lower() for k in reversed(list(row)) if k.startswith("status_v") and row[k].strip()),"")
-  if status not in ("verified","corrected","approved","accepted"):
-   continue
-  result.add(w)
-  levels[w]={"row":row.get("row_id",""),"page":row.get("source_page","")}
- print("SPELLING_verified_2009",len(result),flush=True)
+ result=set();levels={}
+ for label in ("imla","imla2011v1","imla2011v2"):
+  dat=get(SOURCES[label]).decode("utf-8-sig")
+  reader=csv.DictReader(io.StringIO(dat),delimiter="\t")
+  n=0
+  for row in reader:
+   w=norm(row.get("entry",""))
+   if not valid_word(w) or row.get("type") not in ("headword","corrected_form","verb_stem"):continue
+   status=row.get("status_v1","").strip().lower()
+   if status != "verified":continue
+   if w not in result:levels[w]={"row":row.get("row_id",""),"page":row.get("source_page",""),"source":label}
+   result.add(w);n+=1
+  print("SPELLING_verified_source",label,n,flush=True)
+ print("SPELLING_verified_union",len(result),flush=True)
  return result,levels
 
 def read_anatilim():
@@ -169,10 +171,10 @@ def main():
    if matched:
     hints[topic]=len(matched)+sum(1 for a in matched if len(a)>=2)
   rows.append({"uy":w,"zh":best,"topic":"","latin":"","score":round(score,4),
-               "freq":f,"imla_id":meta[w]["row"],"imla_page":meta[w]["page"],
+               "freq":f,"imla_id":meta[w]["row"],"imla_page":meta[w]["page"],"spelling_dictionary":meta[w]["source"],
                "semantic_tags":hints,
-               "source":"Anatilim Uyghur-Chinese bilingual dictionary + 2009 imla headword list",
-               "quality":"2009正字词形已标记verified；中文释义来自词典但未逐条人工复核"})
+               "source":"Anatilim Uyghur-Chinese dictionary + verified 2009/2011 dictionary headwords",
+               "quality":"词形对应2009或2011审校词目；中文释义来自维汉词典，未完成逐条语言审校"})
  print("CANDIDATES_crosschecked",len(rows),flush=True)
  agreed=read_reverse_matches(rows)
  for r in rows:
