@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Install Chinese usage-frequency library
-        run: python3 -m pip install wordfreq==3.1.1
+        run: python3 -m pip install wordfreq==3.1.1 jieba==0.42.1
       - name: Extract and rank Uyghur-Chinese words with separate orthographic checks
         run: python3 tools/curate_2000.py
       - name: Publish candidate data and QA report for inspection
