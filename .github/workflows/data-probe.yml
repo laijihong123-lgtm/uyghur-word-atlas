@@ -78,7 +78,7 @@ jobs:
           defs=next(v for k,v in files.items() if k.endswith('.dict'))
           pos=0;out=[]
           for n in range(600):
-           end=idx.index(b'\\0',pos)
+           end=idx.index(bytes([0]),pos)
            word=idx[pos:end].decode('utf-8','replace')
            offset,size=struct.unpack('>II',idx[end+1:end+9])
            gloss=defs[offset:offset+size].decode('utf-8','replace')
