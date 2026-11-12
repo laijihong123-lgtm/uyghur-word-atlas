@@ -86,3 +86,17 @@ jobs:
            if n<30 or ('ئوقۇ' in word and len(out)<60):out.append((word,gloss[:95]))
           print('STARDICT_SAMPLE',out[:75])
           PY
+
+      - name: Compare 2009 and 2011 audited orthography sources
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import csv,io,urllib.request,collections
+          root="https://huggingface.co/datasets/UyghurReferenceTexts/uyghur-headword-lists/resolve/main/data/"
+          for name in ['imla_lughiti_2009/imla_lughiti_2009_headwords.tsv','izahliq_lughet_2011/izahliq_lughet_2011_v1_headwords.tsv','izahliq_lughet_2011/izahliq_lughet_2011_v2_headwords.tsv']:
+           try:
+            doc=urllib.request.urlopen(root+name,timeout=50).read().decode('utf-8-sig')
+            rows=list(csv.DictReader(io.StringIO(doc),delimiter='\t'))
+            print('ORTHO_SRC',name,'total',len(rows),'columns',rows[0].keys() if rows else None,'status_counts',collections.Counter((r.get('status_v1') or '') for r in rows).most_common(10),'examples',rows[:2],flush=True)
+           except Exception as e:print('ERROR_ORTHO',name,repr(e),flush=True)
+          PY
