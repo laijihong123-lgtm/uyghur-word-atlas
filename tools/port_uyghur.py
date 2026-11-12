@@ -156,9 +156,45 @@ def main():
             "一词一画，点亮雅思", "一词一画，学习维语").replace(
             "雅思词汇","维语词汇").replace("雅思", "维语")
         file.write_text(s, "utf-8")
+    # All original IELTS/media marketing claims are wrong in an audio-free Uyghur build.
+    # Keep the About page layout but replace claims with the actual adapted scope.
+    about_file = ROOT / "src/pages/About.tsx"
+    about = about_file.read_text("utf-8")
+    for old, new in [
+        ("一词一画，点亮雅思。", "维语词光 · 用词汇点亮星图。"),
+        ("词光把雅思阅读 8000 词整理成 {atlas.count.toLocaleString()} 个词条。每个词一幅原创插画，一句日常例句，一句雅思例句，配英美发音、常用搭配和易混提示。学会一个，就在你的星图上点亮一颗星。",
+         "本版基于原版 Word Atlas 开源代码改造，目前有 {atlas.count.toLocaleString()} 条维语入门候选词，包含维文、中文释义及拉丁转写提示。暂不提供真实维语音频、逐词插画和审校后的例句。"),
+        ("它免费、开源、无需注册。代码用 MIT，词库用 CC BY 4.0，谁都可以拿去用。",
+         "程序保留原版 MIT 代码许可；原版素材与内容许可证另行适用。学习进度存于本机浏览器。"),
+        ("每个词都有一幅画，画的就是第一句例句里发生的事。",
+         "按照维文、中文释义和转写提示学习，不把英语插画误认成维语词义。"),
+        ("选义、看图补句、听音辨词、拼写，从认得走到会写。",
+         "先认出词义，再进行维语拼写；无可靠维语音源时不开启听音题。"),
+        ("释义、例句、搭配和提示由大语言模型按统一的词典规范重新撰写；插画由图像模型按统一画风逐词绘制；发音和朗读由 ElevenLabs 合成（英音 Alice，美音 Sarah）。所有内容都经过结构和一致性的自动校验，但没有逐条人工审校。看到错的地方，欢迎在 GitHub 提 Issue，或者直接改数据提 PR。",
+         "此版本的维语词汇是从公开资料交叉参考的候选词中选取，尚未完成维吾尔语母语专家逐词终审，因此请结合可靠词典复核。没有使用英文配音充当维语配音，也未编造例句。"),
+        ("词光不是官方雅思词表，也不承诺提分。它只想把背单词这件事，做得好看一点、扎实一点。",
+         "此版本不代表任何高校辅导员岗位官方考试范围，目前词汇量不足以单独用于面试备考。"),
+        ("data/word-atlas.json", "data/words.txt"),
+        ("和 <code>.csv</code> 是完整词库；<code>public/atlas</code> 里是网页用的分块数据、插画和音频。拿去做 Anki 牌组、背词小程序、浏览器插件，或者 AI 应用的评测集，署名即可。",
+         "是维语候选词列表；网页构建时自动生成 <code>public/atlas</code> 词库索引与词条。请保留上游项目与内容来源的版权信息。"),
+    ]:
+        if old not in about:
+            raise RuntimeError(f"Upstream About page changed: {old[:25]}")
+        about = about.replace(old,new)
+    about_file.write_text(about,"utf-8")
+    patch("src/config.ts", "https://github.com/designfuchen/word-atlas",
+          "https://github.com/laijihong123-lgtm/uyghur-word-atlas")
+    # Retain the About section's explicit original-project attribution.
+    # Do not rewrite it automatically as if the Uyghur content were already certified.
     html = ROOT / "index.html"
     s = html.read_text("utf-8").replace("词光 Word Atlas","维语词光 Uyghur Atlas").replace(
         "雅思","维语")
+    s = re.sub(r'(<meta name="description" content=")[^"]*',
+               lambda m: m.group(1)+"46条维吾尔语入门候选词，维文、中文释义与拉丁转写。基于原版 Word Atlas 开源代码，暂无维语音频。",s)
+    s = re.sub(r'(<meta property="og:description" content=")[^"]*',
+               lambda m: m.group(1)+"维语词光：基于开源 Word Atlas 改造的维语学习实验版本。",s)
+    s = s.replace("https://0xlei.tech/words/brand/og-card.jpg",
+                  "/uyghur-word-atlas/brand/og-card.jpg")
     css = """<style id="uyghur-rtl">
       .headword,.prompt-word .headword,.typing-text{direction:rtl;unicode-bidi:plaintext;
           font-family:"Geeza Pro","Noto Naskh Arabic","Noto Sans Arabic",serif}
