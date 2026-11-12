@@ -61,3 +61,28 @@ jobs:
             else:print('TEXT_HEAD',repr(body[:900]))
            except Exception as e: print('EXC',str(e))
           PY
+
+      - name: Inspect 2009 orthography TSV and StarDict entries
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import urllib.request, tarfile,io,struct
+          url='https://huggingface.co/datasets/UyghurReferenceTexts/uyghur-headword-lists/resolve/main/data/imla_lughiti_2009/imla_lughiti_2009_headwords.tsv'
+          text=urllib.request.urlopen(url,timeout=35).read().decode('utf-8')
+          print('ORTHO_LINES',text.splitlines()[:10])
+          url='https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz'
+          dat=urllib.request.urlopen(url,timeout=45).read()
+          t=tarfile.open(fileobj=io.BytesIO(dat),mode='r:gz')
+          files={m.name.split('/')[-1]:t.extractfile(m).read() for m in t.getmembers() if m.name.endswith(('.idx','.dict'))}
+          idx=next(v for k,v in files.items() if k.endswith('.idx'))
+          defs=next(v for k,v in files.items() if k.endswith('.dict'))
+          pos=0;out=[]
+          for n in range(600):
+           end=idx.index(b'\\0',pos)
+           word=idx[pos:end].decode('utf-8','replace')
+           offset,size=struct.unpack('>II',idx[end+1:end+9])
+           gloss=defs[offset:offset+size].decode('utf-8','replace')
+           pos=end+9
+           if n<30 or ('ئوقۇ' in word and len(out)<60):out.append((word,gloss[:95]))
+          print('STARDICT_SAMPLE',out[:75])
+          PY
