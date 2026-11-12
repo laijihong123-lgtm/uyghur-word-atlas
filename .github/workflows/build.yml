@@ -37,7 +37,12 @@ jobs:
           test -s src/store/session.ts
           echo "Original source commit:"
           git rev-parse HEAD
-      - name: Adapt original app for preliminary Uyghur vocabulary
+      - name: Generate source-backed 2000-word QA candidate database
+        shell: bash
+        run: |
+          python3 -m pip install wordfreq==3.1.1 jieba==0.42.1
+          python3 tools/curate_2000.py
+      - name: Overlay graded Uyghur catalog and protected learning deck
         run: python3 tools/port_uyghur.py
       - name: Set up Node.js
         uses: actions/setup-node@v4
