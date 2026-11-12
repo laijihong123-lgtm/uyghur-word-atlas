@@ -120,6 +120,7 @@ def main():
     if retry not in s:
         raise RuntimeError("Question retry logic changed upstream.")
     s = s.replace(retry,
+        '        const ref = atlas.byId.get(step.id)!;\n'
         '        const kind: QuizKind = step.kind === "meaning" && settings.spell ? "spell" : "meaning";')
     file.write_text(s,"utf-8")
 
