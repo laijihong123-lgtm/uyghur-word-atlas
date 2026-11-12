@@ -1,0 +1,35 @@
+name: Probe authoritative Uyghur vocabulary sources
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/data-probe.yml"
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Inspect source dataset API and sample files
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json,urllib.request
+          urls=[
+           'https://huggingface.co/api/datasets/mustafakali/UyZh-FolkSpeech/tree/main?recursive=true',
+           'https://huggingface.co/api/datasets/UyghurReferenceTexts/uyghur-headword-lists/tree/main?recursive=true',
+           'https://raw.githubusercontent.com/gheyret/Uyghur-ChineseDictionary/master/1Words_1~3000',
+          ]
+          for url in urls:
+           try:
+            req=urllib.request.Request(url,headers={'User-Agent':'Uyghur-Atlas-Research/1.0'})
+            with urllib.request.urlopen(req, timeout=25) as f:
+             content=f.read(1500000)
+            print('\nSOURCE',url,'bytes',len(content))
+            if 'tree/main' in url:
+             data=json.loads(content)
+             print('PATHS',[(x.get('path'),x.get('size')) for x in data[:150]])
+            else:
+             print('SAMPLE',repr(content[:1000]))
+           except Exception as exc: print('ERROR',url,str(exc))
+          PY
