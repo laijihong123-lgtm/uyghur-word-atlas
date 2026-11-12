@@ -25,6 +25,7 @@ OUTPUT.mkdir(exist_ok=True)
 SOURCES={
  "imla":"https://huggingface.co/datasets/UyghurReferenceTexts/uyghur-headword-lists/resolve/main/data/imla_lughiti_2009/imla_lughiti_2009_headwords.tsv",
  "anatilim":"https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+ "reverse":"https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-chinese-uyghur_cn-uy-2.4.2.tar.gz",
  "frequency":"https://raw.githubusercontent.com/Uyghur-LRs/Uyghur-Wordlist/master/wordlist-Internet-v0.1.zip",
 }
 AREAS={
@@ -96,6 +97,28 @@ def read_anatilim():
  print("BILINGUAL_dictionary_rows",rows,"usable_headwords",len(result),flush=True)
  return result
 
+def read_reverse_matches(rows):
+ # Do not treat the reverse direction as an independent source: both dictionaries
+ # are from the same Anatilim collection. It is a useful consistency screen only.
+ desired=defaultdict(set)
+ for r in rows:desired[r["zh"]].add(r["uy"])
+ tar=tarfile.open(fileobj=io.BytesIO(get(SOURCES["reverse"])),mode="r:gz")
+ ix=next(tar.extractfile(m).read() for m in tar.getmembers() if m.name.endswith(".idx"))
+ body=next(tar.extractfile(m).read() for m in tar.getmembers() if m.name.endswith(".dict"))
+ checked=set();pos=0
+ while pos<len(ix):
+  end=ix.find(bytes([0]),pos)
+  if end<0 or end+9>len(ix): break
+  key=norm(ix[pos:end].decode("utf-8","replace"))
+  offset,size=struct.unpack(">II",ix[end+1:end+9]);pos=end+9
+  wanted=desired.get(key)
+  if not wanted or offset+size>len(body):continue
+  gloss=norm(body[offset:offset+size].decode("utf-8","replace")).strip("\0")
+  for uy in wanted:
+   if uy in gloss:checked.add((uy,key))
+ print("REVERSE_AGREEMENT_pairs",len(checked),"candidate_row_count",len(rows),flush=True)
+ return checked
+
 def read_frequency():
  try:
   raw=get(SOURCES["frequency"])
@@ -151,6 +174,16 @@ def main():
                "source":"Anatilim Uyghur-Chinese bilingual dictionary + 2009 imla headword list",
                "quality":"2009正字词形已标记verified；中文释义来自词典但未逐条人工复核"})
  print("CANDIDATES_crosschecked",len(rows),flush=True)
+ agreed=read_reverse_matches(rows)
+ for r in rows:
+  r["reverse_agree"]=(r["uy"],r["zh"]) in agreed
+  if r["reverse_agree"]:r["score"]+=14
+ # A primary choice should be supported by a reverse lookup for its Chinese gloss.
+ robust=[r for r in rows if r["reverse_agree"]]
+ print("REVERSE_SUPPORTED_CANDIDATES",len(robust),flush=True)
+ if len(robust)>=2000:
+  rows=robust
+
  if len(rows)<2000:raise RuntimeError("Not enough doubly sourced rows; no fake 2000.")
  # Establish a learning route: high-priority counselor/interview themes first.
  selected=[];used=set();counts={}
@@ -184,7 +217,7 @@ def main():
                                  r["freq"],r["imla_id"],r["imla_page"],r["quality"],r["source"]])
  checks={"total":len(selected),"unique":len(used),"topic_counts":dict(__import__("collections").Counter(r["category"] for r in selected)),
          "spelling_source":SOURCES["imla"],"meaning_source":SOURCES["anatilim"],
-         "frequency_source":SOURCES["frequency"],"not_an_expert_review":True,
+         "frequency_source":SOURCES["frequency"],"reverse_source":SOURCES["reverse"],"not_an_expert_review":True,"reverse_supported_count":sum(1 for r in selected if r.get("reverse_agree")),
          "samples":{key:[(r["uy"],r["zh"]) for r in selected if r["category"]==key][:8] for key in set(r["category"] for r in selected)}}
  (OUTPUT/"curation_report.json").write_text(json.dumps(checks,ensure_ascii=False,indent=2),encoding="utf-8")
  print("CREATED_2000_REPORT",json.dumps(checks,ensure_ascii=False),flush=True)
