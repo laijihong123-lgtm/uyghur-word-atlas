@@ -1,0 +1,43 @@
+name: Inspect human-aligned Uyghur Chinese word corpus
+on:
+  workflow_dispatch:
+  push:
+    paths: [".github/workflows/folk-extract.yml"]
+permissions:
+  contents: read
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Download and selectively extract bilingual TSV files
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import urllib.request, tempfile, zipfile, os, json
+          url='https://huggingface.co/datasets/mustafakali/UyZh-FolkSpeech/resolve/main/UyZh-FolkSpeech.zip'
+          req=urllib.request.Request(url,headers={'User-Agent':'UyghurAtlas/1.0'})
+          with tempfile.NamedTemporaryFile(suffix='.zip',delete=False) as f:
+           path=f.name
+           with urllib.request.urlopen(req,timeout=120) as src:
+            while True:
+             b=src.read(4*1024*1024)
+             if not b:break
+             f.write(b)
+          print('ARCHIVE_BYTES',os.path.getsize(path),flush=True)
+          z=zipfile.ZipFile(path)
+          files=z.namelist()
+          print('ARCHIVE_LIST',len(files),[n for n in files if n.endswith(('.tsv','.csv','.json'))][:40],flush=True)
+          os.makedirs('folk_data',exist_ok=True)
+          for item in files:
+           if item.endswith('.tsv') and ('common_words' in item or 'uyzh_bilingual' in item):
+            data=z.read(item)
+            target=os.path.join('folk_data',os.path.basename(item))
+            open(target,'wb').write(data)
+            print('EXTRACT',item,'bytes',len(data),'LINES',len(data.splitlines()),'HEAD',repr(data[:500]),flush=True)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: folk-bilingual-text-only
+          path: folk_data/
+          if-no-files-found: warn
