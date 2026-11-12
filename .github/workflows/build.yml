@@ -1,0 +1,80 @@
+name: Build and publish Uyghur Word Atlas
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "data/**"
+      - "tools/**"
+      - ".github/workflows/build.yml"
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: uyghur-pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Uyghur adaptation
+        uses: actions/checkout@v4
+      - name: Clone original Word Atlas source without English image/audio library
+        shell: bash
+        run: |
+          git clone --depth 1 --filter=blob:none --sparse https://github.com/designfuchen/word-atlas.git upstream
+          cd upstream
+          git sparse-checkout set --no-cone \
+            "/*" "!/*/" "/src/" "/public/" \
+            "!/public/atlas/audio/" \
+            "!/public/atlas/img/" \
+            "!/public/atlas/thumb/" \
+            "!/public/atlas/entries/"
+          test -s package.json
+          test -s public/atlas/index.json
+          test -s src/store/session.ts
+          echo "Original source commit:"
+          git rev-parse HEAD
+      - name: Adapt original app for preliminary Uyghur vocabulary
+        run: python3 tools/port_uyghur.py
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: upstream/package-lock.json
+      - name: Install and test original app
+        working-directory: upstream
+        run: |
+          npm ci
+          npm test
+      - name: Build Uyghur edition using original React/WebGL/FSRS source
+        working-directory: upstream
+        run: npm run build
+        env:
+          ATLAS_BASE: /uyghur-word-atlas/
+      - name: Attach code attribution and migration notes
+        shell: bash
+        run: |
+          cp upstream/LICENSE upstream/dist/UPSTREAM_MIT_LICENSE.txt
+          cp upstream/UYGHUR_PORT_NOTICE.md upstream/dist/UYGHUR_PORT_NOTICE.md
+      - name: Upload built website for download
+        uses: actions/upload-artifact@v4
+        with:
+          name: uyghur-atlas-website
+          path: upstream/dist/
+          retention-days: 30
+      - name: Prepare GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: upstream/dist/
+  publish:
+    runs-on: ubuntu-latest
+    needs: build
+    environment:
+      name: github-pages
+    steps:
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
