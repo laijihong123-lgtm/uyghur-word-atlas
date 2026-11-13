@@ -1,0 +1,36 @@
+name: Check deployed site availability
+on:
+  workflow_dispatch:
+  push:
+    paths: [".github/workflows/site-check.yml"]
+permissions:
+  contents: read
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Verify public HTTPS pages and app assets
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from urllib.request import Request,urlopen
+          from urllib.error import HTTPError
+          import re,json,sys
+          root="https://laijihong123-lgtm.github.io/uyghur-word-atlas/"
+          print("CHECK_ROOT",root,flush=True)
+          paths=["","atlas/index.json","atlas/entries/0.json","manifest.webmanifest"]
+          for path in paths:
+           url=root+path
+           try:
+            with urlopen(Request(url,headers={"User-Agent":"Mozilla/5.0 uyghur-word-atlas-healthcheck"}),timeout=18) as f:
+             data=f.read()
+             print("HTTP",f.status,f.geturl(),"bytes",len(data),"content_type",f.headers.get("content-type"),flush=True)
+             if path=="": print("HTML_HEAD",data[:250].decode("utf-8","replace"),flush=True)
+             if path=="atlas/index.json":
+              d=json.loads(data);print("WORD_COUNT",d.get("count"),"WORDS",len(d.get("words",[])),flush=True)
+             if path=="atlas/entries/0.json":
+              d=json.loads(data);print("ENTRY_COUNT",len(d),"FIRST",d[0].get("w"),flush=True)
+           except Exception as e:
+            print("CHECK_FAIL",url,repr(e),flush=True)
+            sys.exit(1)
+          PY
