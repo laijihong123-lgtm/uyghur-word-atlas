@@ -105,6 +105,10 @@ jobs:
               assert e['m']&1,e['id']
           print('FULL_PICTURE_COVERAGE',len(mapped),'FAST_NEW',fast['count'],flush=True)
           PY
+      - name: Use Python 3.11 for Uyghur speech synthesis
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
       - name: Generate optional real Uyghur TTS pilot audio (first 60 cards)
         continue-on-error: true
         timeout-minutes: 30
