@@ -529,6 +529,11 @@ function ChallengePath() {
         <div className="uy-challenge-active">
           <span>已有进行中的旅程。完成或继续当前旅程后，再选择其他关卡。</span>
           <button className="btn btn-primary" onClick={() => go({ page: "learn" })}>继续旅程</button>
+          <button className="btn btn-ghost" onClick={() => {
+            if (window.confirm("结束当前未完成的旅程并重新选关？已经记录的学习进度会保留。")) {
+              store.progress((p) => ({ ...p, session: null }));
+            }
+          }}>重新选关</button>
         </div>
       )}
       <div className="uy-challenge-stages">
