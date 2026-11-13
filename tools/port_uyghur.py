@@ -409,7 +409,7 @@ def main():
                    "拉丁转写按 ULY 规则自动生成，帮助认字；不是 IPA 音标，未经过真人逐词核音。"),
             "cefr":f"第{level+1}组","topic":topic,"m":32,
             "note":"来自用户提供的逐条复核教材词表；"+provenance+
-                   "。学习分组按原表顺序，不代表CEFR水平；主题仅依据中文释义自动辅助归类。",
+                   "。学习分组按基础实用词、词形复杂度、词义领域及专有名词等估计排序；并非正式CEFR评级。",
         })
     idx.update({"id":"uyghur-textbook-reviewed-20261113","name":"维语词光 · 教材逐条复核词库",
                 "count":len(index_rows),"examples":0,"illustrated":0,
