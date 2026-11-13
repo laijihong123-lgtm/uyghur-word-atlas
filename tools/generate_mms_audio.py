@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Create genuine Uyghur TTS samples for the first learning cards.
+"""Create genuine Uyghur TTS for reviewed textbook learning cards.
 
 Non-commercial educational pilot. The model is the Uyghur Arabic-script MMS
 voice by Meta (CC BY-NC 4.0); it is never an English TTS fallback.
@@ -22,6 +22,21 @@ MODEL = "facebook/mms-tts-uig-script_arabic"
 LIMIT = int(os.getenv("UYGHUR_TTS_LIMIT", "60"))
 
 
+
+def persist_audio_flags(index: dict, index_path: Path, enabled: set[str]) -> None:
+    for row in index["words"]:
+        if row[0] in enabled:
+            row[6] |= 2
+    index["voiced"] = len(enabled)
+    index_path.write_text(json.dumps(index, ensure_ascii=False, separators=(",", ":")), "utf-8")
+    for path in sorted((ROOT / "entries").glob("*.json"), key=lambda f: int(f.stem)):
+        entries = json.loads(path.read_text("utf-8"))
+        for entry in entries:
+            if entry["id"] in enabled:
+                entry["m"] |= 2
+        path.write_text(json.dumps(entries, ensure_ascii=False, indent=2), "utf-8")
+    
+    
 def main() -> None:
     torch.set_num_threads(2)
     tokenizer = AutoTokenizer.from_pretrained(MODEL)
@@ -59,23 +74,14 @@ def main() -> None:
             if dest.stat().st_size < 1000:
                 raise ValueError("MP3 is too small")
             enabled.add(word_id)
+            if len(enabled) % 60 == 0:
+                persist_audio_flags(index, index_path, enabled)
             print(f"TTS_OK {len(enabled)} {word_id} {word}", flush=True)
         except Exception as exc:
             errors.append((word_id, str(exc)))
             print(f"TTS_SKIPPED {word_id} {exc}", flush=True)
 
-    # Only signal a playable audio asset for an actually generated file.
-    for row in index["words"]:
-        if row[0] in enabled:
-            row[6] |= 2
-    index["voiced"] = len(enabled)
-    index_path.write_text(json.dumps(index, ensure_ascii=False, separators=(",", ":")), "utf-8")
-    for path in sorted((ROOT / "entries").glob("*.json"), key=lambda f: int(f.stem)):
-        entries = json.loads(path.read_text("utf-8"))
-        for entry in entries:
-            if entry["id"] in enabled:
-                entry["m"] |= 2
-        path.write_text(json.dumps(entries, ensure_ascii=False, indent=2), "utf-8")
+    persist_audio_flags(index, index_path, enabled)
 
     report = {
         "model": MODEL,
