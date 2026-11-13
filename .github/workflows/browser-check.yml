@@ -32,6 +32,15 @@ jobs:
             console.log("ROOT_HTML", (await page.locator("#root").innerText()).slice(0,1500));
             console.log("VISIBLE_TEXT", (await page.locator("body").innerText()).slice(0,1500));
             console.log("RUNTIME_ERRORS",errors.slice(0,30));
+            const atlasRes = await page.request.get("https://laijihong123-lgtm.github.io/uyghur-word-atlas/atlas/index.json");
+            const idx = await atlasRes.json();
+            const words = idx.words || [];
+            const uniqueForms = new Set(words.map(w => w[1]));
+            const deferred = ["قۇمقېتىش","قېرى-چۆرىلەر","ئورتاق نەتىجە","ئۈندە-"];
+            const firstChunk = await (await page.request.get("https://laijihong123-lgtm.github.io/uyghur-word-atlas/atlas/entries/0.json")).json();
+            console.log("SOURCE_FIDELITY",JSON.stringify({cards:idx.count,uniqueForms:uniqueForms.size,first:firstChunk[0].w,firstGloss:firstChunk[0].senses[0].zh,groups:idx.cefr,deferredVisible:deferred.filter(x=>uniqueForms.has(x))}));
+            if(idx.count!==1813 || words.length!==1813 || uniqueForms.size!==1813 || firstChunk[0].w!=="ئابزاس" || firstChunk[0].senses[0].zh!=="段；段落" || deferred.some(x=>uniqueForms.has(x)))throw Error("Published vocabulary differs from user's reviewed Excel");
+            if(!(await page.locator("body").innerText()).includes("1,813"))throw Error("UI still shows old candidate count");
             const sw = await page.request.get("https://laijihong123-lgtm.github.io/uyghur-word-atlas/sw.js");
             const swBody = await sw.text();
             console.log("SW_STATUS",sw.status(),"HAS_FETCH_HANDLER",swBody.includes('addEventListener("fetch"'),"SELF_UNREGISTER",swBody.includes("registration.unregister"));
