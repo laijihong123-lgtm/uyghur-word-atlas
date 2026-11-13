@@ -4,7 +4,7 @@ from __future__ import annotations
 import json
 import shutil
 from pathlib import Path
-from tools.port_uyghur import to_uly
+from port_uyghur import to_uly
 
 HERE = Path(__file__).resolve().parent.parent
 ROOT = HERE / "upstream"
