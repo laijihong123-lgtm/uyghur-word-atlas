@@ -1,0 +1,87 @@
+
+/* Uyghur reading room: paper-and-ink companion to Word Atlas. */
+.uy-room{max-width:1060px;margin:0 auto;padding:38px 22px 110px;color:var(--ink)}
+.uy-room-header{padding:0 0 28px}
+.uy-room-header .eyebrow{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--terra)}
+.uy-room-header h1{font-family:Fraunces,Georgia,serif;font-size:clamp(36px,5vw,56px);margin:10px 0 12px;line-height:1.12}
+.uy-room-header>p:last-child{max-width:620px;color:var(--ink-2);line-height:1.8}
+.uy-room-stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border:1px solid var(--line);border-radius:18px;background:var(--card);padding:15px 8px;margin-bottom:27px;box-shadow:var(--shadow-sm)}
+.uy-room-stats>div{padding:8px 14px;display:flex;flex-direction:column;gap:5px;border-right:1px solid var(--line)}
+.uy-room-stats>div:last-child{border-right:0}
+.uy-room-stats strong{font:600 29px/1.1 Georgia,serif;font-variant-numeric:tabular-nums}
+.uy-room-stats span{font-size:12px;color:var(--ink-3)}
+.uy-room-tabs{display:flex;gap:7px;border-bottom:1px solid var(--line);margin-bottom:24px}
+.uy-room-tabs button{appearance:none;border:0;border-bottom:3px solid transparent;background:none;color:var(--ink-2);padding:12px 19px;cursor:pointer;font-weight:600;font-size:14px}
+.uy-room-tabs button.is-selected{color:var(--terra);border-color:var(--terra)}
+.uy-room-intro{margin-bottom:20px}
+.uy-room-intro h2{font-family:Georgia,serif;font-size:25px;margin:0 0 8px}
+.uy-room-intro p{color:var(--ink-3);font-size:13px;line-height:1.8}
+.uy-room-story-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.uy-room-story{position:relative;text-align:left;border:1px solid var(--line);border-radius:15px;background:var(--card);padding:23px;min-height:230px;cursor:pointer;color:inherit;display:flex;align-items:flex-start;flex-direction:column;gap:10px;box-shadow:var(--shadow-sm);transition:transform .2s ease,border-color .2s ease}
+.uy-room-story:hover{transform:translateY(-2px);border-color:var(--terra)}
+.uy-room-story-number{position:absolute;top:14px;right:16px;color:var(--ink-4);font:italic 22px Georgia,serif}
+.uy-room-story .chip{font-size:11px}
+.uy-room-story strong{font-family:"Geeza Pro","Noto Naskh Arabic","Noto Sans Arabic",serif;font-size:25px;line-height:1.6;text-align:right;width:100%;padding-top:8px}
+.uy-room-story b{font-size:16px}
+.uy-room-story small{color:var(--ink-3);font-size:12px;line-height:1.6}
+.uy-room-open{font-size:12px;color:var(--terra);font-weight:700;margin-top:auto}
+.uy-room-done{display:flex;align-items:center;gap:4px;font-size:11px;color:var(--sage)}
+.uy-room-back{border:0;background:none;color:var(--terra);cursor:pointer;display:flex;align-items:center;gap:5px;padding:10px 0;font-weight:600}
+.uy-reader{max-width:800px;margin:0 auto}
+.uy-reader-title{text-align:center;padding:15px 0 22px}
+.uy-reader-title h2{font-family:"Geeza Pro","Noto Naskh Arabic",serif;font-size:clamp(32px,6vw,49px);margin:12px 0;line-height:1.7}
+.uy-reader-title p{color:var(--ink-3)}
+.uy-room-toggle{display:flex;align-items:center;gap:8px;color:var(--ink-2);font-size:13px;padding:10px 0 24px;cursor:pointer}
+.uy-room-toggle input{accent-color:var(--terra)}
+.uy-reader-lines{list-style:none;padding:0;margin:0;display:grid;gap:15px;counter-reset:sentence}
+.uy-reader-lines li,.uy-room-example{padding:23px 25px;background:var(--card);border:1px solid var(--line);border-radius:13px;box-shadow:var(--shadow-sm)}
+.uy-reader-linehead{display:flex;align-items:center;justify-content:space-between;gap:10px;color:var(--ink-3);font-size:12px}
+.uy-reader-line{font-family:"Geeza Pro","Noto Naskh Arabic","Noto Sans Arabic",serif;font-size:clamp(22px,4.4vw,29px);line-height:1.9;letter-spacing:0;text-align:right;margin:10px 0;word-break:normal;overflow-wrap:anywhere}
+.uy-reader-token{font:inherit;line-height:inherit;padding:0 0 1px;background:transparent;color:inherit;border:0;border-bottom:1px dashed var(--terra);cursor:pointer;direction:rtl}
+.uy-reader-token:hover{color:var(--terra)}
+.uy-reader-uly,.ex-uly{font-family:system-ui,sans-serif;color:var(--ink-3);font-size:13px;line-height:1.7;text-align:left;direction:ltr;overflow-wrap:anywhere}
+.uy-reader-zh{font-size:14px;color:var(--ink-2);margin:8px 0 0;line-height:1.7}
+.uy-reader-quiz{margin:30px 0;padding:25px;background:var(--card-2);border:1px solid var(--line);border-radius:16px}
+.uy-reader-quiz h3{font-size:20px;margin:0 0 8px}
+.uy-reader-quiz>p{font-size:13px;color:var(--ink-3)}
+.uy-reader-question{margin:18px 0;padding:17px 0;border-top:1px solid var(--line)}
+.uy-reader-question strong{display:block;font-size:14px;line-height:1.8;margin-bottom:12px}
+.uy-reader-options{display:flex;gap:9px;flex-wrap:wrap}
+.uy-reader-options button,.uy-room-filters button{background:var(--card);color:var(--ink-2);border:1px solid var(--line-strong);border-radius:9px;padding:9px 14px;cursor:pointer;font-size:13px}
+.uy-reader-options button.is-selected,.uy-room-filters button.is-selected{background:var(--terra-soft);border-color:var(--terra);color:var(--terra-ink)}
+.uy-reader-question p{padding:8px 10px;border-radius:8px;font-size:13px;line-height:1.7}
+.uy-reader-question p.is-correct{color:var(--sage-ink);background:var(--sage-soft)}
+.uy-reader-question p.is-wrong{color:var(--terra-ink);background:var(--terra-soft)}
+.uy-room-filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+.uy-room-search{display:flex;align-items:center;gap:9px;border:1px solid var(--line-strong);padding:10px 15px;border-radius:11px;background:var(--card)}
+.uy-room-search input{background:transparent;color:var(--ink);border:0;outline:0;min-width:0;flex:1;font-size:14px}
+.uy-room-count{margin:15px 0;font-size:12px;color:var(--ink-3)}
+.uy-room-words{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.uy-room-word{display:flex;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:13px 14px;gap:10px;min-width:0}
+.uy-room-word-main{background:none;border:0;cursor:pointer;text-align:left;display:flex;flex:1;min-width:0;flex-direction:column;gap:5px;color:var(--ink)}
+.uy-room-word-main strong{font-size:21px;font-family:"Geeza Pro","Noto Naskh Arabic",serif;text-align:right;width:100%;line-height:1.7}
+.uy-room-word-main small{font-size:12px;color:var(--ink-2);line-height:1.6;overflow:hidden;text-overflow:ellipsis}
+.uy-room-save{border:0;background:transparent;color:var(--terra);padding:7px;border-radius:8px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;flex-shrink:0}
+.uy-room-save:hover{background:var(--terra-soft)}
+.uy-room-practice{margin-top:22px;display:inline-block}
+.uy-room-examples{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}
+.uy-room-example .uy-reader-line{font-size:23px;margin:4px 0}
+.uy-room-example-word{border:0;background:none;color:var(--terra);cursor:pointer;padding:4px 0}
+.uy-room-empty{padding:22px;color:var(--ink-3);background:var(--card-2);border-radius:12px}
+.uy-room-error{color:var(--terra);padding:12px;background:var(--terra-soft);border-radius:10px}
+.uy-room-caution{display:flex;align-items:flex-start;gap:8px;font-size:12px;line-height:1.7;color:var(--ink-3);margin:35px 0}
+.entry .examples .ex-en[lang="ug"]{font-family:"Geeza Pro","Noto Naskh Arabic",serif;text-align:right;font-size:22px;line-height:1.8;direction:rtl}
+.entry .examples .ex-uly{margin:6px 0;color:var(--ink-3)}
+.entry .examples .uy-room-save{margin-top:8px}
+@media(max-width:760px){
+ .uy-room{padding:22px 14px 95px}
+ .uy-room-stats{grid-template-columns:repeat(2,minmax(0,1fr));gap:0;padding:0}
+ .uy-room-stats>div{padding:16px;border-bottom:1px solid var(--line)}
+ .uy-room-stats>div:nth-child(2){border-right:0}
+ .uy-room-stats>div:nth-child(n+3){border-bottom:0}
+ .uy-room-tabs button{padding:11px 12px;font-size:13px;flex:1}
+ .uy-room-story-grid,.uy-room-examples,.uy-room-words{grid-template-columns:1fr}
+ .uy-room-story{min-height:185px;padding:19px}
+ .uy-reader-lines li,.uy-room-example{padding:18px 15px}
+ .uy-reader-quiz{padding:17px}
+}
