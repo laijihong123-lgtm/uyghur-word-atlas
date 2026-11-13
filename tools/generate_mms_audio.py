@@ -19,7 +19,7 @@ from transformers import AutoTokenizer, VitsModel
 
 ROOT = Path("upstream/public/atlas")
 MODEL = "facebook/mms-tts-uig-script_arabic"
-LIMIT = int(os.getenv("UYGHUR_TTS_LIMIT", "60"))
+LIMIT = int(os.getenv("UYGHUR_TTS_LIMIT", "1813"))
 
 
 
@@ -35,8 +35,8 @@ def persist_audio_flags(index: dict, index_path: Path, enabled: set[str]) -> Non
             if entry["id"] in enabled:
                 entry["m"] |= 2
         path.write_text(json.dumps(entries, ensure_ascii=False, indent=2), "utf-8")
-    
-    
+
+
 def main() -> None:
     torch.set_num_threads(2)
     tokenizer = AutoTokenizer.from_pretrained(MODEL)
@@ -94,9 +94,9 @@ def main() -> None:
     (ROOT / "uyghur-tts-report.json").write_text(
         json.dumps(report, ensure_ascii=False, indent=2), "utf-8"
     )
-    if not enabled:
-        raise RuntimeError("MMS Uyghur produced no validated MP3 audio")
-    print(f"Uyghur TTS pilot: {len(enabled)}/{min(LIMIT,index['count'])} recordings", flush=True)
+    if len(enabled) != min(LIMIT, index["count"]):
+        raise RuntimeError(f"Missing {min(LIMIT, index['count']) - len(enabled)} Uyghur recordings; see uyghur-tts-report.json")
+    print(f"Uyghur TTS complete: {len(enabled)}/{min(LIMIT,index['count'])} recordings", flush=True)
 
 
 if __name__ == "__main__":
