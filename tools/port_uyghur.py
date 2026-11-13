@@ -266,6 +266,29 @@ def main():
     if "</head>" not in s:
         raise RuntimeError("Upstream HTML shell changed.")
     html.write_text(s.replace("</head>",css+"\n</head>"),"utf-8")
+
+    # The upstream cache-first worker can resolve to null on Safari when the
+    # network fails and no cached shell exists. Replace it with a one-time
+    # cleanup worker: update old installations, clear stale caches, unregister.
+    sw = ROOT / "public/sw.js"
+    sw.write_text("""/* Uyghur Atlas: retire the fragile upstream offline cache. */
+self.addEventListener("install", () => self.skipWaiting());
+self.addEventListener("activate", (event) => {
+  event.waitUntil((async () => {
+    const keys = await caches.keys();
+    await Promise.all(keys.map((key) => caches.delete(key)));
+    await self.registration.unregister();
+    await self.clients.claim();
+  })());
+});
+""", "utf-8")
+    patch("src/main.tsx",
+          'if (import.meta.env.PROD && "serviceWorker" in navigator) {\n'
+          '  window.addEventListener("load", () => {\n'
+          '    navigator.serviceWorker.register(\`\${import.meta.env.BASE_URL}sw.js\`).catch(() => null);\n'
+          '  });\n'
+          '}',
+          '// Service worker disabled: avoid stale/offline cache failures on Safari.')
     for name in ("manifest.json","manifest.webmanifest"):
         f = ROOT/"public"/name
         if f.exists():
