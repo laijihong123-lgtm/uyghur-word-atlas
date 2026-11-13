@@ -23,6 +23,34 @@ def patch(path: str, before: str, after: str):
         raise RuntimeError(f"Upstream file changed; safe patch stopped: {path}: {before[:75]}")
     file.write_text(s.replace(before, after), encoding="utf-8")
 
+
+# Uyghur Latin Yéziqi (ULY). An orthographic transliteration, not phonetic IPA.
+ULY = {
+    "ا":"a", "ە":"e", "و":"o", "ۇ":"u", "ۆ":"ö", "ۈ":"ü", "ې":"ë",
+    "ى":"i", "ي":"y", "ب":"b", "پ":"p", "ت":"t", "ج":"j", "چ":"ch",
+    "خ":"x", "د":"d", "ر":"r", "ز":"z", "ژ":"zh", "س":"s", "ش":"sh",
+    "غ":"gh", "ف":"f", "ق":"q", "ك":"k", "گ":"g", "ڭ":"ng", "ل":"l",
+    "م":"m", "ن":"n", "ھ":"h", "ۋ":"w",
+}
+ULY_VOWELS = set("اەوۇۆۈېى")
+
+def to_uly(value: str) -> str:
+    """Convert textbook Uyghur spelling to ULY; preserve spaces and marks."""
+    out = []
+    for i, ch in enumerate(value):
+        if ch == "ئ":
+            # Initial hamza carries a vowel; medial hamza separates vowel syllables.
+            if i and value[i-1] not in " \t\n-–—«(." and i+1 < len(value) and value[i+1] in ULY_VOWELS:
+                out.append("'")
+            continue
+        if ch in ULY:
+            out.append(ULY[ch])
+        elif "\u0600" <= ch <= "\u06ff" and ch != "؛":
+            raise ValueError(f"Missing ULY mapping U+{ord(ch):04X} in {value!r}")
+        else:
+            out.append(ch)
+    return "".join(out)
+
 def main():
     if not (ROOT / "src/store/session.ts").exists():
         raise RuntimeError("Expected actual Word Atlas source in upstream/")
@@ -97,20 +125,22 @@ def main():
         uy=row["uy"]
         meanings=list(dict.fromkeys(row["senses"])) # only deduplicate exact repeated sense strings
         joined=" ／ ".join(meanings)
+        latin=to_uly(uy)
+        if not latin:raise RuntimeError(f"Missing ULY transliteration for {uy}")
         topic=inferred_topic(joined)
         wid=f"tb{row['seq']:04d}"
         # These six bins follow the textbook appendix order, NOT a CEFR rating.
         level=min(5, i*6//len(dataset))
         if topic not in topics:topic="daily"
-        index_rows.append([wid,uy,joined,"",level,topics.index(topic),32])
+        index_rows.append([wid,uy,joined,latin,level,topics.index(topic),32])
         provenance="；".join(f"原表{n}·教材第{p}页" for n,p,_ in row["sources"])
         entries.append({
-            "id":wid,"w":uy,"uk":"","us":"",
+            "id":wid,"w":uy,"uk":latin,"us":"",
             "senses":[{"pos":"教材释义","zh":meaning,"en":""} for meaning in row["senses"]],
             "ex":[],"col":[],"fam":[],"syn":[],"ant":[],
-            "tip":("教材以 - 结尾表示动词词干；请勿把末尾连字符当作词的一部分发音。"
+            "tip":("词尾 - 是教材的动词词干标记，不发音。拉丁转写按 ULY 规则自动生成（非 IPA）。"
                    if uy.endswith("-") else
-                   "词表未提供经核对的拉丁转写或录音，本版不显示猜测读音。"),
+                   "拉丁转写按 ULY 规则自动生成，帮助认字；不是 IPA 音标，未经过真人逐词核音。"),
             "cefr":f"第{level+1}组","topic":topic,"m":32,
             "note":"来自用户提供的逐条复核教材词表；"+provenance+
                    "。学习分组按原表顺序，不代表CEFR水平；主题仅依据中文释义自动辅助归类。",
@@ -289,7 +319,9 @@ def main():
       .headword,.prompt-word .headword,.typing-text{direction:rtl;unicode-bidi:plaintext;
           font-family:"Geeza Pro","Noto Naskh Arabic","Noto Sans Arabic",serif}
       .typing-input[lang="ug"]{direction:rtl;unicode-bidi:plaintext}
-      .uyghur-translit{direction:ltr}
+      .uyghur-translit,.row-ipa{direction:ltr;unicode-bidi:plaintext}
+      .tile-uly{grid-column:1 / -1;direction:ltr;unicode-bidi:plaintext;display:block;font:500 11px/1.15 system-ui,sans-serif;color:var(--ink-3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-top:2px}
+      .tile-word,.row-word{font-family:"Geeza Pro","Noto Naskh Arabic","Noto Sans Arabic",serif}
       </style>"""
     if "</head>" not in s:
         raise RuntimeError("Upstream HTML shell changed.")
