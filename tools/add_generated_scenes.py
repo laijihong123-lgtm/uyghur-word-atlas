@@ -30,7 +30,12 @@ def main():
         row=by_word.get(uy)
         if row is None:raise RuntimeError("Source textbook word missing: "+uy)
         if zh not in row[2]:raise RuntimeError("Source textbook sense changed: "+uy)
-        # Generated scene is specifically more relevant than a generic English illustration.
+        # User preference: if the original author already has a meaning-related
+        # image, keep it rather than covering it with a generated scene.
+        if row[6] & 1:
+            print("KEEP_ORIGINAL_SCENE",uy,zh,flush=True)
+            continue
+        # Generate a special scene only if no licensed original match exists.
         x=n%3;y=n//3
         tile=im.crop((x*w//3,y*h//2,(x+1)*w//3,(y+1)*h//2))
         for size in ("img","thumb"):
