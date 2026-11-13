@@ -54,9 +54,13 @@ jobs:
           expected_by_form={}
           for row in source:
             expected_by_form.setdefault(row['维吾尔语'],[]).append(row['中文释义'])
+          from tools.port_uyghur import to_uly
+          index_translit={r[0]:r[3] for r in idx['words']}
           for e in entries:
             assert [s['zh'] for s in e['senses']]==expected_by_form[e['w']], (e['w'],e['senses'])
             assert not e['ex'] and e['m']==32
+            assert e['uk']==to_uly(e['w'])==index_translit[e['id']], (e['id'],e['w'])
+            assert e['us']=='' and e['uk'], e['id']
           deferred=list(csv.DictReader(open('data/textbook_deferred.tsv',encoding='utf-8-sig'),delimiter='\t'))
           assert len(deferred)==4 and all(row['教材词形'] not in expected_by_form for row in deferred)
           print('Verified source fidelity:',len(source),'source entries,',len(entries),'study cards,',len(deferred),'deferred')
