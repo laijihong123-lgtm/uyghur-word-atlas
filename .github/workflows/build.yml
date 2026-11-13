@@ -68,6 +68,13 @@ jobs:
         run: |
           python3 -m pip install --quiet pillow==11.3.0
           python3 tools/add_generated_scenes.py
+      - name: Generate 952 fast consistent word-specific illustrations
+        shell: bash
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq fonts-wqy-microhei > /dev/null
+          python3 -m pip install --quiet cairosvg==2.8.2
+          python3 tools/generate_fast_illustrations.py
       - name: Validate image flags, files, and original content attribution
         shell: bash
         run: |
@@ -84,7 +91,15 @@ jobs:
               assert (root/name/(row[0]+'.webp')).stat().st_size>1000
           assert (root/'image-attributions.json').is_file()
           assert (root/'generated-image-attributions.json').is_file()
-          print('LICENCED_IMAGE_MATCH_COUNT',len(mapped),flush=True)
+          assert (root/'fast-generated-illustrations.json').is_file()
+          fast=json.loads((root/'fast-generated-illustrations.json').read_text('utf8'))
+          assert fast['count']+861==1813, fast['count']
+          assert idx['illustrated']==1813 and len(mapped)==1813
+          for i,entry in enumerate(sorted((root/'entries').glob('*.json'),key=lambda p:int(p.stem))):
+            import json
+            for e in json.loads(entry.read_text('utf8')):
+              assert e['m']&1,e['id']
+          print('FULL_PICTURE_COVERAGE',len(mapped),'FAST_NEW',fast['count'],flush=True)
           PY
       - name: Set up Node.js
         uses: actions/setup-node@v4
