@@ -217,46 +217,6 @@ jobs:
               assert 'mp3' in probe, (path, probe)
           print('ALL_UYGHUR_AUDIO_VERIFIED', idx['voiced'], flush=True)
           PY
-      - name: Restore cached Uyghur example-sentence audio
-        uses: actions/cache@v4
-        with:
-          path: .cache/uyghur-sentence-audio
-          key: uyghur-sentence-mms-v1-${{ hashFiles('data/textbook_reviewed.tsv', 'data/reading.json', 'tools/complete_examples.py', 'tools/generate_sentence_audio.py') }}
-          restore-keys: |
-            uyghur-sentence-mms-v1-
-      - name: Generate genuine Uyghur MP3s for all examples and reading sentences
-        shell: bash
-        timeout-minutes: 120
-        env:
-          HF_HUB_DISABLE_TELEMETRY: "1"
-        run: |
-          python3 tools/generate_sentence_audio.py prepare
-          if python3 tools/generate_sentence_audio.py needs; then
-            echo "All distinct Uyghur sentence MP3s were restored from cache."
-          else
-            echo "Some sentence MP3s are missing; generating using Uyghur MMS TTS."
-            python3 -m pip install --quiet torch==2.4.1 --index-url https://download.pytorch.org/whl/cpu
-            python3 -m pip install --quiet transformers==4.44.2 'numpy<2'
-            python3 tools/generate_sentence_audio.py generate
-          fi
-          python3 tools/generate_sentence_audio.py verify
-          python3 - <<'PY'
-          import json
-          from pathlib import Path
-          root=Path('upstream/public/atlas')
-          index=json.loads((root/'index.json').read_text('utf8'))
-          ex=json.loads((root/'examples.json').read_text('utf8'))
-          stories=json.loads((root/'reading.json').read_text('utf8'))
-          assert len(ex)==index['examples'] and index['sentenceVoiced']==len(ex)>=1813
-          assert all(x['audio'].startswith('audio/examples/') and
-                     (root/x['audio']).stat().st_size>900 for x in ex)
-          assert all(line['audio'].startswith('audio/examples/') and
-                     (root/line['audio']).stat().st_size>900
-                     for story in stories for line in story['lines'])
-          print('SENTENCE_SPEECH_RELEASE_READY',len(ex),
-                'card examples and',sum(len(s['lines']) for s in stories),
-                'reading lines',flush=True)
-          PY
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
