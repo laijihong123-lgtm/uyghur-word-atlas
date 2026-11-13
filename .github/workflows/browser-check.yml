@@ -1,0 +1,38 @@
+name: Verify site works in a real browser
+on:
+  workflow_dispatch:
+  push:
+    paths: [".github/workflows/browser-check.yml"]
+permissions:
+  contents: read
+jobs:
+  browser:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Check website JavaScript and app render with headless Chromium
+        shell: bash
+        run: |
+          npm install --no-save playwright
+          node <<'JS'
+          const { chromium } = require("playwright");
+          (async () => {
+            const browser = await chromium.launch({ channel: "chrome", headless: true, args: ["--no-sandbox"] });
+            const page = await browser.newPage({ viewport: { width: 390, height: 844 }, locale: "zh-CN" });
+            let errors = [];
+            page.on("pageerror", x => errors.push(x.message));
+            page.on("console", x => {if(x.type()==="error") errors.push("console "+x.text())});
+            page.on("requestfailed", req => errors.push("request "+req.url()+" "+(req.failure()?.errorText||"")));
+            const r = await page.goto("https://laijihong123-lgtm.github.io/uyghur-word-atlas/", {waitUntil:"networkidle", timeout:45000});
+            await page.waitForTimeout(3000);
+            console.log("STATUS",r.status());
+            console.log("TITLE",await page.title());
+            console.log("ROOT_HTML", (await page.locator("#root").innerText()).slice(0,1500));
+            console.log("VISIBLE_TEXT", (await page.locator("body").innerText()).slice(0,1500));
+            console.log("RUNTIME_ERRORS",errors.slice(0,30));
+            if((await page.locator("#root").innerText()).trim().length < 60 || errors.some(x=>/uncaught|not found|failed to fetch/i.test(x)))process.exitCode=1;
+            await browser.close();
+          })().catch(e=>{console.error(e);process.exit(1)});
+          JS
