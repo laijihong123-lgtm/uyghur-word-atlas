@@ -63,6 +63,11 @@ jobs:
           PY
       - name: Restore licensed illustrations that match textbook definitions
         run: python3 tools/add_illustrations.py
+      - name: Add six purpose-made Uyghur vocabulary illustrations
+        shell: bash
+        run: |
+          python3 -m pip install --quiet pillow==11.3.0
+          python3 tools/add_generated_scenes.py
       - name: Validate image flags, files, and original content attribution
         shell: bash
         run: |
@@ -78,6 +83,7 @@ jobs:
             for name in ('img','thumb'):
               assert (root/name/(row[0]+'.webp')).stat().st_size>1000
           assert (root/'image-attributions.json').is_file()
+          assert (root/'generated-image-attributions.json').is_file()
           print('LICENCED_IMAGE_MATCH_COUNT',len(mapped),flush=True)
           PY
       - name: Set up Node.js
