@@ -1,0 +1,23 @@
+name: Audit published Uyghur vocabulary against independent dictionaries
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "tools/audit_1817_reference.py"
+      - ".github/workflows/vocab-audit.yml"
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Cross-check live word list without modifying the production website
+        run: python3 tools/audit_1817_reference.py
+      - name: Export row-level reference report
+        uses: actions/upload-artifact@v4
+        with:
+          name: independent-lexicon-audit
+          path: audit_outputs/
+          retention-days: 30
