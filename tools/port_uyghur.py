@@ -264,6 +264,23 @@ def main():
     patch("src/ui/EntryView.tsx", 'accent === "uk" ? "英" : "美"', '"转写"')
     patch("src/ui/EntryView.tsx",
           'className="headword" lang="en"', 'className="headword" lang="ug" dir="rtl"')
+
+    # The inherited UK/US toggle refers to English; Uyghur has a single
+    # verified language audio channel in our pilot, regardless of that setting.
+    patch("src/ui/EntryView.tsx",
+          'url={atlas.audio(refw, acc)}',
+          'url={atlas.audio(refw, "uk")}')
+    patch("src/ui/EntryView.tsx",
+          '<em>{label}</em>',
+          '<em>{atlas.audio(refw, "uk") ? "AI合成" : label}</em>')
+    patch("src/pages/Learn.tsx",
+          'atlas.audio(entry, settings.accent)',
+          'atlas.audio(entry, "uk")')
+    patch("src/pages/Atlas.tsx",
+          'url={atlas.audio(w, accent)}',
+          'url={atlas.audio(w, "uk")}')
+
+
     patch("src/pages/Learn.tsx",
           'className="headword" lang="en"', 'className="headword" lang="ug" dir="rtl"')
 
