@@ -195,6 +195,25 @@ def main():
         '        const kind: QuizKind = step.kind === "meaning" && settings.spell && !ref.word.endsWith("-") ? "spell" : "meaning";')
     file.write_text(s,"utf-8")
 
+    # Environment audio is separate from word pronunciations.
+    # On iOS Safari, start the Web Audio graph from a REAL button tap,
+    # instead of relying exclusively on a later useEffect/autoplay.
+    patch("src/ui/Ambience.tsx",
+          'onClick={() => store.settings({ ambience: sel ? "off" : id })}',
+          'onClick={() => { void setAmbience(sel ? null : id, volume); store.settings({ ambience: sel ? "off" : id }); }}')
+    patch("src/ui/Ambience.tsx",
+          'onClick={() => store.settings({ ambience: "off" })}',
+          'onClick={() => { void setAmbience(null, volume); store.settings({ ambience: "off" }); }}')
+    patch("src/ui/Ambience.tsx",
+          '<p className="eyebrow">环境声 · 专注陪伴</p>',
+          '<p className="eyebrow">环境声 · 专注陪伴</p>\n'
+          '          <button type="button" className="btn btn-primary" style={{width:"100%",margin:"8px 0 12px"}} '
+          'onClick={() => { const next = ambience === "off" ? "stars" : ambience; void setAmbience(next, volume); store.settings({ambience:next}); }}>'
+          '▶ 点击播放环境声</button>')
+    patch("src/ui/Ambience.tsx",
+          '读单词时会自动压低环境声。',
+          'iPhone首次播放请点上面的播放按钮或选择一种环境声；若无声音，请检查媒体音量与静音设置。')
+
     # No 'listen' or picture/cloze cards with absent Uyghur recordings / examples.
     patch("src/pages/Practice.tsx",
           'import { Headphones, Keyboard, RotateCcw, Type } from "lucide-react";',
@@ -305,7 +324,7 @@ self.addEventListener("activate", (event) => {
         "Based on designfuchen/word-atlas, code MIT licensed.\n"
         "Original project: https://github.com/designfuchen/word-atlas\n"
         "Original source/illustrations have separate licensing terms.\n"
-        "This build excludes English word audio and original English illustrations.\n"
+        "This build excludes English word audio; matching original Word Atlas illustrations are reused under CC BY 4.0 with attribution.\n"
         "User-provided reviewed textbook vocabulary: 1817 study records merged into 1813 cards. Four deferred words are excluded. No additional expert language review is claimed.\n"
         "Real Uyghur pronunciation is NOT provided.\n","utf-8")
     print(f"Adaptation complete: {len(entries)} textbook cards from 1817 user-reviewed records, {safe_count} study-eligible, "
