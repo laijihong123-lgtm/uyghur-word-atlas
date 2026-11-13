@@ -93,6 +93,8 @@ jobs:
           print('SORTED_LEARNING_PATH',counts,'EIGHTEEN_LESSONS',[len(g) for g in lessons],'FIRST_WORDS',[w[1] for w in idx['words'][:12]],flush=True)
           print('Verified source fidelity:',len(source),'source entries,',len(entries),'study cards,',len(deferred),'deferred')
           PY
+      - name: Add Uyghur graded reading room, linked examples and bookmarks
+        run: python3 tools/add_reading.py
       - name: Restore licensed illustrations that match textbook definitions
         run: python3 tools/add_illustrations.py
       - name: Add six purpose-made Uyghur vocabulary illustrations
