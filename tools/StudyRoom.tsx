@@ -90,7 +90,7 @@ export function StudyRoom() {
     const fromWords = examples.filter((x) =>
       (!onlySaved || exampleBookmarks.has(x.id)) &&
       (!q || (x.ug + " " + x.zh + " " + x.uly + " " + x.word).toLowerCase().includes(q)));
-    const fromReadings = stories.flatMap((story) => story.lines.map((line, i) => ({
+    const fromReadings: ExampleItem[] = stories.flatMap((story) => story.lines.map((line, i) => ({
       id: "story:" + story.id + ":" + i, wordId: "", word: story.titleZh,
       ug: line.ug, uly: line.uly, zh: line.zh,
     }))).filter((x) => exampleBookmarks.has(x.id) && (!q || (x.ug + " " + x.zh + " " + x.uly).toLowerCase().includes(q)));
