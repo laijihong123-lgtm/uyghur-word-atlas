@@ -274,6 +274,39 @@ def main():
     }
     (ATLAS/"example-coverage-report.json").write_text(
         json.dumps(report,ensure_ascii=False,indent=2),"utf-8")
+    # Label provisional text in both the word sheet and the reading room.
+    types = HOME/"upstream/src/atlas/types.ts"
+    text = types.read_text("utf-8")
+    anchor = "  uly?: string;\n}"
+    if anchor not in text:
+        raise RuntimeError("Example type interface changed")
+    types.write_text(text.replace(anchor, "  uly?: string;\n  source?: string;\n}"), "utf-8")
+
+    word_page = HOME/"upstream/src/ui/EntryView.tsx"
+    text = word_page.read_text("utf-8")
+    anchor = '<p className="ex-zh">{x.zh}</p>'
+    if anchor not in text:
+        raise RuntimeError("Word detail example markup changed")
+    word_page.write_text(text.replace(anchor, anchor + '''
+                  {x.source && <p className="ex-quality">
+                    {x.source === "word_mention" ? "词形识别示例·不展示自然用法" : "自动生成例句·待校对"}
+                  </p>}'''), "utf-8")
+
+    room = HOME/"upstream/src/pages/StudyRoom.tsx"
+    text = room.read_text("utf-8")
+    anchor = 'type ExampleItem = { id: string; wordId: string; word: string; ug: string; uly: string; zh: string };'
+    if anchor not in text:
+        raise RuntimeError("Reading room example type changed")
+    text = text.replace(anchor, 'type ExampleItem = { id: string; wordId: string; word: string; ug: string; uly: string; zh: string; source?: string };')
+    anchor = '<p className="uy-reader-zh">{x.zh}</p>'
+    if anchor not in text:
+        raise RuntimeError("Reading room example item changed")
+    text = text.replace(anchor, anchor + '''
+            {x.source && x.source !== "curated" && <small className="ex-quality">
+              {x.source === "word_mention" ? "词形识别示例（非真实用法）" : "自动生成例句·待校对"}
+            </small>}''')
+    room.write_text(text, "utf-8")
+
     print("ALL_CARD_EXAMPLES_PRESENT",len(count),"EXAMPLES",len(examples),
           "ADDED_DRAFTS",autoinserted,"CATEGORIES",dict(kinds),flush=True)
 
