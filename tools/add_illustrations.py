@@ -471,6 +471,15 @@ def main():
                 match_type="exact"
                 matched_sense=term
                 break
+        # Explicitly reviewed near-synonyms and concrete parent categories.
+        if not chosen:
+            for term in raw:
+                english=SEMANTIC_TO_ORIGINAL.get(term)
+                chosen=preferred([original_by_id.get(english)] if english else [],uy)
+                if chosen:
+                    match_type="curated_synonym"
+                    matched_sense=term
+                    break
         # Inflection variants: "容易" = "容易的", "明天" = "在明天".
         # No generic Chinese-substring matching, which causes false pictures.
         if not chosen:
@@ -479,15 +488,6 @@ def main():
                 chosen=preferred(variant_lookup.get(normalize_gloss(term),[]),uy)
                 if chosen:
                     match_type="grammar_variant"
-                    matched_sense=term
-                    break
-        # Explicitly reviewed near-synonyms and concrete parent categories.
-        if not chosen:
-            for term in raw:
-                english=SEMANTIC_TO_ORIGINAL.get(term)
-                chosen=preferred([original_by_id.get(english)] if english else [],uy)
-                if chosen:
-                    match_type="curated_synonym"
                     matched_sense=term
                     break
         if chosen:
