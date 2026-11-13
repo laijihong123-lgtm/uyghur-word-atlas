@@ -136,7 +136,7 @@ def main():
           'if (!(w.media & 32) || w.cefr < from || p.cards[w.id] || out.includes(w.id)) continue;')
     patch("src/store/session.ts",
           'const due = dueIds(p).filter((id) => atlas.byId.has(id));',
-          'const due = dueIds(p).filter((id) => !!(atlas.byId.get(id)?.media & 32));')
+          'const due = dueIds(p).filter((id) => ((atlas.byId.get(id)?.media ?? 0) & 32) !== 0);')
     patch("src/pages/Practice.tsx",
           'atlas.words.filter((w) => w.cefr >= startLevel).slice(0, 400).map((w) => w.id)',
           'atlas.words.filter((w) => w.cefr >= startLevel && !!(w.media & 32)).slice(0, 400).map((w) => w.id)')
