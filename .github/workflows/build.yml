@@ -110,7 +110,6 @@ jobs:
         with:
           python-version: "3.11"
       - name: Generate authentic-language AI TTS recordings for all 1813 reviewed words
-        continue-on-error: true
         timeout-minutes: 90
         env:
           UYGHUR_TTS_LIMIT: "1813"
@@ -120,6 +119,33 @@ jobs:
           python3 -m pip install --quiet torch==2.4.1 --index-url https://download.pytorch.org/whl/cpu
           python3 -m pip install --quiet transformers==4.44.2 'numpy<2'
           python3 tools/generate_mms_audio.py
+      - name: Require all 1813 MP3 files and correct audio flags before deployment
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json, subprocess
+          from pathlib import Path
+          root = Path('upstream/public/atlas')
+          idx = json.loads((root/'index.json').read_text('utf-8'))
+          assert idx['count'] == 1813 and idx['voiced'] == 1813, (idx['count'],idx['voiced'])
+          for w in idx['words']:
+              assert w[6] & 2, f"Missing audio bit {w[0]}"
+              audio = root/'audio'/'uk'/(w[0]+'.mp3')
+              assert audio.is_file() and audio.stat().st_size > 1000, f"Missing/empty MP3 {w[0]}"
+          chunks = []
+          for p in sorted((root/'entries').glob('*.json'), key=lambda p:int(p.stem)):
+              chunks.extend(json.loads(p.read_text('utf-8')))
+          assert len(chunks)==1813
+          assert all(e['m'] & 2 for e in chunks)
+          for w in (idx['words'][i] for i in [0,1,2,59,60,300,700,1200,1812]):
+              path = root/'audio'/'uk'/(w[0]+'.mp3')
+              probe = subprocess.check_output(
+                  ['ffprobe','-v','error','-show_entries','stream=codec_name',
+                   '-of','default=noprint_wrappers=1:nokey=1',str(path)], text=True
+              ).strip()
+              assert 'mp3' in probe, (path, probe)
+          print('ALL_UYGHUR_AUDIO_VERIFIED', idx['voiced'], flush=True)
+          PY
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
