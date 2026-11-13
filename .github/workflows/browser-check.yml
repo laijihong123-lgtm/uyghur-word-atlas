@@ -41,7 +41,7 @@ jobs:
             console.log("SOURCE_FIDELITY",JSON.stringify({cards:idx.count,uniqueForms:uniqueForms.size,first:firstChunk[0].w,firstGloss:firstChunk[0].senses[0].zh,groups:idx.cefr,deferredVisible:deferred.filter(x=>uniqueForms.has(x))}));
             if(idx.count!==1813 || words.length!==1813 || uniqueForms.size!==1813 || firstChunk[0].w!=="ئابزاس" || firstChunk[0].senses[0].zh!=="段；段落" || deferred.some(x=>uniqueForms.has(x)))throw Error("Published vocabulary differs from user's reviewed Excel");
             if(!(await page.locator("body").innerText()).includes("1,813"))throw Error("UI still shows old candidate count");
-            if(idx.illustrated !== 861)throw Error("Illustration count is incorrect: "+idx.illustrated);
+            if(idx.illustrated !== 1813)throw Error("Illustration count is incorrect: "+idx.illustrated);
             const root = "https://laijihong123-lgtm.github.io/uyghur-word-atlas/";
             for(const id of ["tb0001","tb0002","tb0007","tb0010","tb0029","tb0049","tb0063","tb0413"]){
               const image = await page.request.get(root+"atlas/img/"+id+".webp");
@@ -54,7 +54,15 @@ jobs:
             await page.locator('button[aria-label="环境声"]').evaluate(button => button.click());
             await page.waitForTimeout(200);
             if(!(await page.locator("body").innerText()).includes("点击播放环境声"))throw Error("Mobile manual sound control missing");
-            console.log("MEDIA_CHECK",JSON.stringify({illustrated:idx.illustrated,customGenerated:6,ambienceBytes:ambientData.length,manualPlayButton:true}));
+            const fast = await (await page.request.get(root+"atlas/fast-generated-illustrations.json")).json();
+            if(fast.count!==952)throw Error("Fast-generated coverage incorrect");
+            for(const id of fast.items.slice(0,5).map(x=>x.id).concat(fast.items.slice(-5).map(x=>x.id))){
+              const res = await page.request.get(root+"atlas/img/"+id+".webp");
+              const th = await page.request.get(root+"atlas/thumb/"+id+".webp");
+              if(!res.ok() || !th.ok() || (await res.body()).length<1000 || (await th.body()).length<400)
+                throw Error("New generated art missing: "+id);
+            }
+            console.log("MEDIA_CHECK",JSON.stringify({illustrated:idx.illustrated,reused:855,bespoke:6,fastGenerated:fast.count,ambienceBytes:ambientData.length,manualPlayButton:true}));
             const sw = await page.request.get("https://laijihong123-lgtm.github.io/uyghur-word-atlas/sw.js");
             const swBody = await sw.text();
             console.log("SW_STATUS",sw.status(),"HAS_FETCH_HANDLER",swBody.includes('addEventListener("fetch"'),"SELF_UNREGISTER",swBody.includes("registration.unregister"));
