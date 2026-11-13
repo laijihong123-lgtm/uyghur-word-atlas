@@ -463,6 +463,14 @@ def main():
     patch("src/pages/Me.tsx",
           '<Field label="每日新词" hint="复习不设上限，算法只安排快要遗忘的词。">\n            <div className="segmented">',
           '<Field label="每日新词" hint="每天最多可选100个新词；到期复习另算。">\n            <div className="segmented" style={{flexWrap:"wrap",borderRadius:16}}>')
+    # Restore a proper first-stage entry point: upstream onboarding still
+    # contains IELTS/CEFR labels, which are invalid for the Uyghur deck.
+    patch("src/pages/Onboarding.tsx",
+          'const LEVELS = [\n  ["A2", "基础", "日常词还不太稳"],\n  ["B1", "进阶", "目标 5.5 – 6 分"],\n  ["B2", "中高", "目标 6.5 – 7 分"],\n  ["C1", "高级", "冲刺 7.5 分以上"],\n];',
+          'const LEVELS = [\n  ["第1组", "入门", "最基础的实用词"],\n  ["第2组", "基础", "常见日常用语"],\n  ["第3组", "日常", "生活与交流词汇"],\n  ["第4组", "拓展", "更丰富的表达"],\n  ["第5组", "进阶", "较复杂的词义"],\n  ["第6组", "专题", "书面语和专门词"],\n];')
+    patch("src/pages/Onboarding.tsx",
+          'const [level, setLevel] = useState(1);',
+          'const [level, setLevel] = useState(0);')
     patch("src/pages/Onboarding.tsx",
           "[5, 10, 15, 20].map((n) => (",
           "[5, 10, 15, 20, 30, 100].map((n) => (")
