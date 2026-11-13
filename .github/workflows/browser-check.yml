@@ -51,7 +51,8 @@ jobs:
             const ambiance = await page.request.get(root+"sfx/amb-stars.mp3");
             const ambientData = await ambiance.body();
             if(!ambiance.ok() || ambientData.length<100000)throw Error("Missing ambient sound file");
-            await page.locator('button[aria-label="环境声"]').click({force:true});
+            await page.locator('button[aria-label="环境声"]').evaluate(button => button.click());
+            await page.waitForTimeout(200);
             if(!(await page.locator("body").innerText()).includes("点击播放环境声"))throw Error("Mobile manual sound control missing");
             console.log("MEDIA_CHECK",JSON.stringify({illustrated:idx.illustrated,customGenerated:6,ambienceBytes:ambientData.length,manualPlayButton:true}));
             const sw = await page.request.get("https://laijihong123-lgtm.github.io/uyghur-word-atlas/sw.js");
