@@ -60,16 +60,29 @@ jobs:
         run: npm run build
         env:
           ATLAS_BASE: /uyghur-word-atlas/
+      - name: Build a root-path package for Netlify and other static hosts
+        working-directory: upstream
+        run: npm run build -- --outDir dist-netlify
+        env:
+          ATLAS_BASE: /
       - name: Attach code attribution and migration notes
         shell: bash
         run: |
-          cp upstream/LICENSE upstream/dist/UPSTREAM_MIT_LICENSE.txt
-          cp upstream/UYGHUR_PORT_NOTICE.md upstream/dist/UYGHUR_PORT_NOTICE.md
+          for out in dist dist-netlify; do
+            cp upstream/LICENSE "upstream/$out/UPSTREAM_MIT_LICENSE.txt"
+            cp upstream/UYGHUR_PORT_NOTICE.md "upstream/$out/UYGHUR_PORT_NOTICE.md"
+          done
       - name: Upload built website for download
         uses: actions/upload-artifact@v4
         with:
           name: uyghur-atlas-website
           path: upstream/dist/
+          retention-days: 30
+      - name: Upload Netlify-ready root-path package
+        uses: actions/upload-artifact@v4
+        with:
+          name: uyghur-atlas-netlify
+          path: upstream/dist-netlify/
           retention-days: 30
       - name: Prepare GitHub Pages artifact
         uses: actions/upload-pages-artifact@v3
