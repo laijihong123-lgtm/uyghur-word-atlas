@@ -30,60 +30,50 @@ def main():
     if pkg.get("name") != "word-atlas":
         raise RuntimeError("Not the original Word Atlas source.")
 
-    dataset = []
-    seen = set()
-    # Preserve the existing 46-word starter deck at its original ids for progress compatibility.
-    for line in (HERE / "data/words.txt").read_text("utf-8").splitlines():
-        if not line.strip() or line.startswith("#"):continue
-        parts=line.split("|")
-        if len(parts)!=4:raise RuntimeError(f"Invalid core word row: {line}")
-        uy,zh,latin,topic=[x.strip() for x in parts]
-        if uy in seen or topic not in TOPIC_NAMES:raise RuntimeError("Duplicate/invalid core word")
-        seen.add(uy)
-        dataset.append({"uy":uy,"zh":zh,"latin":latin,"topic":topic,
-                        "status":"source-compared","source":"公开词汇表交叉参考；尚非母语者逐词终审"})
+    # User-supplied: 《维吾尔语词表_逐条复核版.xlsx》, first sheet.
+    # Only the 1,817 explicitly approved study records are imported.
+    # The 4 "暂缓背诵" records are deliberately excluded from study and search.
+    import csv
+    source_file=HERE/"data/textbook_reviewed.tsv"
+    with source_file.open("r",encoding="utf-8-sig",newline="") as f:
+        source_rows=list(csv.DictReader(f,delimiter="\t"))
+    if len(source_rows)!=1817:
+        raise RuntimeError(f"Expected exactly 1817 user-reviewed rows; got {len(source_rows)}")
+    grouped={}
+    for expected,row in enumerate(source_rows,1):
+        if int(row["序号"])!=expected:raise RuntimeError(f"Wrong row order at {expected}")
+        uy=row["维吾尔语"].strip()
+        zh=row["中文释义"].strip()
+        page=int(row["原书页码"])
+        source_no=row["原表序号"].strip()
+        if not uy or not zh or not source_no or not (546<=page<=637):
+            raise RuntimeError(f"Empty/invalid approved word at #{expected}")
+        if not re.search(r"[\u0600-\u06ff]",uy):raise RuntimeError(f"Non-Uyghur word at #{expected}")
+        # Repeated written forms can have different valid textbook senses
+        # (e.g. يۈز: face / hundred). Combine as ONE card with BOTH senses:
+        # this prevents ambiguous meaning quizzes and avoids deleting any sense.
+        if uy not in grouped:
+            grouped[uy]={"uy":uy,"senses":[],"sources":[],"seq":expected}
+        grouped[uy]["senses"].append(zh)
+        grouped[uy]["sources"].append((source_no,page,expected))
+    dataset=list(grouped.values())
+    if len(dataset)!=1813:
+        raise RuntimeError(f"Expected 1813 unique written forms from 1817 reviewed rows; got {len(dataset)}")
     safe_count=len(dataset)
-    focus_topics={"校园教务":"education","校园生活":"daily","学生服务":"society",
-                  "就业指导":"work","心理与谈心":"emotion","管理与应急":"government",
-                  "面试表达":"thinking"}
-    focus_file=HERE/"data/counselor_focus_candidates.txt"
-    focus_count=0
-    for line in focus_file.read_text("utf-8").splitlines():
-        if not line.strip() or line.startswith("#"):continue
-        topic_cn,uy,zh=[x.strip() for x in line.split("|",2)]
-        if not uy or not zh or topic_cn not in focus_topics:raise RuntimeError("Invalid counselor term")
-        if uy in seen:continue
-        seen.add(uy)
-        focus_count+=1
-        dataset.append({"uy":uy,"zh":zh,"latin":"","topic":focus_topics[topic_cn],
-                        "status":"unreviewed","category":topic_cn,
-                        "source":"辅导员专项词汇公开材料词形对照；中文释义未完成语言专家审校"})
-    if focus_count < 55:raise RuntimeError("Counselor study-specific candidates unexpectedly missing")
-    candidates=HERE/"data/word_bank_2000.json"
-    if not candidates.is_file():raise RuntimeError("Missing dictionary-backed 2000-word candidate index; do not silently build a smaller release")
-    backing=json.loads(candidates.read_text(encoding="utf-8"))
-    for row in backing:
-        uy=row.get("uy","").strip()
-        zh=row.get("zh","").strip()
-        topic=row.get("topic","daily")
-        if uy in seen or not uy or not zh or topic not in TOPIC_NAMES:continue
-        seen.add(uy)
-        dataset.append({"uy":uy,"zh":zh,"latin":"","topic":topic,
-                        "status":"unreviewed",
-                        "source":row.get("source","公开维汉词典"),
-                        "imla_id":row.get("imla_id",""),
-                        "spelling_dictionary":row.get("spelling_dictionary",""),
-                        "category":row.get("category",""),
-                        "frequency":row.get("freq",0)})
-        if len(dataset)==2000:break
-    if len(dataset)!=2000 or safe_count < 40:
-        raise RuntimeError(f"Expected 2000 candidates with >=40 source-compared starter words; got {len(dataset)} / {safe_count}")
-    # Important: the 1954 candidates are for SEARCH/REVIEW ONLY. They are not learning
-    # answers; cross-checking spelling does not validate Chinese sense accuracy.
-    import hashlib
-    actual_safe={x["uy"] for x in dataset if x["status"]=="source-compared"}
-    if len(actual_safe)!=safe_count:raise RuntimeError("Starter word duplication")
-    idx_note = f"2,000 entry reference index; {safe_count} source-compared words study-eligible; {focus_count} counselor-focus terms pending review"
+    topics_cues=[
+        ("education",("学校","学生","教师","教育","老师","课程","课本","教室","课堂","作业","大学","毕业","学期","考试","知识","班级","图书馆","学习")),
+        ("health",("健康","医院","医生","病人","疾病","治疗","药物","疼痛","伤口","身体","症状")),
+        ("government",("法律","法规","政府","纪律","违法","公安","警察","安全","危险","保护","制度")),
+        ("work",("工作","职业","就业","企业","单位","岗位","工资","招聘","实习","管理人员")),
+        ("emotion",("情绪","感情","悲伤","忧虑","担心","害怕","愤怒","快乐","高兴","压力")),
+        ("thinking",("思想","观点","意见","分析","理解","解释","原因","判断","理论","方法")),
+        ("society",("社会","交往","交谈","交流","朋友","合作","关系","家庭","尊重")),
+        ("nature",("自然","森林","河流","海洋","植物","动物","大山")),
+    ]
+    def inferred_topic(gloss):
+        for label,needles in topics_cues:
+            if any(n in gloss for n in needles):return label
+        return "daily"
     atlas_dir = ROOT / "public/atlas"
     index_file = atlas_dir / "index.json"
     idx = json.loads(index_file.read_text("utf-8"))
@@ -104,30 +94,31 @@ def main():
     index_rows = []
     entries = []
     for i,row in enumerate(dataset):
-        uy,zh,latin,topic=row["uy"],row["zh"],row["latin"],row["topic"]
-        safe=row["status"]=="source-compared"
-        wid=f"uy{i+1:05d}" if safe else "uw"+hashlib.sha256(uy.encode("utf-8")).hexdigest()[:16]
-        lvl=0 if safe and i<32 else 1 if safe else 2
-        exposed_zh=zh if safe else f"候选义项·待复核：{zh}"
-        # 32 is an intentionally separate local QA eligibility bit. It is not audio.
-        qa_flag=32 if safe else 0
-        index_rows.append([wid,uy,exposed_zh,latin,lvl,topics.index(topic),qa_flag])
+        uy=row["uy"]
+        meanings=list(dict.fromkeys(row["senses"])) # only deduplicate exact repeated sense strings
+        joined=" ／ ".join(meanings)
+        topic=inferred_topic(joined)
+        wid=f"tb{row['seq']:04d}"
+        # These six bins follow the textbook appendix order, NOT a CEFR rating.
+        level=min(5, i*6//len(dataset))
+        if topic not in topics:topic="daily"
+        index_rows.append([wid,uy,joined,"",level,topics.index(topic),32])
+        provenance="；".join(f"原表{n}·教材第{p}页" for n,p,_ in row["sources"])
         entries.append({
-            "id":wid,"w":uy,"uk":latin,"us":"",
-            "senses":[{"pos":"词语","zh":exposed_zh,"en":""}],
+            "id":wid,"w":uy,"uk":"","us":"",
+            "senses":[{"pos":"教材释义","zh":meaning,"en":""} for meaning in row["senses"]],
             "ex":[],"col":[],"fam":[],"syn":[],"ant":[],
-            "tip":("拉丁转写："+latin+"。已通过多份公开词表对照，但未完成母语终审。" if safe
-                   else "此词仅供资料检索：词形对应2009/2011审校词目，中文候选释义未经人工复核。请勿直接背诵。"),
-            "cefr":"A1" if lvl==0 else "A2" if lvl==1 else "B1",
-            "topic":topic,"m":qa_flag,
-            "note":("基础词·多来源对照；" if safe else
-                     "候选词·默认不进入任何背诵测验；")+
-                   "来源："+row.get("source","")+
-                   (("；正字词目ID："+row.get("imla_id","")) if not safe else ""),
+            "tip":("教材以 - 结尾表示动词词干；请勿把末尾连字符当作词的一部分发音。"
+                   if uy.endswith("-") else
+                   "词表未提供经核对的拉丁转写或录音，本版不显示猜测读音。"),
+            "cefr":f"第{level+1}组","topic":topic,"m":32,
+            "note":"来自用户提供的逐条复核教材词表；"+provenance+
+                   "。学习分组按原表顺序，不代表CEFR水平；主题仅依据中文释义自动辅助归类。",
         })
-    idx.update({"id":"uyghur-atlas-starter-v1","name":"维语词光 · 2000词分级审校库",
+    idx.update({"id":"uyghur-textbook-reviewed-20261113","name":"维语词光 · 教材逐条复核词库",
                 "count":len(index_rows),"examples":0,"illustrated":0,
                 "voiced":0,"chunk":100,"words":index_rows})
+    idx["cefr"]=[f"第{i}组" for i in range(1,7)]
     index_file.write_text(json.dumps(idx,ensure_ascii=False,separators=(",",":")),"utf-8")
     for n in range(0, len(entries), 100):
         (entries_dir / f"{n//100}.json").write_text(
