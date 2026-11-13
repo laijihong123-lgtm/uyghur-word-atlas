@@ -289,13 +289,11 @@ def main():
           'const rowH = cell + (width < 560 ? 62 : 74) + gap;',
           'const rowH = cell + (width < 560 ? 84 : 96) + gap;')
     patch("src/pages/Atlas.tsx",
-          '''<span className="tile-word" lang="en">
-                 {w.word}
-               </span>''',
-          '''<span className="tile-word" lang="ug" dir="rtl">
-                 {w.word}
-               </span>
-               <span className="tile-uly" lang="ug-Latn">{w.ipa}</span>''')
+          '<span className="tile-word" lang="en"',
+          '<span className="tile-word" lang="ug" dir="rtl"')
+    patch("src/pages/Atlas.tsx",
+          '<span className="tile-zh">{w.zh}</span>',
+          '<span className="tile-uly" lang="ug-Latn">{w.ipa}</span>\n              <span className="tile-zh">{w.zh}</span>')
     patch("src/pages/Atlas.tsx",
           'className="row-word" lang="en"',
           'className="row-word" lang="ug" dir="rtl"')
