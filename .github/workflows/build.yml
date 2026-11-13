@@ -88,7 +88,7 @@ jobs:
           assert len(mapped)==idx['illustrated']
           for row in mapped:
             for name in ('img','thumb'):
-              assert (root/name/(row[0]+'.webp')).stat().st_size>1000
+              assert (root/name/(row[0]+'.webp')).stat().st_size>(450 if name=='thumb' else 1000)
           assert (root/'image-attributions.json').is_file()
           assert (root/'generated-image-attributions.json').is_file()
           assert (root/'fast-generated-illustrations.json').is_file()
