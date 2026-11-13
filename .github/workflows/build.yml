@@ -63,6 +63,23 @@ jobs:
             assert e['us']=='' and e['uk'], e['id']
           deferred=list(csv.DictReader(open('data/textbook_deferred.tsv',encoding='utf-8-sig'),delimiter='\t'))
           assert len(deferred)==4 and all(row['教材词形'] not in expected_by_form for row in deferred)
+          # Reordering must never change persistent card IDs / source glosses.
+          original_word_positions={}
+          for n,row in enumerate(source,1):
+            original_word_positions.setdefault(row['维吾尔语'],n)
+          assert all(row[0]==f"tb{original_word_positions[row[1]]:04d}" for row in idx['words'])
+          assert [w[4] for w in idx['words']]==sorted(w[4] for w in idx['words'])
+          counts=[sum(w[4]==lv for w in idx['words']) for lv in range(6)]
+          assert counts==[303,302,302,302,302,302], counts
+          assert idx['cefr']==[f'第{i}组' for i in range(1,7)]
+          assert idx['words'][0][1] in {'مەن','سەن','بىز','ئۇ'}
+          assert any(w[1]=='مەن' and w[4]==0 for w in idx['words'])
+          me=(Path('upstream/src/pages/Me.tsx').read_text('utf-8'))
+          onboarding=(Path('upstream/src/pages/Onboarding.tsx').read_text('utf-8'))
+          assert '[5, 10, 15, 20, 30, 100]' in me
+          assert '[5, 10, 15, 20, 30, 100]' in onboarding
+          assert '"第1组", "入门"' in onboarding
+          print('SORTED_LEARNING_PATH',counts,'FIRST_WORDS',[w[1] for w in idx['words'][:12]],flush=True)
           print('Verified source fidelity:',len(source),'source entries,',len(entries),'study cards,',len(deferred),'deferred')
           PY
       - name: Restore licensed illustrations that match textbook definitions
