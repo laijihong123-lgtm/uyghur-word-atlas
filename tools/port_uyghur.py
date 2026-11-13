@@ -574,7 +574,7 @@ function ChallengePath() {
 
     challenge_css = r"""
 /* Uyghur 18-day self-paced learning path. Touch-friendly on Safari. */
-.uy-challenge { margin-top: 20px; }
+.uy-challenge { grid-column:1 / -1; margin-top: 20px; }
 .uy-challenge .panel-head { display:flex; gap:12px; align-items:flex-start; justify-content:space-between; flex-wrap:wrap; }
 .uy-challenge-subtitle { font-size:14px; font-weight:600; margin:6px 0 0; color:var(--ink-2); }
 .uy-challenge-total { font-size:13px; font-weight:700; color:var(--terra-ink); white-space:nowrap; }
