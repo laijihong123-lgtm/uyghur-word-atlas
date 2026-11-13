@@ -109,11 +109,11 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Generate optional real Uyghur TTS pilot audio (first 60 cards)
+      - name: Generate authentic-language AI TTS recordings for all 1813 reviewed words
         continue-on-error: true
-        timeout-minutes: 30
+        timeout-minutes: 90
         env:
-          UYGHUR_TTS_LIMIT: "60"
+          UYGHUR_TTS_LIMIT: "1813"
           HF_HUB_DISABLE_TELEMETRY: "1"
         run: |
           sudo apt-get install -y -qq ffmpeg > /dev/null
