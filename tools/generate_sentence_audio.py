@@ -160,11 +160,7 @@ def patch_ui():
     patch("src/pages/StudyRoom.tsx",
           '{exampleBookmarks.has(x.id) ? <BookmarkCheck size={18}/> : <Bookmark size={18}/>}</button>',
           '{exampleBookmarks.has(x.id) ? <BookmarkCheck size={18}/> : <Bookmark size={18}/>}</button></div>')
-    # The original English atlas falls back to en-GB / en-US voice when an
-    # MP3 fails to play. Never pronounce Uyghur in an English fallback voice.
-    patch("src/lib/audio.ts",
-          '  if (!("speechSynthesis" in window)) return "unsupported" as const;',
-          '  if (/[\\u0600-\\u06FF]/.test(text)) return "unsupported" as const;\n  if (!("speechSynthesis" in window)) return "unsupported" as const;')
+    # port_uyghur.py already disables the original English device-voice fallback.
     css = Path("upstream/src/styles/app.css")
     css.write_text(css.read_text("utf-8")+"""
 /* Small sentence audio controls, preserving mobile reading layout. */
