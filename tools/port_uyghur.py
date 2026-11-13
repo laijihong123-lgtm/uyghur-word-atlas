@@ -43,6 +43,22 @@ def main():
         dataset.append({"uy":uy,"zh":zh,"latin":latin,"topic":topic,
                         "status":"source-compared","source":"公开词汇表交叉参考；尚非母语者逐词终审"})
     safe_count=len(dataset)
+    focus_topics={"校园教务":"education","校园生活":"daily","学生服务":"society",
+                  "就业指导":"work","心理与谈心":"emotion","管理与应急":"government",
+                  "面试表达":"thinking"}
+    focus_file=HERE/"data/counselor_focus_candidates.txt"
+    focus_count=0
+    for line in focus_file.read_text("utf-8").splitlines():
+        if not line.strip() or line.startswith("#"):continue
+        topic_cn,uy,zh=[x.strip() for x in line.split("|",2)]
+        if not uy or not zh or topic_cn not in focus_topics:raise RuntimeError("Invalid counselor term")
+        if uy in seen:continue
+        seen.add(uy)
+        focus_count+=1
+        dataset.append({"uy":uy,"zh":zh,"latin":"","topic":focus_topics[topic_cn],
+                        "status":"unreviewed","category":topic_cn,
+                        "source":"辅导员专项词汇公开材料词形对照；中文释义未完成语言专家审校"})
+    if focus_count < 55:raise RuntimeError("Counselor study-specific candidates unexpectedly missing")
     candidates=HERE/"data/word_bank_2000.json"
     if not candidates.is_file():raise RuntimeError("Missing dictionary-backed 2000-word candidate index; do not silently build a smaller release")
     backing=json.loads(candidates.read_text(encoding="utf-8"))
@@ -67,7 +83,7 @@ def main():
     import hashlib
     actual_safe={x["uy"] for x in dataset if x["status"]=="source-compared"}
     if len(actual_safe)!=safe_count:raise RuntimeError("Starter word duplication")
-    idx_note = f"2,000 entry reference index; {safe_count} source-compared words enabled for study"
+    idx_note = f"2,000 entry reference index; {safe_count} source-compared words study-eligible; {focus_count} counselor-focus terms pending review"
     atlas_dir = ROOT / "public/atlas"
     index_file = atlas_dir / "index.json"
     idx = json.loads(index_file.read_text("utf-8"))
@@ -264,7 +280,7 @@ def main():
         "This build excludes English word audio and original English illustrations.\n"
         "There are 2,000 searchable candidate entries. Only the first 46 source-compared words are enabled for study. All dictionary-only Chinese senses are NOT language-expert validated.\n"
         "Real Uyghur pronunciation is NOT provided.\n","utf-8")
-    print(f"Adaptation complete: {len(entries)} Uyghur entries, {safe_count} study-eligible, "
+    print(f"Adaptation complete: {len(entries)} Uyghur entries, {safe_count} study-eligible, {focus_count} counselor candidates, "
           "no English TTS/listening, original UI/FSRS/WebGL files retained.")
 
 if __name__ == "__main__":
