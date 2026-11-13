@@ -301,10 +301,10 @@ def interleave_learning_topics(rows: list[dict], window: int = 36) -> list[dict]
 
 def order_learning_path(dataset: list[dict]) -> list[dict]:
     ranked = sorted(dataset, key=learning_difficulty)
-    # Six equal-width pedagogical tiers, not six alphabetical segments.
-    # Do NOT mix across tier boundaries; difficulty must remain monotonic.
-    sizes = [len(ranked) // 6 + (1 if i < len(ranked) % 6 else 0)
-             for i in range(6)]
+    # Six stages each contain three daily lessons. The first 17 lessons
+    # have 101 words, and the eighteenth has 96: 1,813 words in total.
+    # Keep the 101-word boundaries aligned with 6 stages.
+    sizes = [303] * 5 + [len(ranked) - 303 * 5]
     out = []
     start = 0
     for size in sizes:
@@ -396,7 +396,7 @@ def main():
         topic=inferred_topic(joined)
         wid=f"tb{row['seq']:04d}"
         # Six equal-sized tiers in estimated daily usefulness/difficulty order.
-        level=min(5, i*6//len(dataset))
+        level=min(5, i//303)
         if topic not in topics:topic="daily"
         index_rows.append([wid,uy,joined,latin,level,topics.index(topic),32])
         provenance="；".join(f"原表{n}·教材第{p}页" for n,p,_ in row["sources"])
@@ -477,6 +477,129 @@ def main():
     patch("src/pages/Onboarding.tsx",
           '<div className="segmented segmented-wide">',
           '<div className="segmented segmented-wide" style={{flexWrap:"wrap",borderRadius:16}}>')
+
+
+    # A self-paced 18-day path that preserves the original 6 stages.
+    # Exactly 17 lessons of 101 cards plus one of 96. Every card is
+    # selected by stable ID, so existing FSRS states and bookmarks carry over.
+    patch("src/pages/Today.tsx",
+          "        <LevelPath />",
+          "        <ChallengePath />\n        <LevelPath />")
+    challenge_component = r"""
+function ChallengePath() {
+  const atlas = useAtlas();
+  const progress = useStore((s) => s.progress);
+  const settings = useStore((s) => s.settings);
+  const active = progress.session && !progress.session.finished;
+  const stageNames = ["入门", "基础", "日常", "拓展", "进阶", "专题"];
+  const lessons = useMemo(
+    () => Array.from({ length: 18 }, (_, day) =>
+      atlas.words.slice(day * 101, Math.min((day + 1) * 101, atlas.words.length))),
+    [atlas]
+  );
+  const learned = lessons.map((group) => group.reduce(
+    (n, w) => n + (progress.cards[w.id] ? 1 : 0), 0
+  ));
+  const totalSeen = learned.reduce((a, b) => a + b, 0);
+  const startLesson = (day: number) => {
+    if (active) return;
+    const ids = lessons[day].map((w) => w.id);
+    if (!ids.length) return;
+    const session = buildSession(atlas, progress, settings, { ids });
+    if (!session.steps.length) return;
+    store.progress((p) => ({ ...p, session }));
+    if (settings.sfx) void cue("start");
+    go({ page: "learn" });
+  };
+
+  return (
+    <section className="panel uy-challenge" aria-label="18天词汇学习挑战">
+      <div className="panel-head">
+        <div>
+          <h3 className="eyebrow">18 天学习挑战</h3>
+          <p className="uy-challenge-subtitle">6 个难度阶段 · 每阶段 3 关 · 新词由易到难</p>
+        </div>
+        <span className="uy-challenge-total">{totalSeen} / {atlas.count} 已学</span>
+      </div>
+      <p className="uy-challenge-note">
+        每关约 100 词，前 17 关各 101 词，最后一关 96 词。可以暂停、分几天完成；
+        已学不等于记牢，系统仍会安排间隔复习。
+      </p>
+      {active && (
+        <div className="uy-challenge-active">
+          <span>已有进行中的旅程。完成或继续当前旅程后，再选择其他关卡。</span>
+          <button className="btn btn-primary" onClick={() => go({ page: "learn" })}>继续旅程</button>
+        </div>
+      )}
+      <div className="uy-challenge-stages">
+        {stageNames.map((stage, stageIndex) => (
+          <div className="uy-challenge-stage" key={stage}>
+            <div className="uy-challenge-stage-title">
+              <b>阶段 {stageIndex + 1} · {stage}</b>
+              <small>{lessons.slice(stageIndex * 3, stageIndex * 3 + 3)
+                .reduce((n, group) => n + group.length, 0)} 词</small>
+            </div>
+            <div className="uy-challenge-grid">
+              {[0, 1, 2].map((offset) => {
+                const day = stageIndex * 3 + offset;
+                const group = lessons[day];
+                const seen = learned[day];
+                const complete = seen === group.length;
+                return (
+                  <button
+                    key={day}
+                    type="button"
+                    disabled={!!active || group.length === 0}
+                    onClick={() => startLesson(day)}
+                    className={"uy-challenge-day" + (complete ? " is-complete" : "")}
+                    aria-label={"第" + (day + 1) + "关，" + group.length + "词，已学" + seen + "词"}
+                  >
+                    <span className="uy-challenge-day-title">第 {day + 1} 关</span>
+                    <b>{seen}<small> / {group.length}</small></b>
+                    <span className="uy-challenge-track"><i style={{ width: (group.length ? seen / group.length * 100 : 0) + "%" }} /></span>
+                    <span className="uy-challenge-action">{complete ? "巩固复习" : seen ? "继续学习" : "开始学习"}</span>
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+"""
+    patch("src/pages/Today.tsx", "function LevelPath() {", challenge_component + "function LevelPath() {")
+
+    challenge_css = r"""
+/* Uyghur 18-day self-paced learning path. Touch-friendly on Safari. */
+.uy-challenge { margin-top: 20px; }
+.uy-challenge .panel-head { display:flex; gap:12px; align-items:flex-start; justify-content:space-between; flex-wrap:wrap; }
+.uy-challenge-subtitle { font-size:14px; font-weight:600; margin:6px 0 0; color:var(--ink-2); }
+.uy-challenge-total { font-size:13px; font-weight:700; color:var(--terra-ink); white-space:nowrap; }
+.uy-challenge-note { font-size:13px; line-height:1.7; color:var(--ink-3); margin:4px 0 16px; }
+.uy-challenge-active { padding:12px; margin-bottom:16px; display:flex; flex-wrap:wrap; align-items:center; gap:10px; background:var(--paper-2); border-radius:12px; font-size:13px; }
+.uy-challenge-stages { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
+.uy-challenge-stage { padding:14px; border:1px solid var(--line); border-radius:16px; background:var(--card-2); min-width:0; }
+.uy-challenge-stage-title { display:flex; justify-content:space-between; flex-wrap:wrap; align-items:baseline; gap:8px; margin-bottom:12px; font-size:14px; color:var(--ink); }
+.uy-challenge-stage-title small { font-size:12px; color:var(--ink-3); }
+.uy-challenge-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:8px; }
+.uy-challenge-day { display:flex; flex-direction:column; align-items:stretch; text-align:left; min-height:116px; min-width:0; padding:11px 8px; border-radius:12px; border:1px solid var(--line); background:var(--card); color:var(--ink); transition:border-color .2s ease, transform .2s ease; }
+.uy-challenge-day:hover:not(:disabled),.uy-challenge-day:focus-visible { border-color:var(--terra); transform:translateY(-1px); }
+.uy-challenge-day:disabled { opacity:.65; cursor:not-allowed; }
+.uy-challenge-day-title { font-size:13px; font-weight:650; }
+.uy-challenge-day b { font-size:19px; margin-top:6px; font-variant-numeric:tabular-nums; }
+.uy-challenge-day b small { font-size:11px; font-weight:500; color:var(--ink-3); }
+.uy-challenge-track { height:5px; width:100%; display:block; margin:9px 0 7px; border-radius:99px; overflow:hidden; background:var(--paper-3); }
+.uy-challenge-track i { display:block; height:100%; border-radius:99px; background:var(--sage); }
+.uy-challenge-action { font-size:11px; color:var(--ink-3); }
+.uy-challenge-day.is-complete { border-color:var(--sage); }
+@media(max-width:820px) { .uy-challenge-stages { grid-template-columns:1fr; } }
+@media(max-width:420px) { .uy-challenge-stage { padding:12px; } .uy-challenge-grid { gap:6px; } .uy-challenge-day { padding:10px 7px; min-height:110px; } .uy-challenge-day-title { font-size:12px; } .uy-challenge-day b { font-size:17px; } }
+"""
+    css_path=ROOT/"src/styles/app.css"
+    css_path.write_text(css_path.read_text("utf-8") + "\n" + challenge_css, "utf-8")
 
     patch("src/pages/Today.tsx",
           "按雅思话题探索", "按词义辅助归类")
