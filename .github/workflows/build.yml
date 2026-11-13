@@ -97,13 +97,23 @@ jobs:
           assert (root/'generated-image-attributions.json').is_file()
           assert (root/'fast-generated-illustrations.json').is_file()
           fast=json.loads((root/'fast-generated-illustrations.json').read_text('utf8'))
-          assert fast['count']+861==1813, fast['count']
+          original=json.loads((root/'image-attributions.json').read_text('utf8'))
+          special=json.loads((root/'generated-image-attributions.json').read_text('utf8'))
+          original_ids={r['word_id'] for r in original['mappings']}
+          special_ids=set(special['images'])
+          fallback_ids={r['id'] for r in fast['items']}
+          assert original['license']=='CC BY 4.0'
+          assert len(original_ids)==original['count'] and len(original_ids)>=900, original['count']
+          assert len(special_ids)==special['count']
+          assert len(fallback_ids)==fast['count']
+          assert not (original_ids & special_ids) and not (original_ids & fallback_ids) and not (special_ids & fallback_ids)
+          assert len(original_ids|special_ids|fallback_ids)==1813
           assert idx['illustrated']==1813 and len(mapped)==1813
           for i,entry in enumerate(sorted((root/'entries').glob('*.json'),key=lambda p:int(p.stem))):
             import json
             for e in json.loads(entry.read_text('utf8')):
               assert e['m']&1,e['id']
-          print('FULL_PICTURE_COVERAGE',len(mapped),'FAST_NEW',fast['count'],flush=True)
+          print('FULL_PICTURE_COVERAGE',len(mapped),'ORIGINAL_AUTHOR_ART',len(original_ids),'SPECIAL_SCENES',len(special_ids),'FAST_FALLBACK',fast['count'],flush=True)
           PY
       - name: Use Python 3.11 for Uyghur speech synthesis
         uses: actions/setup-python@v5
