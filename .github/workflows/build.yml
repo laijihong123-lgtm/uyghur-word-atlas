@@ -9,6 +9,7 @@ on:
       - ".github/workflows/build.yml"
 permissions:
   contents: read
+  actions: read
   pages: write
   id-token: write
 concurrency:
@@ -146,16 +147,29 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Generate authentic-language AI TTS recordings for all 1813 reviewed words
+      - name: Try to restore previously validated 1813-word Uyghur audio from a successful build
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          run-id: 43483055237
+          github-token: ${{ github.token }}
+          name: uyghur-atlas-website
+          path: previous-website
+      - name: Restore recorded Uyghur MP3s, or synthesize all 1813 if unavailable
         timeout-minutes: 90
         env:
           UYGHUR_TTS_LIMIT: "1813"
           HF_HUB_DISABLE_TELEMETRY: "1"
         run: |
           sudo apt-get install -y -qq ffmpeg > /dev/null
-          python3 -m pip install --quiet torch==2.4.1 --index-url https://download.pytorch.org/whl/cpu
-          python3 -m pip install --quiet transformers==4.44.2 'numpy<2'
-          python3 tools/generate_mms_audio.py
+          if python3 tools/restore_audio_assets.py; then
+            echo "Reused identical word-ID Uyghur audio from the validated previous build."
+          else
+            echo "No complete previous audio available; generating all MP3s afresh."
+            python3 -m pip install --quiet torch==2.4.1 --index-url https://download.pytorch.org/whl/cpu
+            python3 -m pip install --quiet transformers==4.44.2 'numpy<2'
+            python3 tools/generate_mms_audio.py
+          fi
       - name: Require all 1813 MP3 files and correct audio flags before deployment
         shell: bash
         run: |
