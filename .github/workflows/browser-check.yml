@@ -32,7 +32,11 @@ jobs:
             console.log("ROOT_HTML", (await page.locator("#root").innerText()).slice(0,1500));
             console.log("VISIBLE_TEXT", (await page.locator("body").innerText()).slice(0,1500));
             console.log("RUNTIME_ERRORS",errors.slice(0,30));
-            if((await page.locator("#root").innerText()).trim().length < 60 || errors.some(x=>/uncaught|not found|failed to fetch/i.test(x)))process.exitCode=1;
+            const sw = await page.request.get("https://laijihong123-lgtm.github.io/uyghur-word-atlas/sw.js");
+            const swBody = await sw.text();
+            console.log("SW_STATUS",sw.status(),"HAS_FETCH_HANDLER",swBody.includes('addEventListener("fetch"'),"SELF_UNREGISTER",swBody.includes("registration.unregister"));
+            console.log("SW_REGISTRATIONS",await page.evaluate(async()=> (await navigator.serviceWorker.getRegistrations()).length));
+            if((await page.locator("#root").innerText()).trim().length < 60 || errors.some(x=>/uncaught|not found|failed to fetch/i.test(x)) || !sw.ok || swBody.includes('addEventListener("fetch"'))process.exitCode=1;
             await browser.close();
           })().catch(e=>{console.error(e);process.exit(1)});
           JS
