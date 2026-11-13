@@ -51,6 +51,269 @@ def to_uly(value: str) -> str:
             out.append(ch)
     return "".join(out)
 
+
+# The original Word Atlas puts easier words before harder ones and varies
+# topics within a level. This Uyghur adaptation makes an ESTIMATED
+# pedagogical order, NOT measured corpus-frequency ranks or CEFR levels.
+# The human-selected core consists only of spellings found in the reviewed
+# textbook. Every card retains its immutable tb<original sequence> ID.
+CORE_START = """
+مەن
+سەن
+سىز
+ئۇ
+بىز
+بۇ
+شۇ
+كىم
+نېمە
+قايسى
+قانداق
+قاچان
+قانچە
+نەچچە
+نە
+بار
+ئەمەس
+ھەئە
+ياق
+ياخشى
+ياخشىمۇسىز
+ئەسسالامۇ ئەلەيكۇم
+رەھمەت سىزگە
+بىر
+ئىككى
+تۆت
+بەش
+ئالتە
+يەتتە
+ئون
+ئادەم
+كىشى
+ئاتا
+ئانا
+ئاپا
+دادا
+دوست
+ئۆي
+ئائىلە
+سۇ
+نان
+تاماق
+ئاش
+پۇل
+كىتاب
+مەكتەپ
+ئوقۇغۇچى
+خىزمەت
+ئىش
+بۈگۈن
+ئەتە
+تۈنۈگۈن
+ھازىر
+بار-
+كەل-
+كەت-
+قىل-
+ئەت-
+ئال-
+بەر-
+يە-
+قارا-
+ئاڭلا-
+دە-
+بىل-
+ئوقۇ-
+ياز-
+ئۆگەن-
+سۆزلە-
+ماڭ-
+يۈر-
+سېتىۋال-
+ياخشى كۆر-
+بەك
+ناھايىتى
+كۆپ
+ئاز
+كېرەك
+لازىم
+بىلەن
+ۋە
+لېكىن
+چۈنكى
+شۇڭا
+ئەگەر
+ياكى
+يىل
+ئاي
+ھەپتە
+ئوغۇل
+قىز
+ئۇخلا-
+ئويلا-
+ئاچ-
+ياخشى
+يامان
+چوڭ
+كىچىك
+يېڭى
+كونا
+ئۇزۇن
+قىسقا
+ماۋۇ
+ئاۋۇ
+شۇ
+ھەر
+ھەم
+""".strip().splitlines()
+CORE_RANK = {word: i for i, word in enumerate(dict.fromkeys(CORE_START))}
+
+# Exact Chinese textbook senses, intentionally not free-form substrings:
+# false matches such as "白种人"->"白" or "阿丽亚(女名)"->"人" would be harmful.
+COMMON_SENSES = set("""
+你 我 您 我们 他 她 它 他们 你们 谁 什么 哪儿 哪里 多少 几 哪 个
+这 那 这里 那里 现在 今天 明天 昨天 后天 前天 早晨 早上 中午 晚上
+年 月 星期 周 天 小时 分钟 时间 时候 第一 第二
+一个 一 二 三 四 五 六 七 八 九 十 百 千 万
+有 没有 不是 好 好吧 是 是的 不 是的 不行 也 都 还 很 非常 特别
+因为 所以 但是 可是 如果 或者 和 与 跟 一起 每 每个 
+吃 喝 走 去 来 看 听 写 读 念 学习 学 做 干 给 拿 买 卖
+想 喜欢 爱 需要 要 知道 会 懂 说 说话 讲话 工作 睡觉 跑 
+父亲 爸爸 母亲 妈妈 家 家庭 人 朋友 孩子 男人 女人 男 女
+水 饭 饭菜 馕 茶 肉 米饭 苹果 水果 书 学校 学生 老师 钱
+衣服 鞋 房子 房间 商店 汽车 公共汽车 医院 医生
+大 小 多 少 长 短 高 低 新 旧 快 慢 远 近 冷 热
+""".split())
+USEFUL_SENSES = set("""
+欢迎 你好 您好 谢谢 再见 请 对不起 不客气 学习 去年 今年 明年
+上午 下午 晚饭 早饭 中饭 课本 读书 同学 课堂 教室 课
+问 答 回答 认识 了解 爷爷 奶奶 姐姐 哥哥 弟弟 妹妹
+丈夫 妻子 儿子 女儿 名字 名称 生日 姓 宾客 客人
+东西 物品 水果 蔬菜 肉 牛奶 面条 拉面 抓饭 鸡蛋 饺子
+饭店 餐馆 厨师 美味 好吃 饿 渴 甜 酸 咸
+价格 便宜 贵 工厂 市场 公交 地铁 火车 出租车 自行车
+路 道路 左 右 里面 外面 上面 下面 前面 后面 旁边 中间
+容易 困难 能 可以 应该 开始 结束 停止 继续 见面 回来 出去
+健康 身体 耳朵 眼睛 鼻子 嘴 手 脚 头 脸 发烧 生病 感冒
+天气 下雨 雪 风 太阳 月亮 花 树 草 河 山
+电脑 手机 电话 电视 网络 颜色 黑色 白色 红色 蓝色 黄色
+""".split())
+# Short grammatical terms are often high-frequency but poor standalone
+# visual concepts; retain them, without assigning fabricated CEFR labels.
+GRAMMAR_CUES = ("助词","语气词","代词","副词","后缀","词尾","语法","介词","连词")
+FORMAL_CUES = (
+    "主义","哲学","物理","化学","医学","文学","艺术","思想","理论","学术",
+    "制度","国家","社会","经济","政治","科技","政策","法律","民族",
+    "学位","学科","自治区","官员","历史","文献","论文","翻译","图书馆",
+    "宗教","组织","机构","协会","科研","农业","工业","公民","国际",
+)
+PROPER_CUES = ("男名","女名","人名","（姓","地名","人名","地理名称")
+ADVANCED_PHRASE_CUES = ("成语","熟语","比喻","谚语","俗语","方言","古语")
+
+def learning_senses(text: str) -> list[str]:
+    text = re.sub("[①②③④⑤⑥⑦⑧⑨⑩]", "；", text)
+    return [x.strip(" ！？。．；,，、：:") for x in re.split(r"[；;,，、／/]", text)
+            if x.strip(" ！？。．；,，、：:")]
+
+def learning_topic(row: dict) -> str:
+    gloss = "／".join(row["senses"])
+    uy = row["uy"]
+    terms = learning_senses(gloss)
+    if any(re.fullmatch(r"[零一二三四五六七八九十百千万两]+", t) for t in terms):
+        return "number"
+    if any(x in gloss for x in ("爸爸","妈妈","父亲","母亲","爷爷","奶奶","亲戚","哥哥","姐姐","弟弟","妹妹","朋友","家庭","儿子","女儿")):
+        return "family"
+    if any(x in gloss for x in ("吃","喝","饭","菜","馕","面","肉","水果","水","茶","饼","包子","厨房","餐","馄饨","烤")):
+        return "food"
+    if any(x in gloss for x in ("今天","明天","昨天","早上","晚上","小时","分钟","日子","星期","一年","月份","时候","时间")):
+        return "time"
+    if any(x in gloss for x in ("学校","学生","老师","课","读","写","学习","教授","书","考试","字母","词语")):
+        return "education"
+    if any(x in gloss for x in ("公交","汽车","火车","交通","机场","飞机","公路","走","车站","路","旅行","旅馆")):
+        return "travel"
+    if any(x in gloss for x in ("天气","植物","动物","鸟","山","河","湖","树","花","风","雨","雪")):
+        return "nature"
+    if uy.endswith("-"):
+        return "action"
+    if any(x in gloss for x in ("政府","工作","公司","工业","机构","社会","政治","职业","研究","经济")):
+        return "formal"
+    return "daily"
+
+def learning_difficulty(row: dict) -> tuple[int, int]:
+    """Heuristic rank: basic use first, complex/rare/proper names later.
+
+    No independent Uyghur frequency corpus or expert CEFR labels are claimed.
+    Sorting ties by source sequence makes re-builds deterministic.
+    """
+    uy = row["uy"]
+    zh = " ／ ".join(row["senses"])
+    meanings = learning_senses(zh)
+    source_seq = row["seq"]
+    if uy in CORE_RANK:
+        return (-10000 + CORE_RANK[uy], source_seq)
+
+    letters = len(re.findall(r"[\u0600-\u06ff]", uy))
+    token_count = len(uy.split())
+    # Long compound expressions are substantially more difficult to memorize.
+    score = 90 + letters * 2.0 + max(0, token_count - 1) * 20
+    score += (len(meanings) - 1) * 2.5
+    if uy.endswith("-"):
+        score -= 7 # stems of everyday verbs are useful early
+    if any(m in COMMON_SENSES for m in meanings):
+        score -= 75
+    elif any(m in USEFUL_SENSES for m in meanings):
+        score -= 47
+    if any(m in zh for m in PROPER_CUES):
+        score += 170
+    if any(m in zh for m in ADVANCED_PHRASE_CUES):
+        score += 90
+    if any(x in zh for x in FORMAL_CUES):
+        score += 33
+    if any(x in zh for x in GRAMMAR_CUES):
+        score += 26
+    # Proper-noun descriptions and literary quotations require contexts.
+    if "《" in zh or "»" in uy or "«" in uy:
+        score += 110
+    if any(ch.isdigit() for ch in uy):
+        score += 45
+    if len(zh) > 45:
+        score += 20
+    return (int(score * 10), source_seq)
+
+def interleave_learning_topics(rows: list[dict], window: int = 36) -> list[dict]:
+    """Mix topic buckets locally while keeping overall difficulty progression."""
+    from collections import defaultdict
+    mixed = []
+    for start in range(0, len(rows), window):
+        chunk = rows[start:start + window]
+        buckets = defaultdict(list)
+        for row in chunk:
+            buckets[learning_topic(row)].append(row)
+        last = None
+        while any(buckets.values()):
+            available = [(len(v), k) for k, v in buckets.items() if v]
+            # Prefer the biggest topic bucket but avoid immediate repetitions.
+            available.sort(key=lambda t: (-t[0], t[1]))
+            topic = next((k for _, k in available if k != last), available[0][1])
+            mixed.append(buckets[topic].pop(0))
+            last = topic
+    return mixed
+
+def order_learning_path(dataset: list[dict]) -> list[dict]:
+    ranked = sorted(dataset, key=learning_difficulty)
+    # Six equal-width pedagogical tiers, not six alphabetical segments.
+    # Do NOT mix across tier boundaries; difficulty must remain monotonic.
+    sizes = [len(ranked) // 6 + (1 if i < len(ranked) % 6 else 0)
+             for i in range(6)]
+    out = []
+    start = 0
+    for size in sizes:
+        out.extend(interleave_learning_topics(ranked[start:start + size]))
+        start += size
+    assert len(out) == len(dataset)
+    assert {r["seq"] for r in out} == {r["seq"] for r in dataset}
+    return out
+
 def main():
     if not (ROOT / "src/store/session.ts").exists():
         raise RuntimeError("Expected actual Word Atlas source in upstream/")
@@ -87,6 +350,9 @@ def main():
     dataset=list(grouped.values())
     if len(dataset)!=1813:
         raise RuntimeError(f"Expected 1813 unique written forms from 1817 reviewed rows; got {len(dataset)}")
+    # Preserve tbXXXX card IDs so prior study scores, bookmarks and review
+    # scheduling in iPhone Safari remain attached to the SAME words.
+    dataset=order_learning_path(dataset)
     safe_count=len(dataset)
     topics_cues=[
         ("education",("学校","学生","教师","教育","老师","课程","课本","教室","课堂","作业","大学","毕业","学期","考试","知识","班级","图书馆","学习")),
@@ -129,7 +395,7 @@ def main():
         if not latin:raise RuntimeError(f"Missing ULY transliteration for {uy}")
         topic=inferred_topic(joined)
         wid=f"tb{row['seq']:04d}"
-        # These six bins follow the textbook appendix order, NOT a CEFR rating.
+        # Six equal-sized tiers in estimated daily usefulness/difficulty order.
         level=min(5, i*6//len(dataset))
         if topic not in topics:topic="daily"
         index_rows.append([wid,uy,joined,latin,level,topics.index(topic),32])
@@ -179,16 +445,31 @@ def main():
     # Insert a plain-language notice without replacing original page layout.
     patch("src/pages/Today.tsx",
           '<header className="greet">',
-          '<div style={{padding:"12px 16px",marginBottom:16,borderRadius:12,background:"var(--surface, #f5f0e5)",fontSize:13,lineHeight:1.6}} role="note">已导入1,817条教材逐条复核记录；4组同形异义合并成1,813张词卡。4条未决词单独保留、暂不背诵。分组按附录原表顺序，并非CEFR语言等级。</div>\n      <header className="greet">')
+          '<div style={{padding:"12px 16px",marginBottom:16,borderRadius:12,background:"var(--surface, #f5f0e5)",fontSize:13,lineHeight:1.6}} role="note">已导入1,817条教材逐条复核记录；4组同形异义合并成1,813张词卡。4条未决词单独保留、暂不背诵。六组按常用程度与难度估计排序，同组穿插话题；不是官方CEFR评级。</div>\n      <header className="greet">')
 
-    # The original lesson appendix is ordered alphabetically. Stages below
-    # follow original order, NOT standardized CEFR ability estimates.
+    # Emulate the original easy-to-hard path, but DO NOT claim Uyghur CEFR certification.
     patch("src/pages/Today.tsx",
           "学习路线 · 从 A1 到 C2",
-          "教材词库 · 按附录原表顺序分六组")
+          "学习路线 · 按实用与难度分六组")
     patch("src/pages/Today.tsx",
           'const NAMES = ["入门", "基础", "进阶", "中高", "高级", "精通"];',
-          'const NAMES = ["附录1", "附录2", "附录3", "附录4", "附录5", "附录6"];')
+          'const NAMES = ["入门", "基础", "日常", "拓展", "进阶", "专题"];')
+    # Daily lesson target: keep all existing choices and add 100.
+    # The setting parser already accepts integers from 0 to 100.
+    patch("src/pages/Me.tsx",
+          "[5, 10, 15, 20, 30].map((n) => (",
+          "[5, 10, 15, 20, 30, 100].map((n) => (")
+    # Wrapping lets the 100-word button be visible on iPhone Safari.
+    patch("src/pages/Me.tsx",
+          '<Field label="每日新词" hint="复习不设上限，算法只安排快要遗忘的词。">\n            <div className="segmented">',
+          '<Field label="每日新词" hint="每天最多可选100个新词；到期复习另算。">\n            <div className="segmented" style={{flexWrap:"wrap",borderRadius:16}}>')
+    patch("src/pages/Onboarding.tsx",
+          "[5, 10, 15, 20].map((n) => (",
+          "[5, 10, 15, 20, 30, 100].map((n) => (")
+    patch("src/pages/Onboarding.tsx",
+          '<div className="segmented segmented-wide">',
+          '<div className="segmented segmented-wide" style={{flexWrap:"wrap",borderRadius:16}}>')
+
     patch("src/pages/Today.tsx",
           "按雅思话题探索", "按词义辅助归类")
     patch("src/pages/Today.tsx",
