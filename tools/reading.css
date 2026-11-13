@@ -88,3 +88,6 @@
 
 /* Five compact mobile tabs after adding the book room. */
 .tabbar{grid-template-columns:repeat(5,minmax(0,1fr))}
+
+/* Provisional examples must not look indistinguishable from reviewed text. */
+.ex-quality{display:block;margin:7px 0 2px;color:var(--ink-3);font-size:11px;line-height:1.6;font-style:normal;letter-spacing:.01em}
