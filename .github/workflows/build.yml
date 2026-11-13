@@ -61,6 +61,25 @@ jobs:
           assert len(deferred)==4 and all(row['教材词形'] not in expected_by_form for row in deferred)
           print('Verified source fidelity:',len(source),'source entries,',len(entries),'study cards,',len(deferred),'deferred')
           PY
+      - name: Restore licensed illustrations that match textbook definitions
+        run: python3 tools/add_illustrations.py
+      - name: Validate image flags, files, and original content attribution
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import json
+          root=Path('upstream/public/atlas')
+          idx=json.loads((root/'index.json').read_text('utf8'))
+          assert idx['count']==1813
+          mapped=[w for w in idx['words'] if w[6]&1]
+          assert len(mapped)==idx['illustrated']
+          for row in mapped:
+            for name in ('img','thumb'):
+              assert (root/name/(row[0]+'.webp')).stat().st_size>1000
+          assert (root/'image-attributions.json').is_file()
+          print('LICENCED_IMAGE_MATCH_COUNT',len(mapped),flush=True)
+          PY
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
