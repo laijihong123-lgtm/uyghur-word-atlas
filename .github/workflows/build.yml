@@ -105,6 +105,17 @@ jobs:
               assert e['m']&1,e['id']
           print('FULL_PICTURE_COVERAGE',len(mapped),'FAST_NEW',fast['count'],flush=True)
           PY
+      - name: Generate optional real Uyghur TTS pilot audio (first 60 cards)
+        continue-on-error: true
+        timeout-minutes: 30
+        env:
+          UYGHUR_TTS_LIMIT: "60"
+          HF_HUB_DISABLE_TELEMETRY: "1"
+        run: |
+          sudo apt-get install -y -qq ffmpeg > /dev/null
+          python3 -m pip install --quiet torch==2.4.1 --index-url https://download.pytorch.org/whl/cpu
+          python3 -m pip install --quiet transformers==4.44.2 'numpy<2'
+          python3 tools/generate_mms_audio.py
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
