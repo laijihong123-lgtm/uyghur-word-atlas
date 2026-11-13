@@ -586,8 +586,8 @@ def main():
     missing=[r for r in idx["words"] if not (r[6]&1)]
     existing=sum(bool(r[6]&1) for r in idx["words"])
     print("FAST_BEFORE",existing,"MISSING",len(missing),"TOTAL",idx["count"],flush=True)
-    if idx["count"]!=1813 or not 900<=len(missing)<=1000:
-        raise RuntimeError("Expected approximately 952 missing textbook cards; refusing to change unexpected catalog")
+    if idx["count"]!=1813 or existing<800 or len(missing)>1013:
+        raise RuntimeError("Original-image import did not cover the expected textbook cards")
     candidates={r[0]:mark_concept(r[2]) for r in missing}
     icon_imgs=load_icons(candidates)
     generated=[]
@@ -620,7 +620,7 @@ def main():
                     "icon_license":"Lucide ISC",
                     "icon_source":"https://github.com/lucide-icons/lucide",
                     "items":generated},ensure_ascii=False,indent=2),"utf8")
-    # A preview grid supports quality checking without opening 952 files.
+    # A preview grid supports quality checking without opening every fallback file.
     preview=Image.new("RGB",(384*4,384*4),(255,246,231))
     for n,row in enumerate(missing[:16]):
         with Image.open(ATLAS/"img"/(row[0]+".webp")) as card:
