@@ -106,7 +106,7 @@ def main():
            '  const saved = useStore((s) => s.progress.bookmarks.includes(entry.id));',
            '  const saved = useStore((s) => s.progress.bookmarks.includes(entry.id));\n'
            '  const savedExamples = useStore((s) => s.progress.exampleBookmarks);')
-    change("src/ui/EntryView.tsx", '"雅思语境" : "日常"', '"补充例句" : "日常"')
+    change("src/ui/EntryView.tsx", '"维语语境" : "日常"', '"补充例句" : "日常"')
     change("src/ui/EntryView.tsx", '<p className="ex-en" lang="en">', '<p className="ex-en" lang="ug" dir="rtl">')
     change("src/ui/EntryView.tsx", '                  <p className="ex-zh">{x.zh}</p>',
            '                  {x.uly && <p className="ex-uly" dir="ltr">{x.uly}</p>}\n'
