@@ -115,6 +115,9 @@ def main():
            '                    aria-pressed={savedExamples.includes(entry.id + ":" + i)} aria-label={savedExamples.includes(entry.id + ":" + i) ? "取消收藏例句" : "收藏例句"}>\n'
            '                    {savedExamples.includes(entry.id + ":" + i) ? "♥ 已收藏" : "♡ 收藏例句"}\n'
            '                  </button>')
+    change("src/pages/About.tsx",
+           "不提供未经核实的维语录音和例句。",
+           "现增补6篇维语入门短文和部分学习例句，尚未由母语者逐句审校；句子不提供语音朗读。")
     print("READING_ROOM_READY",len(readings),"stories",sum(len(x["lines"]) for x in readings),"sentences",len(examples),"word-linked examples", flush=True)
 
 if __name__ == "__main__":
