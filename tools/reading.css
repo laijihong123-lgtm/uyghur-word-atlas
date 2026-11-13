@@ -85,3 +85,6 @@
  .uy-reader-lines li,.uy-room-example{padding:18px 15px}
  .uy-reader-quiz{padding:17px}
 }
+
+/* Five compact mobile tabs after adding the book room. */
+.tabbar{grid-template-columns:repeat(5,minmax(0,1fr))}
