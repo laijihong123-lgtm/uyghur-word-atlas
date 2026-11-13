@@ -283,12 +283,8 @@ self.addEventListener("activate", (event) => {
 });
 """, "utf-8")
     patch("src/main.tsx",
-          'if (import.meta.env.PROD && "serviceWorker" in navigator) {\n'
-          '  window.addEventListener("load", () => {\n'
-          '    navigator.serviceWorker.register(\`\${import.meta.env.BASE_URL}sw.js\`).catch(() => null);\n'
-          '  });\n'
-          '}',
-          '// Service worker disabled: avoid stale/offline cache failures on Safari.')
+          "if (import.meta.env.PROD && \"serviceWorker\" in navigator) {\n  window.addEventListener(\"load\", () => {\n    navigator.serviceWorker.register(`${import.meta.env.BASE_URL}sw.js`).catch(() => null);\n  });\n}",
+          "// Service worker disabled: avoid stale/offline cache failures on Safari.")
     for name in ("manifest.json","manifest.webmanifest"):
         f = ROOT/"public"/name
         if f.exists():
