@@ -267,6 +267,40 @@ def main():
     patch("src/pages/Learn.tsx",
           'className="headword" lang="en"', 'className="headword" lang="ug" dir="rtl"')
 
+    # Show ULY on catalog tiles, in lists, and in search.
+    patch("src/pages/Atlas.tsx",
+          'const rowH = cell + (width < 560 ? 62 : 74) + gap;',
+          'const rowH = cell + (width < 560 ? 84 : 96) + gap;')
+    patch("src/pages/Atlas.tsx",
+          '''<span className="tile-word" lang="en">
+                 {w.word}
+               </span>''',
+          '''<span className="tile-word" lang="ug" dir="rtl">
+                 {w.word}
+               </span>
+               <span className="tile-uly" lang="ug-Latn">{w.ipa}</span>''')
+    patch("src/pages/Atlas.tsx",
+          'className="row-word" lang="en"',
+          'className="row-word" lang="ug" dir="rtl"')
+    patch("src/ui/Palette.tsx",
+          'else if (word.includes(q)) score = 200 - word.indexOf(q) - word.length;',
+          '''else if (word.includes(q)) score = 200 - word.indexOf(q) - word.length;
+      else if (w.ipa.toLowerCase() === q) score = 950;
+      else if (w.ipa.toLowerCase().startsWith(q)) score = 450 - w.ipa.length;
+      else if (w.ipa.toLowerCase().includes(q)) score = 150 - w.ipa.length;''')
+    patch("src/ui/Palette.tsx",
+          'placeholder="搜索英文或中文，例如 serendipity / 环境"',
+          'placeholder="搜索维语、拉丁转写或中文，例如 apa / 母亲"')
+    patch("src/ui/Palette.tsx",
+          'className="palette-word" lang="en"',
+          'className="palette-word" lang="ug" dir="rtl"')
+    patch("src/ui/Palette.tsx",
+          '<span className="palette-zh">{w.zh}</span>',
+          '<span className="palette-zh">{w.ipa} · {w.zh}</span>')
+    patch("src/ui/Palette.tsx",
+          '支持英文前缀与中文释义搜索',
+          '支持维吾尔文、ULY 转写与中文释义搜索')
+
     # Small targeted branding changes, leaving original React UI, WebGL, and FSRS untouched.
     for file in list((ROOT / "src").rglob("*.tsx")):
         s = file.read_text("utf-8")
