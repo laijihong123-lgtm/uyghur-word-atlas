@@ -33,6 +33,10 @@ ULY = {
     "م":"m", "ن":"n", "ھ":"h", "ۋ":"w",
 }
 ULY_VOWELS = set("اەوۇۆۈېى")
+# Unicode Uyghur punctuation is not a letter: convert to Latin punctuation.
+# The graded readings contain U+061F (Arabic question mark); without this
+# branch to_uly() raises ValueError and blocks the entire Pages deployment.
+ULY_PUNCT = {"؟": "?", "،": ",", "؛": ";", "۔": "."}
 
 def to_uly(value: str) -> str:
     """Convert textbook Uyghur spelling to ULY; preserve spaces and marks."""
@@ -45,7 +49,9 @@ def to_uly(value: str) -> str:
             continue
         if ch in ULY:
             out.append(ULY[ch])
-        elif "\u0600" <= ch <= "\u06ff" and ch != "؛":
+        elif ch in ULY_PUNCT:
+            out.append(ULY_PUNCT[ch])
+        elif "\u0600" <= ch <= "\u06ff":
             raise ValueError(f"Missing ULY mapping U+{ord(ch):04X} in {value!r}")
         else:
             out.append(ch)
