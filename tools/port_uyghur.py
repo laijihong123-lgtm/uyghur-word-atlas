@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Overlay vetted-candidate Uyghur data on the ORIGINAL designfuchen/word-atlas source.
 Does not machine-translate an English corpus. Fails if upstream patch anchors change.
-The 46 starter entries are preliminary references, NOT native-speaker certified.
+This user-reviewed textbook table contains 1817 study rows; four homograph pairs merge into 1813 cards.
 """
 from __future__ import annotations
 import json
@@ -136,8 +136,7 @@ def main():
         'async function speak(url: string | null | undefined, _text: string, _accent: "uk" | "us", rate: number)')
     audio_path.write_text(audio,"utf-8")
 
-    # The original FSRS implementation is unchanged; only source-eligibility
-    # filtering is added. A dictionary entry is NOT a verified memorization item.
+    # Original FSRS memory scheduling is retained; only reviewed textbook cards are imported.
     patch("src/store/session.ts",
           'if (w.cefr < from || p.cards[w.id] || out.includes(w.id)) continue;',
           'if (!(w.media & 32) || w.cefr < from || p.cards[w.id] || out.includes(w.id)) continue;')
@@ -150,7 +149,26 @@ def main():
     # Insert a plain-language notice without replacing original page layout.
     patch("src/pages/Today.tsx",
           '<header className="greet">',
-          '<div style={{padding:"12px 16px",marginBottom:16,borderRadius:12,background:"var(--surface, #f5f0e5)",fontSize:13,lineHeight:1.6}} role="note">词库已有 2,000 条可搜索的词目，但其中约 1,954 条中文释义仍在审校，暂不参与背诵测验。系统仅安排多来源交叉参考的基础词进入每日复习，避免把候选译义当作标准答案。</div>\n      <header className="greet">')
+          '<div style={{padding:"12px 16px",marginBottom:16,borderRadius:12,background:"var(--surface, #f5f0e5)",fontSize:13,lineHeight:1.6}} role="note">已导入1,817条教材逐条复核记录；4组同形异义合并成1,813张词卡。4条未决词单独保留、暂不背诵。分组按附录原表顺序，并非CEFR语言等级。</div>\n      <header className="greet">')
+
+    # The original lesson appendix is ordered alphabetically. Stages below
+    # follow original order, NOT standardized CEFR ability estimates.
+    patch("src/pages/Today.tsx",
+          "学习路线 · 从 A1 到 C2",
+          "教材词库 · 按附录原表顺序分六组")
+    patch("src/pages/Today.tsx",
+          'const NAMES = ["入门", "基础", "进阶", "中高", "高级", "精通"];',
+          'const NAMES = ["附录1", "附录2", "附录3", "附录4", "附录5", "附录6"];')
+    patch("src/pages/Today.tsx",
+          "按雅思话题探索", "按词义辅助归类")
+    patch("src/pages/Today.tsx",
+          'const list = pool.length ? pool : atlas.words;',
+          'const list = pool.length ? pool : atlas.words.filter((w) => !w.word.endsWith("-"));')
+    # Verb stems end in a source-notation dash. They should be meaning-only
+    # questions rather than asking students to spell a hyphen as a letter.
+    patch("src/pages/Practice.tsx",
+          "return ids.filter((id) => atlas.byId.has(id));",
+          'return ids.filter((id) => !!atlas.byId.get(id) && !atlas.byId.get(id)!.word.endsWith("-"));')
 
     # Keep original FSRS scheduler; adjust question selection only when no media exists.
     file = ROOT / "src/store/session.ts"
@@ -164,7 +182,7 @@ def main():
   const c = p.cards[ref.id];
   const roll = hashSeed(ref.id + salt) % 100;
   // No image or Uyghur voice; retain meaning choice and optionally spelling.
-  return s.spell && !!c && (c.s >= 4 || roll < 35) ? "spell" : "meaning";
+  return !ref.word.endsWith("-") && s.spell && !!c && (c.s >= 4 || roll < 35) ? "spell" : "meaning";
 }"""
     s = s[:match.start()] + newkind + s[match.end():]
     s = s.replace('import { MEDIA } from "../atlas/types";\n','')
@@ -174,7 +192,7 @@ def main():
         raise RuntimeError("Question retry logic changed upstream.")
     s = s.replace(retry,
         '        const ref = atlas.byId.get(step.id)!;\n'
-        '        const kind: QuizKind = step.kind === "meaning" && settings.spell ? "spell" : "meaning";')
+        '        const kind: QuizKind = step.kind === "meaning" && settings.spell && !ref.word.endsWith("-") ? "spell" : "meaning";')
     file.write_text(s,"utf-8")
 
     # No 'listen' or picture/cloze cards with absent Uyghur recordings / examples.
@@ -216,20 +234,20 @@ def main():
     for old, new in [
         ("一词一画，点亮雅思。", "维语词光 · 用词汇点亮星图。"),
         ("词光把雅思阅读 8000 词整理成 {atlas.count.toLocaleString()} 个词条。每个词一幅原创插画，一句日常例句，一句雅思例句，配英美发音、常用搭配和易混提示。学会一个，就在你的星图上点亮一颗星。",
-         "本版基于原版 Word Atlas 开源代码改造，目前收录 {atlas.count.toLocaleString()} 条维语词目，尚未经语言专家全面终审。其中多来源核对的基础词可以参加背诵，其他词条暂供查词审校，不能当作最终译义。暂无真实维语音频、逐词插画和审校例句。"),
+         "本版采用用户提供的维吾尔语教材逐条复核词表：原表1,817条背诵记录，合并4组同形异义后是 {atlas.count.toLocaleString()} 张词卡，全部可以进行学习与复习。原表另有4条未决词已排除；不生成未经核实的录音、音标、例句和插画。"),
         ("它免费、开源、无需注册。代码用 MIT，词库用 CC BY 4.0，谁都可以拿去用。",
          "程序保留原版 MIT 代码许可；原版素材与内容许可证另行适用。学习进度存于本机浏览器。"),
         ("每个词都有一幅画，画的就是第一句例句里发生的事。",
-         "按照维文、中文释义和转写提示学习，不把英语插画误认成维语词义。"),
+         "按教材复核版维文和中文释义学习，不生成没有依据的拉丁转写或英语发音。"),
         ("选义、看图补句、听音辨词、拼写，从认得走到会写。",
          "先认出词义，再进行维语拼写；无可靠维语音源时不开启听音题。"),
         ("释义、例句、搭配和提示由大语言模型按统一的词典规范重新撰写；插画由图像模型按统一画风逐词绘制；发音和朗读由 ElevenLabs 合成（英音 Alice，美音 Sarah）。所有内容都经过结构和一致性的自动校验，但没有逐条人工审校。看到错的地方，欢迎在 GitHub 提 Issue，或者直接改数据提 PR。",
-         "此版本的维语词汇是从公开资料交叉参考的候选词中选取，尚未完成维吾尔语母语专家逐词终审，因此请结合可靠词典复核。没有使用英文配音充当维语配音，也未编造例句。"),
+         "本版直接采用用户上传的《维吾尔语词表_逐条复核版.xlsx》中「背诵词表」的全部1,817条记录，逐条保留原书页码及原表序号。网站没有再次独立进行维语母语专家终审，也没有用英语配音或机器生成语音充当维语发音。"),
         ("词光不是官方雅思词表，也不承诺提分。它只想把背单词这件事，做得好看一点、扎实一点。",
-         "此版本不代表高校辅导员招聘官方词汇要求。现有候选词库不是2,000条全部专业审定的背诵题库；未经核对的释义不参与自动测验。"),
-        ("data/word-atlas.json", "data/words.txt"),
+         "这是你提供的教材附录词库，并非高校辅导员招聘考试官方词表。教材中未决的4条词组不进入学习；以后可根据可靠来源另行扩展岗位专项词。"),
+        ("data/word-atlas.json", "data/textbook_reviewed.tsv"),
         ("和 <code>.csv</code> 是完整词库；<code>public/atlas</code> 里是网页用的分块数据、插画和音频。拿去做 Anki 牌组、背词小程序、浏览器插件，或者 AI 应用的评测集，署名即可。",
-         "是维语候选词列表；网页构建时自动生成 <code>public/atlas</code> 词库索引与词条。请保留上游项目与内容来源的版权信息。"),
+         "是本版唯一词库来源；网页构建时生成 <code>public/atlas</code> 词库索引和分块词条。词义及维文未经擅自改写。请保留原版 Word Atlas 源码署名。"),
     ]:
         if old not in about:
             raise RuntimeError(f"Upstream About page changed: {old[:25]}")
@@ -243,7 +261,7 @@ def main():
     s = html.read_text("utf-8").replace("词光 Word Atlas","维语词光 Uyghur Atlas").replace(
         "雅思","维语")
     s = re.sub(r'(<meta name="description" content=")[^"]*',
-               lambda m: m.group(1)+"2,000条维语候选词可查询；仅多来源对照词进入学习。基于 Word Atlas 开源代码，无英语假发音。",s)
+               lambda m: m.group(1)+"教材逐条复核词表1,817条学习记录，合并为1,813张词卡；4条暂缓背诵。基于开源 Word Atlas。",s)
     s = re.sub(r'(<meta property="og:description" content=")[^"]*',
                lambda m: m.group(1)+"维语词光：基于开源 Word Atlas 改造的维语学习实验版本。",s)
     s = s.replace("https://0xlei.tech/words/brand/og-card.jpg",
@@ -288,9 +306,9 @@ self.addEventListener("activate", (event) => {
         "Original project: https://github.com/designfuchen/word-atlas\n"
         "Original source/illustrations have separate licensing terms.\n"
         "This build excludes English word audio and original English illustrations.\n"
-        "There are 2,000 searchable candidate entries. Only the first 46 source-compared words are enabled for study. All dictionary-only Chinese senses are NOT language-expert validated.\n"
+        "User-provided reviewed textbook vocabulary: 1817 study records merged into 1813 cards. Four deferred words are excluded. No additional expert language review is claimed.\n"
         "Real Uyghur pronunciation is NOT provided.\n","utf-8")
-    print(f"Adaptation complete: {len(entries)} Uyghur entries, {safe_count} study-eligible, {focus_count} counselor candidates, "
+    print(f"Adaptation complete: {len(entries)} textbook cards from 1817 user-reviewed records, {safe_count} study-eligible, "
           "no English TTS/listening, original UI/FSRS/WebGL files retained.")
 
 if __name__ == "__main__":
