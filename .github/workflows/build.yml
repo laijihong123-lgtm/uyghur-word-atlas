@@ -95,6 +95,24 @@ jobs:
           PY
       - name: Add Uyghur graded reading room, linked examples and bookmarks
         run: python3 tools/add_reading.py
+      - name: Complete sentence coverage for all 1813 vocabulary cards
+        run: |
+          python3 tools/complete_examples.py
+          python3 - <<'PY'
+          from pathlib import Path
+          import json
+          root=Path('upstream/public/atlas')
+          idx=json.loads((root/'index.json').read_text('utf-8'))
+          entries=[e for p in sorted((root/'entries').glob('*.json'),key=lambda p:int(p.stem)) for e in json.loads(p.read_text('utf-8'))]
+          examples=json.loads((root/'examples.json').read_text('utf-8'))
+          assert len(entries)==idx['count']==1813
+          assert len({e['id'] for e in entries})==1813
+          assert all(e['ex'] and all(x['en'] and x['zh'] and x.get('uly') for x in e['ex']) for e in entries)
+          assert len(examples)==idx['examples']>=1813
+          assert len({x['wordId'] for x in examples})==1813
+          assert not any(x.get('source')=='word_mention' for x in examples if not x['ug'])
+          print('COMPLETE_SENTENCE_COVERAGE',len(entries),len(examples),flush=True)
+          PY
       - name: Restore licensed illustrations that match textbook definitions
         run: python3 tools/add_illustrations.py
       - name: Add six purpose-made Uyghur vocabulary illustrations
