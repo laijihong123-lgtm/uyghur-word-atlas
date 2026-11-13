@@ -37,13 +37,30 @@ jobs:
           test -s src/store/session.ts
           echo "Original source commit:"
           git rev-parse HEAD
-      - name: Generate source-backed 2000-word QA candidate database
+      - name: Validate and import user-reviewed textbook vocabulary
         shell: bash
         run: |
-          python3 -m pip install wordfreq==3.1.1 jieba==0.42.1
-          python3 tools/curate_2000.py
-      - name: Overlay graded Uyghur catalog and protected learning deck
-        run: python3 tools/port_uyghur.py
+          python3 tools/port_uyghur.py
+          python3 - <<'PY'
+          import csv, json
+          from pathlib import Path
+          source=list(csv.DictReader(open('data/textbook_reviewed.tsv',encoding='utf-8-sig'),delimiter='\t'))
+          idx=json.loads(Path('upstream/public/atlas/index.json').read_text(encoding='utf-8'))
+          entries=[]
+          for file in sorted(Path('upstream/public/atlas/entries').glob('*.json'),key=lambda p:int(p.stem)):
+            entries.extend(json.loads(file.read_text(encoding='utf-8')))
+          assert len(source)==1817 and len(entries)==1813
+          assert idx['count']==len(idx['words'])==len(entries)
+          expected_by_form={}
+          for row in source:
+            expected_by_form.setdefault(row['维吾尔语'],[]).append(row['中文释义'])
+          for e in entries:
+            assert [s['zh'] for s in e['senses']]==expected_by_form[e['w']], (e['w'],e['senses'])
+            assert not e['ex'] and e['m']==32
+          deferred=list(csv.DictReader(open('data/textbook_deferred.tsv',encoding='utf-8-sig'),delimiter='\t'))
+          assert len(deferred)==4 and all(row['教材词形'] not in expected_by_form for row in deferred)
+          print('Verified source fidelity:',len(source),'source entries,',len(entries),'study cards,',len(deferred),'deferred')
+          PY
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
