@@ -151,7 +151,7 @@ OBJECT = re.compile(r"衣服|鞋|帽|裤|袜|手套|毛衣|衬衣|制服|围巾|
 # appropriate noun. Do not put "flat" or "cold" as attributes of "a task".
 PROPERTY = re.compile(r"平坦|平整|宽|窄|长|短|高|矮|低|厚|薄|软|硬|冷|热|温暖|寒冷|干燥|潮湿|晴朗|碧绿|白色|黑色|红色|蓝色|黄色|卷曲|弯曲|尖锐")
 ADJECTIVE = re.compile(r"的|很|非常|优良|良好|丰富|独特|巨大|珍贵|严格|漂亮|美丽|洁净|牢固|安全|艰难|容易|困难|重要|强壮|柔和|柔软|崇高|温柔|强烈|严重|新鲜|整洁|聪明|勤奋|活泼|善良|公平|熟练|安静|清楚|清晰|有趣")
-FUNCTION = re.compile(r"介词|连词|语气词|助词|代词|副词|感叹词|问候语|语气|词尾|后缀|或者|要么|因为|所以|相反|同时|那样|这样|究竟|怎么|假如|虽然|如果|总之|但是|而且|即使|不仅|根据|按照|往北|往南|往东|往西|随着|无论|直到|稍微|尤其|逐渐|首先|接着|其次|从此|从前|过去|之前|以后|至于|只有|一方面|另一方面|所有|每一|每个|恰好|甚至|或多或少|好不容易|难得|有时|有时候|从头到尾|不一定|原来|已经|越来越|向|朝|把|被")
+FUNCTION = re.compile(r"介词|连词|语气词|助词|代词|副词|感叹词|问候语|语气|词尾|后缀|或者|要么|因为|所以|相反|同时|那样|这样|究竟|怎么|假如|虽然|如果|总之|但是|而且|即使|不仅|根据|按照|往北|往南|往东|往西|随着|无论|直到|稍微|尤其|逐渐|首先|接着|其次|从此|从前|过去|之前|以后|至于|只有|一方面|另一方面|所有|每一|每个|恰好|甚至|或多或少|好不容易|难得|有时|有时候|从头到尾|不一定|原来|已经|越来越|表示|指代|用于|位于前|状语|定语|一部分|给……|随即|与……|前后|副词性质|第……|对；针对")
 FUNCTION_ENDINGS = ("قاراپ","كېيىن","توغرىسىدا","ئۈچۈن","بىلەن","مۇ","بى","يا","دەپ","بولۇپ","ئاساسەن","كېلىپ","بېرىپ","چىقىپ","كەتكەندە","چاغدا","ھالدا")
 ANOMALOUS_ADJECTIVES = {"ئىنتايىن","ئىنتايىنمۇ","قەدىمكى","دورىلىق","تۈپتۈز","ئۆچمەس"}
 
@@ -198,15 +198,19 @@ def create_example(word, full_zh):
         return f"{word} بۈگۈن بىز بىلەن سۆزلەشتى.", f"{meaning}今天和我们交谈了。", "person_context"
     if PLACE.search(meaning) and len(word.split()) <= 5:
         return f"بىز {word} توغرىسىدا ئوقۇدۇق.", f"我们阅读了关于{meaning}的内容。", "place_context"
-    if PROPERTY.search(meaning) and len(word.split()) == 1:
+    if (PROPERTY.search(meaning) and len(word.split()) == 1
+        and not any(x in meaning for x in ("小说","长袍","年长","高等","高级","高贵","长时间","好久","期刊","短篇","抽象","生物","时间","行李","长期"))):
         if any(x in meaning for x in ("平坦","平整","宽","窄","长","短")):
             return f"بۇ يول {word}.", f"这条路{meaning}。", "property_context"
         if any(x in meaning for x in ("晴朗","白色","黑色","红色","蓝色","黄色","碧绿")):
             return f"بۇ گۈل {word}.", f"这朵花{meaning}。", "property_context"
         return f"بۇ ئۆي {word}.", f"这所房子{meaning}。", "property_context"
-    if FUNCTION.search(meaning) or any(word.endswith(x) for x in FUNCTION_ENDINGS):
+    if (FUNCTION.search(meaning) or any(word.endswith(x) for x in FUNCTION_ENDINGS)
+        or any(x in full_zh for x in ("语气","用在","表示","用于","充当","连接","介词","连词","代词","副词","助词","数词","表示强调","词尾","句末"))
+        or meaning in {"有的","每个","今天的","早上的","晚上的","高于","低于","有时","某些","以前","后来","此时","随时","对","针对","来着"}):
         return lexical(word, meaning)
-    if ADJECTIVE.search(meaning) and len(word.split()) == 1 and len(meaning) <= 18 and "（" not in meaning:
+    if (ADJECTIVE.search(meaning) and len(word.split()) == 1 and len(meaning) <= 18
+        and "（" not in meaning and not any(x in meaning for x in ("有的","某些","早上的","今天的","晚上的","安全；","保险","很多","十分","非常","极","很久","一些","某一个","不论","即使","昨天的","明天的"))):
         return f"بۇ ئىش {word}.", f"这件事{meaning.rstrip('的')}。", "quality_context"
     if OBJECT.search(meaning) and len(word.split()) <= 4:
         return f"بۇ {word} يېڭى.", f"这个{meaning}是新的。", "object_context"
