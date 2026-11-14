@@ -1,0 +1,21 @@
+[
+  {
+    "key": "G",
+    "title": "Engesæth, Yakup & Dwyer (2009), Greetings from the Teklimakan",
+    "url": "https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+    "scope": "教材结构参考；各行记录课次与语法判断，并不表示原创句子逐字来自教材。",
+    "sections": "L1名词句；L2形容词、元音升高；L3现在将来时、向格、处所；L4疑问否定；L5宾格、从格、复数；L6数词、时间、bilen；L7进行时；L8属格领属；L9动名词；L10存在、比较；L11过去时；L12情态；L13未完成过去时、使动；L14副动词、祈使；L15辅助动词。"
+  },
+  {
+    "key": "D",
+    "title": "Anatilim Uyghur–Chinese StarDict",
+    "url": "https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+    "scope": "独立词形、义项和搭配线索；只对确实查询过的词目引用，不证明整句地道性。"
+  },
+  {
+    "key": "U",
+    "title": "Nicholas Kontovas (2021), Reading Uyghur, §2 Table 1",
+    "url": "https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf",
+    "scope": "ULY字母对应及ë/é写法。此版统一ە=e、ې=ë，区分ن+گ与ڭ等复字母边界。"
+  }
+]

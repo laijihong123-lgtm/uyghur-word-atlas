@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-14",
+  "source_commit": "3a0f33c05c4957b234bbf30d42e37b85d0f533e4",
+  "records": 1840,
+  "wordCards": 1813,
+  "reviewedRecords": 1840,
+  "revisedRecords": 1552,
+  "revisedUyghur": 1454,
+  "revisedChinese": 1548,
+  "revisedULY": 1454,
+  "statusCounts": {
+    "AI逐条审校通过（非母语者审定）": 1678,
+    "待母语者复核": 162
+  },
+  "issueCounts": {
+    "未展示目标用法": 397,
+    "中文翻译": 426,
+    "搭配自然度": 974,
+    "语序": 50,
+    "词形变化": 32,
+    "拼写": 3,
+    "格后缀": 15,
+    "ULY转写": 6,
+    "不适合初学者": 122,
+    "时态人称": 6
+  },
+  "untouchedCardDataSHA256": "44170d5de7528275861ce77d3d9876a7ec8ab989f86d7f8f7959998d7d9a1005",
+  "indexSHA256": "0ffe71c11f95898dee25eb0f698ccff906a4782c2d9af8f9402b89479d231b02",
+  "method": "AI逐条阅读与语言判断，辅以词典和教材结构核对；非真人或母语专家审定。规则仅做完整性、ULY和身份一致性校验。",
+  "sentenceAudioGenerated": false
+}

@@ -1,0 +1,4635 @@
+[
+  {
+    "id": "tb1297:0",
+    "ug": "بۇ ئىش سىز بىلەن مۇناسىۋەتلىك.",
+    "zh": "这件事与您有关。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原句只说“这件事有关”却未说明关联对象，补足سىز بىلەن。",
+    "analysis": "مۇناسىۋەتلىك作形容词谓语，بىلەن短语表示关联对象。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L2形容词谓语；L6 bilen；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「مۇناسىۋەتلىك」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "مۇناسىۋەتلىك"
+  },
+  {
+    "id": "tb1298:0",
+    "ug": "بۇ كىيىم سىزگە مۇناسىپ.",
+    "zh": "这件衣服适合您。",
+    "issues": [
+      "中文翻译",
+      "搭配自然度"
+    ],
+    "reason": "原句把مۇناسىپ机械译成“成比例”，改用衣服合适的常用义。",
+    "analysis": "سىز+گە给出合适的对象；目标形容词作谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L2谓语；L3向格；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「مۇناسىپ」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "مۇناسىپ"
+  },
+  {
+    "id": "tb1299:0",
+    "ug": "مۇنچا قەيەردە؟",
+    "zh": "澡堂在哪里？",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "谈论浴池过于泛化，换为寻找澡堂的问句。",
+    "analysis": "مۇنچا作主语；قەيەردە询问处所。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L1名词句；L3处所格；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「مۇنچا」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "مۇنچا"
+  },
+  {
+    "id": "tb1300:0",
+    "ug": "مەن مۇنداق كىتابنى ياقتۇرىمەن.",
+    "zh": "我喜欢这样的书。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "原来只提及词形，改为مۇنداق直接修饰书。",
+    "analysis": "مۇنداق是指示性定语，كىتابنى为明确宾语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L1指示定语；L5宾格；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「مۇنداق」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "مۇنداق"
+  },
+  {
+    "id": "tb1301:0",
+    "ug": "مۇنداق چاغلاردا سەۋر قىلىش كېرەك.",
+    "zh": "这种时候需要耐心。",
+    "issues": [
+      "格后缀",
+      "搭配自然度"
+    ],
+    "reason": "已含处所格的时间短语不宜直接充当توغرىسىدا前的名词主题。",
+    "analysis": "چاغ+لار+دا构成时间状语；سەۋر قىلىش كېرەك表示需要耐心。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3处所格；L9动名词；L12必要；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "مۇنداق چاغلاردا"
+  },
+  {
+    "id": "tb1302:0",
+    "ug": "مۇنۇ كىتاب مېنىڭكى.",
+    "zh": "这本书是我的。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "改为近指词修饰实际名词，清楚展示“这个”。 第二轮将句末独立领属改为مېنىڭكى，避免把属格词当我的东西。",
+    "analysis": "مۇنۇ修饰كىتاب；表示独立的我的用مېنىڭ+كى→مېنىڭكى，不把属格مېنىڭ直接当名词化领属代词。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，第8课§4领属代词+ki，明确支持مېنىڭكى作为独立的我的；第1课指示词；非整句见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「مۇنۇ」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "مۇنۇ的地域、口语分布仍请母语者复核；句末改用教材第8课所列领属代词مېنىڭكى。",
+    "target_form": "مۇنۇ"
+  },
+  {
+    "id": "tb1303:0",
+    "ug": "بۇ مۇھەببەت ھەققىدىكى ھېكايە.",
+    "zh": "这是一个关于爱情的故事。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "改用介绍故事题材的情境，采用“爱情”义。",
+    "analysis": "مۇھەببەت ھەققىدىكى修饰ھېكايە；全句名词谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L1名词句；L10修饰性ki；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「مۇھەببەت」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "مۇھەببەت"
+  },
+  {
+    "id": "tb1304:0",
+    "ug": "مۇھىتنى ئاسراڭ.",
+    "zh": "请保护环境。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "以实际行为替代泛说谈论环境。",
+    "analysis": "مۇھىت+نى为确定宾语；ئاسراڭ是尊称祈使。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L5宾格；L14祈使；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「مۇھىت」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "مۇھىتنى"
+  },
+  {
+    "id": "tb1305:0",
+    "ug": "مۇھىتنى ئاسراش ھەممىمىزنىڭ مەسئۇلىيىتى.",
+    "zh": "保护环境是我们大家的责任。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "原句可懂但缺少短语在句中的作用，改为动名词短语作主语。",
+    "analysis": "ئاسراش是动名词；ھەممىمىزنىڭ与مەسئۇلىيىتى构成领属结构。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L8领属；L9动名词；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "مۇھىتنى ئاسراش"
+  },
+  {
+    "id": "tb1306:0",
+    "ug": "ئۇ مۇھىتنى بۇلغىدى.",
+    "zh": "他污染了环境。",
+    "issues": [
+      "词形变化"
+    ],
+    "reason": "بۇلغا-接过去时需末元音弱化，原بۇلغادى不规范。",
+    "analysis": "بۇلغا→بۇلغى+دى；مۇھىتنى保留宾格。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L2元音弱化；L11过去时；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "مۇھىتنى بۇلغىدى"
+  },
+  {
+    "id": "tb1307:0",
+    "ug": "بۇ ئىنتايىن مۇھىم ئىش.",
+    "zh": "这是一件非常重要的事。",
+    "issues": [],
+    "reason": "مۇھىم作ئىش的定语，程度副词和中文对应，无需改动。",
+    "analysis": "بۇ引出名词谓语；ئىنتايىن修饰مۇھىم。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L1名词句；L2程度副词；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「مۇھىم」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "مۇھىم"
+  },
+  {
+    "id": "tb1308:0",
+    "ug": "بۇ بىر مۆجىزە.",
+    "zh": "这是一个奇迹。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "直接判断奇迹，较“谈论奇迹”简短明确。",
+    "analysis": "بىر+名词为不定名词谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L1名词句；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「مۆجىزە」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "مۆجىزە"
+  },
+  {
+    "id": "tb1309:0",
+    "ug": "مۆمىن بۈگۈن كەلدى.",
+    "zh": "莫明今天来了。",
+    "issues": [],
+    "reason": "按词卡指定男名保留，来访事件及过去时相符。",
+    "analysis": "مۆمىن作人名主语；كەل+دى为第三人称过去时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L11过去时；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「مۆمىن」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "独立词典主要收录普通形容词义，未独立确认男名及汉译“莫明”。",
+    "target_form": "مۆمىن"
+  },
+  {
+    "id": "tb1310:0",
+    "ug": "مۈرەم ئاغرىۋاتىدۇ.",
+    "zh": "我的肩膀在疼。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "身体部位换为日常疼痛表述。",
+    "analysis": "مۈرە后接第一人称领属م，谓语ئاغرىۋاتىدۇ表示当前疼痛；具体领属元音另标待核。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L7进行体；L8领属；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「مۈرە」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "مۈرە在第一人称领属时的元音形式（مۈرەم/مۈرۈم）须母语者或规范词形表复核。",
+    "target_form": "مۈرەم"
+  },
+  {
+    "id": "tb1311:0",
+    "ug": "مېھمان بۈگۈن بىز بىلەن سۆزلەشتى.",
+    "zh": "客人今天和我们交谈了。",
+    "issues": [],
+    "reason": "客人为交谈主体合理，سۆزلەشتى及中文“交谈了”对应。",
+    "analysis": "بىز بىلەن为伴随短语；سۆزلەش+تى第三人称过去。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L6 bilen；L11过去时；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「مېھمان」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "مېھمان"
+  },
+  {
+    "id": "tb1312:0",
+    "ug": "بىز دوستۇمنىڭ ئۆيىگە مېھمانلىققا باردۇق.",
+    "zh": "我们去朋友家做客了。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "补出做客的目的向格，展示固定搭配مېھمانلىققا بار-。",
+    "analysis": "مېھمانلىق+قا表示目的；بار+دۇق第一人称复数过去时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3向格；L8领属；L11过去时；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "مېھمانلىققا"
+  },
+  {
+    "id": "tb1313:0",
+    "ug": "ئۇنىڭ مىجەزى ياخشى.",
+    "zh": "他脾气好。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "将脾气放入人物评价，采用性情义。",
+    "analysis": "ئۇنىڭ与مىجەز+ى呼应；ياخشى为谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L2形容词句；L8领属；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「مىجەز」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "مىجەزى"
+  },
+  {
+    "id": "tb1314:0",
+    "ug": "ئاسماندا مىژ-مىژ يۇلتۇزلار بار.",
+    "zh": "天空中有密密麻麻的星星。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "“这件事密密麻麻”主谓不搭，改为星星密集。",
+    "analysis": "مىژ-مىژ修饰يۇلتۇزلار；ئاسماندا为处所。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3处所；L10存在；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "未在独立词典直接匹配该叠词；词形与“星星密集”的搭配请母语者复核。",
+    "target_form": "مىژ-مىژ"
+  },
+  {
+    "id": "tb1315:0",
+    "ug": "مىس بىر خىل مېتال.",
+    "zh": "铜是一种金属。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "铜用简短材料分类句呈现，避免原泛谈及不必要的复杂被动态。",
+    "analysis": "مىس作主语，بىر خىل مېتال为类别名词谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L1名词谓语；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「مىس」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "مىس"
+  },
+  {
+    "id": "tb1316:0",
+    "ug": "بۇ يەردە مىڭ كىتاب بار.",
+    "zh": "这里有一千本书。",
+    "issues": [
+      "中文翻译"
+    ],
+    "reason": "数词与名词单数搭配正确，中文“一千”比“千”完整。",
+    "analysis": "مىڭ后كىتاب不加复数；بار为存在谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L6数词；L10存在；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「مىڭ」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "مىڭ"
+  },
+  {
+    "id": "tb1317:0",
+    "ug": "مەن مىڭ تەسلىكتە ئۆيگە قايتتىم.",
+    "zh": "我好不容易才回到家。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "用真实的费力回家情境替代词形提及。",
+    "analysis": "مىڭ تەسلىكتە整体作方式状语；قايت+تىم第一人称过去。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3向格；L11过去时；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「مىڭ تەسلىكتە」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "مىڭ تەسلىكتە"
+  },
+  {
+    "id": "tb1318:0",
+    "ug": "بىز مىڭ مېتىرچە ماڭدۇق.",
+    "zh": "我们走了大约一千米。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "距离数量短语应修饰走路，而非作为谈论对象。",
+    "analysis": "مېتىر+چە表示概数；ماڭ+دۇق第一人称复数过去。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L6数量；L11过去时；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "مىڭ مېتىرچە"
+  },
+  {
+    "id": "tb1319:0",
+    "ug": "بۇ بىنا مىلادىيە 1500-يىلى سېلىنغان.",
+    "zh": "这座建筑建于公元1500年。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "给出纪年环境，避免孤立谈论“公元”。",
+    "analysis": "مىلادىيە引出公历纪年；1500-يىلى为时间。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L6纪年与数字；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「مىلادىيە」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "مىلادىيە作纪年限定语的规范形式及سېلىنغان的被动态需母语者复核。",
+    "target_form": "مىلادىيە"
+  },
+  {
+    "id": "tb1320:0",
+    "ug": "بۇ ۋەقە مىلادى 2000-يىلى بولغان.",
+    "zh": "这件事发生于公元2000年。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "把公元放进完整年份表达中。",
+    "analysis": "مىلادى修饰纪年；يىل+ى组成时间表达。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L6数字与时间；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「مىلادى」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "مىلادى与مىلادىيە的书面规范差异及本句纪年搭配未获整句材料确认。",
+    "target_form": "مىلادى"
+  },
+  {
+    "id": "tb1321:0",
+    "ug": "سىز قايسى مىللەتتىن؟",
+    "zh": "您是哪个民族的？",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "以常见身份询问展示民族词的实际搭配。",
+    "analysis": "مىللەت+تىن为所属来源询问；قايسى为选择疑问。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L1疑问；L5从格；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「مىللەت」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "مىللەتتىن"
+  },
+  {
+    "id": "tb1322:0",
+    "ug": "ئۇ مىللىيچە كىيىندى.",
+    "zh": "他穿了民族服装。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原“这件事民族”错误；مىللىيچە更适合修饰穿戴方式。",
+    "analysis": "مىللىيچە作方式状语；كىيىن+دى为过去时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L2副词修饰；L11过去时；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "独立词典未直接匹配مىللىيچە，需确认该派生形式及其与كىيىن-的自然搭配。",
+    "target_form": "مىللىيچە"
+  },
+  {
+    "id": "tb1323:0",
+    "ug": "بۇ كىيىمدە مىللىي تۈس بار.",
+    "zh": "这件服装有民族特色。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "将民族特色与服装联系，具体可理解。",
+    "analysis": "كىيىم+دە表示承载处所；مىللىي تۈس是存在主体。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3处所；L10存在；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「مىللىي تۈس」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "مىللىي تۈس"
+  },
+  {
+    "id": "tb1324:0",
+    "ug": "بۇ تۈرگە بىر مىليارد يۈەن كېرەك.",
+    "zh": "这个项目需要十亿元。",
+    "issues": [
+      "不适合初学者"
+    ],
+    "reason": "原“这里有十亿本书”的数量场景失真，改为清楚的项目金额。",
+    "analysis": "بىر مىليارد是十亿；تۈرگە给出需要的项目，يۈەن为元。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L6大数；L3向格；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「مىليارد」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "مىليارد"
+  },
+  {
+    "id": "tb1325:0",
+    "ug": "ئۇ مىننەتدارلىق بىلدۈردى.",
+    "zh": "他表示了感谢。",
+    "issues": [
+      "中文翻译"
+    ],
+    "reason": "固定搭配及过去时正确，仅使中文语序自然。",
+    "analysis": "بىلدۈر+دى为第三人称过去，مىننەتدارلىق作不定宾语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L11过去时；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「مىننەتدارلىق بىلدۈرمەك」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "مىننەتدارلىق بىلدۈردى"
+  },
+  {
+    "id": "tb1326:0",
+    "ug": "بەش مىنۇت كۈتۈڭ.",
+    "zh": "请等五分钟。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "分钟与等待时长搭配，优于泛说谈论“分”。",
+    "analysis": "بەش مىنۇت为时量；كۈت+ۈڭ为尊称祈使。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L6时量；L14祈使；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「مىنۇت」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "مىنۇت"
+  },
+  {
+    "id": "tb1327:0",
+    "ug": "بۇ ئۆي ناچار.",
+    "zh": "这所房子很差。",
+    "issues": [
+      "中文翻译"
+    ],
+    "reason": "原中文“低劣的”缺谓语落点，维语形容词句可保留。",
+    "analysis": "ناچار直接作谓语，无须补“是”。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L2形容词谓语；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ناچار」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ناچار"
+  },
+  {
+    "id": "tb1328:0",
+    "ug": "ئۇ ناخشا ئېيتىدۇ.",
+    "zh": "他唱歌。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "采用ناخشا ئېيت-常见搭配。",
+    "analysis": "ناخشا作不定宾语；ئېيت+ى+دۇ为现在将来时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3现在将来时；L5宾语；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ناخشا」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ناخشا"
+  },
+  {
+    "id": "tb1329:0",
+    "ug": "مەن ناشتىلىق يېدىم.",
+    "zh": "我吃了早饭。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "在进餐情境使用早饭名词。",
+    "analysis": "ناشتىلىق为不定宾语；يە→يې+دىم是过去式。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L2元音变化；L11过去时；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ناشتىلىق」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ناشتىلىق"
+  },
+  {
+    "id": "tb1330:0",
+    "ug": "بۇ كىتابنىڭ نامى نېمە؟",
+    "zh": "这本书叫什么名字？",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "选择名称义并给出所属对象。",
+    "analysis": "كىتاب+نىڭ与نام+ى呼应；نېمە作疑问谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L1疑问；L8领属；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「نام」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "نامى"
+  },
+  {
+    "id": "tb1331:0",
+    "ug": "دادام ناماز ئوقۇيدۇ.",
+    "zh": "我爸爸做礼拜。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "采用名词与ئوقۇ-构成的礼拜搭配。",
+    "analysis": "ناماز ئوقۇ-非字面读书；ئوقۇ+ي+دۇ。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3现在将来时；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ناماز」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ناماز"
+  },
+  {
+    "id": "tb1332:0",
+    "ug": "ئۇ ناماز ئوقۇدى.",
+    "zh": "他/她做礼拜了。",
+    "issues": [],
+    "reason": "ناماز ئوقۇدى是做礼拜的固定搭配，非“读礼拜”，过去时无误。",
+    "analysis": "ئوقۇ+دى保留词干圆唇元音；第三人称无额外人称尾。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L11过去时；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ناماز ئوقۇماق」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ناماز ئوقۇدى"
+  },
+  {
+    "id": "tb1333:0",
+    "ug": "ئۇ بۇ ئەدەبىياتنىڭ نامايەندىسى.",
+    "zh": "他是这种文学的代表人物。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "为代表人物补出所属领域。",
+    "analysis": "ئەدەبىياتنىڭ与نامايەندە→نامايەندىسى呼应。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L8领属；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「نامايەندە」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "独立词典偏向体现/化身义，目标卡的代表人物义和本句领域搭配需母语者复核。",
+    "target_form": "نامايەندىسى"
+  },
+  {
+    "id": "tb1334:0",
+    "ug": "بىز بالىغا ئەلى دەپ نام بەردۇق.",
+    "zh": "我们给孩子取名阿里。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原“他称之为了”缺被命名者与名称，补全取名结构。",
+    "analysis": "بالىغا为命名对象向格；ئەلى دەپ给出名称；بەردۇق第一人称复数过去。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3向格；L11过去；L14副动词；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「نام بەرمەك」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "نام بەردۇق"
+  },
+  {
+    "id": "tb1335:0",
+    "ug": "مەن «ئانا» ناملىق كىتابنى ئوقۇدۇم.",
+    "zh": "我读了名为《母亲》的书。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "ناملىق必须依附名称并修饰名词，不能单说“这件事名为”。",
+    "analysis": "«ئانا» ناملىق作كىتاب的定语；كىتابنى为明确宾语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L1定语；L5宾格；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ناملىق"
+  },
+  {
+    "id": "tb1336:0",
+    "ug": "ئەتىگەندە مەن نان يەيمەن.",
+    "zh": "早晨我吃馕。",
+    "issues": [],
+    "reason": "يەيمەن为第一人称现在将来时，日常早餐与馕搭配自然。",
+    "analysis": "ئەتىگەندە时间状语；يە+ي+مەن表示习惯。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3现在将来；L6时间；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「نان」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "نان"
+  },
+  {
+    "id": "tb1336:1",
+    "ug": "بۇ نان ناھايىتى ياخشى.",
+    "zh": "这个馕非常好。",
+    "issues": [],
+    "reason": "好坏评价馕可成立，程度副词、指示词与中文相符。",
+    "analysis": "بۇ نان是主语；ناھايىتى修饰ياخشى谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L2形容词和程度副词；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「نان」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "نان"
+  },
+  {
+    "id": "tb1337:0",
+    "ug": "بۇ كىتاب ناھايىتى ياخشى.",
+    "zh": "这本书非常好。",
+    "issues": [],
+    "reason": "ناھايىتى放在ياخشى前，程度与“非常”对应。",
+    "analysis": "程度副词不变位，谓语为形容词ياخشى。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L2程度副词；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ناھايىتى」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ناھايىتى"
+  },
+  {
+    "id": "tb1338:0",
+    "ug": "بۇ ناھىيىلىك دوختۇرخانا.",
+    "zh": "这是县医院。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "“县的”不能孤立作讨论对象，改作医院的定语。",
+    "analysis": "ناھىيە派生ناھىيىلىك作所属级别形容词。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L1名词句；L6 +liK；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ناھىيىلىك"
+  },
+  {
+    "id": "tb1339:0",
+    "ug": "بۇ ناھىيە چوڭ.",
+    "zh": "这个县很大。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "给县以直接描述，简短展示名词。",
+    "analysis": "بۇ ناھىيە为主语；چوڭ为形容词谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L2形容词句；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ناھىيە」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ناھىيە"
+  },
+  {
+    "id": "tb1340:0",
+    "ug": "سىز نەدە تۇرىسىز؟",
+    "zh": "您住在哪里？",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原句的肯定中文与疑问词نە不合，改为地点询问。",
+    "analysis": "نە+دە→نەدە；تۇر+ى+سىز尊称现在将来时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3疑问地点格；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「نە」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "نەدە"
+  },
+  {
+    "id": "tb1341:0",
+    "ug": "ئىمتىھان نەتىجىسى ياخشى.",
+    "zh": "考试成绩很好。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "明确成绩所属考试，形成日常学习语境。",
+    "analysis": "نەتىجە→نەتىجىسى为第三人称领属；ياخشى作谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L8领属；L2谓语；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「نەتىجە」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "نەتىجىسى"
+  },
+  {
+    "id": "tb1342:0",
+    "ug": "ئۇ ياخشى نەتىجە ياراتتى.",
+    "zh": "他取得了好成绩。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "加ياخشى形成明确成绩评价，中文改为自然的“取得”。",
+    "analysis": "يارات+تى是清辅音后过去时；نەتىجە为不定宾语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L11过去时；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "نەتىجە ياراتتى"
+  },
+  {
+    "id": "tb1343:0",
+    "ug": "ھازىر سائەت نەچچە؟",
+    "zh": "现在几点了？",
+    "issues": [],
+    "reason": "نەچچە与سائەت构成问时间表达，原ULY的سائەت→sa'et正确。",
+    "analysis": "ھازىر为时间状语；سائەت نەچچە询问钟点。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L6报时；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「نەچچە」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "نەچچە"
+  },
+  {
+    "id": "tb1344:0",
+    "ug": "سىز بۇ يەردە نەچچە كۈن تۇرىسىز؟",
+    "zh": "您在这里住几天？",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "“几天”应作时量而非直接谈论对象。",
+    "analysis": "نەچچە كۈن为时量；تۇرىسىز与سىز一致。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3时态人称；L6时间；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "نەچچە كۈن"
+  },
+  {
+    "id": "tb1345:0",
+    "ug": "بۇ نەرسە نېمە؟",
+    "zh": "这个东西是什么？",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "用指认物品的日常问句替代泛谈东西。",
+    "analysis": "بۇ نەرسە为主语；نېمە为疑问谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L1名词疑问句；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「نەرسە」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "نەرسە"
+  },
+  {
+    "id": "tb1346:0",
+    "ug": "مەن نەرسە-كېرەك سېتىۋالدىم.",
+    "zh": "我买了些东西。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "将集合名词置于购买语境。",
+    "analysis": "نەرسە-كېرەك为不定宾语；سېتىۋال+دىم过去时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L5不定宾语；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「نەرسە-كېرەك」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "نەرسە-كېرەك"
+  },
+  {
+    "id": "tb1347:0",
+    "ug": "ئۇ سىرتقا نەزەر سالدى.",
+    "zh": "他向外看了一眼。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原“瞩目了”生硬，注目动作补出方向。",
+    "analysis": "سىرت+قا给出目光方向；سال+دى过去式。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3向格；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「نەزەر سالماق」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "نەزەر سالدى"
+  },
+  {
+    "id": "tb1348:0",
+    "ug": "مەن «نەسرىددىن ئەپەندى لەتىپىلىرى» نى ئوقۇدۇم.",
+    "zh": "我读了《阿凡提的故事》。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "把书名放在阅读宾语位置。",
+    "analysis": "书名整体加宾格نى；ئوقۇ+دۇم第一人称过去。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L5宾格；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "此书名的规范拼写与引号后宾格分写方式待母语编辑复核；未独立核书目。",
+    "target_form": "«نەسرىددىن ئەپەندى لەتىپىلىرى»"
+  },
+  {
+    "id": "tb1349:0",
+    "ug": "نەسرىددىن ئەپەندى بەك ئەقىللىق.",
+    "zh": "阿凡提很聪明。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "用故事人物常见性格描述替代泛谈。",
+    "analysis": "专名作主语；بەك修饰ئەقىللىق。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L2形容词谓语；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "人名نەسرىددىن的书面变体及与特定阿凡提形象对应需书目或母语者复核。",
+    "target_form": "نەسرىددىن ئەپەندى"
+  },
+  {
+    "id": "tb1350:0",
+    "ug": "مەن نەشپۈت سېتىۋالدىم.",
+    "zh": "我买了梨。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "采用梨与购买的具体日常情境。",
+    "analysis": "نەشپۈت作不定宾语，不强制宾格。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L5不定宾语；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「نەشپۈت」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "نەشپۈت"
+  },
+  {
+    "id": "tb1351:0",
+    "ug": "بۇ مېنىڭ نەۋرەم.",
+    "zh": "这是我的孙辈。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "保留性别与内外孙未指定的范围，不凭空选孙子。",
+    "analysis": "نەۋرە+م表示我的孙辈；مېنىڭ与之呼应。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L8领属；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「نەۋرە」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "نەۋرەم的元音弱化及方言差异（如نەۋرىم）需规范词形表或母语者确认。",
+    "target_form": "نەۋرەم"
+  },
+  {
+    "id": "tb1352:0",
+    "ug": "بۇ شەھەرنىڭ نوپۇسى كۆپ.",
+    "zh": "这座城市人口很多。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "人口与城市领属构成真实用法。",
+    "analysis": "نوپۇس+ى是领属；كۆپ作数量谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L8领属；L10数量；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「نوپۇس」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "نوپۇسى"
+  },
+  {
+    "id": "tb1353:0",
+    "ug": "ئۆيگە قۇياش نۇرى چۈشتى.",
+    "zh": "阳光照进了屋里。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "采用قۇياش نۇرى常见阳光搭配，较泛谈光具体。",
+    "analysis": "نۇر+ى组成日光名词组；ئۆيگە为方向。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3向格；L8领属；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「نۇر」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "نۇرى"
+  },
+  {
+    "id": "tb1354:0",
+    "ug": "بۇ يەردە نۇرغۇنلىغان گۈللەر بار.",
+    "zh": "这里有许多花。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "量词性修饰语必须带所修饰名词，补出花。",
+    "analysis": "نۇرغۇنلىغان作定语；گۈللەر为存在主体。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L5复数；L10存在；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「نۇرغۇنلىغان」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "نۇرغۇنلىغان"
+  },
+  {
+    "id": "tb1355:0",
+    "ug": "مېنىڭ نۇرغۇن كىتابىم بار.",
+    "zh": "我有很多书。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "نۇرغۇن直接修饰书，避免把数量形容词当谈论名词。",
+    "analysis": "مېنىڭ与كىتابىم领属呼应；بار表示拥有。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L8领属；L10存在；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「نۇرغۇن」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "نۇرغۇن"
+  },
+  {
+    "id": "tb1356:0",
+    "ug": "ئوقۇتقۇچى بۇ سوئالنى نۇقتىلىق چۈشەندۈردى.",
+    "zh": "老师重点讲解了这个问题。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "“这件事重点”不成句，改用副词性“重点地”。",
+    "analysis": "نۇقتىلىق修饰چۈشەندۈردى；سوئالنى为明确宾语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L5宾格；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「نۇقتىلىق」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "نۇقتىلىق"
+  },
+  {
+    "id": "tb1357:0",
+    "ug": "بۇ كىتاب نېپىز.",
+    "zh": "这本书很薄。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "薄修饰书更自然，原房屋“薄的”中文生硬。",
+    "analysis": "نېپىز作谓语；不另加系词。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L2形容词句；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「نېپىز」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "نېپىز"
+  },
+  {
+    "id": "tb1358:0",
+    "ug": "نېمانچە ئالدىرايسىز؟",
+    "zh": "您怎么这么着急？",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "从只讲词形改为带情绪的真实疑问。",
+    "analysis": "نېمانچە修饰ئالدىرايسىز所表达的急切程度。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3现在将来；L4疑问；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "未在独立词典直接匹配نېمانچە；此口语疑问词与动词搭配的自然度需母语者复核。",
+    "target_form": "نېمانچە"
+  },
+  {
+    "id": "tb1359:0",
+    "ug": "ئۇنىڭ ئىسمى نېمە؟",
+    "zh": "他叫什么名字？",
+    "issues": [],
+    "reason": "نېمە询问名字的结构正确，领属ئۇنىڭ ئىسمى相配。",
+    "analysis": "ئىسم+ى为第三人称领属；原ULY的ئۇنىڭ→uning一致。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L8领属与姓名问句；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「نېمە」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "نېمە"
+  },
+  {
+    "id": "tb1360:0",
+    "ug": "سىز نېمە ئۈچۈن كەلدىڭىز؟",
+    "zh": "您为什么来了？",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "将“为什么”用于真正询问原因。",
+    "analysis": "نېمە ئۈچۈن整体作原因疑问状语；كەلدىڭىز为尊称过去时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L4疑问；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「نېمە ئۈچۈن」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "نېمە ئۈچۈن"
+  },
+  {
+    "id": "tb1361:0",
+    "ug": "بۇ نېمىدېگەن چىرايلىق گۈل!",
+    "zh": "这花多么漂亮啊！",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "感叹成分须带评价内容，改为赞美花。",
+    "analysis": "نېمىدېگەن置于形容词چىرايلىق前形成感叹。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L2形容词；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「نېمىدېگەن」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "教材未充分覆盖نېمىدېگەن感叹构式，需母语者确认本句完整自然度。",
+    "target_form": "نېمىدېگەن"
+  },
+  {
+    "id": "tb1362:0",
+    "ug": "مەن بۇ ئىشنىڭ نېمىدىن باشلانغانلىقىنى بىلمەيمەن.",
+    "zh": "我不知道这件事是由什么引起的。",
+    "issues": [
+      "搭配自然度",
+      "ULY转写"
+    ],
+    "reason": "原“起因”笼统压缩了从何开始的从句；باشلانغان的n+gh须区分于ng。",
+    "analysis": "نېمە→نېمىدىن；باشلا+ن+غان+لىق+ى+نى组成领属宾语从句。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L5从格和宾格；L9动名词相关；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "名词化从句超出所引初级教材详述范围；باشلانغانلىقىنى的名词化与人称配合待母语者复核。",
+    "target_form": "نېمىدىن باشلانغانلىقىنى"
+  },
+  {
+    "id": "tb1363:0",
+    "ug": "بۇ كىتاب نىسبەتەن ئاسان.",
+    "zh": "这本书比较容易。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "نىسبەتەن应作程度副词，而非讨论对象。",
+    "analysis": "نىسبەتەن修饰形容词ئاسان，选择相对比较义。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L2程度副词；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「نىسبەتەن」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "نىسبەتەن"
+  },
+  {
+    "id": "tb1364:0",
+    "ug": "نىلقا بىر ناھىيە.",
+    "zh": "尼勒克是一个县。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "地名被错套人名模板，不能说“尼勒克县今天来了”。",
+    "analysis": "نىلقا作地名主语；بىر ناھىيە作名词谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L1名词句；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "未在独立词典直接核到此地名，规范地名拼写及行政称谓需母语者/官方地名表复核。",
+    "target_form": "نىلقا"
+  },
+  {
+    "id": "tb1365:0",
+    "ug": "ئۇنىڭ نىيىتى ياخشى.",
+    "zh": "他的用意是好的。",
+    "issues": [
+      "未展示目标用法",
+      "中文翻译"
+    ],
+    "reason": "以人物意图评价使用نىيەت；第二轮将心地改为用意，使中文与意图、心愿义更直接对应。",
+    "analysis": "نىيەت→نىيىتى为第三人称领属，ياخشى作谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L2谓语；L8领属；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「نىيەت」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "نىيىتى"
+  },
+  {
+    "id": "tb1366:0",
+    "ug": "ئۇ ھاپىلا-شاپىلا كەتتى.",
+    "zh": "他匆匆忙忙地走了。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "方式副词不能直接作为谈论名词，改修饰离开。",
+    "analysis": "ھاپىلا-شاپىلا作方式状语；كەت+تى过去式。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L2副词；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھاپىلا-شاپىلا」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھاپىلا-شاپىلا"
+  },
+  {
+    "id": "tb1367:0",
+    "ug": "كېلىشىڭىزنىڭ ھاجىتى يوق.",
+    "zh": "您没有必要来。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "“没有必要”需要说明何事没有必要，补来访动名词。",
+    "analysis": "كەل→كېلىش+ىڭىز+نىڭ；ھاجەت→ھاجىتى与领属呼应。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L8领属；L9动名词；L12必要；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھاجىتى يوق」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھاجىتى يوق"
+  },
+  {
+    "id": "tb1368:0",
+    "ug": "ئۇ ھاردى.",
+    "zh": "他累了。",
+    "issues": [
+      "中文翻译"
+    ],
+    "reason": "ھاردى的过去形成立，中文“累了”比“劳累了”自然。",
+    "analysis": "ھار+دى为第三人称过去；表达疲劳结果。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L11过去时；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھارماق」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھاردى"
+  },
+  {
+    "id": "tb1369:0",
+    "ug": "ھارپا كۈن بىز ئۆيدە بولدۇق.",
+    "zh": "节日前一天我们在家。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "改作时间状语，展示前夕义；不擅改原词卡词形。",
+    "analysis": "ھارپا كۈن作时间成分；بولدۇق为第一人称复数过去。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L6时间；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "复合词ھارپا كۈن未直接见于独立词典；ھارپا、ھارپىلا كۈن等变体与教材原文须母语者复核。",
+    "target_form": "ھارپا كۈن"
+  },
+  {
+    "id": "tb1370:0",
+    "ug": "ھازىر سائەت نەچچە؟",
+    "zh": "现在几点了？",
+    "issues": [],
+    "reason": "ھازىر作时间状语、数词疑问问钟点，句义对应。",
+    "analysis": "سائەت نەچچە为惯常报时问句，ھازىر无需格后缀。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L6时间；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھازىر」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھازىر"
+  },
+  {
+    "id": "tb1371:0",
+    "ug": "ھازىرچە مەن ئۆيدە.",
+    "zh": "我暂时在家。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "ھازىرچە为时间副词，改作“在家”的状语。",
+    "analysis": "时间副词置于主语前；ئۆيدە为处所谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3处所；L7时间状语；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھازىرچە」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھازىرچە"
+  },
+  {
+    "id": "tb1372:0",
+    "ug": "مەن ھازىرقى زامان ئەدەبىياتىنى ئوقۇيمەن.",
+    "zh": "我读现代文学。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "现代词组应修饰时代相关名词，改为现代文学。",
+    "analysis": "ھازىرقى زامان作定语；ئەدەبىيات+ى+نى组成确定宾语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L5宾格；L8名词组合；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھازىرقى زامان」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھازىرقى زامان"
+  },
+  {
+    "id": "tb1373:0",
+    "ug": "ئۇ ھاڭ-تاڭ بولدى.",
+    "zh": "他惊呆了。",
+    "issues": [
+      "中文翻译"
+    ],
+    "reason": "ھاڭ-تاڭ بولدى表达惊愕，原中文可简化为自然单一主语。",
+    "analysis": "固定叠词与بول-搭配，بول+دى为过去时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "独立词典未直接匹配完整短语，叠词词形与该固定搭配待母语者确认。",
+    "target_form": "ھاڭ-تاڭ بولدى"
+  },
+  {
+    "id": "tb1374:0",
+    "ug": "ئۇ ھاڭۋاقتى.",
+    "zh": "他发愣了。",
+    "issues": [
+      "中文翻译"
+    ],
+    "reason": "机械生成的ھاڭۋاقتى形式暂保留，中文去掉不必要并列人称。",
+    "analysis": "若词干确为ھاڭۋاق-，ق后过去词尾应为تى。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L11过去时；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "未直接查到ھاڭۋاق-及其不定式，无法确认词干拼写、词性和过去形。",
+    "target_form": "ھاڭۋاقتى"
+  },
+  {
+    "id": "tb1375:0",
+    "ug": "ئۇنىڭ ھالى ياخشى.",
+    "zh": "他情况很好。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "用人物状况表达代替泛谈“情况”。",
+    "analysis": "ھال+ى为第三人称领属，ئۇنىڭ与之呼应。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L8领属；L2谓语；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھال」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھالى"
+  },
+  {
+    "id": "tb1376:0",
+    "ug": "ئۇ ماڭا ھال ئېيتتى.",
+    "zh": "他向我诉说了苦衷。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原“诉苦衷了”不自然，补出倾诉对象。",
+    "analysis": "ماڭا是مەن的向格；ھال ئېيت-作固定动词短语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3代词向格；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھال ئېيتماق」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھال ئېيتتى"
+  },
+  {
+    "id": "tb1377:0",
+    "ug": "ھالى قالماسلىق ئۇنى ئەنسىرەتتى.",
+    "zh": "没力气这件事让他担心。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "保留词卡动名词而使其真正作主语，避免仅提词。",
+    "analysis": "قال+ما+سلىق为否定动名词；ھالى是第三人称领属。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L8领属；L9动名词；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "此词卡本身为带人称的否定名词化短语，整句自然度与ھالى的指代须母语者复核。",
+    "target_form": "ھالى قالماسلىق"
+  },
+  {
+    "id": "tb1378:0",
+    "ug": "ھاممام بۈگۈن كەلدى.",
+    "zh": "我姨妈今天来了。",
+    "issues": [
+      "中文翻译",
+      "搭配自然度"
+    ],
+    "reason": "词典支持姨妈义，原“姑姑”与词卡亲属范围需区分；改为常见领属称谓。",
+    "analysis": "ھامما+م表示我的姨妈，专用亲属称谓后过去كەلدى。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L8亲属领属；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھامما」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "词卡将姑母与姨母并列，独立词典主要支持姨母；ھاممام/ھاممىم的规范领属元音须核。",
+    "target_form": "ھاممام"
+  },
+  {
+    "id": "tb1379:0",
+    "ug": "ھاۋا ياخشى.",
+    "zh": "天气很好。",
+    "issues": [],
+    "reason": "天气好是自然形容词谓语句，天气义与中文吻合。",
+    "analysis": "ھاۋا主语，ياخشى谓语，不需系词。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L2形容词句；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھاۋا」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھاۋا"
+  },
+  {
+    "id": "tb1379:1",
+    "ug": "ئەتە ھاۋا ياخشى بولىدۇ.",
+    "zh": "明天天气会很好。",
+    "issues": [],
+    "reason": "明天状语与بولىدۇ相配，可表达将来天气预测。",
+    "analysis": "ئەتە限定将来；بول+ى+دۇ第三人称现在将来。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3现在将来；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھاۋا」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھاۋا"
+  },
+  {
+    "id": "tb1380:0",
+    "ug": "بۇ يەرنىڭ ھاۋا كىلىماتى ياخشى.",
+    "zh": "这里的气候很好。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "补地点领属，使天气气候名词组有具体对象。",
+    "analysis": "يەر+نىڭ与كىلىمات+ى呼应；ياخشى为谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L8领属；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "词卡ھاۋا كىلىمات的分词、连字符及كىلىمات/كلىمات规范拼写未确认，需母语者复核。",
+    "target_form": "ھاۋا كىلىماتى"
+  },
+  {
+    "id": "tb1381:0",
+    "ug": "ھايات بەك قىممەتلىك.",
+    "zh": "生命很宝贵。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "选择生命义并作直接评价，简明实用。",
+    "analysis": "ھايات为主语，قىممەتلىك为形容词谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L2形容词句；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھايات」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھايات"
+  },
+  {
+    "id": "tb1382:0",
+    "ug": "بۇ ھاياجانلىق خەۋەر.",
+    "zh": "这是令人激动的消息。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原“这件事激动”不成立，区分令人激动与自身激动。",
+    "analysis": "ھاياجانلىق作خەۋەر的定语，使用令人激动义。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L1名词句；L2形容词；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھاياجانلىق」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھاياجانلىق"
+  },
+  {
+    "id": "tb1383:0",
+    "ug": "ھايۋانات باغچىسى قەيەردە؟",
+    "zh": "动物园在哪里？",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "集合名词ھايۋانات用于动物园搭配比笼统“看见动物”更典型。",
+    "analysis": "ھايۋانات باغچىسى为名词组合；قەيەردە询问处所。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L8名词组合；L3处所；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھايۋانات」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھايۋانات"
+  },
+  {
+    "id": "tb1384:0",
+    "ug": "مەن باغدا ھايۋان كۆردۈم.",
+    "zh": "我在果园里看见了动物。",
+    "issues": [],
+    "reason": "在园里看见动物的语境成立，过去时与第一人称一致。",
+    "analysis": "ھايۋان为不定宾语；كۆر+دۈم为第一人称过去。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L5不定宾语；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھايۋان」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھايۋان"
+  },
+  {
+    "id": "tb1385:0",
+    "ug": "ھەئە، مەن بىلىمەن.",
+    "zh": "是的，我知道。",
+    "issues": [],
+    "reason": "肯定答语ھەئە后接我知道，语境完整；内部hamza的ULY撇号正确。",
+    "analysis": "ھەئە为答语；بىل+ى+مەن为第一人称现在将来。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3现在将来；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھەئە」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھەئە"
+  },
+  {
+    "id": "tb1386:0",
+    "ug": "بىر ھەپتىدە يەتتە كۈن بار.",
+    "zh": "一周有七天。",
+    "issues": [],
+    "reason": "一周七天的事实与句义一致，ھەپتە接处所格发生弱化正确。",
+    "analysis": "ھەپتە→ھەپتىدە；يەتتە后كۈن保持单数。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3处所格；L6数词；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھەپتە」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھەپتىدە"
+  },
+  {
+    "id": "tb1387:0",
+    "ug": "ئۇ ھەتتا بۇ سوئالنىمۇ بىلمەيدۇ.",
+    "zh": "他甚至连这个问题也不知道。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "ھەتتا应对实际命题起强调作用，不能只提词。",
+    "analysis": "ھەتتا与宾语后的مۇ相呼应；بىلمەيدۇ为否定第三人称。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L4否定；L5宾格；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھەتتا」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھەتتا"
+  },
+  {
+    "id": "tb1388:0",
+    "ug": "ھەدەم بۈگۈن كەلدى.",
+    "zh": "我姐姐今天来了。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "加领属使亲属称谓所指更明确。",
+    "analysis": "ھەدە+م表示我的姐姐；كەلدى第三人称过去。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L8亲属领属；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھەدە」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "ھەدەم与ھەدىم的规范元音及称谓地域范围待母语者复核。",
+    "target_form": "ھەدەم"
+  },
+  {
+    "id": "tb1389:0",
+    "ug": "ھەر كۈنى كىتاب ئوقۇيمەن.",
+    "zh": "我每天读书。",
+    "issues": [],
+    "reason": "ھەر كۈنى时间短语和读书习惯搭配自然，原译准确。",
+    "analysis": "ھەر限定كۈن，كۈنى为惯常时间形式；ئوقۇيمەن第一人称。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3现在将来；L6时间；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھەر」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھەر"
+  },
+  {
+    "id": "tb1390:0",
+    "ug": "ھەربىر ئوقۇغۇچىغا بىر كىتاب بەردۇق.",
+    "zh": "我们给每个学生一本书。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "将每一个实际用于限定学生。",
+    "analysis": "ھەربىر+单数ئوقۇغۇچى；غا标间接宾语；بەردۇق第一人称复数过去。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3向格；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھەربىر」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھەربىر"
+  },
+  {
+    "id": "tb1391:0",
+    "ug": "ئۇ ھەربىي سەپتىن قايتتى.",
+    "zh": "他退役了。",
+    "issues": [
+      "中文翻译"
+    ],
+    "reason": "退役短语的从格与动词过去式正确，中文改为单一自然主语。",
+    "analysis": "سەپ+تىن表示离开队伍；قايت+تى为清辅音后过去式。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L5从格；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھەربىي سەپتىن قايتماق」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھەربىي سەپتىن قايتتى"
+  },
+  {
+    "id": "tb1392:0",
+    "ug": "بۇ ھەربىي-مەمۇرىي مەركەز.",
+    "zh": "这是军政中心。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "复合形容词应修饰中心一类名词，不能孤立当话题。",
+    "analysis": "ھەربىي-مەمۇرىي作مەركەز定语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L1名词句；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "该技术复合词的规范连字符与“军政中心”的搭配需母语编辑确认。",
+    "target_form": "ھەربىي-مەمۇرىي"
+  },
+  {
+    "id": "tb1393:0",
+    "ug": "بازاردا ھەر خىل مېۋە بار.",
+    "zh": "市场里有各种水果。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "ھەر خىل需要被修饰名词，补水果形成日常购物句。",
+    "analysis": "ھەر خىل修饰مېۋە；بازاردا处所；بار存在。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3处所；L10存在；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھەر خىل」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھەر خىل"
+  },
+  {
+    "id": "tb1394:0",
+    "ug": "ھەرقانداق ۋاقىتتا كېلىڭ.",
+    "zh": "您任何时候都可以来。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "不定限定词与时间名词组合，展示任何时候义。",
+    "analysis": "ھەرقانداق修饰ۋاقىت+تا，كېلىڭ为尊称邀请式祈使。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3处所；L14祈使；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھەرقانداق"
+  },
+  {
+    "id": "tb1395:0",
+    "ug": "ھەرقايسى سىنىپلاردا كومپيۇتېر بار.",
+    "zh": "各个班里都有电脑。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "各应限定复数班级，不能作抽象讨论对象。",
+    "analysis": "ھەرقايسى限定سىنىپلار；لار+دا复数处所。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L5复数；L3处所；L10存在；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھەرقايسى」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھەرقايسى"
+  },
+  {
+    "id": "tb1396:0",
+    "ug": "ئۇ ھەر قېتىم بالدۇر كېلىدۇ.",
+    "zh": "他每次都来得早。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "每次作频次状语，改为常见到达习惯。",
+    "analysis": "ھەر قېتىم修饰كېلىدۇ；بالدۇر表示早。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3现在将来；L6时间；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھەر قېتىم」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھەر قېتىم"
+  },
+  {
+    "id": "tb1397:0",
+    "ug": "ھەر مىللەت ئوقۇغۇچىلىرى بۈگۈن بىز بىلەن سۆزلەشتى.",
+    "zh": "各族学生今天和我们交谈了。",
+    "issues": [],
+    "reason": "各族学生可作交谈主体，复数名词搭第三人称动词成立。",
+    "analysis": "ئوقۇغۇچى+لار+ى是名词组合；主语是第三人称复数的人群，过去时谓语سۆزلەشتى可不另加لار，不能称为非人称复数。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L5复数；L8领属；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھەر مىللەت ئوقۇغۇچىلىرى"
+  },
+  {
+    "id": "tb1398:0",
+    "ug": "سىز ھەر ۋاقىت ماڭا تېلېفون قىلسىڭىز بولىدۇ.",
+    "zh": "您随时都可以给我打电话。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "把随时置于真实邀请联系的句子。",
+    "analysis": "ھەر ۋاقىت是时间状语；قىلسىڭىز بولىدۇ表示许可。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L12情态；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھەر ۋاقىت」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "قىلسىڭىز بولىدۇ的许可用法需母语者确认，所引教材的能力情态不等同于该许可结构。",
+    "target_form": "ھەر ۋاقىت"
+  },
+  {
+    "id": "tb1399:0",
+    "ug": "ھەر كۈنى ھەرىكەت قىلىش كېرەك.",
+    "zh": "每天需要运动。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "选取运动义，形成日常锻炼建议。",
+    "analysis": "ھەرىكەت قىل-构成动词短语，قىلىش名词化后接كېرەك。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L9动名词；L12必要；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھەرىكەت」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھەرىكەت"
+  },
+  {
+    "id": "tb1400:0",
+    "ug": "مەن ھەر يىلى بۇ يەرگە كېلىمەن.",
+    "zh": "我每年都来这里。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "每年须充当时间状语，补实际动作。",
+    "analysis": "ھەر يىلى为周期状语；يەرگە为方向；كېلىمەن第一人称。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3向格和时态；L6时间；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھەر يىلى」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھەر يىلى"
+  },
+  {
+    "id": "tb1401:0",
+    "ug": "ئۇ ماڭا ئىش ھەققى بەردى.",
+    "zh": "他付给我工资。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "用报酬义组成常用ئىش ھەققى，明确支付情境。",
+    "analysis": "ھەق→ھەققى为名词组合的领属形式；ماڭا为接受者。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3向格；L8领属；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھەق」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھەققى"
+  },
+  {
+    "id": "tb1402:0",
+    "ug": "بىز بۇ كىتاب ھەققىدە پاراڭلاشتۇق.",
+    "zh": "我们谈了这本书。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原“关于关于”双重后置词错误，给ھەققىدە补出所谈对象。",
+    "analysis": "بۇ كىتاب置于ھەققىدە前；不再叠加توغرىسىدا。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L11职业话题及名词短语；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھەققىدە」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھەققىدە"
+  },
+  {
+    "id": "tb1403:0",
+    "ug": "مەن ھەم ئوقۇيمەن، ھەم ئىشلەيمەن.",
+    "zh": "我既学习也工作。",
+    "issues": [],
+    "reason": "ھەم…ھەم连接两项行为，中文既学习也工作对应。",
+    "analysis": "ئوقۇيمەن与ئىشلەيمەن均第一人称现在将来。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L2连接词；L3现在将来；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھەم」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھەم"
+  },
+  {
+    "id": "tb1404:0",
+    "ug": "ئۇ كىتاب ئوقۇيدۇ ھەمدە خاتىرە يازىدۇ.",
+    "zh": "他读书，并且做笔记。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "并且须连接命题，改为两项平行学习行为。",
+    "analysis": "ھەمدە连接第三人称现在将来时分句。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L2连接词；L3时态；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھەمدە」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھەمدە"
+  },
+  {
+    "id": "tb1405:0",
+    "ug": "ھەممەيلەن كەلدى.",
+    "zh": "大家都来了。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "集合代词直接作主语，体现大家含义。",
+    "analysis": "ھەممەيلەن为集合主语；كەلدى可用第三人称形式。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L11过去时；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھەممەيلەن」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھەممەيلەن"
+  },
+  {
+    "id": "tb1406:0",
+    "ug": "بۇ كىتابلارنىڭ ھەممىسى يېڭى.",
+    "zh": "这些书全是新的。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "“都”不能机械名词化为谈论对象，改为全部书的领属量化。",
+    "analysis": "كىتابلارنىڭ+ھەممىسى构成整体领属；يېڭى为形容词谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L8领属；L2形容词谓语；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھەممىسى」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھەممىسى"
+  },
+  {
+    "id": "tb1407:0",
+    "ug": "مەن ئۇنىڭغا ھەۋەس قىلدىم.",
+    "zh": "我很羡慕他。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "明确选取羡慕义并补出向格对象，不笼统译感兴趣。",
+    "analysis": "ئۇنىڭغا为ئۇ的向格；ھەۋەس قىلدىم第一人称过去。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3代词向格；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھەۋەس قىلماق」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھەۋەس قىلدىم"
+  },
+  {
+    "id": "tb1408:0",
+    "ug": "ئۇ ھەيران بولدى.",
+    "zh": "他吃惊了。",
+    "issues": [
+      "中文翻译"
+    ],
+    "reason": "ھەيران بولدى为自然的变成惊讶状态，中文简化即可。",
+    "analysis": "ھەيران+بول+دى，第三人称过去。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L11过去时；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھەيران بولماق」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھەيران بولدى"
+  },
+  {
+    "id": "tb1409:0",
+    "ug": "بۇ بىنا ھەيۋەتلىك.",
+    "zh": "这座建筑很雄伟。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "雄伟宜形容建筑，原“这件事雄伟”不自然。",
+    "analysis": "ھەيۋەتلىك为形容词谓语；بىنا为具体主体。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L2形容词句；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھەيۋەتلىك」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھەيۋەتلىك"
+  },
+  {
+    "id": "tb1410:0",
+    "ug": "تاماقنىڭ ھورى چىقىپ تۇرىدۇ.",
+    "zh": "饭菜正冒着热气。",
+    "issues": [
+      "语序",
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原ئۇ与ھورى缺少领属连接且中文多了“了”，改饭菜热气。",
+    "analysis": "تاماقنىڭ与ھورى呼应；چىقىپ تۇر-表达持续冒出。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L8领属；L14副动词；L15持续；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھورى چىقىپ تۇرىدۇ"
+  },
+  {
+    "id": "tb1411:0",
+    "ug": "بىزنىڭ ھويلا-ئارامىمىز پاكىز.",
+    "zh": "我们的院落很干净。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "庭院以居所清洁为具体情境。",
+    "analysis": "ھويلا-ئارام+ىمىز标第一人称复数领属；پاكىز作谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L8领属；L2谓语；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھويلا-ئارام」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "该联绵名词末部接领属的元音形式及“院落”范围需母语者复核。",
+    "target_form": "ھويلا-ئارامىمىز"
+  },
+  {
+    "id": "tb1412:0",
+    "ug": "ئۇ بۇ يەردە ھۇزۇرلاندى.",
+    "zh": "他在这里享受了一番。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "“享受了”缺乏情境，增加地点并采用自然中文。",
+    "analysis": "ھۇزۇرلان+دى表示获得舒适/享受；بۇ يەردە处所。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3处所；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھۇزۇرلانماق」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھۇزۇرلاندى"
+  },
+  {
+    "id": "tb1413:0",
+    "ug": "بۇ ھۆججەت يېڭى.",
+    "zh": "这份文件是新的。",
+    "issues": [
+      "中文翻译"
+    ],
+    "reason": "维语文件名词与新搭配成立，仅改中文量词。",
+    "analysis": "ھۆججەت主语；يېڭى形容词谓语；本句用文件义。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L2形容词句；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھۆججەت」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھۆججەت"
+  },
+  {
+    "id": "tb1414:0",
+    "ug": "كىيىمىم ھۆل.",
+    "zh": "我的衣服湿了。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "湿是状态形容词，应修饰衣服等实物。",
+    "analysis": "كىيىم+ىم为第一人称领属；ھۆل作状态谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L8领属；L2谓语；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھۆل」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھۆل"
+  },
+  {
+    "id": "tb1415:0",
+    "ug": "مەن ھېچ نەرسە ئالمىدىم.",
+    "zh": "我什么东西也没买。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "展示ھېچ与否定谓语呼应的实际用法。",
+    "analysis": "ھېچ修饰نەرسە；ئال+مى+دىم为第一人称过去否定。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L4否定；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھېچ」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھېچ"
+  },
+  {
+    "id": "tb1416:0",
+    "ug": "ئۇلارنىڭ ھېچقايسىسى كەلمىدى.",
+    "zh": "他们谁也没来。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "否定选择代词须搭否定谓语，补所属人群。",
+    "analysis": "ھېچقايسى+سى为领属形式；كەل+مى+دى过去否定。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L8领属；L11否定过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھېچقايسى」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھېچقايسىسى"
+  },
+  {
+    "id": "tb1417:0",
+    "ug": "بۇ يەردە ھېچكىم يوق.",
+    "zh": "这里没有人。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "ھېچكىم需否定范围，原肯定谈论不能清楚表达没人。",
+    "analysis": "ھېچكىم为存在主体；يوق为否定存在谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L10否定存在；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھېچكىم」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھېچكىم"
+  },
+  {
+    "id": "tb1418:0",
+    "ug": "بۇ يەردە ھېچ نەرسە يوق.",
+    "zh": "这里什么东西也没有。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "用否定存在结构体现什么也没有。",
+    "analysis": "ھېچ نەرسە与يوق呼应；بۇ يەردە处所。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L10否定存在；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھېچ نەرسە」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھېچ نەرسە"
+  },
+  {
+    "id": "tb1419:0",
+    "ug": "مەن ھېچنېمە بىلمەيمەن.",
+    "zh": "我什么也不知道。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "把否定不定代词与否定动词配对，避免肯定套句。",
+    "analysis": "ھېچنېمە作宾语；بىل+مە+ي+مەن第一人称否定。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L4否定；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھېچنېمە」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھېچنېمە"
+  },
+  {
+    "id": "tb1420:0",
+    "ug": "ھېرىپ-چارچاش سالامەتلىككە تەسىر قىلىدۇ.",
+    "zh": "劳累会影响健康。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "保留名词化词条并使其真正作主语。",
+    "analysis": "ھېرىپ-چارچاش为动作名词；سالامەتلىككە为受影响对象。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L9动名词；L3向格；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "独立词典未直接匹配该合成名词；ھېرىپ-چارچاش的名词性与本句搭配待母语者复核。",
+    "target_form": "ھېرىپ-چارچاش"
+  },
+  {
+    "id": "tb1421:0",
+    "ug": "بالا ھېساب ئۆگىنىۋاتىدۇ.",
+    "zh": "孩子正在学算术。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "选择算术义，与学习行为搭配。",
+    "analysis": "ھېساب为不定宾语；ئۆگەن→ئۆگىنىۋاتىدۇ为第三人称进行。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L7进行体；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھېساب」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھېساب"
+  },
+  {
+    "id": "tb1422:0",
+    "ug": "ئۇ پۇلنى ھېسابلىدى.",
+    "zh": "他算了钱数。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "给计算动词补上钱这一对象，便于理解具体用法。",
+    "analysis": "ھېسابلا→ھېسابلى+دى的元音弱化正确；پۇلنى宾格。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L2元音弱化；L5宾格；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھېسابلىدى"
+  },
+  {
+    "id": "tb1423:0",
+    "ug": "مەن سوغۇقنى ھېس قىلدىم.",
+    "zh": "我感到了寒冷。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "感到需要感知内容，补上寒冷。",
+    "analysis": "سوغۇق+نى名词化为感知对象；قىل+دىم第一人称过去。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L5宾格；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھېس قىلماق」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھېس قىلدىم"
+  },
+  {
+    "id": "tb1424:0",
+    "ug": "بۇ ھېكايە بەك قىزىقارلىق.",
+    "zh": "这个故事很有趣。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "用故事评价代替泛说谈论故事。",
+    "analysis": "ھېكايە作主语；بەك修饰قىزىقارلىق。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L2形容词句；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھېكايە」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھېكايە"
+  },
+  {
+    "id": "tb1426:0",
+    "ug": "بىز بىر ھېكايە فىلىم كۆردۇق.",
+    "zh": "我们看了一部故事片。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "把故事片置于观看语境，保留原复合词。",
+    "analysis": "بىر ھېكايە فىلىم为不定宾语；كۆردۇق为第一人称复数过去。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L5宾语；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھېكايە فىلىم」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھېكايە فىلىم"
+  },
+  {
+    "id": "tb1427:0",
+    "ug": "ئۇ بۇ ئىشنى بىزگە ھېكايە قىلدى.",
+    "zh": "他给我们讲述了这件事。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原句未说明讲述内容与听者，补给我们和一个故事。",
+    "analysis": "بۇ ئىشنى为叙述内容，بىزگە为听者；ھېكايە قىل-采用叙述义。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3向格；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھېكايە قىلماق」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھېكايە قىلدى"
+  },
+  {
+    "id": "tb1428:0",
+    "ug": "ھېلىقى كىشى يەنە كەلدى.",
+    "zh": "那个人又来了。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "指示词应限定谈话双方已知人物，补كىشى。",
+    "analysis": "ھېلىقى作定语，يەنە表示又，كەلدى过去时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L1指示定语；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھېلىقى」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھېلىقى"
+  },
+  {
+    "id": "tb1429:0",
+    "ug": "ھېيت كۈنى بىز دوستلىرىمىزنى يوقلىدۇق.",
+    "zh": "节日那天我们探望了朋友。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "节日作时间限定，展示拜访活动。",
+    "analysis": "ھېيت كۈنى为时间短语；دوست+لار+ىمىز+نى为领属宾语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L6时间；L8领属；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھېيت」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھېيت"
+  },
+  {
+    "id": "tb1430:0",
+    "ug": "ئۇ ھېيتلىدى.",
+    "zh": "他过节拜访亲友了。",
+    "issues": [
+      "中文翻译"
+    ],
+    "reason": "原“拜年”可能误导为春节，译为过节走访而不改动正确过去形。",
+    "analysis": "ھېيتلا→ھېيتلى+دى，末元音弱化。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L2元音弱化；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "动词未直接命中独立词典，是否应译过节/拜节/走访及词干规范需母语者复核。",
+    "target_form": "ھېيتلىدى"
+  },
+  {
+    "id": "tb1431:0",
+    "ug": "مەن ھېيتلىق كىيىم سېتىۋالدىم.",
+    "zh": "我买了节日穿的衣服。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "节日形容词不能孤立作“这件事过节”的谓语，改修饰衣服。",
+    "analysis": "ھېيتلىق作كىيىم定语，本句采用节日用的义项。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L6 +liK；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھېيتلىق」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ھېيتلىق"
+  },
+  {
+    "id": "tb1432:0",
+    "ug": "ئۇ ھىجايغىلى تۇردى.",
+    "zh": "他咧嘴笑了起来。",
+    "issues": [
+      "中文翻译"
+    ],
+    "reason": "中文去掉附注式词义堆叠并保留原句供核。",
+    "analysis": "ھىجايغىلى تۇر-为待确认的趋始短语，未凭模板认证。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L14副动词相关结构；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "词典仅有ھىجايماق，未核到-غىلى تۇر-是否表示趋始；不能据规则认定原短语自然。",
+    "target_form": "ھىجايغىلى تۇردى"
+  },
+  {
+    "id": "tb1433:0",
+    "ug": "ھىجرىيە بىر يىل ھېسابلاش ئۇسۇلى.",
+    "zh": "回历是一种纪年方法。",
+    "issues": [
+      "未展示目标用法",
+      "中文翻译"
+    ],
+    "reason": "中文“希吉利亚”音译不利初学者，换为回历定义。",
+    "analysis": "ھىجرىيە作主语；动名词ھېسابلاش修饰ئۇسۇلى。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L9动名词；L1名词句；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ھىجرىيە」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "回历专名形式与“一种纪年方法”的维语表述需母语者或历法资料核定。",
+    "target_form": "ھىجرىيە"
+  },
+  {
+    "id": "tb1434:0",
+    "ug": "بۇ ئىشنى ئوبدان قىلىڭ.",
+    "zh": "请把这件事做好。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "ئوبدان本句用好好地义，真实修饰做事。",
+    "analysis": "ئىشنى为明确宾语；ئوبدان作方式状语；قىلىڭ尊称祈使。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L5宾格；L14祈使；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئوبدان」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئوبدان"
+  },
+  {
+    "id": "tb1435:0",
+    "ug": "بۇ يەردە ئوت ياقماڭ.",
+    "zh": "请不要在这里生火。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "火义与生火搭配，构成日常提示。",
+    "analysis": "ئوت ياق-为动词短语；ياق+ما+ڭ是否定尊称祈使。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L14祈使；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئوت」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئوت"
+  },
+  {
+    "id": "tb1436:0",
+    "ug": "بۇ يەردە ئوتتۇز كىتاب بار.",
+    "zh": "这里有三十本书。",
+    "issues": [],
+    "reason": "三十与单数كىتاب搭配无误，存在句和中文一致。",
+    "analysis": "ئوتتۇز为基数词；كىتاب不加لار。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L6数词；L10存在；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئوتتۇز"
+  },
+  {
+    "id": "tb1437:0",
+    "ug": "ئۇ ئوتتۇرا مەكتەپتە ئوقۇيدۇ.",
+    "zh": "他在中学读书。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "中等义通过常见ئوتتۇرا مەكتەپ展示，避免孤立谈论中等。",
+    "analysis": "ئوتتۇرا修饰مەكتەپ；مەكتەپ+تە处所格。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3处所与现在将来；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئوتتۇرا」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئوتتۇرا"
+  },
+  {
+    "id": "tb1438:0",
+    "ug": "ئۇ بىر سوئالنى ئوتتۇرىغا قويدى.",
+    "zh": "他提出了一个问题。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "提出需有内容，补问题作宾语。",
+    "analysis": "ئوتتۇرىغا قوي-为提出的固定短语；سوئالنى表示特定问题。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L5宾格；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئوتتۇرىغا قويماق」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئوتتۇرىغا قويدى"
+  },
+  {
+    "id": "tb1439:0",
+    "ug": "بىز قىش ئۈچۈن ئوتۇن ئالدىق.",
+    "zh": "我们为过冬买了木柴。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "木柴与为冬天备购搭配，情境明确。",
+    "analysis": "قىش ئۈچۈن为目的短语；ئوتۇن不定宾语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L9目的；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئوتۇن」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئوتۇن"
+  },
+  {
+    "id": "tb1440:0",
+    "ug": "ئۇ ئوت ياقتى.",
+    "zh": "他点火了。",
+    "issues": [
+      "中文翻译"
+    ],
+    "reason": "ئوت ياقتى过去形正确，中文简化为单一人称。",
+    "analysis": "ياق+تى，清辅音后的过去尾正确。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئوت ياقماق」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئوت ياقتى"
+  },
+  {
+    "id": "tb1441:0",
+    "ug": "ئوچاقتا ئوت بار.",
+    "zh": "炉灶里有火。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "具体展示炉灶的处所用法。",
+    "analysis": "ئوچاق+تا处所格；ئوت为存在主体。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3处所；L10存在；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئوچاق」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئوچاقتا"
+  },
+  {
+    "id": "tb1442:0",
+    "ug": "بۈگۈن ھاۋا ئوچۇق.",
+    "zh": "今天天气晴朗。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "目标词的晴朗义须与天气搭配，不能孤立谈论“晴”。",
+    "analysis": "ھاۋا作主语，ئوچۇق作形容词谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L2形容词句；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئوچۇق」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئوچۇق"
+  },
+  {
+    "id": "tb1443:0",
+    "ug": "ئۇ دادىسىغا ئوخشايدۇ.",
+    "zh": "他像他爸爸。",
+    "issues": [
+      "词形变化",
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原ئوخشادى弱化遗漏且像无比较对象，改常用现在时。",
+    "analysis": "ئوخشا→ئوخشايدۇ；دادا+سى+غا给出相似对象。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3向格和现在将来；词汇表oxsha- [+GA]；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئوخشايدۇ"
+  },
+  {
+    "id": "tb1444:0",
+    "ug": "بۇ ئىككى كىتاب ئوخشاش.",
+    "zh": "这两本书一样。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "相同需要比较集合，明确给两本书。",
+    "analysis": "ئىككى后的كىتاب单数；ئوخشاش谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L6数词；L2谓语；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئوخشاش」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئوخشاش"
+  },
+  {
+    "id": "tb1445:0",
+    "ug": "ئۇلارنىڭ پىكرى ئوخشاش بولدى.",
+    "zh": "他们的意见一致了。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "相同的主体改为双方意见，避免不明确“他相同了”。",
+    "analysis": "ئۇلارنىڭ与پىكرى呼应；بولدى表示结果。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L8领属；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئوخشاش بولدى"
+  },
+  {
+    "id": "tb1446:0",
+    "ug": "بۇ يەردە چوڭ ئورەك بار.",
+    "zh": "这里有一个大坑。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "坑放入存在句有实际可指对象。",
+    "analysis": "چوڭ修饰ئورەك；بۇ يەردە处所，بار存在。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L2定语；L10存在；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئورەك」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئورەك"
+  },
+  {
+    "id": "tb1447:0",
+    "ug": "ئۇ ئورگانىك خىمىيە سانائىتىدە ئىشلەيدۇ.",
+    "zh": "他在有机化学工业部门工作。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "行业作工作领域，较泛说谈论行业具体。",
+    "analysis": "سانائەت+ى+دە组成复合词处所形式；ئىشلەيدۇ第三人称。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3处所；L8领属；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "技术名称ئورگانىك خىمىيە سانائىتى及领域处所搭配需专业母语者核定。",
+    "target_form": "ئورگانىك خىمىيە سانائىتىدە"
+  },
+  {
+    "id": "tb1448:0",
+    "ug": "ئورما باشلاندى.",
+    "zh": "收割开始了。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "收割名词与开始搭配，农业场景明确。",
+    "analysis": "ئورما主语；باشلا+ن+دى表示开始。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئورما」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "独立词典较窄收录麦收义，目标泛称收割的范围和باشلاندى搭配待母语者确认。",
+    "target_form": "ئورما"
+  },
+  {
+    "id": "tb1449:0",
+    "ug": "ئورماندا قۇشلار كۆپ.",
+    "zh": "森林里有很多鸟。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "森林用作动物栖息处所，简短具体。",
+    "analysis": "ئورمان+دا处所格；قۇشلار复数，كۆپ作数量谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3处所；L5复数；L10数量；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئورمان」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئورماندا"
+  },
+  {
+    "id": "tb1450:0",
+    "ug": "دېھقانلار ئورمىغا چۈشۈپ كەتتى.",
+    "zh": "农民们忙着投入收割了。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "泛指他改为农民主体，中文完整表达投入收割。",
+    "analysis": "ئورما→ئورمىغا向格弱化；چۈشۈپ كەتتى为副动词加辅助词。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3向格；L14副动词；L15辅助词；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "独立词典未证实整个惯用短语及其趋始意义，请母语者核对教材上下文。",
+    "target_form": "ئورمىغا چۈشۈپ كەتتى"
+  },
+  {
+    "id": "tb1451:0",
+    "ug": "ئۇ بۇغداينى ئورۇپ بولدى.",
+    "zh": "他割完了小麦。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "补出小麦，清楚展示收割完成。",
+    "analysis": "ئور+ۇپ为副动词；بول+دى作完成辅助；بۇغداينى宾格。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L5宾格；L14副动词；L15完成；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئورۇپ بولماق」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئورۇپ بولدى"
+  },
+  {
+    "id": "tb1452:0",
+    "ug": "بۇ يەردە بوش ئورۇن بار.",
+    "zh": "这里有空位。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "选择地点/位置义，用空位的日常搭配。",
+    "analysis": "بوش修饰ئورۇن，بار为存在谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L2定语；L10存在；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئورۇن」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئورۇن"
+  },
+  {
+    "id": "tb1453:0",
+    "ug": "بۇ ئورۇندۇق يېڭى.",
+    "zh": "这把椅子是新的。",
+    "issues": [
+      "中文翻译"
+    ],
+    "reason": "维语句法、转写无误，中文椅子的量词改把。",
+    "analysis": "ئورۇندۇق主语，يېڭى谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L2形容词句；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئورۇندۇق」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئورۇندۇق"
+  },
+  {
+    "id": "tb1454:0",
+    "ug": "ئۇ ئورۇندىن تۇردى.",
+    "zh": "他站起来了。",
+    "issues": [
+      "中文翻译"
+    ],
+    "reason": "原短语可表示起身，本句选择站起来义，中文更口语。",
+    "analysis": "ئورۇن+دىن为离开位置的从格；تۇر+دى过去时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L5从格；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئورۇندىن تۇرماق」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئورۇندىن تۇردى"
+  },
+  {
+    "id": "tb1455:0",
+    "ug": "ئورۇن-كۆرپە پاكىز.",
+    "zh": "被褥很干净。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "用清洁状态描述被褥，简短实际。",
+    "analysis": "联绵名词整体作主语；پاكىز为形容词谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L2形容词句；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئورۇن-كۆرپە」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئورۇن-كۆرپە"
+  },
+  {
+    "id": "tb1456:0",
+    "ug": "بىز يول ئۈچۈن ئوزۇق تەييارلىدۇق.",
+    "zh": "我们准备了路上吃的食物。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "食物用于旅途准备语境。",
+    "analysis": "يول ئۈچۈن表示用途；ئوزۇق不定宾语；تەييارلا→تەييارلىدۇق。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L9目的；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئوزۇق」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئوزۇق"
+  },
+  {
+    "id": "tb1457:0",
+    "ug": "سۈت ئوزۇقلۇق ئىچىملىك.",
+    "zh": "牛奶是有营养的饮品。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "有养分应描述食品，原“这件事有养分”错误。",
+    "analysis": "ئوزۇقلۇق修饰ئىچىملىك，本句采用营养丰富形容词义。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L1名词句；L6 +liK；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئوزۇقلۇق」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئوزۇقلۇق"
+  },
+  {
+    "id": "tb1458:0",
+    "ug": "ئوسما بىر خىل ئۆسۈملۈك.",
+    "zh": "乌斯玛是一种植物。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "对文化植物给简短分类说明，不臆造化妆操作。",
+    "analysis": "بىر خىل修饰ئۆسۈملۈك；全句名词谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L1名词句；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئوسما」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "词卡把植物名限为叶子，独立词典还指植物本体；具体植物学范围需母语者或教材图片确认。",
+    "target_form": "ئوسما"
+  },
+  {
+    "id": "tb1459:0",
+    "ug": "بۇ ئوغۇل مەكتەپتە ئوقۇيدۇ.",
+    "zh": "这个男孩在学校读书。",
+    "issues": [
+      "中文翻译",
+      "未展示目标用法"
+    ],
+    "reason": "原中文仅“男”不自然，选择男孩义并给出学习场景。",
+    "analysis": "ئوغۇل为主语名词；مەكتەپ+تە为处所。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3处所与现在将来；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئوغۇل」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئوغۇل"
+  },
+  {
+    "id": "tb1460:0",
+    "ug": "ئەسكەرلەر نىشاننى ئوققا تۇتتى.",
+    "zh": "士兵向靶标射击了。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "射击动作补出执行者和靶标，避免无目标套句。",
+    "analysis": "نىشان+نى为确定宾语；ئوق+قا تۇت-保留射击短语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L5宾格；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئوققا تۇتماق」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئوققا تۇتتى"
+  },
+  {
+    "id": "tb1461:0",
+    "ug": "مەن كىتاب ئوقۇيمەن.",
+    "zh": "我读书。",
+    "issues": [],
+    "reason": "读书搭配、第一人称现在将来时、中文和转写均吻合。",
+    "analysis": "ئوقۇ+ي+مەن，كىتاب是不定宾语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3现在将来；L5不定宾语；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئوقۇماق」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئوقۇيمەن"
+  },
+  {
+    "id": "tb1462:0",
+    "ug": "ئوقۇتقۇچى دەرس ئۆتىدۇ.",
+    "zh": "老师授课。",
+    "issues": [
+      "中文翻译"
+    ],
+    "reason": "维语现在将来时未明示正在，中文改为一般行为以免混淆进行体。",
+    "analysis": "ئۆت+ى+دۇ为现在将来时，非ئۆتۈۋاتىدۇ进行体。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3现在将来；L7进行体对照；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئوقۇتقۇچى」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئوقۇتقۇچى"
+  },
+  {
+    "id": "tb1463:0",
+    "ug": "ئوقۇتقۇچى-ئوقۇغۇچىلار مەكتەپتە.",
+    "zh": "师生们在学校。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "集合人群作处所句主语，比泛说谈论师生直观。",
+    "analysis": "复合人群名词整体作主语；مەكتەپتە处所谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3处所；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئوقۇتقۇچى-ئوقۇغۇچىلار"
+  },
+  {
+    "id": "tb1464:0",
+    "ug": "ئوقۇتۇش ئۇسۇلى مۇھىم.",
+    "zh": "教学方法很重要。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "教学用作方法的限定语，符合学习语境。",
+    "analysis": "ئوقۇت+ۇش动名词；ئۇسۇل+ى为名词组合后项。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L9动名词；L8名词组合；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئوقۇتۇش」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئوقۇتۇش"
+  },
+  {
+    "id": "tb1465:0",
+    "ug": "ئوقۇتۇش بىناسى يېڭى.",
+    "zh": "教学楼是新的。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "建筑名词与新相配，直接展示目标短语。",
+    "analysis": "بىنا+سى为组合后项，يېڭى形容词谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L8名词组合；L2谓语；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئوقۇتۇش بىناسى"
+  },
+  {
+    "id": "tb1466:0",
+    "ug": "ئۇنىڭ ئوقۇشى ياخشى.",
+    "zh": "他学业很好。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "采用学业义，加入人物领属评价。",
+    "analysis": "ئوقۇش+ى为第三人称领属，ئۇنىڭ与之呼应。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L8领属；L9动名词；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئوقۇش」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئوقۇشى"
+  },
+  {
+    "id": "tb1467:0",
+    "ug": "ماڭا ئوقۇش پۇرسىتى كېرەك.",
+    "zh": "我需要学习机会。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "把学习机会放入实际需要的句子。",
+    "analysis": "ماڭا为受需者向格；پۇرسەت→پۇرسىتى为组合后项。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3向格；L8领属；L12必要；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئوقۇش پۇرسىتى"
+  },
+  {
+    "id": "tb1468:0",
+    "ug": "ئوقۇش پۈتكۈزۈش مەن ئۈچۈن مۇھىم.",
+    "zh": "毕业对我很重要。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "动名词短语真正作主语，完整表达毕业的重要性。",
+    "analysis": "پۈتكۈز+ۈش名词化；مەن ئۈچۈن表示对我而言。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L9动名词；L2谓语；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئوقۇش پۈتكۈزۈش"
+  },
+  {
+    "id": "tb1469:0",
+    "ug": "مەن ئوقۇش پۈتكۈزۈش ئىلمىي ماقالىسى يېزىۋاتىمەن.",
+    "zh": "我正在写毕业论文。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "论文与撰写行为搭配，保留词卡完整复合词。",
+    "analysis": "复合名词整体作不定宾语；ياز→يېزىۋاتىمەن进行体。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L7进行体；L9动名词；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "该冗长论文名称及不定宾语形态需专业母语者核定，未独立查到整项术语。",
+    "target_form": "ئوقۇش پۈتكۈزۈش ئىلمىي ماقالىسى"
+  },
+  {
+    "id": "tb1470:0",
+    "ug": "مەن ئوقۇغۇچى.",
+    "zh": "我是一名学生。",
+    "issues": [],
+    "reason": "名词谓语句可省系词，学生身份与中文对应。",
+    "analysis": "مەن作主语；ئوقۇغۇچى直接作谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L1名词谓语；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئوقۇغۇچى」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئوقۇغۇچى"
+  },
+  {
+    "id": "tb1471:0",
+    "ug": "ئوقۇغۇچىلار ئۇيۇشمىسى يىغىن ئۇيۇشتۇردى.",
+    "zh": "学生会组织了一场会议。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "学生会可作机构施事，改组织会议比拟人交谈更明确。",
+    "analysis": "ئۇيۇشمىسى为机构主语；يىغىن不定宾语；ئۇيۇشتۇر+دى过去。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L8名词组合；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئوقۇغۇچىلار ئۇيۇشمىسى」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئوقۇغۇچىلار ئۇيۇشمىسى"
+  },
+  {
+    "id": "tb1472:0",
+    "ug": "ئوقۇغۇچىلار ئاشخانىسى مەكتەپتە.",
+    "zh": "学生食堂在学校里。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "食堂不能与我们交谈，改为建筑处所句。",
+    "analysis": "ئاشخانا+سى为组合名词后项；مەكتەپتە处所谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3处所；L8领属；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئوقۇغۇچىلار ئاشخانىسى"
+  },
+  {
+    "id": "tb1473:0",
+    "ug": "بۇ ئوق ئېتىش ئورنى.",
+    "zh": "这是射击位置。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "用位置识别句直接展示术语。",
+    "analysis": "ئېتىش为动名词修饰ئورۇن+ى，整体名词谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L1名词句；L9动名词；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئوق ئېتىش ئورنى"
+  },
+  {
+    "id": "tb1474:0",
+    "ug": "ئىنسانغا ئوكسىگېن كېرەك.",
+    "zh": "人需要氧气。",
+    "issues": [
+      "不适合初学者"
+    ],
+    "reason": "括号内同义词不必每次塞进自然例句，选主词形表达需要。",
+    "analysis": "ئىنسان+غا为需要者，ئوكسىگېن是所需物，كېرەك谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3向格；L12必要；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئوكسىگېن"
+  },
+  {
+    "id": "tb1475:0",
+    "ug": "ئۇ ئوكۇل سالدۇردى.",
+    "zh": "他打了针。",
+    "issues": [
+      "中文翻译"
+    ],
+    "reason": "使动表示让人给自己注射，中文“让打针了”生硬且易误解。",
+    "analysis": "سال+دۇر+دى表达接受注射服务，不是替别人注射。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L13使动；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئوكۇل سالدۇردى"
+  },
+  {
+    "id": "tb1476:0",
+    "ug": "بۇ كىتابتا ئوكيانىيە ھەققىدە ئۇچۇر بار.",
+    "zh": "这本书里有关于大洋洲的信息。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "把泛说阅读某地内容具体为书中可查的信息，避免地理分类争议。",
+    "analysis": "كىتابتا为处所；ئوكيانىيە ھەققىدە修饰信息内容，بار存在。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3处所；L10存在；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئوكيانىيە」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئوكيانىيە"
+  },
+  {
+    "id": "tb1477:0",
+    "ug": "ئوڭ قولۇمنى كۆتۈردۈم.",
+    "zh": "我举起了右手。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "右应限定身体部位，不能孤立机械谈论。",
+    "analysis": "ئوڭ作قول定语；قول+ۇم+نى领属宾语；كۆتۈردۈم过去。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L8领属；L5宾格；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئوڭ」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئوڭ"
+  },
+  {
+    "id": "tb1478:0",
+    "ug": "ئۇ ئورۇندۇقتا ئولتۇردى.",
+    "zh": "他坐在椅子上。",
+    "issues": [],
+    "reason": "坐椅子的处所格与动词意义搭配自然，过去时无误。",
+    "analysis": "ئورۇندۇق+تا处所格；ئولتۇر+دى过去。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3处所；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئولتۇرماق」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئولتۇردى"
+  },
+  {
+    "id": "tb1479:0",
+    "ug": "ئۇ بۇ شەھەردە ئولتۇراقلاشتى.",
+    "zh": "他在这座城市定居了。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "定居需要地点，原“他居住了”中文也不完整。",
+    "analysis": "شەھەر+دە为定居处所；ئولتۇراقلاش+تى过去。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3处所；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئولتۇراقلاشماق」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئولتۇراقلاشتى"
+  },
+  {
+    "id": "tb1480:0",
+    "ug": "بۈگۈن كەچتە ئولتۇرۇش بار.",
+    "zh": "今晚有聚会。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "将聚会名词与具体时间和存在谓语搭配。",
+    "analysis": "本句ئولتۇرۇش选聚会义，非坐下动名词义。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L6时间；L10存在；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئولتۇرۇش」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئولتۇرۇش"
+  },
+  {
+    "id": "tb1481:0",
+    "ug": "ئومۇمەن ئېيتقاندا، بۇ كىتاب ياخشى.",
+    "zh": "总的来说，这本书很好。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "篇章连接语须概括后续评价，不能只提词形。",
+    "analysis": "ئومۇمەن ئېيتقاندا作为句首评论状语，逗号隔开。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L2评价句；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئومۇمەن ئېيتقاندا」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "教材没有直接详解此篇章套语，虽词典支持总的来说义，整句语气待母语者复核。",
+    "target_form": "ئومۇمەن ئېيتقاندا"
+  },
+  {
+    "id": "tb1482:0",
+    "ug": "بۇ ماقالە ئومۇمىي بايان بىلەن باشلىنىدۇ.",
+    "zh": "这篇文章以概述开头。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "概述置于文章结构语境，实际展示名词。",
+    "analysis": "ئومۇمىي بايان بىلەن表示以概述方式；باشلىنىدۇ为现在将来。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L6 bilen；L3现在将来；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئومۇمىي بايان」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "باشلان-到باشلىنىدۇ的词形与文章以概述开头的搭配需母语者确认。",
+    "target_form": "ئومۇمىي بايان"
+  },
+  {
+    "id": "tb1483:0",
+    "ug": "بۇ يەردە ئون كىتاب بار.",
+    "zh": "这里有十本书。",
+    "issues": [],
+    "reason": "十本书的基数表达、存在句和中文一致，保留。",
+    "analysis": "ئون+كىتاب，数词后名词不必复数。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L6数词；L10存在；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئون」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئون"
+  },
+  {
+    "id": "tb1484:0",
+    "ug": "بۇ يەردە ئون ئالتە كىتاب بار.",
+    "zh": "这里有十六本书。",
+    "issues": [],
+    "reason": "十六为加合数词ئون ئالتە，原数量和译文无误。",
+    "analysis": "数词复合内部不加连接词；كىتاب单数。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L6数词；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئون ئالتە"
+  },
+  {
+    "id": "tb1485:0",
+    "ug": "بۇ يەردە ئون بەش كىتاب بار.",
+    "zh": "这里有十五本书。",
+    "issues": [],
+    "reason": "ئون بەش是十五，原处所存在句自然。",
+    "analysis": "ئون与بەش组合；بار表示存在。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L6数词；L10存在；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئون بەش」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئون بەش"
+  },
+  {
+    "id": "tb1486:0",
+    "ug": "مەن ئون بەشىنچى قەۋەتتە تۇرىمەن.",
+    "zh": "我住在十五楼。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "序数词应限定楼层等名词，改居住楼层场景。",
+    "analysis": "بەش+ىنچى构成序数；قەۋەت+تە处所。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L6序数；L3处所；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئون بەشىنچى"
+  },
+  {
+    "id": "tb1487:0",
+    "ug": "بۇ يەردە ئون توققۇز كىتاب بار.",
+    "zh": "这里有十九本书。",
+    "issues": [],
+    "reason": "十九的数词拼写、单数名词搭配与中文一致。",
+    "analysis": "ئون توققۇز表示十加九；كىتاب不用复数。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L6数词；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئون توققۇز"
+  },
+  {
+    "id": "tb1488:0",
+    "ug": "بۇ يەردە ئون تۆت كىتاب بار.",
+    "zh": "这里有十四本书。",
+    "issues": [],
+    "reason": "十四的数词组成正确，原句可直接理解。",
+    "analysis": "ئون تۆت作数目定语；بار为存在谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L6数词；L10存在；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئون تۆت"
+  },
+  {
+    "id": "tb1489:0",
+    "ug": "بۇ يەردە ئون سەككىز كىتاب بار.",
+    "zh": "这里有十八本书。",
+    "issues": [],
+    "reason": "十八的数词组成、处所和中文相配。",
+    "analysis": "ئون سەككىز修饰单数كىتاب。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L6数词；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئون سەككىز」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئون سەككىز"
+  },
+  {
+    "id": "tb1490:0",
+    "ug": "بۇ يەردە ئون مىڭ كىتاب بار.",
+    "zh": "这里有一万本书。",
+    "issues": [
+      "中文翻译"
+    ],
+    "reason": "维语一万正确，中文补一以符合普通数量表达。",
+    "analysis": "ئون مىڭ为十个一千；数词后كىتاب单数。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L6大数；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئون مىڭ」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئون مىڭ"
+  },
+  {
+    "id": "tb1491:0",
+    "ug": "بۇ تۈرگە ئون مىليون يۈەن كېرەك.",
+    "zh": "这个项目需要一千万元。",
+    "issues": [
+      "不适合初学者",
+      "中文翻译"
+    ],
+    "reason": "原“这里有千万本书”不够日常，改清楚的项目金额。",
+    "analysis": "ئون مىليون是一千万；يۈەن为货币单位；تۈرگە为需要对象。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L6大数；L3向格；L12必要；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئون مىليون」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئون مىليون"
+  },
+  {
+    "id": "tb1492:0",
+    "ug": "بۇ تۈرگە ئون مىليارد يۈەن كېرەك.",
+    "zh": "这个项目需要一百亿元。",
+    "issues": [
+      "不适合初学者",
+      "中文翻译"
+    ],
+    "reason": "“这里有百亿本书”失真，改项目金额表达。",
+    "analysis": "ئون مىليارد为十个十亿，即一百亿；يۈەن为元。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L6大数；L12必要；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئون مىليارد」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئون مىليارد"
+  },
+  {
+    "id": "tb1493:0",
+    "ug": "بۇ يەردە ئون ئىككى كىتاب بار.",
+    "zh": "这里有十二本书。",
+    "issues": [],
+    "reason": "十二词形与中文数量一致，存在句成立。",
+    "analysis": "ئون ئىككى为十二；كىتاب单数。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L6数词；L10存在；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئون ئىككى」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئون ئىككى"
+  },
+  {
+    "id": "tb1494:0",
+    "ug": "ئونىنچى ئاي كەلدى.",
+    "zh": "十月到了。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "月份作为时间主语，比讨论“第十月”直接。",
+    "analysis": "ئون+ىنچى为第十，ئونىنچى ئاي表示十月；كەلدى过去。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L6序数和月份；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئونىنچى ئاي"
+  },
+  {
+    "id": "tb1495:0",
+    "ug": "ئۇ ئوۋغا چىقتى.",
+    "zh": "他去打猎了。",
+    "issues": [
+      "中文翻译"
+    ],
+    "reason": "ئوۋغا چىق-固定短语及清音过去式正确，中文自然化。",
+    "analysis": "ئوۋ+غا为目的向格；چىق+تى过去。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3向格；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئوۋغا چىقماق」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئوۋغا چىقتى"
+  },
+  {
+    "id": "tb1496:0",
+    "ug": "ئۇ ئوۋ ئوۋلىدى.",
+    "zh": "他打猎了。",
+    "issues": [
+      "中文翻译"
+    ],
+    "reason": "ئوۋ ئوۋلىدى确为打猎，词干末元音弱化正确。",
+    "analysis": "ئوۋلا→ئوۋلى+دى；ئوۋ为同源不定宾语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L2元音弱化；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئوۋ ئوۋلىدى"
+  },
+  {
+    "id": "tb1497:0",
+    "ug": "ئۇ بۇ ئىشنى ئويلىدى.",
+    "zh": "他考虑了这件事。",
+    "issues": [],
+    "reason": "想这件事的宾格和动词过去式均正确，中文对应。",
+    "analysis": "ئويلا→ئويلى+دى；بۇ ئىشنى为明确宾语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L2元音弱化；L5宾格；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئويلىدى"
+  },
+  {
+    "id": "tb1498:0",
+    "ug": "مەن بۇ ئىشنى ئويلىنىپ كۆردۈم.",
+    "zh": "我考虑了一下这件事。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原“想一想看了”机械，补思考对象并自然翻译。",
+    "analysis": "ئويلىنىپ副动词加كۆردۈم表示试着思考；第一人称过去。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L14副动词；L15试行辅助；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئويلىنىپ كۆردۈم"
+  },
+  {
+    "id": "tb1499:0",
+    "ug": "بالىلار باغدا ئويناۋاتىدۇ.",
+    "zh": "孩子们正在果园里玩。",
+    "issues": [],
+    "reason": "原ئويْنا-肯定进行式保留a，与教材所列oynawat-相符。",
+    "analysis": "ئوينا+ۋات+ىدۇ为第三人称进行；بالىلار复数无需重复人称复数尾。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L7进行体，明确肯定oynawat-；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئويناۋاتىدۇ"
+  },
+  {
+    "id": "tb1500:0",
+    "ug": "بالىلار ئويۇن ئويناۋاتىدۇ.",
+    "zh": "孩子们正在玩游戏。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "采用游戏与玩耍的典型搭配。",
+    "analysis": "ئويۇن为不定宾语；ئويناۋاتىدۇ第三人称进行。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L7进行体；L5不定宾语；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئويۇن」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئويۇن"
+  },
+  {
+    "id": "tb1501:0",
+    "ug": "ئۇ ماڭا يېڭى كىتاب كۆرسەتتى.",
+    "zh": "他给我看了一本新书。",
+    "issues": [],
+    "reason": "ئۇ作第三人称主体；ماڭا为受领者，给人看新书的表达成立。",
+    "analysis": "كۆرسەت+تى为清辅音后的过去式；ULY各字对应。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3代词向格；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئۇ」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۇ"
+  },
+  {
+    "id": "tb1501:1",
+    "ug": "ئۇ بۈگۈن خۇشال.",
+    "zh": "他今天很高兴。",
+    "issues": [],
+    "reason": "第三人称代词与心情形容词谓语自然，中文相符。",
+    "analysis": "ئۇ主语；بۈگۈن时间状语；خۇشال谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L2形容词句；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئۇ」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۇ"
+  },
+  {
+    "id": "tb1502:0",
+    "ug": "ئوتتىن ئۇچقۇن چىقتى.",
+    "zh": "火里冒出了火星。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "用火星从火中冒出的具体场景展示名词。",
+    "analysis": "ئوت+تىن为来源从格；چىق+تى过去。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L5从格；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئۇچقۇن」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۇچقۇن"
+  },
+  {
+    "id": "tb1503:0",
+    "ug": "مەن سىزگە ئۇچۇر ئەۋەتتىم.",
+    "zh": "我给您发了信息。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "选择信息义，与发送和接受者搭配。",
+    "analysis": "سىزگە为向格接受者；ئۇچۇر不定宾语；ئەۋەتتىم第一人称过去。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3向格；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئۇچۇر」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۇچۇر"
+  },
+  {
+    "id": "tb1504:0",
+    "ug": "بالا ئۇخلىدى.",
+    "zh": "孩子睡了。",
+    "issues": [
+      "中文翻译"
+    ],
+    "reason": "过去时只表达睡了，不必强化为入睡结果“睡着了”。",
+    "analysis": "ئۇخلا→ئۇخلى+دى弱化，第三人称过去。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L2元音弱化；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۇخلىدى"
+  },
+  {
+    "id": "tb1505:0",
+    "ug": "ئۇ دۇمباق ئۇردى.",
+    "zh": "他敲了鼓。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "给打奏动词补出鼓，选择奏击义，避免空泛打了。",
+    "analysis": "دۇمباق作不定宾语；ئۇر+دى过去。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L5不定宾语；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئۇرماق」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۇردى"
+  },
+  {
+    "id": "tb1506:0",
+    "ug": "ھېچكىم ئۇرۇشنى خالىمايدۇ.",
+    "zh": "没有人想要战争。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "战争与否定意愿搭配，完整展示实际意义。",
+    "analysis": "ئۇرۇش+نى为确定宾语；ھېچكىم与خالىمايدۇ否定呼应。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L4否定；L5宾格；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئۇرۇش」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۇرۇشنى"
+  },
+  {
+    "id": "tb1507:0",
+    "ug": "مەن باغدا ئۇرۇق كۆردۈم.",
+    "zh": "我在果园里看见了种子。",
+    "issues": [],
+    "reason": "园里看见种子语义成立，种子作不定宾语，第一人称过去正确。",
+    "analysis": "ئۇرۇق不需要必加نى；كۆردۈم与مەن一致。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L5不定宾语；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئۇرۇق」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۇرۇق"
+  },
+  {
+    "id": "tb1508:0",
+    "ug": "بۇ يول ئۇزۇن.",
+    "zh": "这条路很长。",
+    "issues": [],
+    "reason": "长路的主谓搭配自然，词义与中文完全对应。",
+    "analysis": "ئۇزۇن为形容词谓语，不需系词。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L2形容词句；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئۇزۇن」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۇزۇن"
+  },
+  {
+    "id": "tb1509:0",
+    "ug": "بۇ ئۈستەل ئۇزۇنچاق.",
+    "zh": "这张桌子是长条形的。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "路长圆形不自然；独立词典支持狭长，改桌子长条形，并揭示卡义差异。",
+    "analysis": "ئۇزۇنچاق作形容词谓语，描述物体形状。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L2形容词句；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئۇزۇنچاق」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "词卡“椭圆形”比词典“狭长”更窄；是否必须指长圆、长方或泛长形需母语者复核。",
+    "target_form": "ئۇزۇنچاق"
+  },
+  {
+    "id": "tb1510:0",
+    "ug": "مەن ئۇزۇندىن بېرى بۇ يەردە تۇرىمەن.",
+    "zh": "我在这里住了很久了。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "很久以来应作持续时间状语，补居住谓语。",
+    "analysis": "ئۇزۇن+دىن بېرى表示持续起点以来；تۇرىمەن表示当前持续居住。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L5从格后置词；L3现在将来；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئۇزۇندىن بېرى」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۇزۇندىن بېرى"
+  },
+  {
+    "id": "tb1511:0",
+    "ug": "ئۇ ھەر كۈنى ئۇزۇنغا يۈگۈرىدۇ.",
+    "zh": "他每天长跑。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译",
+      "ULY转写"
+    ],
+    "reason": "加入习惯时间，使长跑动作具体，避免“长跑了”孤立。 原ULY还需将ن+غ写成n'gh，避免与ڭ产生歧义。",
+    "analysis": "ئۇزۇن+غا为距离方向短语；يۈگۈر+ىدۇ第三人称习惯。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3向格与现在将来；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "ئۇزۇنغا يۈگۈر-是否为最自然的“长跑”术语及距离搭配请母语者复核。",
+    "target_form": "ئۇزۇنغا يۈگۈرىدۇ"
+  },
+  {
+    "id": "tb1512:0",
+    "ug": "مەن ئۇزۇنغىچە كۈتتۈم.",
+    "zh": "我等了很久。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译",
+      "ULY转写"
+    ],
+    "reason": "时间副词不能作“这件事很长时间”的谓语，改修饰等待。 原ULY还需将ن+غ写成n'gh，避免与ڭ产生歧义。",
+    "analysis": "ئۇزۇنغىچە为时长/时间界限状语；كۈت+تۈم第一人称过去。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L14时间限界；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۇزۇنغىچە"
+  },
+  {
+    "id": "tb1513:0",
+    "ug": "بۇ شەھەر ئۇزۇن يىللىق تارىخقا ئىگە.",
+    "zh": "这座城市具有悠久历史。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "具有历史本身是谓语短语，不能再机械接关于。",
+    "analysis": "تارىخ+قا是ئىگە所需向格补语；ئۇزۇن يىللىق修饰历史。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3向格；L6 +liK；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۇزۇن يىللىق تارىخقا ئىگە"
+  },
+  {
+    "id": "tb1514:0",
+    "ug": "ئۇ ئۇسسىدى.",
+    "zh": "他渴了。",
+    "issues": [
+      "词形变化"
+    ],
+    "reason": "ئۇسسا-接过去时末元音须弱化，原ئۇسسادى不规范。",
+    "analysis": "ئۇسسا→ئۇسسى+دى，词典ئۇسسىماق支持弱化词干。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L2元音弱化；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۇسسىدى"
+  },
+  {
+    "id": "tb1515:0",
+    "ug": "بىز ئۇسسۇل ئوينىدۇق.",
+    "zh": "我们跳舞了。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "舞蹈与ئوينا-构成常见实际搭配。",
+    "analysis": "ئۇسسۇل为不定宾语；ئوينا→ئوينى+دۇق第一人称复数过去。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L2元音弱化；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئۇسسۇل」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۇسسۇل"
+  },
+  {
+    "id": "tb1516:0",
+    "ug": "ئۇ مېنى ئۇسسۇلغا تارتتى.",
+    "zh": "他邀请我跳舞。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "邀请需要被邀请人，补第一人称宾格。",
+    "analysis": "مېنى为مەن的宾格；ئۇسسۇل+غا保留目标短语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3向格；L5代词宾格；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۇسسۇلغا تارتتى"
+  },
+  {
+    "id": "tb1517:0",
+    "ug": "ئۇ ئۇشتۇمتۇت كەلدى.",
+    "zh": "他突然来了。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "突然作时间/方式副词修饰来，不能机械作谈论对象。",
+    "analysis": "ئۇشتۇمتۇت置于动词前；كەلدى为过去时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L2副词；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئۇشتۇمتۇت」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۇشتۇمتۇت"
+  },
+  {
+    "id": "tb1518:0",
+    "ug": "ئوقۇتقۇچى ئەتە يىغىن بار دەپ ئۇقتۇرۇش قىلدى.",
+    "zh": "老师通知说明天有会议。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "通知需有具体内容，补明天开会的消息。",
+    "analysis": "دەپ引出通知内容；ئۇقتۇرۇش قىلدى第三人称过去。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L10存在；L14 de-副动词；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "所引教材未充分说明دەپ报告补语，与ئۇقتۇرۇش قىل-的连接自然度待母语者复核。",
+    "target_form": "ئۇقتۇرۇش قىلدى"
+  },
+  {
+    "id": "tb1519:0",
+    "ug": "بۇ ئۇلۇغ ئىش.",
+    "zh": "这是一件伟大的事。",
+    "issues": [
+      "中文翻译",
+      "搭配自然度"
+    ],
+    "reason": "“这件事伟大”虽可懂但中文生硬，改名词谓语更清楚。",
+    "analysis": "ئۇلۇغ作ئىش的定语；بۇ引出名词谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L1名词句；L2定语；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئۇلۇغ」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۇلۇغ"
+  },
+  {
+    "id": "tb1520:0",
+    "ug": "مەن بۈگۈن ئۇن سېتىۋالدىم.",
+    "zh": "我今天买了面粉。",
+    "issues": [],
+    "reason": "面粉为可购买物，第一人称过去及中文均准确。",
+    "analysis": "ئۇن作不定宾语；سېتىۋال+دىم。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L5宾语；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئۇن」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۇن"
+  },
+  {
+    "id": "tb1521:0",
+    "ug": "مەن ئۇنىڭ ئىسمىنى ئۇنتۇپ قالدىم.",
+    "zh": "我忘了他的名字。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "补出忘记的对象，展示遗忘结果短语。",
+    "analysis": "ئۇنىڭ ئىسمى+نى为领属宾格；ئۇنتۇپ قالدىم为副动词加结果辅助词。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L8领属；L14副动词；L15结果；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئۇنتۇپ قالماق」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۇنتۇپ قالدىم"
+  },
+  {
+    "id": "tb1522:0",
+    "ug": "مەن ئۇنداق كىتابنى ياقتۇرمايمەن.",
+    "zh": "我不喜欢那样的书。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "指示性形容词直接修饰书，替代词形识别。",
+    "analysis": "ئۇنداق作定语；ياقتۇر+ما+ي+مەن为否定现在将来。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L1指示定语；L4否定；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئۇنداق」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۇنداق"
+  },
+  {
+    "id": "tb1523:0",
+    "ug": "ئۇنداق بولسا، بىز بىللە بارايلى.",
+    "zh": "那样的话，我们一起去吧。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "条件承接语引出建议，展示实际会话功能。",
+    "analysis": "ئۇنداق بولسا作承接短语；بار+ايلى为第一人称复数祈愿。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L8祈愿-Ayli；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئۇنداق بولسا」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۇنداق بولسا"
+  },
+  {
+    "id": "tb1524:0",
+    "ug": "ئۇنىڭدىن باشقا، مەن يەنە بىر كىتاب ئالدىم.",
+    "zh": "除此以外，我还买了一本书。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "从格后置词短语需要做附加衔接语，不宜再接关于。",
+    "analysis": "ئۇ+نىڭ+دىن باشقا为除此外；يەنە标附加。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L5从格与bashqa；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۇنىڭدىن باشقا"
+  },
+  {
+    "id": "tb1525:0",
+    "ug": "بۇ كىتاب ئەرزان، ئۇنىڭ ئۈستىگە قىزىقارلىق.",
+    "zh": "这本书很便宜，而且很有趣。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "把“再说”用于附加理由的实用语境。",
+    "analysis": "ئۇنىڭ ئۈستىگە连接两项评价，不取空间“上面”义。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L2连接和形容词；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئۇنىڭ ئۈستىگە」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "教材未详解此篇章连接语，虽词典支持并且义，两个形容词分句的连接自然度待母语者复核。",
+    "target_form": "ئۇنىڭ ئۈستىگە"
+  },
+  {
+    "id": "tb1526:0",
+    "ug": "ئۇ ئۇنىۋېرسىتېتتا ئوقۇيدۇ.",
+    "zh": "他在大学读书。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "大学作为就读处所，最适合初学者。",
+    "analysis": "ئۇنىۋېرسىتېت+تا因末ت取تا；ئوقۇيدۇ为第三人称现在将来。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3处所与现在将来；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئۇنىۋېرسىتېت」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۇنىۋېرسىتېتتا"
+  },
+  {
+    "id": "tb1527:0",
+    "ug": "دەرەختە بىر ئۇۋا بار.",
+    "zh": "树上有一个鸟窝。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "给巢以典型树上处所。",
+    "analysis": "دەرەخ+تە处所格；بىر ئۇۋا为存在主体。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3处所；L10存在；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئۇۋا」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۇۋا"
+  },
+  {
+    "id": "tb1528:0",
+    "ug": "قۇش ئۇۋا ياسىدى.",
+    "zh": "鸟筑了巢。",
+    "issues": [
+      "词形变化",
+      "搭配自然度"
+    ],
+    "reason": "原ياسادى遗漏元音弱化，且鸟比泛指他更合适。",
+    "analysis": "ياسا→ياسى+دى；قۇش主语，ئۇۋا不定宾语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L2元音弱化；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۇۋا ياسىدى"
+  },
+  {
+    "id": "tb1529:0",
+    "ug": "مەن ئۇيغۇرچە سۆزلەيمەن.",
+    "zh": "我说维吾尔语。",
+    "issues": [],
+    "reason": "维语作为说的语言状语自然，第一人称与译文一致。",
+    "analysis": "ئۇيغۇرچە不另加宾格；سۆزلە+ي+مەن。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3语言词与现在将来；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئۇيغۇرچە」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۇيغۇرچە"
+  },
+  {
+    "id": "tb1530:0",
+    "ug": "بىز بىر يىغىن ئۇيۇشتۇردۇق.",
+    "zh": "我们组织了一场会议。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "组织需带活动对象，补会议并明确第一人称复数。",
+    "analysis": "ئۇيۇشتۇر+دۇق为过去复数，يىغىن不定宾语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L5宾语；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئۇيۇشتۇرماق」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۇيۇشتۇردۇق"
+  },
+  {
+    "id": "tb1531:0",
+    "ug": "ئۇ كۆۋرۈكتىن ئۆتتى.",
+    "zh": "他过了桥。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "通过动词补出所过桥梁，避免“他过了”不明确。",
+    "analysis": "كۆۋرۈك+تىن表示路径；ئۆت+تى清辅音过去。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L5从格；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئۆت」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۆتتى"
+  },
+  {
+    "id": "tb1532:0",
+    "ug": "مەن ئۆتكەن ھەپتە بۇ يەرگە كەلدىم.",
+    "zh": "我上周来到了这里。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "上周作为过去事件时间状语，不再机械谈论上星期。",
+    "analysis": "ئۆتكەن ھەپتە为时间短语；كەلدىم与过去时间一致。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L6时间；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۆتكەن ھەپتە"
+  },
+  {
+    "id": "tb1533:0",
+    "ug": "بۇ پىچاق ئۆتكۈر.",
+    "zh": "这把刀很锋利。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "锋利与刀相配，原“房子尖锐”不合语义。",
+    "analysis": "ئۆتكۈر为谓语，本句选锐利义。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L2形容词句；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئۆتكۈر」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۆتكۈر"
+  },
+  {
+    "id": "tb1534:0",
+    "ug": "بىز يىغىن ئۆتكۈزدۇق.",
+    "zh": "我们举行了会议。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "举行需要活动对象，补会议形成常见搭配。",
+    "analysis": "ئۆتكۈز+دۇق第一人称复数过去；يىغىن不定宾语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئۆتكۈزمەك」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۆتكۈزدۇق"
+  },
+  {
+    "id": "tb1535:0",
+    "ug": "مەن سىزدىن ياردەم ئۆتۈندۈم.",
+    "zh": "我恳请您帮忙。",
+    "issues": [
+      "中文翻译",
+      "搭配自然度"
+    ],
+    "reason": "原“他让了”未体现恳请义，明确请求帮助和对象。",
+    "analysis": "سىزدىن为请求来源对象；ئۆتۈن+دۈم第一人称过去。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L5从格；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئۆتۈنمەك」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "ئۆتۈن-的帮助宾语是否宜用ياردەم、ياردەم قىلىشنى等完整补语，需母语者复核。",
+    "target_form": "ئۆتۈندۈم"
+  },
+  {
+    "id": "tb1536:0",
+    "ug": "مەن باغدا ئۆچكە كۆردۈم.",
+    "zh": "我在果园里看见了山羊。",
+    "issues": [],
+    "reason": "山羊可在果园出现，动物观察句、第一人称过去均成立。",
+    "analysis": "ئۆچكە作不定宾语；كۆردۈم表示我看见了。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L5宾语；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئۆچكە」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۆچكە"
+  },
+  {
+    "id": "tb1537:0",
+    "ug": "بۇ ئۆچمەس خاتىرە.",
+    "zh": "这是一段不可磨灭的记忆。",
+    "issues": [],
+    "reason": "不可磨灭修饰记忆符合引申义，中文与原ULY相符。",
+    "analysis": "ئۆچمەس作خاتىرە的定语；名词谓语句。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L1名词句；L2定语；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئۆچمەس」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۆچمەس"
+  },
+  {
+    "id": "tb1538:0",
+    "ug": "ئۇ ئوتنى ئۆچۈردى.",
+    "zh": "他灭了火。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "熄灭补出火作对象，中文不再孤立“灭了”。",
+    "analysis": "ئوت+نى为宾格；ئۆچۈر+دى第三人称过去。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L5宾格；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئۆچۈرمەك」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۆچۈردى"
+  },
+  {
+    "id": "tb1539:0",
+    "ug": "سۇنىڭ باھاسى ئۆرلىدى.",
+    "zh": "水价上涨了。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "上涨选价格主体，比泛指他上升明确。",
+    "analysis": "باھا→باھاسى为领属；ئۆرلە→ئۆرلى+دى弱化。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L8领属；L2弱化；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۆرلىدى"
+  },
+  {
+    "id": "tb1540:0",
+    "ug": "مەن بۈگۈن ئۆرۈك سېتىۋالدىم.",
+    "zh": "我今天买了杏儿。",
+    "issues": [],
+    "reason": "杏为可购买物，过去第一人称与中文一致。",
+    "analysis": "ئۆرۈك为不定宾语；بۈگۈن时间状语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L5宾语；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئۆرۈك」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۆرۈك"
+  },
+  {
+    "id": "tb1541:0",
+    "ug": "ئۇ ئۆز كىتابىنى ئالدى.",
+    "zh": "他拿了自己的书。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "反身词应与领属名词配合，原“谈论自己”缺必要变形。",
+    "analysis": "ئۆز修饰كىتاب+ى+نى，反身所属指向主语ئۇ。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L12反身词；L8领属；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئۆز」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۆز"
+  },
+  {
+    "id": "tb1542:0",
+    "ug": "بىز ئۆزئارا ياردەم قىلىمىز.",
+    "zh": "我们互相帮助。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "互相须修饰双方行为，改帮助动作。",
+    "analysis": "ئۆزئارا作方式状语；قىلىمىز为第一人称复数。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L12互惠相关；L3现在将来；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئۆزئارا」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۆزئارا"
+  },
+  {
+    "id": "tb1543:0",
+    "ug": "ئۇ ئۆزبېك.",
+    "zh": "他是乌孜别克族。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "民族词作身份谓语直接展示词义。",
+    "analysis": "ئۇ为人物主语，ئۆزبېك为民族名词谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L1名词句；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "民族名拼写ئۆزبېك/ئۆزبەك的规范变体未在独立词典核到，需母语者确认。",
+    "target_form": "ئۆزبېك"
+  },
+  {
+    "id": "tb1544:0",
+    "ug": "ھاۋا ئۆزگەردى.",
+    "zh": "天气变了。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "天气变化比泛指他变了具体，有实用价值。",
+    "analysis": "ھاۋا为自然变化主体；ئۆزگەر+دى过去。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئۆزگەرمەك」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۆزگەردى"
+  },
+  {
+    "id": "tb1545:0",
+    "ug": "ئۇ پىلاننى ئۆزگەرتتى.",
+    "zh": "他改了计划。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "使改变为及物动词，应给出计划宾语，中文用自然动词。",
+    "analysis": "پىلان+نى为确定宾语；ئۆزگەرت+تى清音过去。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L5宾格；L13使动；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئۆزگەرتمەك」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۆزگەرتتى"
+  },
+  {
+    "id": "tb1546:0",
+    "ug": "بۇ يەردە چوڭ ئۆزگىرىش بولدى.",
+    "zh": "这里发生了很大变化。",
+    "issues": [
+      "语序",
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原ئۇ无法自然直接带变化名词谓语，改变化作事件主体。",
+    "analysis": "ئۆزگىرىش为主语，بولدى表示发生；بۇ يەردە为处所。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L9动名词；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۆزگىرىش بولدى"
+  },
+  {
+    "id": "tb1547:0",
+    "ug": "ئۇ ئۆز ھالىغا قاراپ ئىش قىلدى.",
+    "zh": "他根据自己的情况做事。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "把根据自身情况作方式状语，非只讲词形。",
+    "analysis": "ھال+ى+غا为领属向格；قاراپ副动词修饰ئىش قىلدى。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L8领属；L14副动词；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "此固定片语也可能指量力而行等特定义，整句搭配与指代须母语者核教材上下文。",
+    "target_form": "ئۆز ھالىغا قاراپ"
+  },
+  {
+    "id": "tb1548:0",
+    "ug": "مەن ئۆز-ئۆزۈمگە سۆز بەردىم.",
+    "zh": "我向自己作了承诺。",
+    "issues": [
+      "时态人称",
+      "搭配自然度"
+    ],
+    "reason": "原بىز与第一人称单数反身向格不协调，改مەن。",
+    "analysis": "ئۆز+ئۆز+ۈم+گە反身单数向格，بەردىم与主语一致。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L12反身；L8领属；L3向格；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۆز-ئۆزۈمگە"
+  },
+  {
+    "id": "tb1549:0",
+    "ug": "بۇ ئىشنى ئۆزۈم قىلىمەن.",
+    "zh": "这件事我自己做。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原我们谈论我自己指代别扭，改反身代词强调施事。",
+    "analysis": "ئۆز+ۈم为第一人称反身；قىلىمەن也是第一人称。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L12反身词；L3人称；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئۆزۈم」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۆزۈم"
+  },
+  {
+    "id": "tb1550:0",
+    "ug": "بۇ شەھەر ئۆزىگە خاس ئالاھىدىلىككە ئىگە.",
+    "zh": "这座城市独具特色。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原具有特色不能直接作谈论名词，改完整城市评价。",
+    "analysis": "ئۆزىگە خاس修饰ئالاھىدىلىك；ككە是ئىگە所需向格。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3向格；L12反身；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۆزىگە خاس ئالاھىدىلىككە ئىگە"
+  },
+  {
+    "id": "tb1551:0",
+    "ug": "بالا تېز ئۆستى.",
+    "zh": "孩子长得很快。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "给生长动词明确孩子主体和程度，原“他长了”中文不完整。",
+    "analysis": "تېز作方式状语；ئۆس+تى清辅音后过去。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئۆس」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۆستى"
+  },
+  {
+    "id": "tb1552:0",
+    "ug": "ئۇ ئاۋازىنى ئۆستۈردى.",
+    "zh": "他提高了声音。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "提高需要对象，给出声音。",
+    "analysis": "ئاۋاز+ى+نى为领属宾格；ئۆستۈر+دى为使动过去。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L5宾格；L8领属；L13使动；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئۆستۈرمەك」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۆستۈردى"
+  },
+  {
+    "id": "tb1553:0",
+    "ug": "بۇ ئۆسمە كىچىك.",
+    "zh": "这个肿瘤很小。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "肿瘤作直接状态描写，简短展示目标名词，不引入不必要的复杂领属词形。",
+    "analysis": "بۇ ئۆسمە为主语，كىچىك为形容词谓语；未给治疗或诊断建议。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L2形容词谓语；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئۆسمە」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۆسمە"
+  },
+  {
+    "id": "tb1554:0",
+    "ug": "بالىنىڭ ئۆسۈپ يېتىلىش جەريانى مۇھىم.",
+    "zh": "孩子的成长过程很重要。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "将成长过程与孩子领属相连，真正作主语。",
+    "analysis": "بالا→بالىنىڭ；ئۆسۈپ副动词与يېتىلىش动名词组成成长；جەريانى领属。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L8领属；L9动名词；L14副动词；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۆسۈپ يېتىلىش جەريانى"
+  },
+  {
+    "id": "tb1555:0",
+    "ug": "مەن باغدا ئۆسۈملۈك كۆردۈم.",
+    "zh": "我在果园里看见了植物。",
+    "issues": [],
+    "reason": "在园里看见植物符合语境，不定宾语和过去人称正确。",
+    "analysis": "ئۆسۈملۈك作不定宾语；كۆردۈم第一人称过去。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L5宾语；L11过去；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئۆسۈملۈك」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۆسۈملۈك"
+  },
+  {
+    "id": "tb1556:0",
+    "ug": "بىز بىرگە ئۆگىنىمىز.",
+    "zh": "我们一起学习。",
+    "issues": [],
+    "reason": "ئۆگەن-在现在将来时弱化为ئۆگىن-，原ئۆگىنىمىز正确。",
+    "analysis": "ئۆگەن→ئۆگىن+ى+مىز，主语بىز与مىز一致。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L3现在将来及A-raising；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئۆگەنمەك」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۆگىنىمىز"
+  },
+  {
+    "id": "tb1556:1",
+    "ug": "مەن ئۇيغۇر تىلىنى ئۆگىنىۋاتىمەن.",
+    "zh": "我正在学习维吾尔语。",
+    "issues": [],
+    "reason": "当前学习进行体与中文正在一致，词干弱化和领属宾语正确。",
+    "analysis": "ئۆگەن→ئۆگىن+ىۋات+ى+مەن；ئۇيغۇر تىل+ى+نى。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009)，L7进行体；L8领属；L5宾格；支持本行所述结构，非整句原文见证。https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf",
+      "D Anatilim词典，词目「ئۆگەنمەك」；仅作为目标词词义参考，不认证整句。https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz",
+      "U Kontovas《Reading Uyghur》(2021) §2表1；逐字核对ە=e、ې=ë及辅音字母。https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۆگىنىۋاتىمەن"
+  }
+]

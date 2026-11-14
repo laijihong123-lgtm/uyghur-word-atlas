@@ -27,6 +27,8 @@ jobs:
         run: |
           git clone --depth 1 --filter=blob:none --sparse https://github.com/designfuchen/word-atlas.git upstream
           cd upstream
+          git fetch --depth 1 origin 0f1bae41fe5428f0f44781e60282525407b5ae46
+          git checkout --detach 0f1bae41fe5428f0f44781e60282525407b5ae46
           git sparse-checkout set --no-cone \
             "/*" "!/*/" "/src/" "/public/" \
             "!/public/atlas/audio/" \
@@ -113,6 +115,10 @@ jobs:
           assert not any(x.get('source')=='word_mention' for x in examples if not x['ug'])
           print('COMPLETE_SENTENCE_COVERAGE',len(entries),len(examples),flush=True)
           PY
+      - name: Apply all 1840 row-level linguistic review decisions
+        run: |
+          python3 tools/apply_example_review.py
+          python3 tools/export_example_audit.py
       - name: Restore licensed illustrations that match textbook definitions
         run: python3 tools/add_illustrations.py
       - name: Add six purpose-made Uyghur vocabulary illustrations

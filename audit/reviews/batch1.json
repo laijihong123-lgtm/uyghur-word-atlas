@@ -1,0 +1,4551 @@
+[
+  {
+    "id": "tb0256:0",
+    "ug": "بۇرادەر، بۇياققا كېلىڭ.",
+    "zh": "老兄，请到这边来。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原句只把称呼当谈论对象；改作直接称呼，展示交际功能。",
+    "analysis": "بۇرادەر为呼语；كېلىڭ为敬称祈使；逗号隔开称呼。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L14祈使（语法支持，不声称收录整条例句）",
+      "D: Anatilim Uyghur–Chinese StarDict https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz 词目بۇرادەر有伙伴、老弟、老兄义；支持呼语选义，非整句地道性证明。",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بۇرادەر"
+  },
+  {
+    "id": "tb0257:0",
+    "ug": "ئۇنىڭ بۇرۇت-ساقىلى ئاق.",
+    "zh": "他的胡须是白的。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "补充胡须所属的人和可观察的颜色。 第二轮复核将“白了”改为“是白的”，避免把静态颜色误译为状态变化。",
+    "analysis": "بۇرۇت-ساقال加三人称领属-ى，末音节元音弱化为ساقىلى；ئۇنىڭ与领属呼应。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L8属格领属、L2形容词谓语（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بۇرۇت-ساقىلى"
+  },
+  {
+    "id": "tb0258:0",
+    "ug": "ئۇ بۇرۇن بۇ يەردە تۇراتتى.",
+    "zh": "他以前住在这里。",
+    "issues": [],
+    "reason": "بۇرۇن置于地点前表示以前；تۇراتتى与过去习惯语境相符。",
+    "analysis": "تۇر-→تۇراتتى为过去持续/习惯；采用“以前”义，不是鼻子义。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L13过去习惯（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بۇرۇن"
+  },
+  {
+    "id": "tb0260:0",
+    "ug": "بۇ مېنىڭ بۇرۇنقى مەكتىپىم.",
+    "zh": "这是我以前的学校。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "原句仅引述词形；改用بۇرۇنقى修饰学校。",
+    "analysis": "بۇرۇنقى是定语；مېنىڭ مەكتىپىم为一人称领属结构。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2定语、L8领属（语法支持，不声称收录整条例句）",
+      "D: Anatilim Uyghur–Chinese StarDict https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz 词目بۇرۇنقى有前任、原来、原先、旧义；支持过去的定语语义。",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بۇرۇنقى"
+  },
+  {
+    "id": "tb0261:0",
+    "ug": "بۇرۇننىڭ بۇرۇنىسىدا بىر پادىشاھ بار ئىدى.",
+    "zh": "很久很久以前，有一位国王。",
+    "issues": [
+      "语序",
+      "搭配自然度"
+    ],
+    "reason": "时间短语不能机械充当توغرىسىدا前的名词；改为叙事时间状语。",
+    "analysis": "开头时间状语加بار ئىدى表示过去存在。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L10存在、L13ئىدى（语法支持，不声称收录整条例句）",
+      "D: Anatilim Uyghur–Chinese StarDict https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz 查询بۇرۇننىڭ بۇرۇنىسىدا未得直接词目；缺少固定语形的独立证据，故保留待核。",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "固定短语词形بۇرۇنىسىدا未获独立词目确认；需核对教材是否为بۇرۇنىدا或其他叙事变体。",
+    "target_form": "بۇرۇننىڭ بۇرۇنىسىدا"
+  },
+  {
+    "id": "tb0262:0",
+    "ug": "بۇ رادىيو بۇزۇق.",
+    "zh": "这台收音机坏了。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "بۇزۇق适合说明器物损坏；原“事情坏”搭配和中文均生硬。",
+    "analysis": "收音机作主语，بۇزۇق作状态谓语，无须系词。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2形容词谓语（语法支持，不声称收录整条例句）",
+      "D: Anatilim Uyghur–Chinese StarDict https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz 词目بۇزۇق有残破、坏的义；支持器物损坏语境。",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بۇزۇق"
+  },
+  {
+    "id": "tb0263:0",
+    "ug": "بۇزۇق قاننى ساپلاشتۇرۇش دېگەن نېمە؟",
+    "zh": "“清洁血液”是什么意思？",
+    "issues": [
+      "不适合初学者",
+      "搭配自然度"
+    ],
+    "reason": "原名词化医学短语脱离语境，不能确认其自然含义；仅保留询问含义的待核草案。",
+    "analysis": "整短语含宾格قاننى与使动名词化ساپلاشتۇرۇش；该例仍属术语询问，未达到日常真实用法要求。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L9动名词（语法支持，不声称收录整条例句）",
+      "D: Anatilim Uyghur–Chinese StarDict https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz 整短语بۇزۇق قاننى ساپلاشتۇرۇش未得直接词目；不据字面组合认证医学语义。",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "词条以“坏血”表述“清洁血液”涉及传统医学语义；无可靠语境可确认，须母语者与教材复核后改写，不能当健康陈述。",
+    "target_form": "بۇزۇق قاننى ساپلاشتۇرۇش"
+  },
+  {
+    "id": "tb0264:0",
+    "ug": "مەن بۈگۈن بۇغداي سېتىۋالدىم.",
+    "zh": "我今天买了小麦。",
+    "issues": [],
+    "reason": "小麦可作为购买的非特指宾语；原句简短完整。",
+    "analysis": "بۇغداي不加宾格，سېتىۋالدىم是一人称过去式。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L5宾格、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بۇغداي"
+  },
+  {
+    "id": "tb0265:0",
+    "ug": "بۇ قانداق گەپ؟",
+    "zh": "这是什么话？",
+    "issues": [
+      "语序",
+      "中文翻译"
+    ],
+    "reason": "目标本来就是疑问句，原模板把完整问句当名词接关于。",
+    "analysis": "قانداق修饰گەپ；使用问号，保留质问/惊讶语气。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L1疑问、L2قانداق（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بۇ قانداق گەپ"
+  },
+  {
+    "id": "tb0266:0",
+    "ug": "بۇ قېتىمقى ئىمتىھان ئاسان.",
+    "zh": "这次考试很容易。",
+    "issues": [
+      "未展示目标用法",
+      "语序"
+    ],
+    "reason": "“此次的”缺中心名词，不能直接用于关于结构。",
+    "analysis": "بۇ قېتىمقى修饰ئىمتىھان，ئاسان作谓语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2定语（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بۇ قېتىمقى"
+  },
+  {
+    "id": "tb0267:0",
+    "ug": "مەن بۇلتۇر بېيجىڭغا باردىم.",
+    "zh": "我去年去了北京。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "改以去年修饰具体去北京的动作。",
+    "analysis": "بۇلتۇر为时间状语；بېيجىڭغا为方向格；باردىم一人称过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L3向格、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بۇلتۇر"
+  },
+  {
+    "id": "tb0268:0",
+    "ug": "بۇنداق قىلماڭ.",
+    "zh": "请不要这样做。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "原来只是引用词形；改成日常劝阻。",
+    "analysis": "بۇنداق作方式状语；قىلماڭ为敬称否定祈使。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L14祈使（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بۇنداق"
+  },
+  {
+    "id": "tb0269:0",
+    "ug": "بۇندىن كېيىن بالدۇر كېلىمەن.",
+    "zh": "今后我会早点来。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "展示从今往后的时间范围，替换引词句。",
+    "analysis": "بۇندىن为指示代词离格，كېيىن为后置词；كېلىمەن表达将来。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L5离格后置词、L3现在将来（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بۇندىن كېيىن"
+  },
+  {
+    "id": "tb0270:0",
+    "ug": "يامغۇر توختىدى، بۇنىڭ بىلەن بىز يولغا چىقتۇق.",
+    "zh": "雨停了，于是我们出发了。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "增加前后事件，展示“于是”的承接关系。",
+    "analysis": "بۇنىڭ بىلەن指代前件作为结果连接；چىقتۇق为一复过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L11过去、L8指示代词属格（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "连接用法可理解，但该教材词条究竟偏“由此/于是”还是工具指代，需母语者确认口语自然度。",
+    "target_form": "بۇنىڭ بىلەن"
+  },
+  {
+    "id": "tb0271:0",
+    "ug": "ياردىمىڭىز ئۈچۈن رەھمەت، بۇنىڭ ئۈچۈن بەك خۇشال بولدۇم.",
+    "zh": "谢谢您的帮助，我为此很高兴。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "给بۇنىڭ提供明确先行内容，展示为此而高兴。",
+    "analysis": "بۇنىڭ为属格指示代词，ئۈچۈن后置；خۇشال بولدۇم为一单过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L8属格、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بۇنىڭ ئۈچۈن"
+  },
+  {
+    "id": "tb0272:0",
+    "ug": "بۇياققا كېلىڭ.",
+    "zh": "请到这边来。",
+    "issues": [
+      "语序",
+      "未展示目标用法"
+    ],
+    "reason": "方向状语不能机械作为“关于”的话题名词。",
+    "analysis": "بۇياق+قا方向格与来相配；كېلىڭ为敬称祈使。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L3向格、L14祈使（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بۇياققا"
+  },
+  {
+    "id": "tb0273:0",
+    "ug": "ئۇ ماڭا ئولتۇرۇشنى بۇيرۇدى.",
+    "zh": "他命令我坐下。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "命令对象与内容均缺失，补齐“命令我坐下”。",
+    "analysis": "ماڭا为受命对象向格；ئولتۇرۇشنى为动名词宾格；بۇيرۇدى三单过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L3向格、L9动名词、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بۇيرۇدى"
+  },
+  {
+    "id": "tb0274:0",
+    "ug": "باشلىق بۇيرۇق بەردى.",
+    "zh": "负责人下令了。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "换成具体发令者，使下令事件更可理解。",
+    "analysis": "بۇيرۇق بەر-为名词加轻动词，بەردى三单过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بۇيرۇق بەردى"
+  },
+  {
+    "id": "tb0275:0",
+    "ug": "مەن تېلېۋىزوردا بۆرە كۆردۈم.",
+    "zh": "我在电视上看见了一只狼。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "果园遇狼语境少见，改为初学者更常见的看电视。",
+    "analysis": "تېلېۋىزوردا为媒介处所，بۆرە为非特指宾语，كۆردۈم一单过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L3处所、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بۆرە"
+  },
+  {
+    "id": "tb0276:0",
+    "ug": "بالا بۆشۈكتە ئۇخلاۋاتىدۇ.",
+    "zh": "孩子正在摇篮里睡觉。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "用摇篮的实际用途替换泛泛谈论。",
+    "analysis": "بۆشۈك+تە为清辅音后处所格；ئۇخلاۋاتىدۇ为三单进行体。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L3处所、L7进行（语法支持，不声称收录整条例句）",
+      "D: Anatilim Uyghur–Chinese StarDict https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz 词目بۆشۈك有摇篮义。",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بۆشۈكتە"
+  },
+  {
+    "id": "tb0277:0",
+    "ug": "ئۇ ناننى ئىككىگە بۆلدى.",
+    "zh": "他把馕分成了两份。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "分的对象与结果缺失，补成把馕分成两份。",
+    "analysis": "ناننى为特指宾语；ئىككىگە为结果向格；بۆلدى三单过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L5宾格、L3向格、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بۆلدى"
+  },
+  {
+    "id": "tb0278:0",
+    "ug": "ئۇنىڭ چېچى بۈدۈر.",
+    "zh": "他的头发是卷的。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "卷曲不能描述房子；改用头发。",
+    "analysis": "ئۇنىڭ چېچى为三人称领属结构；بۈدۈر为卷曲义谓语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L8领属、L2形容词（语法支持，不声称收录整条例句）",
+      "D: Anatilim Uyghur–Chinese StarDict https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz 词目بۈدۈر有卷毛、拳曲义；支持描述头发，排除原来的房子卷曲。",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بۈدۈر"
+  },
+  {
+    "id": "tb0279:0",
+    "ug": "مەن بۈگۈن مەكتەپكە بارىمەن.",
+    "zh": "我今天去学校。",
+    "issues": [],
+    "reason": "今天位于地点与动作前，时间关系与中文相符。",
+    "analysis": "مەكتەپكە为清辅音后向格；بارىمەن一人称现在将来。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L3向格、现在将来（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بۈگۈن"
+  },
+  {
+    "id": "tb0279:1",
+    "ug": "بىز بۈگۈن باغقا باردۇق.",
+    "zh": "我们今天去了果园。",
+    "issues": [],
+    "reason": "今天加过去式表示当日已完成事件，中文相符。",
+    "analysis": "باغقا为后元音清化向格；باردۇق一复过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L3向格、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بۈگۈن"
+  },
+  {
+    "id": "tb0280:0",
+    "ug": "بۈگۈنكى دەرس قىزىقارلىق.",
+    "zh": "今天的课很有趣。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "用بۈگۈنكى修饰课，替换引用词形。",
+    "analysis": "时间定语بۈگۈنكى加中心名词دەرس；形容词谓语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2定语（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بۈگۈنكى"
+  },
+  {
+    "id": "tb0281:0",
+    "ug": "ئۇ بېخىل ئەمەس.",
+    "zh": "他并不小气。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "小气描述人的性格，不能直接描述“事情”。",
+    "analysis": "بېخىل作人的性格谓语，ئەمەس作名词性/形容词性否定。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L1否定、L2形容词（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بېخىل"
+  },
+  {
+    "id": "tb0282:0",
+    "ug": "مەن بېكەتتە ساقلاۋاتىمەن.",
+    "zh": "我正在车站等候。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "用车站作等候地点，比仅谈论车站更实用。",
+    "analysis": "بېكەت+تە处所格，ساقلاۋاتىمەن为一单进行。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L3处所、L7进行（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بېكەتتە"
+  },
+  {
+    "id": "tb0283:0",
+    "ug": "مەن بېلەت سېتىۋالدىم.",
+    "zh": "我买了票。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "“票是新的”虽可解释但不是常用票务表达；改为买票。",
+    "analysis": "بېلەت为非特指宾语，سېتىۋالدىم一单过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L5宾语、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بېلەت"
+  },
+  {
+    "id": "tb0284:0",
+    "ug": "ھازىر بېيجىڭ ۋاقتى بىلەن سائەت سەككىز.",
+    "zh": "现在是北京时间八点。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "展示时区说明与报时的实际组合。",
+    "analysis": "بېيجىڭ ۋاقتى بىلەن表示按北京时间，سائەت سەككىز为报时。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L6时间、بىلەن（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بېيجىڭ ۋاقتى"
+  },
+  {
+    "id": "tb0285:0",
+    "ug": "مەن بېيجىڭدا ئىشلەيمەن.",
+    "zh": "我在北京工作。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "改作城市处所格，展示地名日常用法。",
+    "analysis": "بېيجىڭ+دا处所格；ئىشلەيمەن一单现在将来。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L3处所、现在将来（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بېيجىڭدا"
+  },
+  {
+    "id": "tb0286:0",
+    "ug": "ئۇ بېيجىڭ ئۇنىۋېرسىتېتىدا ئوقۇيدۇ.",
+    "zh": "他在北京大学读书。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "用在北京大学就读展示学校名称的真实语境。",
+    "analysis": "复合名称最后成分加处所-دا；ئوقۇيدۇ三单现在将来。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L3处所、现在将来（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بېيجىڭ ئۇنىۋېرسىتېتىدا"
+  },
+  {
+    "id": "tb0287:0",
+    "ug": "ئۇ بىئارام بولدى.",
+    "zh": "他感到不安了。",
+    "issues": [
+      "中文翻译"
+    ],
+    "reason": "原“不安了”中文生硬；维文状态变化结构可保留。",
+    "analysis": "بىئارام بولدى为不安状态的进入，بول-三单过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L11过去、L15بول-（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بىئارام بولدى"
+  },
+  {
+    "id": "tb0288:0",
+    "ug": "بۇ بىباھا سوۋغا.",
+    "zh": "这是一件珍贵的礼物。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "“事情无价”缺语境；改为珍贵礼物，采用宝贵义。",
+    "analysis": "بىباھا作定语修饰سوۋغا，بۇ为主语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L1判断、L2定语（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بىباھا"
+  },
+  {
+    "id": "tb0289:0",
+    "ug": "بىخەتەرلىك بەك مۇھىم.",
+    "zh": "安全很重要。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "بىخەتەرلىك为安全这一名词，原中文把它误当安全形容词。",
+    "analysis": "安全作主语，مۇھىم为重要谓语；不改词条为بىخەتەر。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2形容词谓语（语法支持，不声称收录整条例句）",
+      "D: Anatilim Uyghur–Chinese StarDict https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz 词目بىخەتەرلىك有安全、安全性义，支持作抽象名词主语。",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بىخەتەرلىك"
+  },
+  {
+    "id": "tb0290:0",
+    "ug": "بىز بىر ئائىلە.",
+    "zh": "我们是一家人。",
+    "issues": [],
+    "reason": "بىر表示一家，与ئائىلە及我们构成自然判断句。",
+    "analysis": "数词在名词前；名词性谓语可无系词。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L1判断、L6数词（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بىر"
+  },
+  {
+    "id": "tb0290:1",
+    "ug": "مەن بىر كىتاب سېتىۋالدىم.",
+    "zh": "我买了一本书。",
+    "issues": [],
+    "reason": "一本书作非特指宾语，购买动作与一单过去式均正确。",
+    "analysis": "بىر كىتاب不加复数或宾格；سېتىۋالدىم一单过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L6数词、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بىر"
+  },
+  {
+    "id": "tb0291:0",
+    "ug": "بىرئاز ئارام ئېلىڭ.",
+    "zh": "请休息一会儿。",
+    "issues": [
+      "未展示目标用法",
+      "语序"
+    ],
+    "reason": "一点儿为程度/时量成分，原关于结构不完整。",
+    "analysis": "بىرئاز作时量状语；ئارام ئېلىڭ为敬称祈使。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L14祈使（语法支持，不声称收录整条例句）",
+      "D: Anatilim Uyghur–Chinese StarDict https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz 词目بىرئاز有少许、一点儿义；支持小量状语。",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بىرئاز"
+  },
+  {
+    "id": "tb0292:0",
+    "ug": "مەن باردىم، بىراق ئۇ كەلمىدى.",
+    "zh": "我去了，但他没有来。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "用两个对比小句展示但是的连接作用。",
+    "analysis": "بىراق连接转折；باردىم一单肯定过去，كەلمىدى三单否定过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2连词、L11过去否定（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بىراق"
+  },
+  {
+    "id": "tb0293:0",
+    "ug": "بىرەر كىتاب ئېلىپ كېلىڭ.",
+    "zh": "请带一本书来。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "某/个把须与名词结合；改为任意一本书的请求。",
+    "analysis": "بىرەر限定كىتاب；ئېلىپ كېلىڭ为副动词加方向动词的祈使。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L14副动词、祈使（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بىرەر"
+  },
+  {
+    "id": "tb0294:0",
+    "ug": "بىز بىر بولدۇق.",
+    "zh": "我们联合起来了。",
+    "issues": [
+      "时态人称",
+      "搭配自然度"
+    ],
+    "reason": "联合语义需要复数参与者，原单数“他联合了”信息不全。",
+    "analysis": "بىر بول-采用合为一体义；بولدۇق一复过去与بىز一致。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "“联合/合伙”是否可在无共同任务语境下直接说بىر بولدۇق，需母语者核实搭配。",
+    "target_form": "بىر بولدۇق"
+  },
+  {
+    "id": "tb0295:0",
+    "ug": "بىز بىر-بىرىمىزگە ياردەم قىلىمىز.",
+    "zh": "我们互相帮助。",
+    "issues": [
+      "词形变化",
+      "未展示目标用法"
+    ],
+    "reason": "互相须体现人称和动作所需的格，原关于句无法展示。",
+    "analysis": "بىر-بىرى+مىز+گە为一复相互代词向格，配ياردەم قىل-；قىلىمىز一复现在将来。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L8领属人称、L3向格（语法支持，不声称收录整条例句）",
+      "D: Anatilim Uyghur–Chinese StarDict https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz 词目بىر-بىرى为互相、相互；其人称和格尾仍依语法另核。",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بىر-بىرىمىزگە"
+  },
+  {
+    "id": "tb0296:0",
+    "ug": "ئۇ بىر تەرەپتىن ئوقۇيدۇ، يەنە بىر تەرەپتىن ئىشلەيدۇ.",
+    "zh": "他一方面学习，一方面工作。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "补成一方面与另一方面的对应句式。",
+    "analysis": "بىر تەرەپتىن成对作方面状语；两谓语均三单现在将来。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L3现在将来、L5离格（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بىر تەرەپتىن"
+  },
+  {
+    "id": "tb0297:0",
+    "ug": "بىر چاغلاردا بىز بۇ يەردە تۇراتتۇق.",
+    "zh": "过去有一段时间，我们住在这里。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "时间表达置于句首并搭配过去习惯，替换词形引述。",
+    "analysis": "چاغلاردا为复数处所形式作时间状语；تۇراتتۇق一复过去习惯。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L13过去习惯（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بىر چاغلاردا"
+  },
+  {
+    "id": "tb0298:0",
+    "ug": "بىر دەم ساقلاڭ.",
+    "zh": "请等一会儿。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "一会儿作等候时量，原谈论一会儿误解用法。",
+    "analysis": "بىر دەم作时量；ساقلاڭ为敬称祈使。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L14祈使（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بىر دەم"
+  },
+  {
+    "id": "tb0299:0",
+    "ug": "ئۇ رەسىمگە بىر قاراپ قويدى.",
+    "zh": "他看了一眼照片。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "补出看的对象，并将“看一眼了”改为看了一眼。",
+    "analysis": "رەسىمگە向格配قارا-；قاراپ副动词接قويدى表示轻短完成。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L3向格、L15قوي-辅助（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بىر قاراپ قويدى"
+  },
+  {
+    "id": "tb0300:0",
+    "ug": "مەن بىر قانچە كىتاب ئالدىم.",
+    "zh": "我买了几本书。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "几个需带可数名词，原关于一些没有展示数量限定。",
+    "analysis": "بىر قانچە后名词不加复数；ئالدىم采用买的一单过去义。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L6数量、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بىر قانچە"
+  },
+  {
+    "id": "tb0301:0",
+    "ug": "ئۇ بىر قەدەم-بىر قەدەملەپ باستى.",
+    "zh": "他一步一步地向前走了。",
+    "issues": [
+      "中文翻译"
+    ],
+    "reason": "维文保留教材重复形式；中文补出步步前进的动作关系。",
+    "analysis": "قەدەملەپ为方式副动形式，باس-→باستى清辅音后过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L14方式副动词、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "教材整条重复构式与常见بىر قەدەم-بىر قەدەمبىلەن/قەدەملەپ的差异需母语者确认。",
+    "target_form": "بىر قەدەم-بىر قەدەملەپ باستى"
+  },
+  {
+    "id": "tb0302:0",
+    "ug": "بۈگۈن ھاۋا بىرقەدەر ئىسسىق.",
+    "zh": "今天天气比较热。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "比较不能作为关于的独立名词；改作热的程度副词。",
+    "analysis": "بىرقەدەر修饰ئىسسىق，ھава为主语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2程度副词（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بىرقەدەر"
+  },
+  {
+    "id": "tb0303:0",
+    "ug": "بىر قەدەم ئالدىغا مېڭىڭ.",
+    "zh": "请向前走一步。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "用一步作行走距离，替换泛谈。",
+    "analysis": "بىر قەدەم为距离状语；ئالدىغا为方向；مېڭىڭ敬称祈使。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L14祈使、L3向格（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بىر قەدەم"
+  },
+  {
+    "id": "tb0304:0",
+    "ug": "بىر قىسىم ئوقۇغۇچىلار ئۆيدە قالدى.",
+    "zh": "一部分学生留在了家里。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "一部分需说明总体，改用学生群体。",
+    "analysis": "بىر قىسىم限定复数学生；قالدى三人称过去可用于复数主语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L7部分量、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بىر قىسىم"
+  },
+  {
+    "id": "tb0305:0",
+    "ug": "بىر كۈنى دوستۇم كەلدى.",
+    "zh": "有一天，我的朋友来了。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "有一天作叙事时间状语，不宜充当关于的对象。",
+    "analysis": "بىر كۈنى虽含三人称领属形式，整体为固定时间表达；كەلدى过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L6时间、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بىر كۈنى"
+  },
+  {
+    "id": "tb0306:0",
+    "ug": "بۈگۈن بىرلەشمە كۆڭۈل ئېچىش كېچىلىكى بار.",
+    "zh": "今天有联欢晚会。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "改以活动存在句呈现晚会信息。",
+    "analysis": "名词短语作存在对象，بار为存在谓语；活动名称保留教材写法。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L10存在（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "该长活动名称的常用程度与كۆڭۈل ئېچىش搭配需母语者确认；语法可理解。",
+    "target_form": "بىرلەشمە كۆڭۈل ئېچىش كېچىلىكى"
+  },
+  {
+    "id": "tb0307:0",
+    "ug": "بىز بىرلىكتە تاماق ئەتتۇق.",
+    "zh": "我们一起做了饭。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "一起须修饰具体共同动作，改为共同做饭。",
+    "analysis": "بىرلىكتە为共同方式副词；ئەتتۇق为一复过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بىرلىكتە"
+  },
+  {
+    "id": "tb0308:0",
+    "ug": "بۇ يەردە بىر مىليون كىتاب بار.",
+    "zh": "这里有一百万本书。",
+    "issues": [
+      "中文翻译"
+    ],
+    "reason": "数量维文正确，中文补“一”使数词表达完整。",
+    "analysis": "بىر مىليون后名词单数；بار存在句，适用于大型藏书语境。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L6大数、L10存在（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بىر مىليون"
+  },
+  {
+    "id": "tb0309:0",
+    "ug": "بىز بىرنەچچە يىلدىن بۇيان بۇ يەردە تۇرىمىز.",
+    "zh": "几年来，我们一直住在这里。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "几年来须与持续到现在的动作结合。",
+    "analysis": "يىلدىن为离格，بۇيان标起点以来；تۇرىمىز一复现在将来可表持续居住。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L5离格、L3现在将来（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بىرنەچچە يىلدىن بۇيان"
+  },
+  {
+    "id": "tb0310:0",
+    "ug": "بىز بىر نەچچە ئون كىلومېتىر ماڭدۇق.",
+    "zh": "我们走了好几十公里。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "让距离短语直接修饰行走，替换关于结构。",
+    "analysis": "公里数作距离宾量，不加复数；ماڭدۇق一复过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L6数词、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بىر نەچچە ئون كىلومېتىر"
+  },
+  {
+    "id": "tb0311:0",
+    "ug": "مەن بىر نېمە كۆردۈم.",
+    "zh": "我看见了个什么东西。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "不定事物作看见的宾语，体现不确定指称。",
+    "analysis": "بىر نېمە作非特指宾语；كۆردۈم为一单过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L1نېمە、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بىر نېمە"
+  },
+  {
+    "id": "tb0312:0",
+    "ug": "بىر ھازا ئۆتكەندىن كېيىن ئۇ كەلدى.",
+    "zh": "过了好一会儿，他来了。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "补成时间从句加主句，替换对时间词组的引用。",
+    "analysis": "ئۆتكەن+دىن为过去分词离格，كېيىن后置词；كەلدى三单过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L5离格后置词、L11过去（语法支持，不声称收录整条例句）",
+      "D: Anatilim Uyghur–Chinese StarDict https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz 词目بىر ھازا有半天义；整句时间构式非词典逐句认证。",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بىر ھازا ئۆتكەندىن كېيىن"
+  },
+  {
+    "id": "tb0313:0",
+    "ug": "بىز بىر ۋاق تاماق يېدۇق.",
+    "zh": "我们吃了一顿饭。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "顿为餐次单位，应与饭和吃结合。",
+    "analysis": "بىر ۋاق限定تاماق；يە-→يېدۇق一复过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L10量词、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بىر ۋاق"
+  },
+  {
+    "id": "tb0314:0",
+    "ug": "ئۇ بىر ئېغىز گەپ قىلمىدى.",
+    "zh": "他一句话也没说。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "用一句话配否定谓语，展示量词用法。",
+    "analysis": "بىر ئېغىز限定گەپ；قىلمىدى三单否定过去，中文“也”体现极小量否定。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L10量词、L11否定过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بىر ئېغىز"
+  },
+  {
+    "id": "tb0315:0",
+    "ug": "بۇ بىرىنچى دەرس.",
+    "zh": "这是第一课。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "第一需要中心名词，改为课次。",
+    "analysis": "بىرىنچى为序数定语，بۇ加名词性谓语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L6序数、L1判断（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بىرىنچى"
+  },
+  {
+    "id": "tb0316:0",
+    "ug": "يانۋار بىرىنچى ئاي.",
+    "zh": "一月是第一个月。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "把月份名يانۋار与第一个月的序数表达相连，避免将时间词泛当谈论对象。",
+    "analysis": "يانۋار明确为公历一月；بىرىنچى ئاي为序数名词性谓语，维中对应。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L6月份序数（语法支持，不声称收录整条例句）",
+      "D: Anatilim Uyghur–Chinese StarDict https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz 词目بىرىنچى ئاي有一月、正月、元月；本例以يانۋار限定公历。",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بىرىنچى ئاي"
+  },
+  {
+    "id": "tb0317:0",
+    "ug": "ئۇ بىرىنچى ئورۇننى ئالدى.",
+    "zh": "他获得了第一名。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "第一名与获得搭配，替换谈论名次。",
+    "analysis": "ئورۇن+نى宾格保留u；ئالدى过去采用获得义。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L6序数、L5宾格、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بىرىنچى ئورۇننى"
+  },
+  {
+    "id": "tb0318:0",
+    "ug": "بىز بىر ئائىلە.",
+    "zh": "我们是一家人。",
+    "issues": [],
+    "reason": "我们与一家人构成自然群体判断句，无时态冲突。",
+    "analysis": "بىز一复主语；بىر ئائىلە名词性谓语无需显式系词。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L1判断（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بىز"
+  },
+  {
+    "id": "tb0318:1",
+    "ug": "بىز بىرگە ئۆگىنىمىز.",
+    "zh": "我们一起学习。",
+    "issues": [],
+    "reason": "بىز与ئۆگىنىمىز人称一致，一起修饰学习。",
+    "analysis": "ئۆگەن-在现在将来式出现元音变化，ئۆگىنىمىز为一复；بىرگە共同方式。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L3现在将来（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بىز"
+  },
+  {
+    "id": "tb0319:0",
+    "ug": "بىز شىنجاڭ ئوغۇل-قىزلىرى.",
+    "zh": "我们是新疆儿女。",
+    "issues": [
+      "语序",
+      "搭配自然度"
+    ],
+    "reason": "原句重复بىز并把完整判断内容当作关于短语；恢复目标句。",
+    "analysis": "بىز作主语，شىنجاڭ ئوغۇل-قىزلىرى作名词性谓语；未加错误宾格。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L1判断（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "表达身份时常见领属配套形式شىنجاڭنىڭ ئوغۇل-قىزلىرى；此处严格保留词条短句，需母语者确认省略属格的自然度。",
+    "target_form": "بىز شىنجاڭ ئوغۇل-قىزلىرى"
+  },
+  {
+    "id": "tb0320:0",
+    "ug": "مەن بۇنى بىلىمەن.",
+    "zh": "我知道这个。",
+    "issues": [],
+    "reason": "知道这个是完整的日常表达，指示代词宾格与动词相配。",
+    "analysis": "بۇ→بۇنى；بىل-→بىلىمەن一单现在将来。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L3现在将来、L5宾格（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بىلىمەن"
+  },
+  {
+    "id": "tb0321:0",
+    "ug": "مەن دوستۇم بىلەن كەلدىم.",
+    "zh": "我和朋友一起来了。",
+    "issues": [],
+    "reason": "和朋友来展示بىلەن的伴随义，维中一致。",
+    "analysis": "دوست+ۇم一单领属，بىلەن后置；كەلدىم一单过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L6بىلەن、L8领属、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بىلەن"
+  },
+  {
+    "id": "tb0322:0",
+    "ug": "بىز بىللە چاي ئىچتۇق.",
+    "zh": "我们一起喝了茶。",
+    "issues": [],
+    "reason": "一起喝茶是实用句，بىز与ئىچتۇق人称一致。",
+    "analysis": "بىللە作共同状语；ئىچ-加清音过去-تۇق。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بىللە"
+  },
+  {
+    "id": "tb0323:0",
+    "ug": "بىلىم بەك مۇھىم.",
+    "zh": "知识很重要。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "用知识作评价对象，形成可直接理解的完整陈述。",
+    "analysis": "بىلىم为不可数抽象名词主语；مۇھىم形容词谓语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2形容词谓语（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بىلىم"
+  },
+  {
+    "id": "tb0324:0",
+    "ug": "ئۇ ئۇنىۋېرسىتېتتا بىلىم ئاشۇردى.",
+    "zh": "他在大学进修了。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "增加进修地点，明确复合动词的教育语境。",
+    "analysis": "بىلىم ئاشۇر-保留固定搭配；ئۇنىۋېرسىتېتتا处所，ئاشۇردى过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L3处所、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بىلىم ئاشۇردى"
+  },
+  {
+    "id": "tb0325:0",
+    "ug": "بۇ شەھەردە نۇرغۇن بىلىم يۇرتلىرى بار.",
+    "zh": "这座城市有许多学府。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "泛谈学府改为城市中有学府的存在句。",
+    "analysis": "بىلىم يۇرتلىرى为复数固定名词短语；نۇرغۇن限定数量，بار存在。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L5复数、L10存在（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بىلىم يۇرتلىرى"
+  },
+  {
+    "id": "tb0326:0",
+    "ug": "بۇ بىنا بەك ئېگىز.",
+    "zh": "这栋楼很高。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "用可见高度描述楼房，语境具体。",
+    "analysis": "بىنا作中心名词，بەك修饰形容词ئېگىز。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2形容词谓语（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بىنا"
+  },
+  {
+    "id": "tb0327:0",
+    "ug": "ئۇلار يېڭى بىر مەكتەپ بىنا قىلدى.",
+    "zh": "他们创建了一所新学校。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原“他创建了”缺少宾语；补学校作创建对象。",
+    "analysis": "مەكتەپ为非特指宾语，بىنا قىلدى三人称过去可配复数主语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "بىنا قىلدى"
+  },
+  {
+    "id": "tb0328:0",
+    "ug": "ئەتە مەكتەپتە پائالىيەت بار.",
+    "zh": "明天学校有活动。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "活动用存在句报告日程，比抽象谈论更实用。",
+    "analysis": "ئەتە时间，مەكتەپتە处所，پائالىيەت بار为存在谓语结构。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L3处所、L10存在（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پائالىيەت"
+  },
+  {
+    "id": "tb0329:0",
+    "ug": "بۇ يەردە پاتقاق كۆپ.",
+    "zh": "这里有很多泥。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "泥在具体地点的数量描述更清楚。",
+    "analysis": "بۇ يەردە为处所，پاتقاق作主语，كۆپ为数量谓语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L3处所、L10数量（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پاتقاق"
+  },
+  {
+    "id": "tb0330:0",
+    "ug": "پاتىمە بۈگۈن كەلدى.",
+    "zh": "帕提曼今天来了。",
+    "issues": [],
+    "reason": "女性人名作主语，今天来了的叙述完整；不另猜人名汉译。",
+    "analysis": "پاتىمە保留教材写法及帕提曼对应；كەلدى为三人称过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پاتىمە"
+  },
+  {
+    "id": "tb0331:0",
+    "ug": "بۇ پاختا ئاق.",
+    "zh": "这些棉花是白色的。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "“这个棉花是新的”中文量词和搭配不佳，改描述颜色。",
+    "analysis": "不可数棉花名词无复数要求，ئاق为颜色谓语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2形容词谓语（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پاختا"
+  },
+  {
+    "id": "tb0332:0",
+    "ug": "بىز دوستىمىز بىلەن پاراڭلاشتۇق.",
+    "zh": "我们和朋友聊了天。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "补充聊天参与者并自然翻译完成体。",
+    "analysis": "دوستىمىز为一复领属，بىلەن伴随；پاراڭلاش-→پاراڭلاشتۇق一复过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L6بىلەن、L8领属、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پاراڭلاشتۇق"
+  },
+  {
+    "id": "tb0333:0",
+    "ug": "بۇ پارتىيە قاچان قۇرۇلغان؟",
+    "zh": "这个党是什么时候成立的？",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "以成立时间为具体疑问，展示党派名词的可用语境。",
+    "analysis": "بۇ پارتىيە作主语，قاچان问时间，قۇرۇلغان为被动过去分词结果询问。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L1疑问（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "قۇرۇلغان作无系词结果问句的语用与党派语境需母语者复核；不是教材直接例句。",
+    "target_form": "پارتىيە"
+  },
+  {
+    "id": "tb0334:0",
+    "ug": "مەن بىر پارچە قەغەز ئالدىم.",
+    "zh": "我拿了一张纸。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "量词块/张须带可量名词，改为一张纸。",
+    "analysis": "بىر پارچە قەغەز为数量短语非特指宾语；ئالدىم为拿的一单过去义。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L10量词、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پارچە"
+  },
+  {
+    "id": "tb0335:0",
+    "ug": "ئۇ پارس.",
+    "zh": "他是波斯人。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "改为民族身份判断，避免泛泛谈论群体。",
+    "analysis": "پارسى民族名词作谓语时不加不必要格；实际使用词形为پارس。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L1名词判断（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پارس"
+  },
+  {
+    "id": "tb0336:0",
+    "ug": "يۇلتۇزلار پارقىرىدى.",
+    "zh": "星星闪耀着。",
+    "issues": [
+      "词形变化",
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原پارقىرادى未体现词尾a在后缀前的弱化，且人作主语无语境。",
+    "analysis": "پارقىرا-→پارقىرى-+دى；星星复数主语可配三人称形式پارقىرىدى。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2元音弱化、L11过去（语法支持，不声称收录整条例句）",
+      "D: Anatilim Uyghur–Chinese StarDict https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz 词目پارقىرىماق有发光、闪耀义；仅支持发光/闪耀词义；过去词形依G L2/L11推导，词典不直接列出此句的过去式。",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پارقىرىدى"
+  },
+  {
+    "id": "tb0337:0",
+    "ug": "قازاندىن پاژ-پۇژ ئاۋاز چىقتى.",
+    "zh": "锅里传出了炒菜的滋滋声。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "拟声词要与发声事件结合，原仅谈论声音名称。",
+    "analysis": "پاژ-پۇژ修饰ئاۋاز；قازاندىن离格表示声音来源。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L5离格、L11过去（语法支持，不声称收录整条例句）",
+      "D: Anatilim Uyghur–Chinese StarDict https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz 查询پاژ-پۇژ未得直接词目，拟声拼写待核。",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "词典未直接收录该拟声变体，需母语者核实拼写及“炒菜声”的对应。",
+    "target_form": "پاژ-پۇژ"
+  },
+  {
+    "id": "tb0338:0",
+    "ug": "ئۇ بەك پاسسىپ.",
+    "zh": "他很消极。",
+    "issues": [
+      "语序",
+      "未展示目标用法"
+    ],
+    "reason": "消极为形容人的状态，不能无名词化接关于。",
+    "analysis": "پاسسىپ为形容词谓语，بەك为程度副词。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2形容词谓语（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پاسسىپ"
+  },
+  {
+    "id": "tb0339:0",
+    "ug": "مەن بۇ پاسوننى ياقتۇرىمەن.",
+    "zh": "我喜欢这个款式。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "选择款式是日常用法，替换抽象谈论样式。",
+    "analysis": "بۇ پاسوننى为特指宾格，ياقتۇرىمەن一单现在将来。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L5宾格、L3现在将来（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پاسوننى"
+  },
+  {
+    "id": "tb0340:0",
+    "ug": "مەن باغدا پاشا كۆردۈم.",
+    "zh": "我在果园里看见了蚊子。",
+    "issues": [],
+    "reason": "在果园看见蚊子属可理解日常观察，单数不定宾语成立。",
+    "analysis": "باغدا处所，پاشا非特指宾语，كۆردۈم一单过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L3处所、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پاشا"
+  },
+  {
+    "id": "tb0341:0",
+    "ug": "بۇنىڭغا پاكىت بارمۇ؟",
+    "zh": "这有证据吗？",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "改为询问证据是否存在，展示真实交际功能。",
+    "analysis": "بۇنىڭغا指示代词向格指被证明的内容；پاكىت بارمۇ为存在疑问。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L10存在疑问、L3向格（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پاكىت"
+  },
+  {
+    "id": "tb0342:0",
+    "ug": "بۇ ئۆي پاكىز.",
+    "zh": "这间屋子很干净。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "干净适合描述屋子，原事情干净不明确。",
+    "analysis": "ئۆي为物理空间主语，پاكىز为形容词谓语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2形容词谓语（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پاكىز"
+  },
+  {
+    "id": "tb0343:0",
+    "ug": "مەن بۇ كىتابتىن پايدىلاندىم.",
+    "zh": "我参考了这本书。",
+    "issues": [
+      "格后缀",
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "利用/参考需具体对象；本动词通常以离格标来源。",
+    "analysis": "كىتابتىن为清音后离格；پايدىلاندىم一单过去；采用参考义。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L5离格、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پايدىلاندىم"
+  },
+  {
+    "id": "tb0344:0",
+    "ug": "بۇ ئىش پايدىلىق.",
+    "zh": "这件事有益处。",
+    "issues": [
+      "中文翻译"
+    ],
+    "reason": "维文形容词作谓语完整，中文稍作自然化。",
+    "analysis": "پايدىلىق为有益的谓语，بۇ ئىش为指示名词短语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2形容词谓语（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پايدىلىق"
+  },
+  {
+    "id": "tb0345:0",
+    "ug": "ئۇ بالىسىدىن پەخىرلەندى.",
+    "zh": "他为自己的孩子感到自豪。",
+    "issues": [
+      "格后缀",
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原中文保留省略号且缺自豪对象；补孩子及离格。",
+    "analysis": "بالا+سى+دىن→بالىسىدىن为领属加离格；پەخىرلەندى三单过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L8领属、L5离格、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پەخىرلەندى"
+  },
+  {
+    "id": "tb0346:0",
+    "ug": "بۇ ئىككى سۆز بىر-بىرىدىن پەرقلىنىدۇ.",
+    "zh": "这两个词彼此有区别。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译",
+      "时态人称"
+    ],
+    "reason": "原他区别了把不及物区别语义误译成动作；改为两个词不同。 第二轮改用现在将来时表达稳定差异，解决过去式与中文静态有区别的不一致。",
+    "analysis": "ئىككى后سۆز不加复数；بىر-بىرى+دىن为相互代词离格；پەرقلەن+ى+دۇ→پەرقلىنىدۇ，现在将来时表示稳定区别。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L3现在将来、L5离格、L6数词（支持形态句法，不是整句母语认证）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）",
+      "D: Anatilim Uyghur–Chinese StarDict https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz 词目پەرقلەنمەك=殊，支持区别词义；本句现在时由语法分析得到。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پەرقلىنىدۇ"
+  },
+  {
+    "id": "tb0347:0",
+    "ug": "بۇ گۈل ياخشى پەرۋىش تەلەپ قىلىدۇ.",
+    "zh": "这朵花需要精心照料。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "用花需要照料展示管理/培育义。",
+    "analysis": "ياخشى پەرۋىش为名词短语宾语，تەلەپ قىلىدۇ为需要的三单现在将来搭配。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L3现在将来（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پەرۋىش"
+  },
+  {
+    "id": "tb0348:0",
+    "ug": "ئۇ پەرىجە كىيدى.",
+    "zh": "他穿上了无领对襟长袍。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "衣物与穿相配，比泛谈服饰名称更实用。",
+    "analysis": "پەرىجە为非特指衣物宾语，كىيدى三单过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L11过去（语法支持，不声称收录整条例句）",
+      "D: Anatilim Uyghur–Chinese StarDict https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz 查询پەرىجە未得直接词目，服饰专名与具体定义待核。",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "服饰专名پەرىجە及“男式无领对襟”定义未获本次独立词典直接确认，须母语者复核。",
+    "target_form": "پەرىجە"
+  },
+  {
+    "id": "tb0349:0",
+    "ug": "بۇ ئۆي پەس.",
+    "zh": "这所房子很矮。",
+    "issues": [
+      "中文翻译"
+    ],
+    "reason": "维文低矮房屋搭配成立，中文用很矮更自然。",
+    "analysis": "پەس为低矮义形容词谓语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2形容词谓语（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پەس"
+  },
+  {
+    "id": "tb0350:0",
+    "ug": "ھاۋا تېمپېراتۇرىسى پەسەيدى.",
+    "zh": "气温下降了。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "下降需明确变化对象，改为气温。",
+    "analysis": "ھاۋا تېمپېراتۇرىسى复合名词作主语；پەسەي-→پەسەيدى不另造人称。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پەسەيدى"
+  },
+  {
+    "id": "tb0351:0",
+    "ug": "بىر يىلدا تۆت پەسىل بار.",
+    "zh": "一年有四个季节。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "用季节数量的实际陈述替换谈论季。",
+    "analysis": "يىلدا时间范围，تۆت پەسىل数词后名词单数，بار存在。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L6数词、L10存在（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پەسىل"
+  },
+  {
+    "id": "tb0352:0",
+    "ug": "بۇ يەرگە پەش قويۇڭ.",
+    "zh": "请在这里加一个逗号。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "标点与放置动作相配，是直接可用的书写指示。",
+    "analysis": "بۇ يەرگە向格，پەش为不定宾语；قويۇڭ敬称祈使。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L3向格、L14祈使（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پەش"
+  },
+  {
+    "id": "tb0353:0",
+    "ug": "مەن پەقەت چاي ئىچىمەن.",
+    "zh": "我只喝茶。",
+    "issues": [
+      "语序",
+      "未展示目标用法"
+    ],
+    "reason": "只须修饰限定内容，不能当关于的名词。",
+    "analysis": "پەقەت限定چاي ئىچ-；ئىچىمەن一单现在将来。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L3现在将来（语法支持，不声称收录整条例句）",
+      "D: Anatilim Uyghur–Chinese StarDict https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz 词目پەقەت有仅仅、只是、只有等限定义。",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پەقەت"
+  },
+  {
+    "id": "tb0354:0",
+    "ug": "بۇ پەلەي يېڭى.",
+    "zh": "这副手套是新的。",
+    "issues": [
+      "中文翻译"
+    ],
+    "reason": "维文可保留，中文衣物量词应为副而非个。",
+    "analysis": "پەلەي名词可泛指一副手套；يېڭى谓语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2形容词谓语（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پەلەي"
+  },
+  {
+    "id": "tb0355:0",
+    "ug": "مەن بۈگۈن پەمىدۇر سېتىۋالدىم.",
+    "zh": "我今天买了西红柿。",
+    "issues": [],
+    "reason": "西红柿购买语境自然，今天与过去式相容。",
+    "analysis": "پەمىدۇر非特指宾语，سېتىۋالدىم一单过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پەمىدۇر"
+  },
+  {
+    "id": "tb0356:0",
+    "ug": "مەن بۇ پەننى ياخشى كۆرىمەن.",
+    "zh": "我喜欢这门学科。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "明确选择学科义，并以喜欢某学科展示实际使用。",
+    "analysis": "پەن+نى双ن书写，作特指宾语；ياخشى كۆرىمەن一单现在将来。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L5宾格、L9ياخشى كۆر-（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پەننى"
+  },
+  {
+    "id": "tb0357:0",
+    "ug": "بۇ قۇشنىڭ پەيلىرى ئاق.",
+    "zh": "这只鸟的羽毛是白色的。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "羽毛的所属者和颜色明确，替换泛谈。",
+    "analysis": "قۇشنىڭ属格，پەي+لەر+ى→پەيلىرى复数领属。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L8属格领属、L5复数（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پەيلىرى"
+  },
+  {
+    "id": "tb0358:0",
+    "ug": "بۈگۈن پەيشەنبە.",
+    "zh": "今天是星期四。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "星期用日历判断句直接展示，比谈论星期四更实用。",
+    "analysis": "بۈگۈن时间主语，پەيشەنبە名词性谓语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L6星期、L1判断（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پەيشەنبە"
+  },
+  {
+    "id": "tb0359:0",
+    "ug": "پروفېسسور بۈگۈن بىز بىلەن سۆزلەشتى.",
+    "zh": "教授今天和我们交谈了。",
+    "issues": [
+      "中文翻译"
+    ],
+    "reason": "维文并不单独编码正副职等级，中文缩为教授，保留词条释义不动。",
+    "analysis": "پروفېسسور为借词职业名词；سۆزلەشتى为交谈过去式。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پروفېسسور"
+  },
+  {
+    "id": "tb0360:0",
+    "ug": "بۇ پوپايكا يېڭى.",
+    "zh": "这件毛衣是新的。",
+    "issues": [
+      "中文翻译"
+    ],
+    "reason": "毛衣量词为件，原这个毛衣不够规范。",
+    "analysis": "پوپايكا作衣物名词，يېڭى谓语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2形容词谓语（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پوپايكا"
+  },
+  {
+    "id": "tb0361:0",
+    "ug": "پوچتىخانا نەدە؟",
+    "zh": "邮电局在哪里？",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "询问地点为出行常用句，比泛谈邮电局更实用。",
+    "analysis": "نەدە为地点疑问谓语，不要求系词。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L3地点疑问（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پوچتىخانا"
+  },
+  {
+    "id": "tb0362:0",
+    "ug": "قازاندىكى سۇ پورۇقلىدى.",
+    "zh": "锅里的水咕噜响了。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "拟声动词不能默认以他/她作主语；补锅中的水。",
+    "analysis": "قازاندىكى是处所关系定语，سۇ主语，پورۇقلىدى为词尾a弱化后的过去式。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L10-دىكى、L11过去（语法支持，不声称收录整条例句）",
+      "D: Anatilim Uyghur–Chinese StarDict https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz 词目پورۇقلىماق有咕嘟义；支持声响范围，锅水搭配仍待母语者确认。",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "پورۇقلا-拟声动词与水沸腾的确切搭配未得独立例句确认，须母语者复核。",
+    "target_form": "پورۇقلىدى"
+  },
+  {
+    "id": "tb0363:0",
+    "ug": "مېنىڭ پوزىتسىيەم ئېنىق.",
+    "zh": "我的态度很明确。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "态度与所属者及明确搭配，更能展示实用含义。",
+    "analysis": "پوزىتسىيە+م为一人称领属；مېنىڭ属格对应；ئېنىق谓语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L8领属、L2形容词（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پوزىتسىيەم"
+  },
+  {
+    "id": "tb0364:0",
+    "ug": "پولات بۈگۈن كەلدى.",
+    "zh": "浦拉提今天来了。",
+    "issues": [],
+    "reason": "人名主语与来了构成完整句，保留教材汉译对应。",
+    "analysis": "پولات此卡为人名而非钢铁义，كەلدى三单过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پولات"
+  },
+  {
+    "id": "tb0365:0",
+    "ug": "ئۇ پۇل تۆلىدى.",
+    "zh": "他付了款。",
+    "issues": [
+      "中文翻译"
+    ],
+    "reason": "付款了的中文语序较生硬，改为付了款。",
+    "analysis": "تۆلە-→تۆلىدى词尾e弱化，پۇل为固定搭配宾语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2元音弱化、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پۇل تۆلىدى"
+  },
+  {
+    "id": "tb0366:0",
+    "ug": "مەن بۈگۈن پولۇ سېتىۋالدىم.",
+    "zh": "我今天买了抓饭。",
+    "issues": [],
+    "reason": "抓饭作为购买宾语自然，保留用户教材پولۇ写法。",
+    "analysis": "پولۇ不加特指宾格，سېتىۋالدىم一单过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پولۇ"
+  },
+  {
+    "id": "tb0367:0",
+    "ug": "بۇ پويىز يېڭى.",
+    "zh": "这列火车是新的。",
+    "issues": [
+      "中文翻译"
+    ],
+    "reason": "火车用列作量词；维文新火车判断句可成立。",
+    "analysis": "پويىز作中心名词，يېڭى形容词谓语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2形容词谓语（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پويىز"
+  },
+  {
+    "id": "tb0368:0",
+    "ug": "پۇتۇم ئاغرىۋاتىدۇ.",
+    "zh": "我的脚在疼。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "以脚疼展示身体部位的实际用法。",
+    "analysis": "پۇت+ۇم一人称领属，ئاغرىۋاتىدۇ为三单进行状态。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L8领属、L7进行（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پۇتۇم"
+  },
+  {
+    "id": "tb0369:0",
+    "ug": "بىز پۇتبول ئوينايمىز.",
+    "zh": "我们踢足球。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "足球与踢/玩搭配，比谈论足球更实用。",
+    "analysis": "پۇتبول ئوينا-固定运动搭配，ئوينايمىز一复现在将来。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L3现在将来（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پۇتبول"
+  },
+  {
+    "id": "tb0370:0",
+    "ug": "بۇ ئورۇندۇق پۇختا.",
+    "zh": "这把椅子很结实。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "牢固/结实适合具体器物，原事情牢固生硬。",
+    "analysis": "ئورۇندۇق为器物主语，پۇختا采用结实义谓语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2形容词谓语（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پۇختا"
+  },
+  {
+    "id": "tb0371:0",
+    "ug": "بۇ گۈلنىڭ پۇرىقى ياخشى.",
+    "zh": "这朵花的气味很好闻。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "以花的气味好闻说明名词实际领属形式。",
+    "analysis": "پۇراق加领属-ى→پۇرىقى，a弱化、q保留；گۈلنىڭ属格。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L8领属、L2弱化（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پۇرىقى"
+  },
+  {
+    "id": "tb0372:0",
+    "ug": "بۇ گۈل خۇش پۇراقلىق.",
+    "zh": "这朵花有香味。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "有味适用于可发气味的物体，原事情有味含混。",
+    "analysis": "خۇش پۇراقلىق作带香味的复合形容词，گۈل主语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2形容词谓语（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پۇراقلىق"
+  },
+  {
+    "id": "tb0373:0",
+    "ug": "بۇ ياخشى پۇرسەت.",
+    "zh": "这是个好机会。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "用好机会构成完整判断，适合初学者。",
+    "analysis": "ياخشى为定语，پۇرسەت为名词性谓语中心。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L1判断、L2定语（语法支持，不声称收录整条例句）",
+      "D: Anatilim Uyghur–Chinese StarDict https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz 词目پۇرسەت有机会、时机义。",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پۇرسەت"
+  },
+  {
+    "id": "tb0374:0",
+    "ug": "ئۇنىڭ پۇلى كۆپ.",
+    "zh": "他的钱很多。",
+    "issues": [],
+    "reason": "三人称属格与钱的领属式呼应，数量谓语自然。",
+    "analysis": "ئۇنىڭ پۇلى为他的零钱/钱；پۇل+ى→پۇلى，不需复数。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L8领属、L10数量（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پۇلى"
+  },
+  {
+    "id": "tb0374:1",
+    "ug": "مېنىڭ پۇلۇم ئاز.",
+    "zh": "我的钱很少。",
+    "issues": [],
+    "reason": "我的钱很少展示一人称领属和数量，维中相符。",
+    "analysis": "مېنىڭ پۇلۇم属格领属匹配，ئاز谓语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L8领属、L10数量（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پۇلۇم"
+  },
+  {
+    "id": "tb0375:0",
+    "ug": "ئۇ ئىشنى پۈتكۈزدى.",
+    "zh": "他完成了工作。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "该使动及物词需完成对象，原他毕业了缺学校/学业而中文义项跳跃。",
+    "analysis": "ئىشنى为特指宾格，پۈتكۈزدى为使完成的三单过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L5宾格、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پۈتكۈزدى"
+  },
+  {
+    "id": "tb0376:0",
+    "ug": "پۈتكۈل ئائىلە ئۆيدە.",
+    "zh": "全家都在家。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "全部须限定一个总体，改为整个家庭。",
+    "analysis": "پۈتكۈل作定语限定ئائىلە；ئۆيدە处所谓语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2定语、L3处所（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پۈتكۈل"
+  },
+  {
+    "id": "tb0377:0",
+    "ug": "مەن بۈگۈن پېتىر مانتا سېتىۋالدىم.",
+    "zh": "我今天买了死面薄皮包子。",
+    "issues": [
+      "中文翻译"
+    ],
+    "reason": "维文购买语境可保留，中文去括注并说明死面薄皮。",
+    "analysis": "پېتىر مانتا为食品名词短语；سېتىۋالدىم一单过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "菜名是否严格等同薄皮包子、其地域叫法需母语者复核，不能仅依中文标签确认。",
+    "target_form": "پېتىر مانتا"
+  },
+  {
+    "id": "tb0378:0",
+    "ug": "مەن بۈگۈن پېچىنە-پىرەنىك سېتىۋالدىم.",
+    "zh": "我今天买了点心。",
+    "issues": [],
+    "reason": "点心类食品与购买搭配自然，维中一致。",
+    "analysis": "پېچىنە-پىرەنىك为并列复合食品名词，作非特指宾语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پېچىنە-پىرەنىك"
+  },
+  {
+    "id": "tb0379:0",
+    "ug": "ئۇ پېداگوگىكا ئۆگىنىدۇ.",
+    "zh": "他学习教育学。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "教育学与学习相配，替换抽象谈论。",
+    "analysis": "学科名词作非特指宾语，ئۆگىنىدۇ三单现在将来。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L3现在将来（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پېداگوگىكا"
+  },
+  {
+    "id": "tb0380:0",
+    "ug": "ئۇ پېشقەدەم ئوقۇتقۇچى.",
+    "zh": "他是一位资深教师。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "资深/年长描述人，原事情年长错误。",
+    "analysis": "پېشقەدەم作定语修饰教师，采用资深义。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2定语、L1判断（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پېشقەدەم"
+  },
+  {
+    "id": "tb0381:0",
+    "ug": "ئۇ پېنسىيەگە چىقتى.",
+    "zh": "他/她退休了。",
+    "issues": [],
+    "reason": "退休复合动词带既有向格，三人称过去与中文相符。",
+    "analysis": "پېنسىيە+گە与چىق-固定搭配；چىقتى清辅音过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L3向格、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پېنسىيەگە چىقتى"
+  },
+  {
+    "id": "tb0382:0",
+    "ug": "مەن بۈگۈن پىرەنىك سېتىۋالدىم.",
+    "zh": "我今天买了点心。",
+    "issues": [],
+    "reason": "点心可作购买宾语，简单句自然完整。",
+    "analysis": "پىرەنىك保留教材写法，سېتىۋالدىم一单过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پىرەنىك"
+  },
+  {
+    "id": "tb0383:0",
+    "ug": "پىركازچىك بۈگۈن بىز بىلەن سۆزلەشتى.",
+    "zh": "售货员今天和我们交谈了。",
+    "issues": [],
+    "reason": "售货员与我们交谈语义完整，保留教材旧借词。",
+    "analysis": "پىركازچىك为职业名词，سۆزلەشتى过去，بىز بىلەن为伴随对象。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L6بىلەن、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پىركازچىك"
+  },
+  {
+    "id": "tb0384:0",
+    "ug": "قازاندىن پىژ-پىژ ئاۋاز چىقتى.",
+    "zh": "锅里传出了咝咝声。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "拟声成分与声音及发出构成实际声响句。",
+    "analysis": "پىژ-پىژ作ئاۋاز的拟声修饰语，قازاندىن离格来源，چىقتى过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L5离格、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "该拟声拼写与锅中声响搭配未获独立语例确认，须母语者复核。",
+    "target_form": "پىژ-پىژ"
+  },
+  {
+    "id": "tb0385:0",
+    "ug": "ئۇ بۇ ئىشقا پىششىق.",
+    "zh": "他很熟悉这项工作。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "熟练应描述人对工作掌握程度，原事情熟练主谓错配。",
+    "analysis": "بۇ ئىشقا为熟悉领域向格，ئۇ主语，پىششىق为谓语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L3向格、L2形容词（语法支持，不声称收录整条例句）",
+      "D: Anatilim Uyghur–Chinese StarDict https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz 词目پىششىق有熟练、精通、熟习义；本例采用熟悉工作义。",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پىششىق"
+  },
+  {
+    "id": "tb0386:0",
+    "ug": "ئۇ تاماق پىشۇردى.",
+    "zh": "他把饭做熟了。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "“使熟了”中文生硬且无受事，补饭作烹饪对象。",
+    "analysis": "تاماق非特指宾语，پىشۇردى三单过去表示使食物熟。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پىشۇردى"
+  },
+  {
+    "id": "tb0387:0",
+    "ug": "مېنىڭ بىر پىكرىم بار.",
+    "zh": "我有一个想法。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "意见/想法使用领属存在句，便于日常表达。",
+    "analysis": "پىكىر加-ىم时中间元音脱落→پىكرىم；مېنىڭ与一人称领属匹配。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L8领属、L10存在（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پىكرىم"
+  },
+  {
+    "id": "tb0388:0",
+    "ug": "ئۇ ماڭا ياخشى پىكىر بەردى.",
+    "zh": "他给我提了一个好建议。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "补出建议接受者和内容评价，中文换成提了建议。",
+    "analysis": "ماڭا为接受者向格，پىكىر بەر-固定搭配，بەردى过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L3向格、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پىكىر بەردى"
+  },
+  {
+    "id": "tb0389:0",
+    "ug": "بىزنىڭ يېڭى پىلانىمىز بار.",
+    "zh": "我们有一个新计划。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "通过领属存在表达计划，替换泛谈。",
+    "analysis": "پىلان+ىمىز为一复领属，بىزنىڭ呼应，بار存在谓语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L8领属、L10存在（语法支持，不声称收录整条例句）",
+      "D: Anatilim Uyghur–Chinese StarDict https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz 词目پىلان有计划、规划、方案义。",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "پىلانىمىز"
+  },
+  {
+    "id": "tb0390:0",
+    "ug": "بۇ تائام بەك مەززىلىك.",
+    "zh": "这道菜很好吃。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "用饭菜的味道说明食物名词，语境直接。",
+    "analysis": "تائام采用饭菜义，بەك修饰مەززىلىك谓语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2形容词谓语（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تائام"
+  },
+  {
+    "id": "tb0391:0",
+    "ug": "مەن خەتنى تاپشۇرۇپ ئالدىم.",
+    "zh": "我收到了信。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "收到缺对象，补信作特指受事。",
+    "analysis": "خەتنى宾格，تاپشۇرۇپ为副动词，ئالدىم一单过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L5宾格、L14副动词（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تاپشۇرۇپ ئالدىم"
+  },
+  {
+    "id": "tb0392:0",
+    "ug": "مەن تاپشۇرۇقنى تۈگەتتىم.",
+    "zh": "我做完了作业。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "作业与完成结合，替换泛谈。",
+    "analysis": "تاپشۇرۇقنى为宾格，تۈگەت-→تۈگەتتىم一单过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L5宾格、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تاپشۇرۇقنى"
+  },
+  {
+    "id": "tb0393:0",
+    "ug": "بۇ ئالما تاتلىق.",
+    "zh": "这个苹果很甜。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "甜适合描述食品，原事情甜无具体语境。",
+    "analysis": "تاتلىق采用味觉甜义，ئالما作主语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2形容词谓语（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تاتلىق"
+  },
+  {
+    "id": "tb0394:0",
+    "ug": "دوستۇم تاجىك.",
+    "zh": "我的朋友是塔吉克族人。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "改为身份判断，展示民族名词指人。",
+    "analysis": "دوستۇم一单领属名词主语，تاجىك名词性谓语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L1判断、L8领属（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تاجىك"
+  },
+  {
+    "id": "tb0395:0",
+    "ug": "بۇ يول تار.",
+    "zh": "这条路很窄。",
+    "issues": [
+      "中文翻译"
+    ],
+    "reason": "维文宽窄谓语自然，中文去不成立的句末“的”。",
+    "analysis": "تار为形容词谓语，无需系词。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2形容词谓语（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تار"
+  },
+  {
+    "id": "tb0396:0",
+    "ug": "بۇ گۈل ھەممە يەرگە تارقالدى.",
+    "zh": "这种花分布到了各处。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "分布不能默认以他/她作主语，补物种和分布范围。",
+    "analysis": "ھەممە يەرگە为分布到的向格范围，تارقالدى三单过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L3向格、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تارقالدى"
+  },
+  {
+    "id": "tb0397:0",
+    "ug": "مەن تارىخ ئۆگىنىمەن.",
+    "zh": "我学习历史。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "历史与学习搭配，替换泛谈历史。",
+    "analysis": "تارىخ作非特指学科宾语，ئۆگىنىمەن一单现在将来。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L3现在将来（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تارىخ"
+  },
+  {
+    "id": "tb0398:0",
+    "ug": "بۈگۈن ھاۋا تازا ئىسسىق.",
+    "zh": "今天天气特别热。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "本卡的非常义为程度副词，需置于形容词前。",
+    "analysis": "تازا限定ئىسسىق程度；不采用其干净义。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2程度副词（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تازا"
+  },
+  {
+    "id": "tb0399:0",
+    "ug": "ئۇ ئۆينى تازىلىدى.",
+    "zh": "他打扫了屋子。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "清洗/打扫缺受事，补屋子以明确打扫义。",
+    "analysis": "ئۆي+نى宾格；تازىلا-→تازىلىدى词尾元音弱化。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2元音弱化、L5宾格、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تازىلىدى"
+  },
+  {
+    "id": "tb0400:0",
+    "ug": "يولدا چوڭ بىر تاش بار.",
+    "zh": "路上有一块大石头。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "石头用地点存在句呈现可见物，便于初学者理解。",
+    "analysis": "يولدا处所，چوڭ بىر تاش为存在对象，بار谓语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L3处所、L10存在（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تاش"
+  },
+  {
+    "id": "tb0401:0",
+    "ug": "ئۇ تاشقىرىدا ساقلاۋاتىدۇ.",
+    "zh": "他正在外面等候。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "外面与处所格及等候动作结合，原泛谈外不自然。",
+    "analysis": "تاشقىرى+دا处所，ساقلاۋاتىدۇ三单进行。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L3处所、L7进行（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تاشقىرىدا"
+  },
+  {
+    "id": "tb0402:0",
+    "ug": "ئۇ تاشقى سودا بىلەن شۇغۇللىنىدۇ.",
+    "zh": "他从事外贸工作。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "外贸与从事搭配，替换泛谈行业。",
+    "analysis": "تاشقى سودا加بىلەن表活动领域，شۇغۇللىنىدۇ三单现在将来。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L6بىلەن、L3现在将来（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تاشقى سودا"
+  },
+  {
+    "id": "tb0403:0",
+    "ug": "بۇ تاغ بەك ئېگىز.",
+    "zh": "这座山很高。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "用山的高度说明名词，替换抽象谈论。",
+    "analysis": "بۇ تاغ主语，بەك ئېگىز程度形容词谓语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2形容词谓语（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تاغ"
+  },
+  {
+    "id": "tb0404:0",
+    "ug": "تاغا بۈگۈن بىز بىلەن سۆزلەشتى.",
+    "zh": "叔叔今天和我们交谈了。",
+    "issues": [],
+    "reason": "亲属称谓可独立作称呼性主语，与我们交谈语义完整。",
+    "analysis": "تاغا在此用叔叔义；سۆزلەشتى三单过去，بىز بىلەن伴随。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L6بىلەن、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تاغا"
+  },
+  {
+    "id": "tb0405:0",
+    "ug": "تاغ باغرىدا بىر يېزا بار.",
+    "zh": "山脚下有一个村庄。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "山脚用处所表达村庄位置，替换泛谈。 第二轮发现空间词义范围仍不确定，状态改待核。",
+    "analysis": "تاغ باغرى+دا末项领属形式后加处所，بىر يېزا为存在对象。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L8领属、L3处所、L10存在（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）",
+      "D Anatilim中تاغ ئېتىكى明确列山脚/山麓，تاغ باغرى无直接词目；该对照仅提示需核对，不能据缺项判错。"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "تاغ باغرى常指山腹/山坡，原词表释义山脚/山麓与具体空间范围未充分吻合；需母语者核对，不据句法正常直接认定该译义正确。",
+    "target_form": "تاغ باغرىدا"
+  },
+  {
+    "id": "tb0406:0",
+    "ug": "تاڭ يورۇدى.",
+    "zh": "天亮了。",
+    "issues": [
+      "语序",
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "تاڭ已经是天亮结构的主语，原来再加ئۇ造成“他天亮”。",
+    "analysis": "تاڭ为天光名词主语；يورۇدى三单过去，删除多余人称代词。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L11过去（语法支持，不声称收录整条例句）",
+      "D: Anatilim Uyghur–Chinese StarDict https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz 词目تاڭ يورۇماق为天亮、天明，支持 حذف错误人称主语。",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تاڭ يورۇدى"
+  },
+  {
+    "id": "tb0407:0",
+    "ug": "ماڭا ئىككى تال قەلەم كېرەك.",
+    "zh": "我需要两支笔。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "量词个应在数字与物品之间，不可独立接关于。",
+    "analysis": "ئىككى تال قەلەم为数量短语，ماڭا为需要者向格，كېرەك谓语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L10量词、L12必要（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تال"
+  },
+  {
+    "id": "tb0408:0",
+    "ug": "بالىلار تالادا ئويناۋاتىدۇ.",
+    "zh": "孩子们正在外面玩。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "外面用处所格表达玩耍地点，替换泛谈。",
+    "analysis": "تالا+دا→تالادا，ئويناۋاتىدۇ为三人称进行，可配复数主语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L3处所、L7进行（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）",
+      "G 同书 L3 §4.2（印刷页44）明确列tala为A-raising例外；L8词表（印刷页110）列تالا (تالادا)，支持保留تالادا而非机械改成تالىدا。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تالادا"
+  },
+  {
+    "id": "tb0409:0",
+    "ug": "ئۇ تالانتلىق بالا.",
+    "zh": "他是个有天赋的孩子。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "天才/有天赋形容人，原事情天才主谓错配。",
+    "analysis": "تالانتلىق作定语修饰بالا，采用有天赋义。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2定语、L1判断（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تالانتلىق"
+  },
+  {
+    "id": "tb0410:0",
+    "ug": "بۇ تام ئېگىز.",
+    "zh": "这面墙很高。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "墙的高度是具体可见属性，比泛谈更直接。",
+    "analysis": "تام为中心名词，ئېگىز作谓语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2形容词谓语（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تام"
+  },
+  {
+    "id": "tb0411:0",
+    "ug": "تاماق تەييار.",
+    "zh": "饭做好了。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "食物与准备好的状态搭配，适用于日常招呼。",
+    "analysis": "تاماق主语，تەييار作状态谓语；中文以做好对应准备就绪。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2形容词谓语（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تاماق"
+  },
+  {
+    "id": "tb0412:0",
+    "ug": "ئۇ تاماكا چەكتى.",
+    "zh": "他抽了烟。",
+    "issues": [
+      "中文翻译"
+    ],
+    "reason": "维文复合动词完整，中文改为抽了烟更自然。",
+    "analysis": "تاماكا چەك-名词加动词，چەكتى为清辅音后过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تاماكا چەكتى"
+  },
+  {
+    "id": "tb0413:0",
+    "ug": "ئۇ تاماق ئەتتى.",
+    "zh": "他做了饭。",
+    "issues": [
+      "中文翻译"
+    ],
+    "reason": "维文做饭正确，中文完成标记放在动词后。",
+    "analysis": "تاماق ئەت-为固定搭配；ئەت-→ئەتتى为三单过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تاماق ئەتتى"
+  },
+  {
+    "id": "tb0414:0",
+    "ug": "ئۇ تاماكا سېتىۋالدى.",
+    "zh": "他买了烟。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "烟与购买搭配，展示名词用法。",
+    "analysis": "تاماكا非特指宾语，سېتىۋالدى三单过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تاماكا"
+  },
+  {
+    "id": "tb0415:0",
+    "ug": "ئۇ تانسا ئوينايدۇ.",
+    "zh": "他跳交际舞。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "舞蹈名词与ئوينا-搭配，替换泛谈。",
+    "analysis": "تانسا为舞蹈宾语，ئوينايدۇ三单现在将来。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L3现在将来（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تانسا"
+  },
+  {
+    "id": "tb0416:0",
+    "ug": "تاھىر بۈگۈن كەلدى.",
+    "zh": "塔依尔今天来了。",
+    "issues": [],
+    "reason": "男性人名加今天来了为完整日常句，保留既有汉译。",
+    "analysis": "تاھىر为专名主语，كەلدى三单过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تاھىر"
+  },
+  {
+    "id": "tb0417:0",
+    "ug": "مەن بۈگۈن تاۋۇز سېتىۋالدىم.",
+    "zh": "我今天买了西瓜。",
+    "issues": [],
+    "reason": "西瓜作购买宾语自然，词形未错误变位。",
+    "analysis": "تاۋۇز不定宾语，سېتىۋالدىم一单过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تاۋۇز"
+  },
+  {
+    "id": "tb0418:0",
+    "ug": "ئۇ بىر تاياق تۇتۇپ تۇرىدۇ.",
+    "zh": "他正拿着一根棍子。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "用棍子的持握动作展示实际用法。",
+    "analysis": "بىر تاياق数量宾语；تۇتۇپ副动词加تۇرىدۇ表示保持状态。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L14副动词、L15辅助تۇر-（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تاياق"
+  },
+  {
+    "id": "tb0419:0",
+    "ug": "ئۇ تامغا تاياندى.",
+    "zh": "他靠在了墙上。",
+    "issues": [
+      "格后缀",
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "依靠需有支撑对象，补墙的向格，采用身体倚靠义。",
+    "analysis": "تام+غا向格；تايان-→تاياندى三单过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L3向格、L11过去（语法支持，不声称收录整条例句）",
+      "D: Anatilim Uyghur–Chinese StarDict https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz 词目تايانماق有倚靠、依靠义；支持墙的身体支撑语境。",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تاياندى"
+  },
+  {
+    "id": "tb0420:0",
+    "ug": "مەن دوستۇمنى تەبرىكلىدىم.",
+    "zh": "我祝贺了朋友。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "祝贺对象缺失，补朋友的特指宾格。",
+    "analysis": "دوست+ۇم+نى→دوستۇمنى；تەبرىكلە-→تەبرىكلىدىم一单过去弱化。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L8领属、L5宾格、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تەبرىكلىدىم"
+  },
+  {
+    "id": "tb0421:0",
+    "ug": "تەبىئەتنى قوغدايلى.",
+    "zh": "让我们保护自然。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "自然与保护搭配，表达具体行动。",
+    "analysis": "تەبىئەت+نى宾格；قوغدايلى为一复共同意愿。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L8共同意愿、L5宾格（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تەبىئەتنى"
+  },
+  {
+    "id": "tb0422:0",
+    "ug": "تەبىئەت دۇنياسى بەك گۈزەل.",
+    "zh": "大自然很美。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "用美描述自然界，替换泛谈。",
+    "analysis": "تەبىئەت دۇنياسى整体复合主语，گۈزەل为形容词谓语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2形容词谓语（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تەبىئەت دۇنياسى"
+  },
+  {
+    "id": "tb0423:0",
+    "ug": "ئۇ تەبىئىي ھالدا كۈلۈمسىرىدى.",
+    "zh": "他很自然地微笑了。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "自然地应修饰动作，原只是词形引述。",
+    "analysis": "تەبىئىي ھالدا作方式状语，كۈلۈمسىرىدى为三单过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "新写方式搭配可理解，但较书面，微笑与很自然地的口语自然度需母语者确认。",
+    "target_form": "تەبىئىي ھالدا"
+  },
+  {
+    "id": "tb0424:0",
+    "ug": "بۇ تەبىئىي ئەھۋال.",
+    "zh": "这是自然的情况。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原事情自然中文含混，改以自然情况展示定语用法。",
+    "analysis": "تەبىئىي修饰ئەھۋال，采用自然的义而非当然义。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2定语、L1判断（语法支持，不声称收录整条例句）",
+      "D: Anatilim Uyghur–Chinese StarDict https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz 词目تەبىئىي有天然、自然义；本例采用自然的而非当然义。",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تەبىئىي"
+  },
+  {
+    "id": "tb0425:0",
+    "ug": "ئۇ بۇ ئىشنى تەپسىلىي چۈشەندۈردى.",
+    "zh": "他详细解释了这件事。",
+    "issues": [
+      "语序",
+      "未展示目标用法"
+    ],
+    "reason": "详细是修饰解释的副词，不能直接接关于。",
+    "analysis": "تەپسىلىي置于谓语前，بۇ ئىشنى特指宾格，چۈشەندۈردى过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L5宾格、L11过去（语法支持，不声称收录整条例句）",
+      "D: Anatilim Uyghur–Chinese StarDict https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz 词目تەپسىلىي有详细、仔细义；支持作解释动作状语。",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تەپسىلىي"
+  },
+  {
+    "id": "tb0426:0",
+    "ug": "بۇ تەتقىقات بەك مۇھىم.",
+    "zh": "这项研究很重要。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "研究作明确评价对象，替换泛谈。",
+    "analysis": "بۇ تەتقىقات名词短语主语，مۇھىم形容词谓语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2形容词谓语（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تەتقىقات"
+  },
+  {
+    "id": "tb0427:0",
+    "ug": "ئۇ بۇ مەسىلىنى تەتقىق قىلدى.",
+    "zh": "他研究了这个问题。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "研究缺对象，补问题的宾格。",
+    "analysis": "مەسىلە+نى→مەسىلىنى末元音弱化；تەتقىق قىلدى复合过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2弱化、L5宾格、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تەتقىق قىلدى"
+  },
+  {
+    "id": "tb0428:0",
+    "ug": "تەتىل باشلاندى.",
+    "zh": "假期开始了。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "假期与开始构成常用事件句。",
+    "analysis": "تەتىل作主语，باشلان-→باشلاندى三单过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تەتىل"
+  },
+  {
+    "id": "tb0429:0",
+    "ug": "بۇ يەردە تەخمىنەن ئون ئادەم بار.",
+    "zh": "这里大约有十个人。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "大约须限定数值，原谈论约不能示范。",
+    "analysis": "تەخمىنەن修饰ئون آدم数量短语，بار为存在谓语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L6数量、L10存在（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تەخمىنەن"
+  },
+  {
+    "id": "tb0430:0",
+    "ug": "ئۇ قايسى تەرەپكە كەتتى؟",
+    "zh": "他往哪个方向去了？",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "方向与行进动作、向格结合，替换泛谈。",
+    "analysis": "قايسى تەرەپ+كە向格，كەتتى三单过去疑问。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L3向格、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تەرەپكە"
+  },
+  {
+    "id": "tb0431:0",
+    "ug": "شەھەر تېز تەرەققىي قىلدى.",
+    "zh": "城市发展得很快。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "发展适合城市等主体，原他发展了语境欠明。",
+    "analysis": "شەھەر主语，تېز方式副词，تەرەققىي قىلدى复合过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تەرەققىي قىلدى"
+  },
+  {
+    "id": "tb0432:0",
+    "ug": "بالىلارغا ياخشى تەربىيە كېرەك.",
+    "zh": "孩子们需要良好的教育。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "教育与接受者及必要性结合，语义明确。",
+    "analysis": "بالىلارغا复数向格标需求者，ياخشى تەربىيە为所需内容。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L5复数、L12必要（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تەربىيە"
+  },
+  {
+    "id": "tb0433:0",
+    "ug": "ئۇ بۇ خەتنى ئۇيغۇرچىغا تەرجىمە قىلدى.",
+    "zh": "他把这封信翻译成了维吾尔语。",
+    "issues": [
+      "格后缀",
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "补待译文本和目标语言，展示翻译的宾格与向格搭配。",
+    "analysis": "خەتنى特指宾格，ئۇيغۇرچىغا向格并有元音弱化；تەرجىمە قىلدى过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L3向格、L5宾格、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تەرجىمە قىلدى"
+  },
+  {
+    "id": "tb0434:0",
+    "ug": "مەن بۈگۈن تەرخەمەك سېتىۋالدىم.",
+    "zh": "我今天买了黄瓜。",
+    "issues": [],
+    "reason": "黄瓜作购买宾语自然，与教材词义一致。",
+    "analysis": "تەرخەمەك不定宾语，سېتىۋالدىم一单过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تەرخەمەك"
+  },
+  {
+    "id": "tb0435:0",
+    "ug": "ئۇ تەرلەپ چىقتى.",
+    "zh": "他出了汗。",
+    "issues": [
+      "中文翻译"
+    ],
+    "reason": "维文出汗复合动词完整，中文把完成标记放进动宾结构。",
+    "analysis": "تەرلەپ为副动词，چىقتى辅助结果/完成；不误译出去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L14副动词、L15辅助چىق-（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تەرلەپ چىقتى"
+  },
+  {
+    "id": "tb0436:0",
+    "ug": "بۇ سوئال تەس.",
+    "zh": "这个问题很难。",
+    "issues": [
+      "语序",
+      "未展示目标用法"
+    ],
+    "reason": "难为形容词，不应无中心名词接关于。",
+    "analysis": "سوئال为主语中心，تەس为评价谓语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2形容词谓语（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تەس"
+  },
+  {
+    "id": "tb0437:0",
+    "ug": "بۇ كىتاب ماڭا چوڭقۇر تەسىر قالدۇردى.",
+    "zh": "这本书给我留下了深刻印象。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "补印象来源、接受者和程度，修正留下影响了的生硬中文。",
+    "analysis": "ماڭا向格，چوڭقۇر تەسىر为深刻印象名词短语，قالدۇردى过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L3向格、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تەسىر قالدۇردى"
+  },
+  {
+    "id": "tb0438:0",
+    "ug": "بۇ ھېكايە تەسىرلىك.",
+    "zh": "这个故事很感人。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "感人适配故事，原事情有强烈影响不够明确。",
+    "analysis": "تەسىرلىك在故事语境采用感人义形容词。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2形容词谓语（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تەسىرلىك"
+  },
+  {
+    "id": "tb0439:0",
+    "ug": "ئۇ تەشكىلات قۇردى.",
+    "zh": "他创立了一个组织。",
+    "issues": [
+      "中文翻译"
+    ],
+    "reason": "维文创建组织搭配完整，中文完成标记位置需调整。",
+    "analysis": "تەشكىلات为非特指名词宾语；قۇردى三单过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تەشكىلات قۇردى"
+  },
+  {
+    "id": "tb0440:0",
+    "ug": "بۇ تەشكىلات بالىلارغا ياردەم بېرىدۇ.",
+    "zh": "这个组织帮助儿童。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "以组织从事的帮助行动展示名词实际用法。",
+    "analysis": "بالىلارغا复数向格为帮助对象，ياردەم بېرىدۇ三单现在将来。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L3向格、现在将来（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تەشكىلات"
+  },
+  {
+    "id": "tb0441:0",
+    "ug": "ئۇلار بىر پائالىيەت تەشكىللىدى.",
+    "zh": "他们组织了一次活动。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "组织须说明被组织的活动，原他组织了信息不全。",
+    "analysis": "بىر پائالىيەت非特指宾语，تەشكىللە-→تەشكىللىدى词尾弱化。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2弱化、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تەشكىللىدى"
+  },
+  {
+    "id": "tb0442:0",
+    "ug": "تەقسىر، ئولتۇرۇڭ.",
+    "zh": "先生，请坐。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "称谓应作呼语，改为称呼并请坐。",
+    "analysis": "تەقسىر呼语以逗号隔开，ئولتۇرۇڭ敬称祈使。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L14祈使（语法支持，不声称收录整条例句）",
+      "D: Anatilim Uyghur–Chinese StarDict https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz 词目تەقسىر有先生、法师义；并不保证当代中性先生的语域。",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "该称谓带旧式敬称/宗教称谓色彩，不宜标为普通中性先生；适用对象与语域待母语者复核。",
+    "target_form": "تەقسىر"
+  },
+  {
+    "id": "tb0443:0",
+    "ug": "ئۇ ناننى بالىلارغا تەقسىم قىلدى.",
+    "zh": "他把馕分给了孩子们。",
+    "issues": [
+      "搭配自然度",
+      "格后缀",
+      "中文翻译"
+    ],
+    "reason": "分配缺对象与受益者，补馕及孩子。",
+    "analysis": "ناننى宾格，بالىلارغا复数向格；تەقسىم قىلدى复合过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L5宾格、L3向格、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تەقسىم قىلدى"
+  },
+  {
+    "id": "tb0444:0",
+    "ug": "ئۇ دەرسنى تەكرارلىدى.",
+    "zh": "他复习了功课。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "复习缺内容，补课的宾格并调整中文完成表达。",
+    "analysis": "دەرسنى宾格，تەكرارلا-→تەكرارلىدى末a弱化。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2弱化、L5宾格、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تەكرارلىدى"
+  },
+  {
+    "id": "tb0445:0",
+    "ug": "بۇ يول تەكشى.",
+    "zh": "这条路很平坦。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "平坦应描述道路等表面，原事情平不自然。",
+    "analysis": "تەكشى采用平整义作道路谓语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2形容词谓语（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تەكشى"
+  },
+  {
+    "id": "tb0446:0",
+    "ug": "ئۇ مېنى ئۆيىگە تەكلىپ قىلدى.",
+    "zh": "他邀请我到他家。",
+    "issues": [
+      "搭配自然度",
+      "格后缀",
+      "中文翻译"
+    ],
+    "reason": "邀请需对象和去处，原他请了缺必要信息。",
+    "analysis": "مېنى一单宾格，ئۆيىگە为三人称领属向格，تەكلىپ قىلدى过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L5宾格、L8领属、L3向格（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تەكلىپ قىلدى"
+  },
+  {
+    "id": "tb0447:0",
+    "ug": "تەكلىپىڭىزگە رەھمەت.",
+    "zh": "谢谢您的邀请。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "邀请与感谢构成可直接使用的礼貌表达。",
+    "analysis": "تەكلىپ+ىڭىز+گە为敬称领属后向格；رەھمەت为感谢。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L8领属、L3向格（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تەكلىپىڭىزگە"
+  },
+  {
+    "id": "tb0448:0",
+    "ug": "ئوقۇتقۇچى بۇ نۇقتىنى تەكىتلىدى.",
+    "zh": "老师强调了这一点。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "强调缺内容，补这一点作特指宾语。",
+    "analysis": "نۇقتا+نى→نۇقتىنى弱化；تەكىتلە-→تەكىتلىدى过去弱化。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2弱化、L5宾格、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تەكىتلىدى"
+  },
+  {
+    "id": "tb0449:0",
+    "ug": "مۈشۈك ئۈستەلنىڭ تېگىدە.",
+    "zh": "猫在桌子下面。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "底下采用方位名词领属结构，替换泛谈底。",
+    "analysis": "تەگ→تېگى+دە领属处所并出现a/e升高；ئۈستەلنىڭ属格呼应。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L8属格领属、L3处所（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تېگىدە"
+  },
+  {
+    "id": "tb0450:0",
+    "ug": "بىز تەڭ كەلدۇق.",
+    "zh": "我们一起来了。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "一起应修饰共同动作，原关于一起不成立。",
+    "analysis": "تەڭ采用同时/一起义作状语，كەلدۇق一复过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L11过去（语法支持，不声称收录整条例句）",
+      "D: Anatilim Uyghur–Chinese StarDict https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz 词目تەڭ有并列、并肩、齐声、相等义；本例一起/同时读法仍待核。",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "تەڭ كەلدۇق还可能解释为不相上下，当前句“同时来”的理解与教材义项需母语者复核。",
+    "target_form": "تەڭ"
+  },
+  {
+    "id": "tb0451:0",
+    "ug": "بۇ كونا تەڭگە.",
+    "zh": "这是一枚旧银币。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "银币改作物品判断，展示名词指物。",
+    "analysis": "كونا为定语，تەڭگە名词性谓语；保留教材银币义。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L1判断、L2定语（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "تەڭگە也可泛指硬币/货币；“银”材质是否由该词单独保证需母语者确认。",
+    "target_form": "تەڭگە"
+  },
+  {
+    "id": "tb0452:0",
+    "ug": "بۇ بىزنىڭ تەلىپىمىز.",
+    "zh": "这是我们的要求。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "用领属判断句展示要求作为名词。",
+    "analysis": "تەلەپ+ىمىز→تەلىپىمىز发生末音节弱化；بىزنىڭ属格对应。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L8属格领属（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تەلىپىمىز"
+  },
+  {
+    "id": "tb0453:0",
+    "ug": "ئۇ تەلەپپۇزغا دىققەت قىلدى.",
+    "zh": "他注意了发音。",
+    "issues": [
+      "中文翻译"
+    ],
+    "reason": "注意发音的维文搭配完整，中文完成标记改在注意后。",
+    "analysis": "تەلەپپۇزغا向格为注意对象，دىققەت قىلدى复合过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L3向格、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تەلەپپۇزغا دىققەت قىلدى"
+  },
+  {
+    "id": "tb0454:0",
+    "ug": "ئۇ ياردەم تەلەپ قىلدى.",
+    "zh": "他请求了帮助。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "请求缺具体内容，补帮助使句意完整。",
+    "analysis": "ياردەم非特指宾语，تەلەپ قىلدى复合过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تەلەپ قىلدى"
+  },
+  {
+    "id": "tb0455:0",
+    "ug": "تەلىيىمىزگە يارىشا، يامغۇر توختىدى.",
+    "zh": "幸好，雨停了。",
+    "issues": [
+      "未展示目标用法",
+      "语序"
+    ],
+    "reason": "幸好是评价整句的状语，不能当关于的名词。",
+    "analysis": "تەلىيىمىزگە يارىشا句首固定状语，يامغۇر主语，توختىدى过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تەلىيىمىزگە يارىشا"
+  },
+  {
+    "id": "tb0456:0",
+    "ug": "بۇ تاماقنىڭ تەمى ياخشى.",
+    "zh": "这道菜的味道很好。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "味道与食物的领属关系及评价搭配，替换泛谈。",
+    "analysis": "تاماقنىڭ属格，تەم+ى→تەمى领属，ياخشى谓语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L8属格领属、L2谓语（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تەمى"
+  },
+  {
+    "id": "tb0457:0",
+    "ug": "ئۇنىڭ چېچى تۇم قارا.",
+    "zh": "他的头发乌黑。",
+    "issues": [
+      "语序",
+      "未展示目标用法"
+    ],
+    "reason": "乌黑为颜色短语，直接描述头发才展示实际用法。",
+    "analysis": "تۇم قارا整体为颜色谓语；ئۇنىڭ چېچى为属格领属主语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L8领属、L2谓语（语法支持，不声称收录整条例句）",
+      "D: Anatilim Uyghur–Chinese StarDict https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz 词目تۇم قارا有乌黑、漆黑义。",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تۇم قارا"
+  },
+  {
+    "id": "tb0458:0",
+    "ug": "مەكتەپ بالىلارنى كىتاب بىلەن تەمىنلىدى.",
+    "zh": "学校给孩子们提供了书。",
+    "issues": [
+      "搭配自然度",
+      "格后缀",
+      "中文翻译"
+    ],
+    "reason": "供应需被供应者与物资；原他供应了信息不全。",
+    "analysis": "بالىلارنى宾格标受供者，كىتاب بىلەن标供应物，تەمىنلە-→تەمىنلىدى过去弱化。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L5宾格、L6بىلەن、L11过去（语法支持，不声称收录整条例句）",
+      "D: Anatilim Uyghur–Chinese StarDict https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz 词目تەمىنلىمەك有供应、提供义；受事格框架依语法判断，非词典句例。",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تەمىنلىدى"
+  },
+  {
+    "id": "tb0459:0",
+    "ug": "تەن ساغلاملىقى بەك مۇھىم.",
+    "zh": "身体健康很重要。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "把身体与健康组成具体概念，替换泛谈。",
+    "analysis": "تەن ساغلاملىقى为身体健康的名词复合，مۇھىم形容词谓语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L8复合领属、L2谓语（语法支持，不声称收录整条例句）",
+      "D: Anatilim Uyghur–Chinese StarDict https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz 词目تەن有躯体、身体义；整词组تەن ساغلاملىقى未获直接词目。",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تەن"
+  },
+  {
+    "id": "tb0460:0",
+    "ug": "بۈگۈن تەنتەربىيە دەرسى بار.",
+    "zh": "今天有体育课。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "体育与课程组合，构成真实日程说明。",
+    "analysis": "تەنتەربىيە دەرسى为体育课复合名词，بار存在谓语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L8复合领属、L10存在（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تەنتەربىيە"
+  },
+  {
+    "id": "tb0461:0",
+    "ug": "بىز ھەر كۈنى تەنھەرىكەت قىلىمىز.",
+    "zh": "我们每天做体育运动。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "体育运动与做及每天结合，采用运动义而非特指体操。",
+    "analysis": "ھەر كۈنى时间状语，تەنھەرىكەت قىل-复合动词，قىلىمىز一复现在将来。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L3现在将来（语法支持，不声称收录整条例句）",
+      "D: Anatilim Uyghur–Chinese StarDict https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz 词目تەنھەرىكەت有体育、运动义；不强行等同专门体操。",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تەنھەرىكەت"
+  },
+  {
+    "id": "tb0462:0",
+    "ug": "تاماق تەييار.",
+    "zh": "饭准备好了。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "تەييار为准备就绪状态，原这件事现成不自然。",
+    "analysis": "تاماق为食物主语，تەييار为准备就绪谓语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2形容词谓语（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تەييار"
+  },
+  {
+    "id": "tb0463:0",
+    "ug": "ئۇ ئىمتىھانغا تەييارلىق قىلدى.",
+    "zh": "他为考试做了准备。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "准备补上目的考试，展示为某事作准备。",
+    "analysis": "ئىمتىھانغا向格标准备目标，تەييارلىق قىلدى复合过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L3向格、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تەييارلىق قىلدى"
+  },
+  {
+    "id": "tb0464:0",
+    "ug": "ئۇ تاماق تەييارلىدى.",
+    "zh": "他准备了饭菜。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "及物准备动词应带准备物，补饭菜。",
+    "analysis": "تاماق不定宾语，تەييارلا-→تەييارلىدى词尾a弱化。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2弱化、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تەييارلىدى"
+  },
+  {
+    "id": "tb0465:0",
+    "ug": "ئۇ تراكتورچى.",
+    "zh": "他是拖拉机手。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "职业名词改为身份判断，避免泛谈。",
+    "analysis": "تراكتور+چى职业后缀，名词性谓语无须系词。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L1判断、L8职业派生（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تراكتورچى"
+  },
+  {
+    "id": "tb0466:0",
+    "ug": "بالىلار توپ ئويناۋاتىدۇ.",
+    "zh": "孩子们正在玩球。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "球与玩耍动作搭配，展示具体用法。",
+    "analysis": "توپ为非特指活动宾语，ئويناۋاتىدۇ三人称进行可配复数主语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L7进行（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "توپ"
+  },
+  {
+    "id": "tb0467:0",
+    "ug": "ئايىغىمغا توپا چاپلاشتى.",
+    "zh": "我的鞋上粘了土。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "土与鞋上粘附构成日常观察，替换泛谈。",
+    "analysis": "ئاياغ+ىم+غا→ئايىغىمغا领属向格发生弱化与软化；توپا主语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L8领属、L3向格、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "توپا"
+  },
+  {
+    "id": "tb0468:0",
+    "ug": "ئۇ رەسىملەرنى توپلىدى.",
+    "zh": "他收集了照片。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "收集缺对象，补复数照片的特指宾格。",
+    "analysis": "رەسىملەرنى复数宾格；توپلا-→توپلىدى末a弱化。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L5复数宾格、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "توپلىدى"
+  },
+  {
+    "id": "tb0469:0",
+    "ug": "بۇ يەردە تور بارمۇ؟",
+    "zh": "这里有网络吗？",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "选网络义，用存在疑问查询网络条件。",
+    "analysis": "تور采用网络而非渔网义，بارمۇ为存在疑问。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L10存在疑问（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تور"
+  },
+  {
+    "id": "tb0470:0",
+    "ug": "ئۇ يولنى توستى.",
+    "zh": "他挡住了路。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "阻挡缺受事，补道路作宾格。",
+    "analysis": "يول+نى宾格，توس-→توستى清辅音后过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L5宾格、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "توستى"
+  },
+  {
+    "id": "tb0471:0",
+    "ug": "يولدا بىر توسالغۇ بار.",
+    "zh": "路上有一个障碍物。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "障碍物放到道路存在句中，语境具体。",
+    "analysis": "يولدا处所，بىر توسالغۇ存在对象。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L3处所、L10存在（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "توسالغۇ"
+  },
+  {
+    "id": "tb0472:0",
+    "ug": "مەن باغدا توشقان كۆردۈم.",
+    "zh": "我在果园里看见了兔子。",
+    "issues": [],
+    "reason": "果园中看见兔子符合可理解生活观察，无需改写。",
+    "analysis": "توشقان为动物名词，كۆردۈم一单过去，باغدا处所。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L3处所、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "توشقان"
+  },
+  {
+    "id": "tb0473:0",
+    "ug": "ئۇ يۈك توشۇدى.",
+    "zh": "他运了货。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "运缺被运输物，补货物。",
+    "analysis": "يۈك非特指宾语；توشۇ-→توشۇدى三单过去，无a/e弱化问题。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "توشۇدى"
+  },
+  {
+    "id": "tb0474:0",
+    "ug": "ئۇ گۆشنى توغرىدى.",
+    "zh": "他切了肉。",
+    "issues": [
+      "词形变化",
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原توغرادى末a未弱化，且缺所切对象。",
+    "analysis": "توغرا-→توغرى-+دى；گۆشنى为特指宾格。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2元音弱化、L5宾格、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "توغرىدى"
+  },
+  {
+    "id": "tb0475:0",
+    "ug": "بۇ ئىش توغرا.",
+    "zh": "这件事是对的。",
+    "issues": [
+      "中文翻译"
+    ],
+    "reason": "维文正确判断可保留，中文改为完整自然的是对的。",
+    "analysis": "توغرا采用正确义作谓语，不是同形切肉动词。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2形容词谓语（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "توغرا"
+  },
+  {
+    "id": "tb0476:0",
+    "ug": "بىز بۇ كىتاب توغرىسىدا پاراڭلاشتۇق.",
+    "zh": "我们聊了这本书。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "关于词条本身应在真实后置结构中展示，而非引词。",
+    "analysis": "بۇ كىتاب后接توغرىسىدا，整个后置短语作谈论范围。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L11话题短语、过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "توغرىسىدا"
+  },
+  {
+    "id": "tb0477:0",
+    "ug": "توغرىسىنى ئېيتقاندا، مەن بىلمەيمەن.",
+    "zh": "说实话，我不知道。",
+    "issues": [
+      "语序",
+      "未展示目标用法"
+    ],
+    "reason": "说实话应修饰整个主句，原关于说实话机械嵌套。",
+    "analysis": "توغرىسىنى ئېيتقاندا为固定评注状语，بىلمەيمەن一单现在将来否定。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L4现在将来否定（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "توغرىسىنى ئېيتقاندا"
+  },
+  {
+    "id": "tb0478:0",
+    "ug": "مەن بۈگۈن توقاچ سېتىۋالدىم.",
+    "zh": "我今天买了小圆馕。",
+    "issues": [],
+    "reason": "小圆馕购买语境自然，目标词作不定宾语。",
+    "analysis": "توقاچ食品名词，سېتىۋالدىم一单过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "توقاچ"
+  },
+  {
+    "id": "tb0479:0",
+    "ug": "ئۇ توقۇمىچىلىق بىلەن شۇغۇللىنىدۇ.",
+    "zh": "他从事纺织业。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "行业与从事搭配，替换泛谈纺织业。",
+    "analysis": "توقۇمىچىلىق为行业名词，بىلەن标活动领域，شۇغۇللىنىدۇ三单现在将来。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L6بىلەن、L3现在将来（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "توقۇمىچىلىق"
+  },
+  {
+    "id": "tb0480:0",
+    "ug": "بۇ يەردە ئادەم تولا.",
+    "zh": "这里人很多。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "多作为数量谓语才展示真实用法，原谈论多不完整。",
+    "analysis": "تولا采用多义，ئادەم主语，بۇ يەردە处所。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L10数量谓语（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تولا"
+  },
+  {
+    "id": "tb0481:0",
+    "ug": "ئىسمىڭىزنى تولۇق يېزىڭ.",
+    "zh": "请把您的名字写完整。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原事情满主谓搭配不当；采用完整义修饰写。",
+    "analysis": "ئىسمىڭىزنى领属宾格，تولۇق方式副词，يېزىڭ敬称祈使。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L8领属、L14祈使（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تولۇق"
+  },
+  {
+    "id": "tb0482:0",
+    "ug": "ئۇ تولۇقسىز ئوتتۇرا مەكتەپتە ئوقۇيدۇ.",
+    "zh": "他在初中读书。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "初中与就读搭配，展示学校名称处所变化。",
+    "analysis": "مەكتەپ+تە处所格；ئوقۇيدۇ三单现在将来。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L3处所、现在将来（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تولۇقسىز ئوتتۇرا مەكتەپتە"
+  },
+  {
+    "id": "tb0483:0",
+    "ug": "ئۇ تولۇق ئوتتۇرا مەكتەپتە ئوقۇيدۇ.",
+    "zh": "他在高中读书。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "高中与就读搭配，替换泛谈学制。",
+    "analysis": "复合学校名最后一词مەكتەپتە加处所，ئوقۇيدۇ三单。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L3处所、现在将来（语法支持，不声称收录整条例句）",
+      "D: Anatilim Uyghur–Chinese StarDict https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz 词目تولۇق ئوتتۇرا مەكتەپ有高级中学、高中义。",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تولۇق ئوتتۇرا مەكتەپتە"
+  },
+  {
+    "id": "tb0484:0",
+    "ug": "مەن بۈگۈن تونۇر نېنى سېتىۋالدىم.",
+    "zh": "我今天买了烤馕。",
+    "issues": [
+      "词形变化"
+    ],
+    "reason": "购买烤馕的句法正常，تونۇر نېنى与既往更正تونۇر نانى存在词内元音差异；不能仅依历史更正把当前教材形式判错。",
+    "analysis": "食品复合词作不定宾语，سېتىۋالدىم一单过去；疑点集中于馕的领属词形。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L8名词复合、L11过去（语法支持，不声称收录整条例句）",
+      "D: Anatilim Uyghur–Chinese StarDict https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz 查询تونۇر نېنى及تونۇر نانى均无直接词目；无法据本词典裁定规范形式。",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）",
+      "补充实际用例：RFA原文 https://www.rfa.org/uyghur/xewerler/uyghur-nan-10282021172343.html 出现تونۇر نېنىنى；该用例说明نېنى形式实际使用，并非规范拼写裁定，仍保留待核。"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "تونۇر نېنى或تونۇر نانى的教材原形/地方形式需核对；保留原句作为待核记录，不能标正确。",
+    "target_form": "تونۇر نېنى"
+  },
+  {
+    "id": "tb0485:0",
+    "ug": "مەن ئۇنىڭ بىلەن تونۇشتۇم.",
+    "zh": "我和他认识了。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "结识需要交互对象，补与他。",
+    "analysis": "ئۇنىڭ بىلەن为代词属格加伴随后置词，تونۇشتۇم一单过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L6بىلەن、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تونۇشتۇم"
+  },
+  {
+    "id": "tb0486:0",
+    "ug": "مېنىڭ بۇ يەردە تونۇش-بىلىشىم بار.",
+    "zh": "我在这里有熟人。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "熟人用领属存在句展示个人关系。",
+    "analysis": "تونۇش-بىلىش+ىم→تونۇش-بىلىشىم一单领属，مېنىڭ呼应。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L8领属、L10存在（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تونۇش-بىلىشىم"
+  },
+  {
+    "id": "tb0487:0",
+    "ug": "ئەتە توي بار.",
+    "zh": "明天有婚礼。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "婚礼用存在句报告日程，简短实用。",
+    "analysis": "ئەتە时间，توي存在对象，بار谓语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L10存在（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "توي"
+  },
+  {
+    "id": "tb0488:0",
+    "ug": "بۈگۈن مەھەللىدە توي بولدى.",
+    "zh": "今天社区里办了婚礼。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "توي بول-是婚礼举行，不以他直接作婚礼主语；原他结婚了不合。",
+    "analysis": "توي为事件主语，بولدى发生义过去，مەھەللىدە处所。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L10事件存在、L11过去（语法支持，不声称收录整条例句）",
+      "D: Anatilim Uyghur–Chinese StarDict https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz 词目توي有婚礼、婚事义；固定搭配的事件结构依语法另核。",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "توي بولدى"
+  },
+  {
+    "id": "tb0489:0",
+    "ug": "ئۇ تويغۇچە يېدى.",
+    "zh": "他吃了个饱。",
+    "issues": [
+      "中文翻译"
+    ],
+    "reason": "维文吃到饱成立，中文改吃了个饱而非吃个够了。",
+    "analysis": "توي-+غۇچە为达到饱的界限副动形式，يە-→يېدى过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L14界限、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تويغۇچە يېدى"
+  },
+  {
+    "id": "tb0490:0",
+    "ug": "بۇ تۇپراق مۇنبەت.",
+    "zh": "这里的土壤很肥沃。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "土壤与肥沃搭配，替换泛谈土。",
+    "analysis": "تۇپراق采用土壤义，مۇنبەت作谓语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2形容词谓语（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تۇپراق"
+  },
+  {
+    "id": "tb0491:0",
+    "ug": "بۇ يەرنىڭ تۇپرىقى مۇنبەت.",
+    "zh": "这块地的土壤很肥沃。",
+    "issues": [
+      "语序",
+      "未展示目标用法"
+    ],
+    "reason": "土地肥沃已经含主谓结构，不能再直接接关于；补属格指地。",
+    "analysis": "يەرنىڭ属格，تۇپراق+ى→تۇپرىقى弱化，مۇنبەت谓语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L8领属、L2谓语（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تۇپرىقى مۇنبەت"
+  },
+  {
+    "id": "tb0492:0",
+    "ug": "ئۇ قولۇمنى تۇتتى.",
+    "zh": "他握住了我的手。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "抓/握需受事，补我的手，采用握义。",
+    "analysis": "قول+ۇم+نى→قولۇمنى一单领属宾格，تۇتتى三单过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L8领属、L5宾格、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تۇتتى"
+  },
+  {
+    "id": "tb0493:0",
+    "ug": "ئۇ بۇ ئىشنى تۇتۇش قىلدى.",
+    "zh": "他开始着手做这件事。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "着手缺内容，补这件事；保留词条固定搭配作为待核草案。",
+    "analysis": "بۇ ئىشنى宾格，تۇتۇش قىلدى复合过去；不能仅因构词规则判定地道。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L5宾格、L11过去（语法支持，不声称收录整条例句）",
+      "D: Anatilim Uyghur–Chinese StarDict https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz 词目تۇتۇش قىلماق有动手、处理义；宾格搭配尚缺独立整句例证。",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "词典تۇتۇش قىلماق有动手义，但宾格支配和整句常用度缺直接语例，需母语者核实。",
+    "target_form": "تۇتۇش قىلدى"
+  },
+  {
+    "id": "tb0494:0",
+    "ug": "ئۇ توپنى تۇتۇۋالدى.",
+    "zh": "他抓住了球。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "抓住缺对象，补特指球，使完成语义明确。",
+    "analysis": "توپنى宾格，تۇتۇۋالدى是تۇت-与ۋال-合成完成动作。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L5宾格、L15辅助（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تۇتۇۋالدى"
+  },
+  {
+    "id": "tb0495:0",
+    "ug": "مەن بۈگۈن تۇخۇم سېتىۋالدىم.",
+    "zh": "我今天买了鸡蛋。",
+    "issues": [],
+    "reason": "鸡蛋作购买宾语自然，今天与过去式相容。",
+    "analysis": "تۇخۇم不定宾语，سېتىۋالدىم一单过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تۇخۇم"
+  },
+  {
+    "id": "tb0496:0",
+    "ug": "ئۇ ئورنىدىن تۇردى.",
+    "zh": "他站了起来。",
+    "issues": [],
+    "reason": "从座位起身与站起动作相配，中文译义完整。",
+    "analysis": "ئورۇن+ى+دىن→ئورنىدىن中间元音脱落，تۇردى三单过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L8领属、L5离格、L11过去（语法支持，不声称收录整条例句）",
+      "D: Anatilim Uyghur–Chinese StarDict https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz 词目تۇرماق有起来、站住、居住义；本例采用站起义。",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تۇردى"
+  },
+  {
+    "id": "tb0497:0",
+    "ug": "تۇرسۇن بۈگۈن كەلدى.",
+    "zh": "吐尔逊今天来了。",
+    "issues": [],
+    "reason": "人名加今天来了是完整日常句，保留教材专名汉译。",
+    "analysis": "تۇرسۇن为男性专名，不与تۇر-祈使混淆；كەلدى过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تۇرسۇن"
+  },
+  {
+    "id": "tb0498:0",
+    "ug": "بۇ يەردە مەكتەپ تۇرغۇزۇش كېرەك.",
+    "zh": "这里需要建一所学校。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "建立的动名词应展示所建立对象和必要性，替换泛谈。",
+    "analysis": "تۇرغۇز-+ۇش名词化作كېرەك所需动作；مەكتەپ为其对象。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L9动名词、L12必要（语法支持，不声称收录整条例句）",
+      "D: Anatilim Uyghur–Chinese StarDict https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz 词目تۇرغۇزماق有树立、竖立义；不能仅据此认定建校搭配。",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "词典更直接支持竖立/树立义；تۇرغۇزۇش与建校是否合适需母语者核实，不因中文“建立”自动认可。",
+    "target_form": "تۇرغۇزۇش"
+  },
+  {
+    "id": "tb0499:0",
+    "ug": "بىزنىڭ تۇرمۇشىمىز ياخشى.",
+    "zh": "我们的生活很好。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "生活通过一复领属及评价展示，语义明确。",
+    "analysis": "تۇرمۇش+ىمىز→تۇرمۇشىمىز，بىزنىڭ属格对应。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L8领属、L2谓语（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تۇرمۇشىمىز"
+  },
+  {
+    "id": "tb0500:0",
+    "ug": "بۈگۈن تۇغقىنىم كەلدى.",
+    "zh": "今天我的亲戚来了。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "亲戚用领属式指具体人物，替换泛谈。",
+    "analysis": "تۇغقان+ىم→تۇغقىنىم词中a弱化，كەلدى三单过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L8领属、L11过去（语法支持，不声称收录整条例句）",
+      "D: Anatilim Uyghur–Chinese StarDict https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz 词目تۇغقان有亲戚、亲属义。",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تۇغقىنىم"
+  },
+  {
+    "id": "tb0501:0",
+    "ug": "ئۇ بۇ شەھەردە تۇغۇلدى.",
+    "zh": "他出生在这座城市。",
+    "issues": [
+      "中文翻译",
+      "搭配自然度"
+    ],
+    "reason": "تۇغۇل-是出生，原他生了误导为生育；补出生地。",
+    "analysis": "بۇ شەھەردە处所，تۇغۇلدى三单过去表示被生出/出生。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L3处所、L11过去（语法支持，不声称收录整条例句）",
+      "D: Anatilim Uyghur–Chinese StarDict https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz 词目تۇغۇلماق有出生、诞生义；原中文他生了容易误解为生育。",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تۇغۇلدى"
+  },
+  {
+    "id": "tb0502:0",
+    "ug": "بۈگۈن ئۇنىڭ تۇغۇلغان كۈنى.",
+    "zh": "今天是他的生日。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "生日采用领属日历判断，展示固定名词短语。",
+    "analysis": "ئۇنىڭ属格，تۇغۇلغان كۈنى三人称领属；كۈن+ى→كۈنى。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L8领属、L6时间（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تۇغۇلغان كۈنى"
+  },
+  {
+    "id": "tb0503:0",
+    "ug": "بىز تۇل-يېتىملەرگە ياردەم بەردۇق.",
+    "zh": "我们帮助了孤儿和寡妇。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原中文孤儿寡母不一定是同一家庭，改为孤儿和寡妇并展示帮助对象。",
+    "analysis": "تۇل-يېتىم加复数-لەر和向格-گە→تۇل-يېتىملەرگە；بەردۇق一复过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L5复数、L3向格、L11过去（语法支持，不声称收录整条例句）",
+      "D: Anatilim Uyghur–Chinese StarDict https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz 词目تۇل为孤孀/寡，يېتىم为孤儿；整合成تۇل-يېتىم未得直接词目。",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "词典仅分别确认تۇل寡妇、يېتىم孤儿，复合词固定社会称呼及教材“寡母”义需母语者复核。",
+    "target_form": "تۇل-يېتىملەرگە"
+  },
+  {
+    "id": "tb0504:0",
+    "ug": "بۇ يەردە تۆت كىتاب بار.",
+    "zh": "这里有四本书。",
+    "issues": [],
+    "reason": "四本书的存在句正确且简短，数词后名词保持单数。",
+    "analysis": "تۆت为数量定语，كىتاب不加复数，بار存在。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L6数词、L10存在（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تۆت"
+  },
+  {
+    "id": "tb0505:0",
+    "ug": "ئۇ قەرزىنى تۆلىدى.",
+    "zh": "他还了债。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "偿还补债务对象，采用词条偿还义，避免无对象的赔偿。",
+    "analysis": "قەرز+ى+نى→قەرزىنى三人称领属宾格；تۆلە-→تۆلىدى元音弱化。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L8领属、L5宾格、L11过去（语法支持，不声称收录整条例句）",
+      "D: Anatilim Uyghur–Chinese StarDict https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz 词目تۆلىمەك有偿还、赔偿、支付义；本例选还债义。",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تۆلىدى"
+  },
+  {
+    "id": "tb0506:0",
+    "ug": "بۇ ئىشىك تۆمۈردىن ياسالغان.",
+    "zh": "这扇门是铁制的。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "材料铁与由其制成搭配，展示离格材料。",
+    "analysis": "تۆمۈر+دىن为材料来源离格，ياسالغان被动分词表结果状态。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L5离格（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "被动分词结果句可理解，但本次教材定位未逐句确认，需母语者核实整体自然度。",
+    "target_form": "تۆمۈردىن"
+  },
+  {
+    "id": "tb0507:0",
+    "ug": "بۇ يەردىن تۆمۈر يول ئۆتىدۇ.",
+    "zh": "铁路经过这里。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "铁路与经过地点搭配，替换泛谈。",
+    "analysis": "بۇ يەردىن离格表示经过点，تۆمۈر يول主语，ئۆتىدۇ三单现在将来。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L5离格、L3现在将来（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تۆمۈر يول"
+  },
+  {
+    "id": "tb0508:0",
+    "ug": "ئۇنىڭ تۆھپىسى چوڭ.",
+    "zh": "他的贡献很大。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "贡献与所属者和大小评价结合，替换泛谈。",
+    "analysis": "تۆھپە+سى→تۆھپىسى末元音弱化；ئۇنىڭ属格，چوڭ评价。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L8领属、L2谓语（语法支持，不声称收录整条例句）",
+      "D: Anatilim Uyghur–Chinese StarDict https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz 词目تۆھپە有贡献、功劳义。",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تۆھپىسى"
+  },
+  {
+    "id": "tb0509:0",
+    "ug": "ئۇ مەكتەپكە چوڭ تۆھپە قوشتى.",
+    "zh": "他为学校作出了很大贡献。",
+    "issues": [
+      "搭配自然度",
+      "格后缀",
+      "中文翻译"
+    ],
+    "reason": "贡献补接受领域与程度，修正他贡献了的中文。",
+    "analysis": "مەكتەپكە向格，چوڭ تۆھپە名词宾语；قوشتى清辅音过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L3向格、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تۆھپە قوشتى"
+  },
+  {
+    "id": "tb0510:0",
+    "ug": "بۇ ئۈستەل تۆۋەن.",
+    "zh": "这张桌子很低。",
+    "issues": [
+      "语序",
+      "未展示目标用法"
+    ],
+    "reason": "下/低不能无中心名词接关于；选择低义描述桌子高度。",
+    "analysis": "تۆۋەن采用高度低义，ئۈستەل作主语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2形容词谓语（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تۆۋەن"
+  },
+  {
+    "id": "tb0511:0",
+    "ug": "تۆۋەندىكى سۆزلەرنى ئوقۇڭ.",
+    "zh": "请读下面的词。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "下面的须带所指内容，改为读下列词的指示。",
+    "analysis": "تۆۋەندىكى定语修饰سۆزلەرنى复数宾格；ئوقۇڭ敬称祈使。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L10-دىكى、L5宾格、L14祈使（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تۆۋەندىكى"
+  },
+  {
+    "id": "tb0512:0",
+    "ug": "بىز ئىككى تۈپ دەرەخ تىكتۇق.",
+    "zh": "我们种了两棵树。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "棵须处于数词和植物之间，原谈论棵不能示范。",
+    "analysis": "ئىككى تۈپ دەرەخ数量短语，تىك-→تىكتۇق一复过去。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L10量词、L11过去（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تۈپ"
+  },
+  {
+    "id": "tb0513:0",
+    "ug": "بۇ يول تۈپتۈز.",
+    "zh": "这条路笔直。",
+    "issues": [
+      "中文翻译"
+    ],
+    "reason": "تۈپتۈز更直接表达笔直，原“很平坦”可能混淆平整与方向笔直。",
+    "analysis": "تۈپ-为强调成分，تۈز为直，合成形容词谓语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L2形容词谓语（语法支持，不声称收录整条例句）",
+      "D: Anatilim Uyghur–Chinese StarDict https://raw.githubusercontent.com/colordict/colordict.github.io/master/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz 词目تۈپتۈز直接列笔直义；据此将道路译为笔直。",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تۈپتۈز"
+  },
+  {
+    "id": "tb0514:0",
+    "ug": "مەن «تۈركىي تىللار دىۋانى» نى ئوقۇۋاتىمەن.",
+    "zh": "我正在读《突厥语词典》。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "书名与阅读进行体结合，替换泛谈书籍。",
+    "analysis": "书名后接宾格نى，ئوقۇۋاتىمەن一单进行；保留书名原字形。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf L5宾格、L7进行（语法支持，不声称收录整条例句）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "书名引号后的宾格空格/连接书写规范需母语编辑确认；原书题名不擅改。",
+    "target_form": "«تۈركىي تىللار دىۋانى»"
+  },
+  {
+    "id": "tb0515:0",
+    "ug": "ئۇيغۇر تىلى بىر تۈركىي تىل.",
+    "zh": "维吾尔语是一种突厥语族语言。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "用具体语言的语族归属展示突厥语这一类别，避免误译为单一土耳其语。",
+    "analysis": "ئۇيغۇر تىلى为语言名词主语，بىر تۈركىي تىل为类别谓语。",
+    "basis": [
+      "G: Engesæth/Yakup/Dwyer (2009), Introduction: What is Uyghur? https://elkitab.org/wp-content/uploads/2020/04/uy-16.pdf （引言将维吾尔语归入突厥语；L1支持类别判断句，非原书整句引文）",
+      "U: Kontovas (2021), Reading Uyghur §2 Table 1, https://www.turkolog.ist/pdf/KONTOVAS_Reading_Uyghur.pdf （字母对应规则；非母语核音）"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "تۈركىي تىل"
+  }
+]

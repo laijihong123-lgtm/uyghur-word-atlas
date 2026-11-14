@@ -1,0 +1,4446 @@
+[
+  {
+    "id": "tb1557:0",
+    "ug": "مەن بۇ ئىشنى ئۆگۈنلۈككە قالدۇردۇم.",
+    "zh": "我把这件事留到后天做。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原句把带向格的时间词接在“关于”之前，不能清楚展示时间终点。",
+    "analysis": "用قالدۇر-表达推迟，ئۆگۈنلۈككە作推迟到的时间；保留教材词形，不擅改为ئۆگۈن。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "该时间词词形与“后天”的对应未在独立词典直接查到，需核实教材原页及母语用法。",
+    "target_form": "ئۆگۈنلۈككە"
+  },
+  {
+    "id": "tb1558:0",
+    "ug": "ئۆگىنىش ئۈچۈن ۋاقىت كېرەك.",
+    "zh": "学习需要时间。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原句能理解，但泛谈学习不能体现其作动名词的搭配。",
+    "analysis": "ئۆگىنىش作名词性成分，与ئۈچۈن构成“为了学习”，كېرەك表达需要。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L9/L12；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۆگىنىش"
+  },
+  {
+    "id": "tb1559:0",
+    "ug": "ئۆگىنىش باشلىقى بۈگۈن كەلدى.",
+    "zh": "学习委员今天来了。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原句只说谈论委员，缺少具体人物情景。",
+    "analysis": "复合职位名作主语，كەلدى为第三人称过去时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L1/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "“学习委员”的固定职位译名未获独立词典支持，需母语者及教材复核。",
+    "target_form": "ئۆگىنىش باشلىقى"
+  },
+  {
+    "id": "tb1560:0",
+    "ug": "ئۇ بىر پاشىنى ئۆلتۈردى.",
+    "zh": "他打死了一只苍蝇。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原句及译文“他杀死了”缺少对象。",
+    "analysis": "پاشا加宾格弱化为پاشىنى，ئۆلتۈر-加دى，展示使动“杀死”。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L5/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۆلتۈردى"
+  },
+  {
+    "id": "tb1561:0",
+    "ug": "ئۇنىڭ نامى ئۆلمەس.",
+    "zh": "他的名字将永存。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "“这件事不朽”主语搭配生硬。",
+    "analysis": "نامى为“他的名字”，ئۆلمەس在此取“永存、不朽”义而非字面生物不死。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2/L8；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۆلمەس"
+  },
+  {
+    "id": "tb1562:0",
+    "ug": "بىز ئۆم ياشايمىز.",
+    "zh": "我们和睦地生活。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "和睦通常描述人相处，原句“这件事和睦”搭配不成立。",
+    "analysis": "ئۆم修饰ياشايمىز，后者为第一人称复数现在将来时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2/L3；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "ئۆم在该搭配中的现代规范性、口语常用程度需母语者确认。",
+    "target_form": "ئۆم"
+  },
+  {
+    "id": "tb1563:0",
+    "ug": "دادام ۋە ئاپام ئۆيدە.",
+    "zh": "爸爸和妈妈在家里。",
+    "issues": [],
+    "reason": "两位家人作并列主语，处所格准确，中文对应。",
+    "analysis": "دادا/ئاپا加第一人称领属م；ئۆي加دە为“在家”。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L8；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۆيدە"
+  },
+  {
+    "id": "tb1563:1",
+    "ug": "مەن ئۆيگە قايتتىم.",
+    "zh": "我回家了。",
+    "issues": [],
+    "reason": "回家情景自然，过去时及第一人称均对应。",
+    "analysis": "ئۆي加向格گە；قايت-加تىم为“我回去了”。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۆيگە"
+  },
+  {
+    "id": "tb1564:0",
+    "ug": "بۇ ئۆي جاھازىلىرى يېڭى.",
+    "zh": "这些家具是新的。",
+    "issues": [
+      "中文翻译"
+    ],
+    "reason": "原文جاھازىلىرى为复数领属结构，中文“这个家具”不自然。",
+    "analysis": "ئۆي جاھازىلىرى整体指家具，يېڭى作形容词谓语，中文改用“这些”。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2/L8；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۆي جاھازىلىرى"
+  },
+  {
+    "id": "tb1565:0",
+    "ug": "ئۇ ئۆيگە قايتتى.",
+    "zh": "他回家了。",
+    "issues": [],
+    "reason": "目标复合动词完整出现在回家句中，无须改写。",
+    "analysis": "ئۆيگە为方向，قايتتى为第三人称过去时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۆيگە قايت"
+  },
+  {
+    "id": "tb1566:0",
+    "ug": "ئۇ ئۆيگە كىردى.",
+    "zh": "他/她进屋了。",
+    "issues": [],
+    "reason": "进屋的方向及动作搭配完整。",
+    "analysis": "ئۆي加گە，كىر-加دى构成كىردى。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۆيگە كىر"
+  },
+  {
+    "id": "tb1567:0",
+    "ug": "ئۇ مېھماننى ئۆينىڭ تۆرىگە چىقاردى.",
+    "zh": "他请客人坐到屋里的上座。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原句使动词没有受事，中文“请上上座了”不通。",
+    "analysis": "مېھماننى为宾语；ئۆينىڭ تۆرىگە为属格、领属和向格组合；چىقار-加دى。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L5/L8/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "请上座的礼貌搭配及该固定短语需母语者确认。",
+    "target_form": "ئۆينىڭ تۆرىگە چىقاردى"
+  },
+  {
+    "id": "tb1568:0",
+    "ug": "بۇ يەردە ئۆي-ئىمارەت كۆپ.",
+    "zh": "这里房屋很多。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "将泛泛谈论改为描述周围建筑。",
+    "analysis": "ئۆي-ئىمارەت为集合性名词，كۆپ作数量谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L10；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۆي-ئىمارەت"
+  },
+  {
+    "id": "tb1569:0",
+    "ug": "ئۇ ئۈچتە ياخشى ئوقۇغۇچى بولدى.",
+    "zh": "他成了三好学生。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "改为学生获得称号的情景，避免只谈名词。",
+    "analysis": "称号整体置于بولدى前，后者为第三人称过去时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "ئۈچتە ياخشى ئوقۇغۇچى的规范称号及书写待核，保留教材词形。",
+    "target_form": "ئۈچتە ياخشى ئوقۇغۇچى"
+  },
+  {
+    "id": "tb1570:0",
+    "ug": "بۇ تورتنىڭ ئۈچتىن بىرى ماڭا.",
+    "zh": "这个蛋糕的三分之一归我。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原句没有展示分数在数量表达中的用法。",
+    "analysis": "تورتنىڭ为属格，ئۈچتىن بىر加第三人称领属ى成为بىرى。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L6/L8/L10；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۈچتىن بىرى"
+  },
+  {
+    "id": "tb1571:0",
+    "ug": "بۇ كىتاب سىز ئۈچۈن.",
+    "zh": "这本书是给您的。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "原句只是提到“为了”这个词，未使用后置词。",
+    "analysis": "سىز ئۈچۈن表示受益者，“为您、给您”，作名词句谓语部分。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L1/L9；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۈچۈن"
+  },
+  {
+    "id": "tb1572:0",
+    "ug": "بۇ ئۈچىنچى دەرس.",
+    "zh": "这是第三课。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原句只谈“第三”，未给出序数修饰对象。",
+    "analysis": "ئۈچىنچى置于دەرس前作序数定语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L6；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۈچىنچى"
+  },
+  {
+    "id": "tb1573:0",
+    "ug": "ئۈچىنچى ئاي مارت ئېيى.",
+    "zh": "第三个月是三月。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原句没有说明月份顺序。",
+    "analysis": "ئۈچىنچى修饰ئاي，مارت ئېيى为月份命名结构。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L6；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۈچىنچى ئاي"
+  },
+  {
+    "id": "tb1574:0",
+    "ug": "بۇ يەردە ئۈچ يۈز ئاتمىش بەش كىتاب بار.",
+    "zh": "这里有三百六十五本书。",
+    "issues": [],
+    "reason": "数词后名词不加复数，存在句和中文数量一致。",
+    "analysis": "ئۈچ يۈز ئاتمىش بەش整体为365，修饰单数كىتاب。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L6/L10；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۈچ يۈز ئاتمىش بەش"
+  },
+  {
+    "id": "tb1575:0",
+    "ug": "مەن ئۈرۈمچىدە تۇرىمەن.",
+    "zh": "我住在乌鲁木齐。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "用居住情景展示地名的处所格。",
+    "analysis": "ئۈرۈمچى加دە，تۇر-现在将来时第一人称为تۇرىمەن。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۈرۈمچىدە"
+  },
+  {
+    "id": "tb1576:0",
+    "ug": "ئۇ باغدىن گۈل ئۈزدى.",
+    "zh": "他从花园里摘了花。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原句“他拉断了”缺对象，改选词卡的“摘”义。",
+    "analysis": "باغدىن为来源，گۈل为泛指宾语，ئۈزدى为第三人称过去时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L5/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۈزدى"
+  },
+  {
+    "id": "tb1577:0",
+    "ug": "مەن بۈگۈن ئۈزۈم سېتىۋالدىم.",
+    "zh": "我今天买了葡萄。",
+    "issues": [],
+    "reason": "买葡萄为具体日常情景，过去时和中文一致。",
+    "analysis": "ئۈزۈم为泛指购买对象；سېتىۋالدىم为第一人称过去时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L5/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۈزۈم"
+  },
+  {
+    "id": "tb1578:0",
+    "ug": "كىتاب ئۈستەلنىڭ ئۈستىدە.",
+    "zh": "书在桌子上。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原句只谈“上面”，没有方位关系。",
+    "analysis": "ئۈست加领属ى及处所دە为ئۈستىدە，属格ئۈستەلنىڭ指明参照物。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L8；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۈستىدە"
+  },
+  {
+    "id": "tb1579:0",
+    "ug": "بۇ ئۈستەل يېڭى.",
+    "zh": "这张桌子是新的。",
+    "issues": [],
+    "reason": "新桌子情景自然，目标名词直接作主语。",
+    "analysis": "بۇ限定ئۈستەل，يېڭى为形容词谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L1/L2；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۈستەل"
+  },
+  {
+    "id": "tb1580:0",
+    "ug": "ئۈلۈشكۈن دوستۇم كەلدى.",
+    "zh": "前天我的朋友来了。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原句未展示时间副词的实际作用。",
+    "analysis": "ئۈلۈشكۈن置于句首作时间状语，كەلدى与前天的过去时间一致。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۈلۈشكۈن"
+  },
+  {
+    "id": "tb1581:0",
+    "ug": "مېنىڭ ئۈمىدىم بار.",
+    "zh": "我有希望。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "改为自然存在式表达所持的希望。",
+    "analysis": "مېنىڭ为属格，ئۈمىد加第一人称领属ىم为ئۈمىدىم，与بار搭配。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L8/L10；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۈمىدىم"
+  },
+  {
+    "id": "tb1582:0",
+    "ug": "سىزنىڭ كېلىشىڭىزنى ئۈمىد قىلىمەن.",
+    "zh": "我希望您来。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原“他希望了”缺希望内容且中文不自然。",
+    "analysis": "كەل-动名词、第二人称敬称领属和宾格构成كېلىشىڭىزنى；قىلىمەن为第一人称。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L8/L9/L12；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۈمىد قىلىمەن"
+  },
+  {
+    "id": "tb1583:0",
+    "ug": "مەن كەلگۈسىدىن ئۈمىدلەندىم.",
+    "zh": "我对未来有了希望。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原句未交代对什么产生希望。",
+    "analysis": "كەلگۈسىدىن用从格表示寄望来源，ئۈمىدلەن-加دىم。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L5/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "ئۈمىدلەن-所要求的格与这一搭配的自然度需母语者复核。",
+    "target_form": "ئۈمىدلەندىم"
+  },
+  {
+    "id": "tb1584:0",
+    "ug": "ئۇنىڭ ئۈنىنى ئاڭلىدىم.",
+    "zh": "我听到了他的声音。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "用听觉动词表达声音，避免泛谈。",
+    "analysis": "ئۈن加第三人称领属和宾格；ئاڭلا-弱化为ئاڭلىدىم。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L5/L8/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۈنىنى"
+  },
+  {
+    "id": "tb1585:0",
+    "ug": "بۇ ئۇرۇق ئۈندى.",
+    "zh": "这颗种子发芽了。",
+    "issues": [
+      "中文翻译",
+      "搭配自然度"
+    ],
+    "reason": "原句中文把发芽主语译成“他/她”。",
+    "analysis": "ئۇرۇق为种子作主语，ئۈن-加دى为ئۈندى。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۈندى"
+  },
+  {
+    "id": "tb1586:0",
+    "ug": "ئۇ ئۈنسىز ئولتۇردى.",
+    "zh": "他静静地坐着。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "“这件事无声”缺少自然动作情景。",
+    "analysis": "ئۈنسىز在动词前作方式状语，ئولتۇردى为第三人称过去时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۈنسىز"
+  },
+  {
+    "id": "tb1587:0",
+    "ug": "ئۇ ئۈنلۈك سۆزلىدى.",
+    "zh": "他大声说话了。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原句“这件事大声”主谓不搭配。",
+    "analysis": "ئۈنلۈك修饰说话，سۆزلە-词尾元音升高为سۆزلىدى。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۈنلۈك"
+  },
+  {
+    "id": "tb1588:0",
+    "ug": "ئۈنلۈكرەك سۆزلەڭ.",
+    "zh": "请说大声一点。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原句未展示程度比较及实际交际用途。",
+    "analysis": "ئۈنلۈك加رەك表示“更大声”，سۆزلەڭ为敬称祈使。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L10/L14；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۈنلۈكرەك"
+  },
+  {
+    "id": "tb1589:0",
+    "ug": "بۇ دورىنىڭ ئۈنۈمى ياخشى.",
+    "zh": "这种药的效果很好。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "具体展示“效果”义，与评价词搭配。",
+    "analysis": "دورىنىڭ为属格，ئۈنۈم加第三人称领属ى成为ئۈنۈمى。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2/L8；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئۈنۈمى"
+  },
+  {
+    "id": "tb1590:0",
+    "ug": "بوۋام بۇلتۇر ۋاپات بولدى.",
+    "zh": "我的爷爷去年去世了。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原短句可通，补亲属与时间使去世的敬称用法明确。",
+    "analysis": "ۋاپات بول-为复合动词，болدى第三人称过去时；بوۋام第一人称领属。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L8/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ۋاپات بول"
+  },
+  {
+    "id": "tb1591:0",
+    "ug": "بۈگۈن مېنىڭ ۋاقتىم بار.",
+    "zh": "我今天有时间。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "时间存在句比泛谈更实用。",
+    "analysis": "ۋاقىت加领属ىم时中间元音脱落，变为ۋاقتىم，与بار搭配。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L8/L10；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ۋاقتىم"
+  },
+  {
+    "id": "tb1592:0",
+    "ug": "بىز ۋاڭ فۇجىڭدا مال سېتىۋالدۇق.",
+    "zh": "我们在王府井买东西了。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "改为具体地点购物，展示地名处所格。",
+    "analysis": "فۇجىڭ加دا；سېتىۋال-过去时第一人称复数دۇق。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ۋاڭ فۇجىڭدا"
+  },
+  {
+    "id": "tb1593:0",
+    "ug": "ۋاي، قولۇم ئاغرىدى!",
+    "zh": "哎呀，我的手疼了！",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原句把感叹词当谈论对象，无法表现语用。",
+    "analysis": "ۋاي以感叹独立起句，قولۇم为“我的手”，ئاغرىدى表达疼痛。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L1/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ۋاي"
+  },
+  {
+    "id": "tb1594:0",
+    "ug": "ئاپام ۋە دادام ئۆيدە.",
+    "zh": "妈妈和爸爸在家。",
+    "issues": [
+      "中文翻译"
+    ],
+    "reason": "维文并列词无“都”的显式成分，译文略作简化。",
+    "analysis": "ۋە连接两个名词主语，ئۆيدە为处所谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2/L3；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ۋە"
+  },
+  {
+    "id": "tb1595:0",
+    "ug": "ۋەئەلەيكۇم ئەسسالام!",
+    "zh": "也祝您平安！（回应问候）",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原句只讨论问候语，未作为回应使用。",
+    "analysis": "整句作问候回应，语气和中文用途保持一致。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ۋەئەلەيكۇم ئەسسالام"
+  },
+  {
+    "id": "tb1596:0",
+    "ug": "مەن ۋەتىنىمنى ياخشى كۆرىمەن.",
+    "zh": "我爱我的祖国。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "用喜爱表达而非泛谈祖国。",
+    "analysis": "ۋەتەن+ىم+نى→ۋەتىنىمنى；非首音节ە在领属后弱化为ى，不能写作ۋەتەنىمنى。ياخشى كۆر+ى+مەن表示爱。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L5/L8/L9；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。",
+      "D Anatilim词目ۋەتىنىمىز、ۋەتىنىنى ئۆز ئائىلىسىدەك سۆيمەك支持领属形ۋەتىنى-；不代表本新句整句引文。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ۋەتىنىمنى"
+  },
+  {
+    "id": "tb1597:0",
+    "ug": "ئۇ ۋەتەنپەرۋەر ئادەم.",
+    "zh": "他是个爱国的人。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "爱国通常描写人，“这件事爱国”搭配欠妥。",
+    "analysis": "ۋەتەنپەرۋەر在名词ئادەم前作定语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L1/L2；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ۋەتەنپەرۋەر"
+  },
+  {
+    "id": "tb1598:0",
+    "ug": "بۇ مېنىڭ ۋەزىپەم.",
+    "zh": "这是我的任务。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "给出任务归属的实际表达。",
+    "analysis": "ۋەزىپە加第一人称领属م为ۋەزىپەم。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L1/L8；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ۋەزىپەم"
+  },
+  {
+    "id": "tb1599:0",
+    "ug": "ھازىرقى ۋەزىيەت ياخشى.",
+    "zh": "目前的形势很好。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "用时间限定形势而非泛谈。",
+    "analysis": "ھازىرقى作定语，ياخشى评价ۋەزىيەت。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ۋەزىيەت"
+  },
+  {
+    "id": "tb1600:0",
+    "ug": "بۇ ۋەقە تۈنۈگۈن يۈز بەردى.",
+    "zh": "这件事发生在昨天。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "补充具体发生时间，展示事件的自然动词搭配。",
+    "analysis": "ۋەقە作主语，يۈز بەردى表示发生，过去时与تۈنۈگۈن一致。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ۋەقە"
+  },
+  {
+    "id": "tb1601:0",
+    "ug": "ئۇ بىزنىڭ ۋەكىلىمىز.",
+    "zh": "他是我们的代表。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "给出具体身份和代表关系。",
+    "analysis": "بىزنىڭ为第一人称复数属格，ۋەكىل加ىمىز成为ۋەكىلىمىز。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L1/L8；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ۋەكىلىمىز"
+  },
+  {
+    "id": "tb1602:0",
+    "ug": "چاي ۋە ياكى سۇ ئالامسىز؟",
+    "zh": "您要茶和／或水吗？",
+    "issues": [
+      "未展示目标用法",
+      "中文翻译"
+    ],
+    "reason": "原句没有使用连接结构；ۋە ياكى按字面可能是“和／或”而非普通“或者”。",
+    "analysis": "保留复合连接词连接两种饮品，不把它替换成单独ياكى。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2/L4；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "词卡将ۋە ياكى释为“或者”，与“和／或”的语义区别及口语适用性需复核。",
+    "target_form": "ۋە ياكى"
+  },
+  {
+    "id": "tb1603:0",
+    "ug": "بىز بۇ ئىشقا ئېتىبار قىلىمىز.",
+    "zh": "我们重视这件事。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原“他照顾了”未体现对象及常见“重视”义。",
+    "analysis": "بۇ ئىش加向格قا成为ئېتىبار قىل-的对象，قىلىمىز第一人称复数。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئېتىبار قىلىمىز"
+  },
+  {
+    "id": "tb1604:0",
+    "ug": "دادام ئېتىزدا ئىشلەيدۇ.",
+    "zh": "我爸爸在田里干活。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "改成农事日常情景。",
+    "analysis": "ئېتىز加处所دا，ئىشلە-现在将来时第三人称为ئىشلەيدۇ。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئېتىز"
+  },
+  {
+    "id": "tb1605:0",
+    "ug": "ئۇ مۇۋەپپەقىيەتكە ئېرىشتى.",
+    "zh": "他取得了成功。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原“他得到了”缺少获得对象。",
+    "analysis": "ئېرىش-与向格搭配，مۇۋەپپەقىيەتكە表示取得的成果。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئېرىشتى"
+  },
+  {
+    "id": "tb1606:0",
+    "ug": "ئەزىز بۈگۈن كەلدى.",
+    "zh": "艾则孜今天来了。",
+    "issues": [
+      "中文翻译"
+    ],
+    "reason": "原句把同形男名按“珍贵”义译成“珍贵今天来了”。",
+    "analysis": "本句明确选词卡第二义项男名，ئەزىز作人名主语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L1/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئەزىز"
+  },
+  {
+    "id": "tb1607:0",
+    "ug": "بۇ گەپ ئېسىمگە كەلدى.",
+    "zh": "我想起了这句话。",
+    "issues": [
+      "词形变化",
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原ئۇ ئېسىگە كەلدى把想到的内容及体验者混在一起。",
+    "analysis": "گەپ为想起的内容作主语，ئەس加第一人称领属及向格为ئېسىمگە，كەلدى作谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L8/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئېسىمگە كەلدى"
+  },
+  {
+    "id": "tb1608:0",
+    "ug": "بۇ ئېسىل رەخت.",
+    "zh": "这是上好的布料。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "用优质布料具体展示ئېسىل的评价义。",
+    "analysis": "ئېسىل置于رەخت前作定语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L1/L2；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئېسىل"
+  },
+  {
+    "id": "tb1609:0",
+    "ug": "بۇ سومكا ئېغىر.",
+    "zh": "这个包很重。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原句将形容词“重”作泛谈对象。",
+    "analysis": "ئېغىر作形容词谓语，سومكا为可衡量重量的物体。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئېغىر"
+  },
+  {
+    "id": "tb1610:0",
+    "ug": "ئاغزىڭىزنى ئېچىڭ.",
+    "zh": "请张开嘴。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "用具体动作体现嘴的身体部位义。",
+    "analysis": "ئېغىز的特殊词干为ئاغز-；ئاغز+ىڭىز+نى→ئاغزىڭىزنى。ئاچ+ىڭ→ئېچىڭ为礼貌祈使。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L5/L8/L14；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。",
+      "G L8 1.3.1与表8.4（印刷p113）：ëghiz的抽象词干aghz，添加词尾恢复aghz，明确列aghzim、aghzi。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئاغزىڭىزنى"
+  },
+  {
+    "id": "tb1611:0",
+    "ug": "بۇ ئېغىزچە ئىمتىھان.",
+    "zh": "这是口试。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原句只说谈论口语，没有展示“口头的”作定语。",
+    "analysis": "ئېغىزچە修饰ئىمتىھان，构成口试的常用名词短语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L1/L2；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئېغىزچە"
+  },
+  {
+    "id": "tb1612:0",
+    "ug": "بىز مۇزېينى ئېكسكۇرسىيە قىلدۇق.",
+    "zh": "我们参观了博物馆。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "把参观名词与قىل-搭配形成实际动作。",
+    "analysis": "مۇزېي加宾格نى，ئېكسكۇرسىيە قىلدۇق为第一人称复数过去时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L5/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئېكسكۇرسىيە"
+  },
+  {
+    "id": "tb1613:0",
+    "ug": "ئېكولوگىيىلىك تەڭپۇڭلۇق مۇھىم.",
+    "zh": "生态平衡很重要。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "改为简短评价句，避免生硬泛谈。",
+    "analysis": "复合名词整体作主语，مۇھىم为形容词谓语；本词属非日常专业词。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئېكولوگىيىلىك تەڭپۇڭلۇق"
+  },
+  {
+    "id": "tb1614:0",
+    "ug": "بۇ ئۆي ئېگىز.",
+    "zh": "这座房子很高。",
+    "issues": [],
+    "reason": "房屋高度与“高”自然搭配，中文对应。",
+    "analysis": "ئېگىز为谓语形容词，零系词句成立。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئېگىز"
+  },
+  {
+    "id": "tb1615:0",
+    "ug": "بۇ ئېلېكترونلۇق لۇغەت.",
+    "zh": "这是电子词典。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原“这件事电子”把关系形容词误当独立评价谓语。",
+    "analysis": "ئېلېكترونلۇق修饰具体名词لۇغەت。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L1/L2；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئېلېكترونلۇق"
+  },
+  {
+    "id": "tb1616:0",
+    "ug": "بالا ئېلېكترونلۇق ئويۇن ئويناۋاتىدۇ.",
+    "zh": "孩子正在玩电子游戏。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "提供玩游戏的具体情景。",
+    "analysis": "ئويۇن为宾语，ئوينا-进行时为ئويناۋاتىدۇ。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L7；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئېلېكترونلۇق ئويۇن"
+  },
+  {
+    "id": "tb1617:0",
+    "ug": "مەن سىزگە ئېلېكترونلۇق يوللانما ئەۋەتتىم.",
+    "zh": "我给您发了电子邮件。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "展示邮件与发送的搭配。",
+    "analysis": "ئېلېكترونلۇق يوللانما为电子邮件，سىزگە为给您；ئەۋەت+تىم为寄发的一人称过去时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。",
+      "D Anatilim直接词目ئېلېكترونلۇق يوللانما：电子邮件、电子函件。此处有直接词汇支持，无需因存在ئېلخەت同义词而待核。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئېلېكترونلۇق يوللانما"
+  },
+  {
+    "id": "tb1618:0",
+    "ug": "بىز تەكشۈرۈش ئېلىپ باردۇق.",
+    "zh": "我们进行了检查。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原“他进行了”缺少进行的内容。",
+    "analysis": "تەكشۈرۈش动名词作开展事项，ئېلىپ باردۇق为第一人称复数过去时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L9/L11/L14；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئېلىپ باردۇق"
+  },
+  {
+    "id": "tb1619:0",
+    "ug": "كىتابنى سىرتقا ئېلىپ چىقىڭ.",
+    "zh": "请把书拿到外面。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "چىق-表达出去，原中文强译“拿上去”缺方向依据。",
+    "analysis": "كىتابنى为宾语，سىرتقا为外面的方向，ئېلىپ چىقىڭ为礼貌祈使。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L5/L14；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "词卡只列“拿上去”等义，但独立词典和常见چىق-可表拿出去；原义项需复核。",
+    "target_form": "ئېلىپ چىقىڭ"
+  },
+  {
+    "id": "tb1620:0",
+    "ug": "ئۇ كىتابنى ئېلىپ كەتتى.",
+    "zh": "他把书带走了。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原句缺带走的对象，补充书作宾语。",
+    "analysis": "كىتاب加نى，ئېلىپ为副动词，كەتتى第三人称过去时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L5/L11/L14；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئېلىپ كەتتى"
+  },
+  {
+    "id": "tb1621:0",
+    "ug": "مەن بىر گەپ ئېيتماقچىمەن.",
+    "zh": "我想说一句话。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原句把完整第一人称意愿形式当名词谈论。",
+    "analysis": "ئېيت-加ماقچى及مەن，表达说话意愿；بىر گەپ为说的内容。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L9/L12；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئېيتماقچىمەن"
+  },
+  {
+    "id": "tb1622:0",
+    "ug": "بۇ گەپنى ئۇنىڭغا ئېيتىپ قويۇڭ.",
+    "zh": "请把这句话告诉他一下。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原中文“讲一下了”不自然，改成实用请求。",
+    "analysis": "گەپنى为宾语，ئۇنىڭغا为对象，ئېيتىپ قويۇڭ为副动词加礼貌祈使。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L5/L14/L15；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئېيتىپ قويۇڭ"
+  },
+  {
+    "id": "tb1623:0",
+    "ug": "بۇ سۆزنى ئېيتىپ كۆرۈڭ.",
+    "zh": "请试着说一下这个词。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原“讲一讲看了”不合中文，改为尝试性请求。",
+    "analysis": "سۆزنى为宾语，ئېيتىپ كۆر-中كۆر-表示尝试，كۆرۈڭ为敬称祈使。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L5/L14/L15；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئېيتىپ كۆرۈڭ"
+  },
+  {
+    "id": "tb1624:0",
+    "ug": "ئۇنىڭ چىرايىدىكى ئىپادە ئۆزگەردى.",
+    "zh": "他脸上的表情变了。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "用面部表现的具体情景避免泛谈。",
+    "analysis": "ئىپادە在脸部语境取表情义，独立词典与表现义并列收录；چىرايىدىكى为他脸上的，ئۆزگەر+دى为变化过去时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L8/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。",
+      "D Anatilim直接词目ئىپادە同时列表情、表现、体现。用此有证据的常见义项，不声称词卡涵盖全部义项。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىپادە"
+  },
+  {
+    "id": "tb1625:0",
+    "ug": "بىز ئىتتىپاق بولۇشىمىز كېرەك.",
+    "zh": "我们应该团结。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "用团结的行为要求展示第一义项。",
+    "analysis": "ئىتتىپاق与بول-搭配；بولۇشىمىز为动名词加第一人称复数领属。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L9/L12；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىتتىپاق"
+  },
+  {
+    "id": "tb1626:0",
+    "ug": "ئىتتىپاق ئەزالىرى يىغىنغا كەلدى.",
+    "zh": "团员们来开会了。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "以参加会议展示团员群体。",
+    "analysis": "ئەزالىرى为复数领属结构，يىغىنغا向格，كەلدى第三人称可用于复数主语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L8/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "ئىتتىپاق是否特指共青团需教材语境确认，词组无独立词典直接释义。",
+    "target_form": "ئىتتىپاق ئەزالىرى"
+  },
+  {
+    "id": "tb1627:0",
+    "ug": "سومكىنىڭ ئىچىدە كىتاب بار.",
+    "zh": "包里有书。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "“内”需要参照物，原泛谈句无此关系。",
+    "analysis": "ئىچ加第三人称领属ى与处所دە为ئىچىدە，سومكىنىڭ为参照物属格。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L8/L10；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىچ"
+  },
+  {
+    "id": "tb1628:0",
+    "ug": "ئۆيدە ئولتۇرۇپ ئىچىم پۇشتى.",
+    "zh": "我待在家里觉得闷。",
+    "issues": [
+      "词形变化",
+      "搭配自然度"
+    ],
+    "reason": "原ئۇ ئىچى پۇشتى中独立ئۇ与领属关系表达生硬。",
+    "analysis": "ئىچ加第一人称领属ىم为ئىچىم；پۇشتى表示感到闷，ئولتۇرۇپ为副动词。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L8/L11/L14；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىچىم پۇشتى"
+  },
+  {
+    "id": "tb1629:0",
+    "ug": "بۇ شىركەتكە ئىختىساسلىق خادىم كېرەك.",
+    "zh": "这家公司需要专业人才。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原句只是谈人才，改为招聘需求；中文不用未经证明的“高级”。",
+    "analysis": "شىركەتكە向格表达需要者，خادىم为需要的对象。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L12；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىختىساسلىق خادىم"
+  },
+  {
+    "id": "tb1630:0",
+    "ug": "بۇ ئىشقا قاتنىشىش ئىختىيارىي.",
+    "zh": "参加这项活动是自愿的。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原“这件事自由”不明确，改为自愿参加的语境。",
+    "analysis": "قاتناش-动名词قاتنىشىش作主语，ئىختىيارىي表自愿、非强制。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L9；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىختىيارىي"
+  },
+  {
+    "id": "tb1631:0",
+    "ug": "مېنىڭ ئىدارەم بۇ يەردە.",
+    "zh": "我的单位在这里。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "展示单位的归属与位置。",
+    "analysis": "ئىدارە加第一人称领属م，بۇ يەردە为处所谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L8；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىدارەم"
+  },
+  {
+    "id": "tb1632:0",
+    "ug": "بۇ يەردە ئىدارە-جەمئىيەت كۆپ.",
+    "zh": "这里机关单位很多。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "将话题模板改为存在数量句。",
+    "analysis": "复合名词整体作主语，كۆپ作数量谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L10；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "该连写复合词未查到独立词目，规范拼写及“机关”义待复核。",
+    "target_form": "ئىدارە-جەمئىيەت"
+  },
+  {
+    "id": "tb1633:0",
+    "ug": "مەن ئۇنىڭ ئىدىيىسىنى چۈشەندىم.",
+    "zh": "我理解了他的思想。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "展示理解某人思想的关系。",
+    "analysis": "ئىدىيە+سى+نى→ئىدىيىسىنى，第三人称领属前末ە弱化为ى；ئۇنىڭ为其属格，چۈشەن+دىم表示理解了。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L5/L8/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。",
+      "D Anatilim词目ئارمىيە قۇرۇش ئىدىيىسى等实证支持领属拼写ئىدىيىسى，不是ئىدىيەسى。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىدىيىسىنى"
+  },
+  {
+    "id": "tb1634:0",
+    "ug": "ئۇنىڭ ئىرادىسى كۈچلۈك.",
+    "zh": "他的意志很坚强。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "意志与坚强具体搭配，较泛谈更实用。",
+    "analysis": "ئىرادە加سى，非末音节ە升高为ى；كۈچلۈك作谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2/L8；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىرادىسى"
+  },
+  {
+    "id": "tb1635:0",
+    "ug": "بىز ئىرق ئايرىمىچىلىقىغا قارشى.",
+    "zh": "我们反对种族歧视。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "把种族词用于反对歧视的完整表达。",
+    "analysis": "ئىرق作复合定语，ئايرىمىچىلىقىغا为领属加向格，قارشى表示反对。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L8；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىرق"
+  },
+  {
+    "id": "tb1636:0",
+    "ug": "بالا ئىزا تارتىپ كەتتى.",
+    "zh": "孩子害羞了。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原句基本可懂，补明确人物使害羞状态更直观。",
+    "analysis": "ئىزا تارت-与كەت-辅助结构连用，过去时在末尾كەتتى。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L11/L14/L15；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "ئىزا تارتىپ كەت-是否属于规范固定搭配及“害羞”范围需母语者复核。",
+    "target_form": "ئىزا تارتىپ كەتتى"
+  },
+  {
+    "id": "tb1637:0",
+    "ug": "بۇ ئىزاھلىق لۇغەت.",
+    "zh": "这是带释义的词典。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "“这件事有注解”搭配泛化，改用常见“释义词典”。",
+    "analysis": "ئىزاھلىق在لۇغەت前作定语，展示有解释的词典。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L1/L2；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىزاھلىق"
+  },
+  {
+    "id": "tb1638:0",
+    "ug": "مەن ئاچقۇچۇمنى ئىزدىدىم.",
+    "zh": "我找我的钥匙了。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原“他找了”缺对象。",
+    "analysis": "ئاچقۇچ加第一人称领属及宾格为ئاچقۇچۇمنى；ئىزدە-末元音升高，过去时第一人称为ئىزدە所变的ئىزدىدىم。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L5/L8/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىزدىدىم"
+  },
+  {
+    "id": "tb1639:0",
+    "ug": "چوڭلارغا ئىززەت-ھۆرمەت قىلىڭ.",
+    "zh": "请尊敬长辈。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "展示尊敬对象和常见复合动词。",
+    "analysis": "چوڭلارغا向格为受尊敬者，قىلىڭ为敬称祈使。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L14；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىززەت-ھۆرمەت"
+  },
+  {
+    "id": "tb1640:0",
+    "ug": "بۇ ئۆي ئىسسىق.",
+    "zh": "这间屋子很热。",
+    "issues": [],
+    "reason": "屋里热的评价可理解，形容词谓语使用正确。",
+    "analysis": "ئىسسىق直接作谓语，可指房间温度。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىسسىق"
+  },
+  {
+    "id": "tb1641:0",
+    "ug": "مەن ئىسلام توغرىسىدا كىتاب ئوقۇدۇم.",
+    "zh": "我读了一本关于伊斯兰的书。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原泛谈改为明确阅读对象。",
+    "analysis": "ئىسلام توغرىسىدا限定书的内容，ئوقۇدۇم为第一人称过去时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىسلام"
+  },
+  {
+    "id": "tb1642:0",
+    "ug": "ئۇ ئىسلام پەلسەپىسىنى ئۆگىنىۋاتىدۇ.",
+    "zh": "他正在学习伊斯兰哲学。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "具体展示学科作学习对象。",
+    "analysis": "پەلسەپىسى加宾格نى，ئۆگەن-进行时为ئۆگىنىۋاتىدۇ。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L5/L7；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىسلام پەلسەپىسىنى"
+  },
+  {
+    "id": "tb1643:0",
+    "ug": "بۇ كىتاب ئىسلام تارىخى توغرىسىدا.",
+    "zh": "这本书讲的是伊斯兰史。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "保留主题后置结构，但明确以书为内容载体。",
+    "analysis": "ئىسلام تارىخى整体与توغرىسىدا搭配作名词句谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L1/L8；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىسلام تارىخى"
+  },
+  {
+    "id": "tb1644:0",
+    "ug": "بۇ ئىسلام كالېندارى.",
+    "zh": "这是伊斯兰历。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "改用识别句，中文“历”比“日历”更贴合历法义。",
+    "analysis": "ئىسلام修饰كالېندارى，为复合名词识别句。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L1/L8；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىسلام كالېندارى"
+  },
+  {
+    "id": "tb1645:0",
+    "ug": "بۇ مەكتەپ ئىسلاھات ئېلىپ باردى.",
+    "zh": "这所学校进行了改革。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原句以“他”进行改革缺情景，明确学校主体。",
+    "analysis": "ئىسلاھات为改革事项，ئېلىپ باردى为开展工作的复合动词。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L11/L14；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىسلاھات ئېلىپ باردى"
+  },
+  {
+    "id": "tb1646:0",
+    "ug": "ئۇنىڭ ئىسمى نېمە؟",
+    "zh": "他叫什么名字？",
+    "issues": [],
+    "reason": "问名字的句子自然，正确选用“名字”义。",
+    "analysis": "ئىسمى体现ئىسم的领属变化；نېمە作疑问谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L1/L8；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىسمى"
+  },
+  {
+    "id": "tb1647:0",
+    "ug": "بۈگۈن ئىش كۆپ.",
+    "zh": "今天工作很多。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原“我们谈论了事”泛化且中文不自然。",
+    "analysis": "本句取“工作”义，كۆپ作数量谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L10；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىش"
+  },
+  {
+    "id": "tb1648:0",
+    "ug": "مەن سىزگە ئىشىنىمەن.",
+    "zh": "我相信您。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原“他相信了”缺相信的对象。",
+    "analysis": "سىزگە为向格对象；ئىشەن-现在将来时第一人称为ئىشىنىمەن。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىشىنىمەن"
+  },
+  {
+    "id": "tb1649:0",
+    "ug": "بۇ ئىشتان يېڭى.",
+    "zh": "这条裤子是新的。",
+    "issues": [
+      "中文翻译"
+    ],
+    "reason": "原中文量词“这个裤子”错误。",
+    "analysis": "ئىشتان为裤子，维文形容词谓语无须修改。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىشتان"
+  },
+  {
+    "id": "tb1650:0",
+    "ug": "ئۇ ئىشچان ئادەم.",
+    "zh": "他是个勤劳的人。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原句把形容词直接接“关于”，不能展示修饰用法。",
+    "analysis": "ئىشچان在ئادەم前作定语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L1/L2；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىشچان"
+  },
+  {
+    "id": "tb1651:0",
+    "ug": "ئىشچى بۈگۈن بىز بىلەن سۆزلەشتى.",
+    "zh": "工人今天和我们交谈了。",
+    "issues": [],
+    "reason": "工人与人交谈的语境合理，第三人称过去时及共同行为对象清楚。",
+    "analysis": "بىز بىلەن作同伴成分，سۆزلەشتى为第三人称过去时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L6/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىشچى"
+  },
+  {
+    "id": "tb1652:0",
+    "ug": "مەن ئىشخانىدا ئىشلەيمەن.",
+    "zh": "我在办公室工作。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "办公地点应在工作情景中展示。",
+    "analysis": "ئىشخانا接处所دا时末元音升高，成为ئىشخانىدا。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2/L3；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىشخانىدا"
+  },
+  {
+    "id": "tb1653:0",
+    "ug": "بۇ ئىشخانا بىناسى ئېگىز.",
+    "zh": "这栋办公楼很高。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "改为建筑高度的具体描述。",
+    "analysis": "ئىشخانا بىناسى为领属复合名词，ئېگىز作谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2/L8；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىشخانا بىناسى"
+  },
+  {
+    "id": "tb1654:0",
+    "ug": "ئۇ ئىشقا باردى.",
+    "zh": "他/她上班了。",
+    "issues": [],
+    "reason": "去上班的方向和动作完整，译文对应。",
+    "analysis": "ئىشقا向格，باردى第三人称过去时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىشقا بار"
+  },
+  {
+    "id": "tb1655:0",
+    "ug": "ئۇ ئىشخانىدا ئىشلىدى.",
+    "zh": "他在办公室工作了。",
+    "issues": [
+      "中文翻译"
+    ],
+    "reason": "维文为确定过去时，中文补“了”更明确。",
+    "analysis": "ئىشخانىدا为处所，ئىشلە-过去时弱化为ئىشلىدى。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىشلىدى"
+  },
+  {
+    "id": "tb1656:0",
+    "ug": "بۇ زاۋۇتتا ئىشلەپچىقىرىش باشلاندى.",
+    "zh": "这家工厂开始生产了。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "具体说明生产开始，比泛谈生产有信息。",
+    "analysis": "زاۋۇتتا为处所，ئىشلەپچىقىرىش名词作主语，باشلاندى为过去时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L9/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىشلەپچىقىرىش"
+  },
+  {
+    "id": "tb1657:0",
+    "ug": "ئۇ بۇ پىلاننى ئىشلەپ چىقتى.",
+    "zh": "他制定出了这个计划。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原“他做出了”缺少产出。",
+    "analysis": "پىلاننى作宾语；ئىشلەپ چىق-表示完成、制定，过去时چىقتى。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L5/L14/L15；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىشلەپ چىقتى"
+  },
+  {
+    "id": "tb1658:0",
+    "ug": "مەن بۇ قەلەمنى ئىشلەتتىم.",
+    "zh": "我用了这支笔。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原句使用的对象缺失。",
+    "analysis": "قەلەمنى为确定宾语，ئىشلەت-加تىم构成过去时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L5/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىشلەتتىم"
+  },
+  {
+    "id": "tb1659:0",
+    "ug": "ئۇ ئىشىكنى چەكتى.",
+    "zh": "他/她敲门了。",
+    "issues": [],
+    "reason": "目标短语自带宾语，“敲门”情景完整。",
+    "analysis": "ئىشىك加宾格نى，چەك-加تى。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L5/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىشىكنى چەك"
+  },
+  {
+    "id": "tb1660:0",
+    "ug": "ئۇ ئىشىكنى ئاچتى.",
+    "zh": "他/她开门了。",
+    "issues": [],
+    "reason": "开门对象和动作均完整。",
+    "analysis": "ئىشىكنى作宾语，ئاچ-加تى为ئاچتى。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L5/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىشىكنى ئاچ"
+  },
+  {
+    "id": "tb1661:0",
+    "ug": "ئۇنىڭ ئىقتىدارى بار.",
+    "zh": "他有能力。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "改为某人具备能力的实际表达。",
+    "analysis": "ئىقتىدار加第三人称领属ى，与属格ئۇنىڭ配合。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L8/L10；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىقتىدارى"
+  },
+  {
+    "id": "tb1662:0",
+    "ug": "بۇ ئىقتىسادىي مەسىلە.",
+    "zh": "这是经济问题。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原“这件事经济”把关系形容词当独立谓语。",
+    "analysis": "ئىقتىسادىي在مەسىلە前作关系定语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L1/L2；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىقتىسادىي"
+  },
+  {
+    "id": "tb1663:0",
+    "ug": "بۇ دۆلەتنىڭ ئىقتىسادى ياخشى.",
+    "zh": "这个国家的经济状况很好。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "经济评价明确属于某国。",
+    "analysis": "دۆلەتنىڭ属格，ئىقتىسادى第三人称领属，ياخشى作谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2/L8；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىقتىسادى"
+  },
+  {
+    "id": "tb1664:0",
+    "ug": "بۇ تۈرنىڭ ئىقتىسادىي ئۈنۈمى ياخشى.",
+    "zh": "这个项目的经济效益很好。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "明确效益属于哪个项目。",
+    "analysis": "تۈرنىڭ属格；ئۈنۈم加ى成为ئۈنۈمى，展示复合名词领属。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2/L8；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىقتىسادىي ئۈنۈمى"
+  },
+  {
+    "id": "tb1665:0",
+    "ug": "بۇ يەردە ئىككى كىتاب بار.",
+    "zh": "这里有两本书。",
+    "issues": [],
+    "reason": "数量二与存在句对应，数词后使用单数名词正确。",
+    "analysis": "ئىككى修饰كىتاب，بار为存在谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L6/L10；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىككى"
+  },
+  {
+    "id": "tb1666:0",
+    "ug": "يولنىڭ ئىككى چېتىدە دەرەخ بار.",
+    "zh": "道路两旁有树。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原带处所后缀的方位词组不能当普通话题直接接“关于”。",
+    "analysis": "يولنىڭ提供参照物，چېتىدە为领属加处所格，ئىككى限定两边。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L8/L10；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىككى چېتىدە"
+  },
+  {
+    "id": "tb1667:0",
+    "ug": "ئۇ ئىككىلەندى.",
+    "zh": "他/她犹豫了。",
+    "issues": [],
+    "reason": "“犹豫”可作不及物状态变化，单独成句语义完整。",
+    "analysis": "ئىككىلەن-加دى形成ئىككىلەندى，第三人称过去时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىككىلەندى"
+  },
+  {
+    "id": "tb1668:0",
+    "ug": "ئىككىنچى ئاي فېۋرال ئېيى.",
+    "zh": "第二个月是二月。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原句缺少月份顺序的实际展示。",
+    "analysis": "ئىككىنچى为序数，فېۋرال ئېيى为月份名称。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L6；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىككىنچى ئاي"
+  },
+  {
+    "id": "tb1669:0",
+    "ug": "بۇ ئۆينىڭ ئىگىسى كىم؟",
+    "zh": "这所房子的主人是谁？",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "“主人”补出所属物关系更自然。",
+    "analysis": "ئۆينىڭ为属格，ئىگە加第三人称领属سى成为ئىگىسى。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L1/L8；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىگىسى"
+  },
+  {
+    "id": "tb1670:0",
+    "ug": "ئۇ ياخشى خىزمەتكە ئىگە بولدى.",
+    "zh": "他有了一份好工作。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原“他具有了”缺少所有对象。",
+    "analysis": "ئىگە بول-与向格搭配，خىزمەتكە为所获得的工作。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىگە بولدى"
+  },
+  {
+    "id": "tb1671:0",
+    "ug": "ئۇ بۇ ئۇسۇلنى ئىگىلىدى.",
+    "zh": "他掌握了这个方法。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原“他占了”无对象，改选“掌握”义。",
+    "analysis": "ئۇسۇلنى为宾语，ئىگىلە-过去时为ئىگىلىدى。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L5/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىگىلىدى"
+  },
+  {
+    "id": "tb1672:0",
+    "ug": "بۇ ئۇسۇلنى ئىگىلەش ئاسان.",
+    "zh": "掌握这个方法很容易。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "用动名词作主语，展示“掌握”的名词性功能。",
+    "analysis": "ئىگىلە-加ش构成ئىگىلەش，带宾语ئۇسۇلنى。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L5/L9；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىگىلەش"
+  },
+  {
+    "id": "tb1673:0",
+    "ug": "ھازىر باشقا ئىلاج يوق.",
+    "zh": "现在没有别的办法。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原句把完整存在否定句嵌进“关于”结构，改为独立表达。",
+    "analysis": "ئىلاج为办法，باشقا限定，يوق为不存在谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L10；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىلاج يوق"
+  },
+  {
+    "id": "tb1674:0",
+    "ug": "مەن ئىلگىرى بۇ يەردە ئىشلەيتتىم.",
+    "zh": "我以前在这里工作。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "原句只是引述“以前”这个词。",
+    "analysis": "ئىلگىرى作以前的时间状语；ئىشلە+يتتى+م→ئىشلەيتتىم为第一人称过去习惯式，避免裸ئىشلىگەن作为初学者的一人称谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L11/L13；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。",
+      "G L13 §2 不完全过去时/过去习惯时-At-ti及人称词尾；本句明确选用该结构。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىلگىرى"
+  },
+  {
+    "id": "tb1675:0",
+    "ug": "بۇ ئىلمىي ئۇسۇل.",
+    "zh": "这是科学的方法。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原“这件事科学”关系形容词搭配泛化。",
+    "analysis": "ئىلمىي限定ئۇسۇل，零系词识别句。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L1/L2；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىلمىي"
+  },
+  {
+    "id": "tb1676:0",
+    "ug": "مەن ئىلمىي ماقالە ئوقۇدۇم.",
+    "zh": "我读了一篇学术论文。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "用阅读展示论文作为具体对象。",
+    "analysis": "ئىلمىي修饰ماقالە，泛指宾语无宾格，ئوقۇدۇم第一人称过去时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L5/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىلمىي ماقالە"
+  },
+  {
+    "id": "tb1677:0",
+    "ug": "ئىمام بۈگۈن كەلدى.",
+    "zh": "领拜人今天来了。",
+    "issues": [
+      "中文翻译"
+    ],
+    "reason": "原中文把词典释义括注整段塞入句子。",
+    "analysis": "本句选择第一义项宗教领拜人，ئىمام作人物主语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L1/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىمام"
+  },
+  {
+    "id": "tb1678:0",
+    "ug": "ئۇنىڭ ئىمانى كۈچلۈك.",
+    "zh": "他的信仰很坚定。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原“谈论了（宗）伊玛尼”保留词典标签，不像日常译文。",
+    "analysis": "ئىمان加领属ى表示其信仰，كۈچلۈك评价坚定。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2/L8；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىمانى"
+  },
+  {
+    "id": "tb1679:0",
+    "ug": "ئەتە ئىمتىھان بار.",
+    "zh": "明天有考试。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "用考试安排展示实际用途。",
+    "analysis": "ئەتە为时间状语，ئىمتىھان与بار组成存在句。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L10；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىمتىھان"
+  },
+  {
+    "id": "tb1680:0",
+    "ug": "ئىمىن بۈگۈن كەلدى.",
+    "zh": "依明今天来了。",
+    "issues": [],
+    "reason": "男名作来访者主语，中文音译与词卡一致。",
+    "analysis": "ئىمىن为专名，无需加格，كەلدى过去时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L1/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىمىن"
+  },
+  {
+    "id": "tb1681:0",
+    "ug": "بىز ئىناق ياشايمىز.",
+    "zh": "我们和睦地生活。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原把形容词作泛谈对象，未展示状态修饰。",
+    "analysis": "ئىناق修饰ياشايمىز，第一人称复数现在将来时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2/L3；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىناق"
+  },
+  {
+    "id": "tb1682:0",
+    "ug": "ئائىلىمىزدە ئىناقلىق بار.",
+    "zh": "我们家很和睦。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "用家庭关系展示和睦。",
+    "analysis": "ئائىلە加第一人称复数领属及处所格为ئائىلىمىزدە；ئىناقلىق与بار搭配。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L8/L10；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىناقلىق"
+  },
+  {
+    "id": "tb1683:0",
+    "ug": "بۇ ئىش ئىنتايىن مۇھىم.",
+    "zh": "这件事非常重要。",
+    "issues": [],
+    "reason": "程度副词置于形容词前，中文“非常”准确。",
+    "analysis": "ئىنتايىن修饰مۇھىم，不独立充当名词。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىنتايىن"
+  },
+  {
+    "id": "tb1684:0",
+    "ug": "مەن ئىنتېرنېت تورىدىن پايدىلىنىمەن.",
+    "zh": "我使用互联网。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "改为互联网与使用动词的搭配。",
+    "analysis": "تورى加从格دىن成为تورىدىن，为پايدىلان-要求的格。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L5/L8；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىنتېرنېت تورىدىن"
+  },
+  {
+    "id": "tb1685:0",
+    "ug": "بۇ كىتابنى ئىنچىكىلەپ ئوقۇڭ.",
+    "zh": "请仔细读这本书。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原把方式副动词接“关于”，不展示实际修饰。",
+    "analysis": "ئىنچىكىلەپ修饰阅读，ئوقۇڭ为敬称祈使，كىتابنى为宾语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L5/L14；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىنچىكىلەپ"
+  },
+  {
+    "id": "tb1686:0",
+    "ug": "ئىنسانلارغا سۇ كېرەك.",
+    "zh": "人类需要水。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "以共同生活需要展示人类。",
+    "analysis": "ئىنسانلار加向格غا为需要者，سۇ为所需对象。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L12；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىنسانلارغا"
+  },
+  {
+    "id": "tb1687:0",
+    "ug": "بۇ ئىنقىلابىي ناخشا.",
+    "zh": "这是一首革命歌曲。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原“这件事革命”没有关系形容词所修饰对象。",
+    "analysis": "ئىنقىلابىي置于ناخشا前作定语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L1/L2；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىنقىلابىي"
+  },
+  {
+    "id": "tb1688:0",
+    "ug": "بۇ كىتاب ئىنقىلابىي پائالىيەت توغرىسىدا.",
+    "zh": "这本书讲的是革命活动。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "专业题材用书的内容作情景更适合该词。",
+    "analysis": "复合名词与توغرىسىدا搭配作内容谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L1；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىنقىلابىي پائالىيەت"
+  },
+  {
+    "id": "tb1689:0",
+    "ug": "بۇ ئەسەر ئىنقىلابىي ئىدىيىلىرىگە باي.",
+    "zh": "这部作品富有革命思想。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原句把带向格的形容词短语当话题，未描述作品。",
+    "analysis": "باي为形容词谓语，ئىدىيىلىرىگە含复数、领属与向格。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L8；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "该词条含ئىدىيىلىرىگە（带第三人称领属），一般表达“富于思想”是否应无领属改为ئىدىيىگە，需核教材及母语用法。",
+    "target_form": "ئىنقىلابىي ئىدىيىلىرىگە باي"
+  },
+  {
+    "id": "tb1690:0",
+    "ug": "مەن ئىنگلىزچە سۆزلەيمەن.",
+    "zh": "我说英语。",
+    "issues": [
+      "搭配自然度",
+      "ULY转写"
+    ],
+    "reason": "原句不展示语言副词；原ULY inglizche会把ن+گ与ڭ混淆。",
+    "analysis": "ئىنگلىزچە作语言方式，سۆزلەيمەن为第一人称现在将来时；ULY用in'glizche。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىنگلىزچە"
+  },
+  {
+    "id": "tb1691:0",
+    "ug": "مەن ئىنگلىز تىلىنى ئۆگىنىمەن.",
+    "zh": "我学习英语。",
+    "issues": [
+      "搭配自然度",
+      "ULY转写"
+    ],
+    "reason": "改为学习情景；原ULY ingliz应区分ن+گ。",
+    "analysis": "تىلى加宾格نى，ئۆگىنىمەن第一人称；in'gliz tili。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L5；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىنگلىز تىلىنى"
+  },
+  {
+    "id": "tb1692:0",
+    "ug": "ئىنىم بۈگۈن كەلدى.",
+    "zh": "我的弟弟今天来了。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "亲属名词补出所属关系更适合初学者。",
+    "analysis": "ئىنى加第一人称领属م为ئىنىم，كەلدى为过去时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L8/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ئىنىم"
+  },
+  {
+    "id": "tb1693:0",
+    "ug": "دوستۇم ياپونىيەدە تۇرىدۇ.",
+    "zh": "我的朋友住在日本。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "用居住地点展示国名。",
+    "analysis": "ياپونىيە加دە，تۇرىدۇ为第三人称现在将来时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ياپونىيەدە"
+  },
+  {
+    "id": "tb1694:0",
+    "ug": "بۇ تاش ياپىلاق.",
+    "zh": "这块石头是扁的。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "“这件事扁”主语不适合形状形容词。",
+    "analysis": "تاش为具体可描述形状的对象，ياپىلاق作谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ياپىلاق"
+  },
+  {
+    "id": "tb1695:0",
+    "ug": "بۇ باغ ياپيېشىل.",
+    "zh": "这座花园绿油油的。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "“花碧绿”可通但对一般初学者缺典型情景，改描述花园。",
+    "analysis": "ياپيېشىل为强化绿色的形容词谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ياپيېشىل"
+  },
+  {
+    "id": "tb1696:0",
+    "ug": "ئۇ كارىۋاتتا ياتتى.",
+    "zh": "他躺在床上了。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原“他躺了”缺实际位置，译文生硬。",
+    "analysis": "كارىۋاتتا处所格，ياتتى第三人称过去时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ياتتى"
+  },
+  {
+    "id": "tb1697:0",
+    "ug": "مېنىڭ ياتىقىم پاكىز.",
+    "zh": "我的宿舍很干净。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "展示住宿环境和归属。",
+    "analysis": "ياتاق+ىم→ياتىقىم，非首音节a弱化为i；书面ق保持不变。该教材表8.8同时注明口语可读为gh，但ULY按书面转写q。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2/L8；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。",
+      "G L8 §1.3.3.2、表8.8，印刷p115直接列yataq→书面yatiqim、口语yatighim。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ياتىقىم"
+  },
+  {
+    "id": "tb1698:0",
+    "ug": "ئۇ يەرگە گىلەم ياتقۇزدى.",
+    "zh": "他在地上铺了地毯。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原“他铺了”缺铺设对象。",
+    "analysis": "گىلەم为铺的对象，يەرگە方向位置，ياتقۇزدى为过去时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ياتقۇزدى"
+  },
+  {
+    "id": "tb1699:0",
+    "ug": "بۇ نان ناھايىتى ياخشى.",
+    "zh": "这个馕非常好。",
+    "issues": [],
+    "reason": "食物评价自然，程度副词与“好”搭配正确。",
+    "analysis": "ناھايىتى修饰ياخشى，馕作主语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ياخشى"
+  },
+  {
+    "id": "tb1699:1",
+    "ug": "ھاۋا ياخشى.",
+    "zh": "天气很好。",
+    "issues": [],
+    "reason": "天气好是常见描述，词卡核心义得到展示。",
+    "analysis": "ھاۋا为天气主语，ياخشى作谓语形容词。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ياخشى"
+  },
+  {
+    "id": "tb1700:0",
+    "ug": "ھازىر ھاۋا ياخشى بولۇپ كەتتى.",
+    "zh": "现在天气转好了。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原以他变好缺状态背景，改用天气变化。",
+    "analysis": "بولۇپ为副动词，كەتتى辅助表达状态转变。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L11/L14/L15；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ياخشى بولۇپ كەتتى"
+  },
+  {
+    "id": "tb1701:0",
+    "ug": "مەن ئانا تىلىمنى ياخشى كۆرىمەن.",
+    "zh": "我热爱自己的母语。",
+    "issues": [],
+    "reason": "热爱母语的对象与动词组合准确。",
+    "analysis": "تىل加第一人称领属及宾格为تىلىمنى，ياخشى كۆر-现在时第一人称。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L5/L8/L9；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ياخشى كۆرىمەن"
+  },
+  {
+    "id": "tb1702:0",
+    "ug": "ياخشىمۇسىز، مۇئەللىم!",
+    "zh": "老师，您好！",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原句只谈问候语，未直接问候。",
+    "analysis": "问候语独立使用，مۇئەللىم为称呼。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ياخشىمۇسىز"
+  },
+  {
+    "id": "tb1703:0",
+    "ug": "مەن بۇ شېئىرنى يادلىدىم.",
+    "zh": "我背了这首诗。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原“他背了”无背诵内容。",
+    "analysis": "شېئىرنى为宾语，يادلا-过去时末元音升高为يادلىدىم。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L5/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يادلىدىم"
+  },
+  {
+    "id": "tb1704:0",
+    "ug": "بۇ قەلەم ماڭا يارىدى.",
+    "zh": "这支笔对我有用。",
+    "issues": [
+      "词形变化",
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原يارادى未体现词尾元音升高，“他合适了”也不自然。",
+    "analysis": "يارا-过去时为يارىدى；ماڭا向格表示对我有用。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2/L3/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يارىدى"
+  },
+  {
+    "id": "tb1705:0",
+    "ug": "ئۇ ماڭا ياردەم بەردى.",
+    "zh": "他帮助了我。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原句没有帮助的对象。",
+    "analysis": "ماڭا为受益者向格，ياردەم بەر-过去时为بەردى。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ياردەم بەردى"
+  },
+  {
+    "id": "tb1706:0",
+    "ug": "دوستۇم قەلەم بىلەن يازىدۇ.",
+    "zh": "我的朋友用笔写字。",
+    "issues": [],
+    "reason": "工具和写字行为明确，中文没有误配时态。",
+    "analysis": "قەلەم بىلەن表工具，يازىدۇ为第三人称现在将来时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L6；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يازىدۇ"
+  },
+  {
+    "id": "tb1707:0",
+    "ug": "ياز كەلدى.",
+    "zh": "夏天来了。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "用季节到来的短句展示名词义。",
+    "analysis": "ياز作主语，كەلدى过去时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ياز"
+  },
+  {
+    "id": "tb1708:0",
+    "ug": "ياز پەسلى ئىسسىق.",
+    "zh": "夏季很热。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "以温度描述季节，比泛谈具体。",
+    "analysis": "ياز پەسلى为领属复合名词，ئىسسىق作谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2/L8；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ياز پەسلى"
+  },
+  {
+    "id": "tb1709:0",
+    "ug": "يازغۇچى بۈگۈن بىز بىلەن سۆزلەشتى.",
+    "zh": "作家今天和我们交谈了。",
+    "issues": [],
+    "reason": "作家与我们交谈的情景合理，目标职业名真实使用。",
+    "analysis": "يازغۇچى为主语，بىز بىلەن为同伴，سۆزلەشتى过去时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L6/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يازغۇچى"
+  },
+  {
+    "id": "tb1710:0",
+    "ug": "بۇ ئىش يازغۇدەك.",
+    "zh": "这件事值得写。",
+    "issues": [],
+    "reason": "“值得写的事”语义可通，不因短而重写。",
+    "analysis": "يازغۇدەك在此作评价谓语，保留词卡所给派生词形。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "يازغۇدەك的具体情态是否为“值得写”或“足以写”，需母语者确认，教材义不能直接当独立核验。",
+    "target_form": "يازغۇدەك"
+  },
+  {
+    "id": "tb1711:0",
+    "ug": "يازلىق تەتىل بولغاندا، مەن ئۆيگە قايتىمەن.",
+    "zh": "放暑假时，我会回家。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原句把完整时间从句当名词接“关于”。",
+    "analysis": "بولغاندا为时间从句末，主句قايتىمەن为第一人称将来。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L13；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يازلىق تەتىل بولغاندا"
+  },
+  {
+    "id": "tb1712:0",
+    "ug": "ئۇ ياغاچتىن ئورۇندۇق ياسىدى.",
+    "zh": "他用木头做了一把椅子。",
+    "issues": [
+      "词形变化",
+      "搭配自然度"
+    ],
+    "reason": "原ياسادى漏元音升高，又无制造对象。",
+    "analysis": "ياسا-加过去时应为ياسىدى；ياغاچتىن表材料，ئورۇندۇق为宾语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2/L5/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ياسىدى"
+  },
+  {
+    "id": "tb1713:0",
+    "ug": "سىز قانچە ياش؟",
+    "zh": "您多大年纪？",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原谈年龄没有展示询问年龄。",
+    "analysis": "قانچە修饰ياش，零系词问句，使用名词年龄义。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L1/L6；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ياش"
+  },
+  {
+    "id": "tb1714:0",
+    "ug": "مەن بۇ شەھەردە ياشايمەن.",
+    "zh": "我在这座城市生活。",
+    "issues": [
+      "词形变化",
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原ياشادى应升高为ياشىدى，“他活了”缺背景。",
+    "analysis": "改用现在将来时ياشايمەن，شەھەردە处所格说明居住地。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2/L3；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ياشايمەن"
+  },
+  {
+    "id": "tb1715:0",
+    "ug": "ياشلىق قىممەتلىك.",
+    "zh": "青春很宝贵。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "用评价句展示青春名词义。",
+    "analysis": "ياشلىق作主语，قىممەتلىك作形容词谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ياشلىق"
+  },
+  {
+    "id": "tb1716:0",
+    "ug": "بۇ دەرەختە ياش نوتا بار.",
+    "zh": "这棵树上有嫩枝。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "植物部位与树构成实际关系。",
+    "analysis": "دەرەختە处所格，ياش نوتا为存在的对象。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L10；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ياش نوتا"
+  },
+  {
+    "id": "tb1717:0",
+    "ug": "بۈگۈن يامغۇر ياغدى.",
+    "zh": "今天下雨了。",
+    "issues": [],
+    "reason": "降雨主语正确，过去时及中文对应。",
+    "analysis": "يامغۇر作主语，ياغ-加دى为降雨义。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ياغدى"
+  },
+  {
+    "id": "tb1718:0",
+    "ug": "تاماققا ئازراق ياغ قوشۇڭ.",
+    "zh": "请往饭菜里加一点油。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "用烹饪展示油的日常用法。",
+    "analysis": "تاماققا为加入目标，ئازراق修饰ياغ，قوشۇڭ为敬称祈使。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L14；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ياغ"
+  },
+  {
+    "id": "tb1719:0",
+    "ug": "بۇ ئورۇندۇق ياغاچتىن ياسالغان.",
+    "zh": "这把椅子是木头做的。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "展示材料来源而非泛谈木头。",
+    "analysis": "ياغاچ加تىن表材料，ياسالغان表被制成的结果状态。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L5/L13；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ياغاچتىن"
+  },
+  {
+    "id": "tb1720:0",
+    "ug": "بۇ ياغاچ ماتېرىيالى ياخشى.",
+    "zh": "这种木材很好。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原“这个木材是新的”量词及评价不自然。",
+    "analysis": "木材作为种类，中文用“这种”，维文用ياخشى评价品质。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2/L8；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ياغاچ ماتېرىيالى"
+  },
+  {
+    "id": "tb1721:0",
+    "ug": "ياق، مەن بارمايمەن.",
+    "zh": "不，我不去。",
+    "issues": [],
+    "reason": "否定应答与第一人称不去一致，真实使用“不”义。",
+    "analysis": "ياق独立应答；بارمايمەن含否定ما及第一人称。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L4；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ياق"
+  },
+  {
+    "id": "tb1722:0",
+    "ug": "مەن بۇ كىتابنى ياقتۇردۇم.",
+    "zh": "我喜欢这本书。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原“他喜欢了”无喜欢对象。",
+    "analysis": "كىتابنى为宾语，ياقتۇر-第一人称过去时دۇم；中文不强加完成助词。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L5/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ياقتۇردۇم"
+  },
+  {
+    "id": "tb1723:0",
+    "ug": "چاي ياكى سۇ ئىچەمسىز؟",
+    "zh": "您喝茶还是水？",
+    "issues": [],
+    "reason": "提供茶或水的选择问句实用，连接词用法准确。",
+    "analysis": "ياكى连接两种饮品，ئىچەمسىز为敬称疑问。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2/L4；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ياكى"
+  },
+  {
+    "id": "tb1724:0",
+    "ug": "چاي ئىچىڭ، ياكى بولمىسا سۇ ئىچىڭ.",
+    "zh": "请喝茶，或者喝水也行。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "原句只是提到该连接词，改成完整备选建议。",
+    "analysis": "ياكى بولمىسا连接两个敬称祈使分句，表达另一选择。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2/L14；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ياكى بولمىسا"
+  },
+  {
+    "id": "tb1725:0",
+    "ug": "مەن بۈگۈن ياڭاق سېتىۋالدىم.",
+    "zh": "我今天买了核桃。",
+    "issues": [],
+    "reason": "买核桃的情景及中文一致，名词无需加宾格。",
+    "analysis": "ياڭاق为泛指宾语，سېتىۋالدىم第一人称过去时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L5/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ياڭاق"
+  },
+  {
+    "id": "tb1726:0",
+    "ug": "مەن يالغۇز كەلدىم.",
+    "zh": "我一个人来的。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "“这件事单独”主语和独自义不搭。",
+    "analysis": "يالغۇز作方式状语修饰كەلدىم。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يالغۇز"
+  },
+  {
+    "id": "tb1727:0",
+    "ug": "بۇ يامان ئادەت.",
+    "zh": "这是坏习惯。",
+    "issues": [],
+    "reason": "坏习惯的修饰搭配自然。",
+    "analysis": "يامان置于ئادەت前作定语，句子选用坏义。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L1/L2；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يامان"
+  },
+  {
+    "id": "tb1728:0",
+    "ug": "بۇ كىتاب يامان ئەمەس.",
+    "zh": "这本书不错。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原句将完整形容词否定式当名词。",
+    "analysis": "يامان ئەمەس为评价谓语，字面“不坏”即“不错”。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يامان ئەمەس"
+  },
+  {
+    "id": "tb1729:0",
+    "ug": "ۋاي، يامان بولدى!",
+    "zh": "哎呀，糟了！",
+    "issues": [
+      "中文翻译",
+      "搭配自然度"
+    ],
+    "reason": "原中文“不好了了”重复，ئۇ强指人不符合感叹用法。",
+    "analysis": "以感叹独立使用يامان بولدى，不设无关人称主语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يامان بولدى"
+  },
+  {
+    "id": "tb1730:0",
+    "ug": "بۈگۈن يامغۇر ياغىدۇ.",
+    "zh": "今天会下雨。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "降雨的自然搭配比泛谈雨更实用。",
+    "analysis": "يامغۇر为主语，ياغىدۇ现在将来时取预告义。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يامغۇر"
+  },
+  {
+    "id": "tb1731:0",
+    "ug": "بۈگۈن يامغۇر ياغدى.",
+    "zh": "今天下雨了。",
+    "issues": [
+      "语序",
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原ئۇ يامغۇر ياغدى把人称代词错误加到降雨句前，中文也译成他下雨。",
+    "analysis": "移除多余ئۇ，يامغۇر作唯一主语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يامغۇر ياغدى"
+  },
+  {
+    "id": "tb1732:0",
+    "ug": "چېلەكتە يامغۇر سۈيى بار.",
+    "zh": "桶里有雨水。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原“我喝了雨水”不适合作为默认日常入门情景。",
+    "analysis": "يامغۇر سۈيى为存在对象，چېلەكتە为处所；不改目标词义。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L8/L10；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يامغۇر سۈيى"
+  },
+  {
+    "id": "tb1733:0",
+    "ug": "يان تەرەپتە بىر دۇكان بار.",
+    "zh": "旁边有一家商店。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "方位词组需作实际位置成分。",
+    "analysis": "تەرەپ加تە成为تەرەپتە，定位商店，بار表存在。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L10；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يان تەرەپتە"
+  },
+  {
+    "id": "tb1734:0",
+    "ug": "ئاچقۇچ يانچۇقتا.",
+    "zh": "钥匙在口袋里。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "改用衣袋作放物地点。",
+    "analysis": "يانچۇق加处所تا为يانچۇقتا，名词性处所谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يانچۇقتا"
+  },
+  {
+    "id": "tb1735:0",
+    "ug": "ئۇ كىتابنى ماڭا ياندۇرۇپ بەردى.",
+    "zh": "他把书还给我了。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原退还句没有退还何物及给谁。",
+    "analysis": "كىتابنى为宾语，ماڭا为收回者；ياندۇرۇپ为副动词，بەردى过去时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L5/L14；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ياندۇرۇپ بەردى"
+  },
+  {
+    "id": "tb1736:0",
+    "ug": "بۇ يانفون يېڭى.",
+    "zh": "这部手机是新的。",
+    "issues": [
+      "中文翻译"
+    ],
+    "reason": "中文手机的量词改为“部”，维文识别评价结构正确。",
+    "analysis": "يانفون为名词，يېڭى作谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يانفون"
+  },
+  {
+    "id": "tb1737:0",
+    "ug": "ئۇ ياۋروپادا ئىشلەيدۇ.",
+    "zh": "他在欧洲工作。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "用工作地点实际使用洲名。",
+    "analysis": "ياۋروپا专名接دا不升高末尾a，ئىشلەيدۇ为第三人称。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "ياۋروپادا"
+  },
+  {
+    "id": "tb1738:0",
+    "ug": "يا چاي ئىچىڭ، يا سۇ ئىچىڭ.",
+    "zh": "要么喝茶，要么喝水。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "原句只引述二选一结构，未展示关联词作用。",
+    "analysis": "يا…يا是不连续的选择结构，句中两次يا分别引出茶与水，意为要么……要么……；target_form记实际表面词يا而非不存在的连续省略号文本。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2/L14；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يا"
+  },
+  {
+    "id": "tb1739:0",
+    "ug": "ئەتىگەندە مەن نان يەيمەن.",
+    "zh": "早晨我吃馕。",
+    "issues": [],
+    "reason": "早晨吃馕的时间及动作符合日常用法。",
+    "analysis": "يە-现在将来时为يەيمەن，نان泛指宾语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L5；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يەيمەن"
+  },
+  {
+    "id": "tb1740:0",
+    "ug": "بۇ پۇل ماڭا يېتىدۇ.",
+    "zh": "这些钱对我来说够用。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原ئۇ يەتتى含义不明，中文“他够了”不展示足够义。",
+    "analysis": "پۇل为主语，ماڭا向格表示够谁用，يەتمەك现在时为يېتىدۇ。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يېتىدۇ"
+  },
+  {
+    "id": "tb1741:0",
+    "ug": "بۇ يەردە يەتتە كىتاب بار.",
+    "zh": "这里有七本书。",
+    "issues": [],
+    "reason": "七本书的数量关系正确，数词后不加复数。",
+    "analysis": "يەتتە修饰كىتاب，بار表存在。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L6/L10；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يەتتە"
+  },
+  {
+    "id": "tb1742:0",
+    "ug": "بۇ يەر پاكىز.",
+    "zh": "这个地方很干净。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "具体评价地点，比泛谈地方清楚。",
+    "analysis": "بۇ يەر作为主语，پاكىز作形容词谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L1/L2；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يەر"
+  },
+  {
+    "id": "tb1743:0",
+    "ug": "بۇ دۆلەتنىڭ يەر كۆلىمى كەڭ.",
+    "zh": "这个国家地域辽阔。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原把完整主谓短语当名词话题，改为某国的面积描述。",
+    "analysis": "دۆلەتنىڭ属格，يەر كۆلىمى为所属面积，كەڭ作谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2/L8；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يەر كۆلىمى كەڭ"
+  },
+  {
+    "id": "tb1744:0",
+    "ug": "بۇ يەرلىك مەھسۇلات.",
+    "zh": "这是本地产品。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原“这件事地方”关系形容词缺所修饰名词。",
+    "analysis": "يەرلىك在مەھسۇلات前作定语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L1/L2；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يەرلىك"
+  },
+  {
+    "id": "tb1745:0",
+    "ug": "يەر يۈزى ھۆل.",
+    "zh": "地面是湿的。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "用湿润状态描写地面。",
+    "analysis": "يەر يۈزى为领属复合名词，ھۆل为状态谓语；中文“了”表达状态。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2/L8；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يەر يۈزى"
+  },
+  {
+    "id": "tb1746:0",
+    "ug": "بۈگۈن يەكشەنبە.",
+    "zh": "今天是星期日。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "日历识别句更能展示星期名词用法。",
+    "analysis": "بۈگۈن为主语性时间表达，يەكشەنبە为名词谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L1/L6；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يەكشەنبە"
+  },
+  {
+    "id": "tb1747:0",
+    "ug": "كۆڭلەكنىڭ يېڭى ئۇزۇن.",
+    "zh": "衬衣的袖子很长。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "展示袖子与衣服的所属关系。",
+    "analysis": "يەڭ加第三人称领属ى时升高为يېڭى，此处不是“新的”。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2/L8；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يېڭى"
+  },
+  {
+    "id": "tb1748:0",
+    "ug": "يەڭگەم بۈگۈن كەلدى.",
+    "zh": "我的嫂子今天来了。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "亲属名词补出所属关系，使称谓清楚。",
+    "analysis": "يەڭگە加第一人称领属م，كەلدى为过去时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L8/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يەڭگەم"
+  },
+  {
+    "id": "tb1749:0",
+    "ug": "بالام يەسلىگە بارىدۇ.",
+    "zh": "我的孩子去托儿所。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "用孩子去托儿所的日常情景。",
+    "analysis": "يەسلى加向格گە，بارىدۇ第三人称现在将来时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يەسلىگە"
+  },
+  {
+    "id": "tb1750:0",
+    "ug": "مەن بۈگۈن يەل-يېمىش سېتىۋالدىم.",
+    "zh": "我今天买了水果。",
+    "issues": [],
+    "reason": "水果购买句用词和译文一致，独立词典收录该复合词。",
+    "analysis": "يەل-يېمىش泛指宾语，سېتىۋالدىم第一人称过去时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L5/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يەل-يېمىش"
+  },
+  {
+    "id": "tb1751:0",
+    "ug": "ئەتە بىز يەنە كۆرۈشىمىز.",
+    "zh": "明天我们再见面。",
+    "issues": [],
+    "reason": "副词“再”已实际修饰见面，句子无需实质改写。",
+    "analysis": "كۆرۈش-是互相见面动词词干：كۆرۈش+ى（现在将来时）+مىز（第一人称复数）→كۆرۈشىمىز。يەنە作再的状语；本句中的كۆرۈشىمىز是完整谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يەنە"
+  },
+  {
+    "id": "tb1752:0",
+    "ug": "بىز يەنە بىر قەدەم ئىلگىرىلىگەن ھالدا بۇ مەسىلىنى مۇزاكىرە قىلىمىز.",
+    "zh": "我们将进一步讨论这个问题。",
+    "issues": [
+      "未展示目标用法",
+      "不适合初学者"
+    ],
+    "reason": "原句只是引述整段书面状语，没有使用它。",
+    "analysis": "长状语修饰مۇزاكىرە قىلىمىز，مەسىلىنى为宾语；保留复杂教材词组。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L5/L14；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "原词组意为“在又前进一步的状态下”，与中文“更加深入”对应及书面自然度需母语者确认。",
+    "target_form": "يەنە بىر قەدەم ئىلگىرىلىگەن ھالدا"
+  },
+  {
+    "id": "tb1753:0",
+    "ug": "ئەتە، يەنى دۈشەنبە كۈنى، بىز كېلىمىز.",
+    "zh": "明天，也就是星期一，我们会来。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原把解释连接词接入话题模板。",
+    "analysis": "يەنى引出与ئەتە同指的解释时间，كېلىمىز为第一人称复数将来。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2/L3/L6；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يەنى"
+  },
+  {
+    "id": "tb1754:0",
+    "ug": "مەن يەنىمۇ تىرىشىمەن.",
+    "zh": "我会更加努力。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "原句只提到“更加”这个词。",
+    "analysis": "يەنىمۇ在动词前表示进一步的程度，تىرىشىمەن第一人称。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2/L3；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يەنىمۇ"
+  },
+  {
+    "id": "tb1755:0",
+    "ug": "ئاپامنى يوقلاش ئۈچۈن كەلدىم.",
+    "zh": "我来看望妈妈。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原句只泛谈“看望”，改为目的表达。",
+    "analysis": "يوقلا-加ش为动名词，后接ئۈچۈن；ئاپامنى为宾语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L5/L9；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يوقلاش"
+  },
+  {
+    "id": "tb1756:0",
+    "ug": "بۇ يول ئۇزۇن.",
+    "zh": "这条路很长。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "具体描述道路长度。",
+    "analysis": "يول作主语，ئۇزۇن形容词谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يول"
+  },
+  {
+    "id": "tb1757:0",
+    "ug": "ئۇ يولغا راۋان بولدى.",
+    "zh": "他/她上路了。",
+    "issues": [],
+    "reason": "上路的复合动词完整，向格及过去时正确。",
+    "analysis": "يولغا表示上路方向，راۋان بولدى为复合谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يولغا راۋان بولدى"
+  },
+  {
+    "id": "tb1758:0",
+    "ug": "مەن ھايۋاناتلار باغچىسىدا يولۋاس كۆردۈم.",
+    "zh": "我在动物园里看见了老虎。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "“在果园里看到老虎”不适合作为典型日常情景，改为动物园。",
+    "analysis": "ھايۋاناتلار باغچىسى加处所دا，يولۋاس为泛指宾语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L5/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يولۋاس"
+  },
+  {
+    "id": "tb1759:0",
+    "ug": "ئۇ قولىنى يۇدى.",
+    "zh": "他洗了手。",
+    "issues": [],
+    "reason": "洗手的对象明确，人称及动作一致。",
+    "analysis": "قول加第三人称领属ى及宾格نى为قولىنى，يۇدى为过去时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L5/L8/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يۇدى"
+  },
+  {
+    "id": "tb1760:0",
+    "ug": "بىز يۇرتداش.",
+    "zh": "我们是老乡。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "用身份关系直接展示同乡义。",
+    "analysis": "يۇرتداش为身份名词，零系词谓语，无需附加不必要动词。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L1；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يۇرتداش"
+  },
+  {
+    "id": "tb1761:0",
+    "ug": "بۈگۈن تېمپېراتۇرا تۈنۈگۈنكىدىن يۇقىرى بولدى.",
+    "zh": "今天气温比昨天高了。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原“他高了”缺可比较的指标与比较对象。",
+    "analysis": "تۈنۈگۈنكىدىن为比较基准，يۇقىرى بولدى为高于的状态变化。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L10/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يۇقىرى بولدى"
+  },
+  {
+    "id": "tb1762:0",
+    "ug": "بۇ يەردە باھا يۇقىرى.",
+    "zh": "这里价格高。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原“这所房子高的”中文不成句，调整为高度描述。",
+    "analysis": "يۇقىرى在价格语境作高的性质谓语；بۇ يەردە为处所状语。该搭配区别物体垂直高度常用的ئېگىز。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。",
+      "D Anatilim词目باھاسى يۇقىرى، بەك يۇقىرى باھا قويماق及ئەڭ يۇقىرى باھا支持价格高的搭配。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يۇقىرى"
+  },
+  {
+    "id": "tb1763:0",
+    "ug": "يۇقىرىدىكى كىتابنى ئېلىڭ.",
+    "zh": "请拿上面的那本书。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原“这件事上边”把方位定语当作独立谓语。",
+    "analysis": "يۇقىرىدىكى在كىتابنى前作方位定语，ئېلىڭ为敬称祈使。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L5/L14；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يۇقىرىدىكى"
+  },
+  {
+    "id": "tb1764:0",
+    "ug": "يۇلتۇز بۈگۈن كەلدى.",
+    "zh": "尤丽图孜今天来了。",
+    "issues": [],
+    "reason": "明确选用女名义，来访句和音译对应。",
+    "analysis": "يۇلتۇز作人物专名；本句不采用“星星”义。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L1/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يۇلتۇز"
+  },
+  {
+    "id": "tb1765:0",
+    "ug": "بۇ ياستۇق يۇمشاق.",
+    "zh": "这个枕头很软。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "“房子软”不符合软硬形容词的典型搭配。",
+    "analysis": "ياستۇق为枕头，يۇمشاق作质地谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يۇمشاق"
+  },
+  {
+    "id": "tb1766:0",
+    "ug": "مەن بۇ يۇمشاق دېتالنى ئىشلىتىمەن.",
+    "zh": "我使用这个软件。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "用使用动词展示软件。",
+    "analysis": "دېتال加宾格نى，ئىشلەت-现在将来时为ئىشلىتىمەن。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L5；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يۇمشاق دېتالنى"
+  },
+  {
+    "id": "tb1767:0",
+    "ug": "بۇ يۇمشاق دىسكا كونا.",
+    "zh": "这张软盘很旧。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "软盘多属旧设备，旧物情景更实用，中文量词改为张。",
+    "analysis": "يۇمشاق دىسكا为固定设备名，不是泛指质地软的盘。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يۇمشاق دىسكا"
+  },
+  {
+    "id": "tb1768:0",
+    "ug": "ئۇ يۇمۇر بىلەن سۆزلىدى.",
+    "zh": "他说得很幽默。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "用说话方式体现幽默名词义。",
+    "analysis": "يۇمۇر بىلەن为方式，سۆزلە-过去时升高为سۆزلىدى。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L6/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يۇمۇر"
+  },
+  {
+    "id": "tb1769:0",
+    "ug": "ئۇ يۆتەلدى.",
+    "zh": "他/她咳嗽了。",
+    "issues": [],
+    "reason": "咳嗽可作不及物动作，原句语义完整。",
+    "analysis": "يۆتەل-加دى，第三人称过去时，不需要强加宾语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يۆتەلدى"
+  },
+  {
+    "id": "tb1770:0",
+    "ug": "ئۇ باشقا ئىدارىگە يۆتكەلدى.",
+    "zh": "他调到另一个单位了。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原“他调了”缺调动去向。",
+    "analysis": "ئىدارە接向格گە时升高为ئىدارىگە，يۆتكەلدى为不及物调动。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2/L3/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يۆتكەلدى"
+  },
+  {
+    "id": "tb1771:0",
+    "ug": "ئۈزۈم تېلى تۈۋرۈككە يۆگەلدى.",
+    "zh": "葡萄藤缠上了柱子。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原“他卷了”把不及物缠绕生硬译为及物卷，改用藤蔓主语。",
+    "analysis": "ئۈزۈم تېلى为主语，تۈۋرۈككە向格，يۆگەلدى为缠绕。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "词典收录يۆگەلمەك为盘绕，但该植物主语与向格的自然搭配仍待母语者确认。",
+    "target_form": "يۆگەلدى"
+  },
+  {
+    "id": "tb1772:0",
+    "ug": "ئۇ تامغا يۆلىنىپ تۇردى.",
+    "zh": "他靠着墙站着。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原“他靠了”漏依靠物及“站着”的持续义。",
+    "analysis": "تامغا为支撑对象，يۆلىنىپ副动词，تۇردى为站立。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L14；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يۆلىنىپ تۇردى"
+  },
+  {
+    "id": "tb1773:0",
+    "ug": "بىز بىر يۆنىلىشكە ماڭدۇق.",
+    "zh": "我们朝同一个方向走了。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "用运动方向实际使用目标名词。",
+    "analysis": "يۆنىلىش加向格كە，ماڭدۇق第一人称复数过去时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يۆنىلىشكە"
+  },
+  {
+    "id": "tb1774:0",
+    "ug": "ئۇ ئاستا يۈردى.",
+    "zh": "他慢慢地走。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原“他走了”易误解为离开，补方式突出步行义。",
+    "analysis": "ئاستا为方式，يۈردى为第三人称过去时；中文不强译离开。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يۈردى"
+  },
+  {
+    "id": "tb1775:0",
+    "ug": "ئۇنىڭ يۈرىكى تېز سوقىدۇ.",
+    "zh": "他的心跳得很快。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "具体展示心脏与跳动搭配。",
+    "analysis": "يۈرەك加领属ى发生升高及ك浊化，成为يۈرىكى；سوقىدۇ为跳动。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2/L8；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يۈرىكى"
+  },
+  {
+    "id": "tb1776:0",
+    "ug": "مەن سىزگە يۈرەك سۆزۈمنى ئېيتتىم.",
+    "zh": "我对您说了心里话。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原泛谈心里话，改用诉说对象。",
+    "analysis": "词典直接收录يۈرەك سۆزى为心里话；加入第一人称领属替换第三人称领属：سۆز+ۈم+نى→سۆزۈمنى；سىزگە为倾诉对象。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L5/L8/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。",
+      "D Anatilim直接词目يۈرەك سۆزى及يۈرەك سۆزى، كۆڭلىدىكى گەپ支持心里话义。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يۈرەك سۆزۈمنى"
+  },
+  {
+    "id": "tb1777:0",
+    "ug": "ئۇنىڭ يۈزى قىزاردى.",
+    "zh": "他的脸红了。",
+    "issues": [],
+    "reason": "用面部发红展示“脸”义，没有与“百”混用。",
+    "analysis": "يۈز加领属ى成为يۈزى，قىزاردى表达变红。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L8/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يۈزى"
+  },
+  {
+    "id": "tb1779:0",
+    "ug": "بۈگۈن بىر ۋەقە يۈز بەردى.",
+    "zh": "今天发生了一件事。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原“他发生了”把不适当的人物设为主语。",
+    "analysis": "ۋەقە作发生的事件，يۈز بەردى为固定复合动词。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يۈز بەردى"
+  },
+  {
+    "id": "tb1780:0",
+    "ug": "ئۇ يۈز-كۆزىنى يۇدى.",
+    "zh": "他洗了脸。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "用洗脸动作展示身体部位集合词。",
+    "analysis": "يۈز-كۆز加第三人称领属ى及宾格نى，يۇدى为洗。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L5/L8/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يۈز-كۆزىنى"
+  },
+  {
+    "id": "tb1781:0",
+    "ug": "بۇ تۈرگە يۈز مىليون يۈەن كېرەك.",
+    "zh": "这个项目需要一亿元。",
+    "issues": [
+      "中文翻译",
+      "搭配自然度"
+    ],
+    "reason": "原“这里有亿本书”缺“一”且情景不现实，改为数量关系。",
+    "analysis": "يۈز مىليون为100×1000000即一亿；后接يۈەن表示人民币金额。تۈر+گە为需要资金的项目，كېرەك表示需要，避免叠加ئون يۈز مىليون的生硬解释。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L6/L10；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。",
+      "G L6数词与数量名词；L12 ضرورت/必要表达كېرەك。数字关系为算术确认，句式按教材语法组织。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يۈز مىليون"
+  },
+  {
+    "id": "tb1782:0",
+    "ug": "يۈسۈپ بۈگۈن كەلدى.",
+    "zh": "玉素甫今天来了。",
+    "issues": [],
+    "reason": "男名作来访者，译名与词卡对应。",
+    "analysis": "يۈسۈپ为专名，كەلدى为第三人称过去时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L1/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يۈسۈپ"
+  },
+  {
+    "id": "tb1783:0",
+    "ug": "مەن يۈگۈرۈپ بېرىپ ئىشىكنى ئاچتىم.",
+    "zh": "我跑过去把门打开了。",
+    "issues": [
+      "未展示目标用法"
+    ],
+    "reason": "原只引述副动词链，未给其后续主动作。",
+    "analysis": "يۈگۈرۈپ بېرىپ连续副动词连接ئاچتىم，末动词承担第一人称过去时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L5/L14；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يۈگۈرۈپ بېرىپ"
+  },
+  {
+    "id": "tb1784:0",
+    "ug": "بىزنىڭ ۋاقتىمىز يېتەرلىك.",
+    "zh": "我们的时间很充足。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "“这件事足够”缺可衡量对象，改为时间充足。",
+    "analysis": "ۋاقىت加第一人称复数领属变ۋاقتىمىز，يېتەرلىك作谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2/L8；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يېتەرلىك"
+  },
+  {
+    "id": "tb1785:0",
+    "ug": "ئۇ بېكەتكە يېتىپ كەلدى.",
+    "zh": "他到车站了。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原句语法可通，补到达终点更实用。",
+    "analysis": "بېكەتكە向格表示终点，يېتىپ副动词与كەلدى搭配。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L14；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يېتىپ كەلدى"
+  },
+  {
+    "id": "tb1786:0",
+    "ug": "بۇ مەكتەپ ياخشى ئوقۇتقۇچىلارنى يېتىشتۈردى.",
+    "zh": "这所学校培养了优秀教师。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原“他培养了”缺培养对象。",
+    "analysis": "ئوقۇتقۇچىلارنى为复数宾语，يېتىشتۈر-加دى构成过去时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L5/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يېتىشتۈردى"
+  },
+  {
+    "id": "tb1787:0",
+    "ug": "ئۇ يېتىشكەن مۇتەخەسسىس.",
+    "zh": "他是一位有造诣的专家。",
+    "issues": [
+      "未展示目标用法",
+      "中文翻译"
+    ],
+    "reason": "原只解释词条，“表示达到相当水平”不能直接作句中译文。",
+    "analysis": "يېتىشكەن修饰专家，选用达到成熟水平的语义。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "该过去分词独立作“有造诣的”定语是否符合教材义需母语者复核。",
+    "target_form": "يېتىشكەن"
+  },
+  {
+    "id": "tb1788:0",
+    "ug": "ماڭا يېرىم كىلو ئالما بېرىڭ.",
+    "zh": "请给我半公斤苹果。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "半的数量用法需附明确计量单位。",
+    "analysis": "يېرىم修饰كىلو，ئالما为所购商品，بېرىڭ为敬称祈使。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L6/L14；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يېرىم"
+  },
+  {
+    "id": "tb1789:0",
+    "ug": "بوۋام يېزىدا تۇرىدۇ.",
+    "zh": "我爷爷住在乡下。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "用居住地实际展示农村义。",
+    "analysis": "يېزا加处所دا发生元音升高为يېزىدا；تۇرىدۇ表居住。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2/L3；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يېزىدا"
+  },
+  {
+    "id": "tb1790:0",
+    "ug": "دادام يېزا ئىگىلىكى بىلەن شۇغۇللىنىدۇ.",
+    "zh": "我爸爸从事农业。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "用职业活动与农业名词搭配。",
+    "analysis": "يېزا ئىگىلىكى整体接بىلەن，شۇغۇللان-现在时弱化为شۇغۇللىنىدۇ。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L6；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يېزا ئىگىلىكى"
+  },
+  {
+    "id": "tb1791:0",
+    "ug": "ماڭا يېزىقچە جاۋاب بېرىڭ.",
+    "zh": "请给我书面答复。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原“这件事书面”无所修饰名词。",
+    "analysis": "يېزىقچە在جاۋاب前作定语，ماڭا为接收者。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2/L3/L14；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يېزىقچە"
+  },
+  {
+    "id": "tb1792:0",
+    "ug": "مەن باغدا يېشىل ئۆسۈملۈكلەر كۆردۈم.",
+    "zh": "我在花园里看见了绿色植物。",
+    "issues": [
+      "中文翻译"
+    ],
+    "reason": "باغ既可指园或果园，本句没有果树信息，中文采用宽泛“花园”。",
+    "analysis": "يېشىل修饰复数ئۆسۈملۈكلەر，كۆردۈم为第一人称过去时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L5/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يېشىل ئۆسۈملۈكلەر"
+  },
+  {
+    "id": "tb1793:0",
+    "ug": "بۇ كىتاب ماڭا يېقىپ كەتتى.",
+    "zh": "我很喜欢这本书。",
+    "issues": [
+      "格后缀",
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原“他喜欢了”将使人中意的事物与感受者混淆。",
+    "analysis": "كىتاب作主语，ماڭا为感受者向格，يېقىپ كەتتى表示很中意。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L14/L15；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يېقىپ كەتتى"
+  },
+  {
+    "id": "tb1794:0",
+    "ug": "بۇ ناخشا يېقىملىق.",
+    "zh": "这首歌很动听。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "“这件事动听”主语不合，改为歌曲。",
+    "analysis": "ناخشا为主语，يېقىملىق作感官评价谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يېقىملىق"
+  },
+  {
+    "id": "tb1795:0",
+    "ug": "مېنىڭ ئۆيۈم مەكتەپكە يېقىن.",
+    "zh": "我家离学校近。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "近需要参照物，原泛谈句未体现关系。",
+    "analysis": "مەكتەپكە为接近对象向格，ئۆيۈم第一人称领属。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L8；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يېقىن"
+  },
+  {
+    "id": "tb1796:0",
+    "ug": "يېقىندا دوستۇم كەلدى.",
+    "zh": "最近我的朋友来过。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原把时间副词当名词接“关于”。",
+    "analysis": "يېقىندا为时间状语，كەلدى确定过去时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يېقىندا"
+  },
+  {
+    "id": "tb1797:0",
+    "ug": "يېقىنقى كۈنلەردە ھاۋا ئىسسىق.",
+    "zh": "最近几天天气很热。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原“这件事近”未展示时间定语。",
+    "analysis": "يېقىنقى修饰复数كۈنلەر，كۈنلەردە作时间处所状语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2/L3；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يېقىنقى"
+  },
+  {
+    "id": "tb1798:0",
+    "ug": "يېقىنقى ئون نەچچە يىلدىن بۇيان، بۇ شەھەر كۆپ ئۆزگەردى.",
+    "zh": "近十几年来，这座城市变化很大。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原把含从格后置词的时间短语再接“关于”，结构不当。",
+    "analysis": "يىلدىن与بۇيان搭配表达持续起点，整段作时间状语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L5/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يېقىنقى ئون نەچچە يىلدىن بۇيان"
+  },
+  {
+    "id": "tb1799:0",
+    "ug": "ئۇ ماڭا يېڭى كىتاب كۆرسەتتى.",
+    "zh": "他给我看了一本新书。",
+    "issues": [],
+    "reason": "新书作为展示对象，与给我看搭配完整。",
+    "analysis": "يېڭى修饰كىتاب，ماڭا向格为接受展示者，كۆرسەتتى过去时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2/L3/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يېڭى"
+  },
+  {
+    "id": "tb1800:0",
+    "ug": "بىز مۇسابىقىدە يېڭىلدۇق.",
+    "zh": "我们比赛输了。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原句可通，补比赛语境以明确输而非其他义。",
+    "analysis": "مۇسابىقە接دە时升高为مۇسابىقىدە；يېڭىلدۇق为第一人称复数过去时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2/L3/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يېڭىلدۇق"
+  },
+  {
+    "id": "tb1801:0",
+    "ug": "بۈگۈن قانداق يېڭىلىق بار؟",
+    "zh": "今天有什么新鲜事？",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "用日常询问新消息展示新事物义。",
+    "analysis": "قانداق限定يېڭىلىق，بار为存在疑问句谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L1/L10；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يېڭىلىق"
+  },
+  {
+    "id": "tb1802:0",
+    "ug": "يېڭى يىلىڭلار قۇتلۇق بولسۇن!",
+    "zh": "祝你们新年快乐！",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原完整祝福被当话题，中文“您们”不自然。",
+    "analysis": "يىلىڭلار为第二人称复数领属，بولسۇن为第三人称祝愿式。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L8/L14；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يېڭى يىلىڭلار قۇتلۇق بولسۇن"
+  },
+  {
+    "id": "tb1803:0",
+    "ug": "يېڭى يىل بايرىمىدا بىز دەم ئالىمىز.",
+    "zh": "新年假日我们休息。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "用节日安排代替泛谈新年。",
+    "analysis": "بايرىمى加处所دا，دەم ئالىمىز为第一人称复数现在将来时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L8；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يېڭى يىل بايرىمىدا"
+  },
+  {
+    "id": "tb1804:0",
+    "ug": "بۇ دۇكاندا يېمەكلىك بار.",
+    "zh": "这家商店有食品。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "用商店售卖情景展示食品名词。",
+    "analysis": "دۇكاندا处所格，يېمەكلىك泛指存在对象，بار表有。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L10；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يېمەكلىك"
+  },
+  {
+    "id": "tb1805:0",
+    "ug": "بۇ يەردىكى يېمەك-ئىچمەك ياخشى.",
+    "zh": "这里的饮食很好。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "用评价食物饮品的整体场景展示复合词。",
+    "analysis": "يەردىكى为地点定语，ياخشى为评价谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2/L10；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يېمەك-ئىچمەك"
+  },
+  {
+    "id": "tb1806:0",
+    "ug": "مەن يىخېيۈەنگە باردىم.",
+    "zh": "我去了颐和园。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "用参观出行地点展示专名。",
+    "analysis": "يىخېيۈەن加向格گە，باردىم第一人称过去时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "颐和园维文音译是否规范需原教材及专名资料复核，未在独立词典查得。",
+    "target_form": "يىخېيۈەنگە"
+  },
+  {
+    "id": "tb1807:0",
+    "ug": "بۇ يەر مەكتەپتىن يىراق.",
+    "zh": "这里离学校很远。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "远需要参照物，原泛谈无距离关系。",
+    "analysis": "مەكتەپتىن为距离参照从格，يىراق作谓语。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L5/L10；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يىراق"
+  },
+  {
+    "id": "tb1808:0",
+    "ug": "ئۇ مەندىن يىراقلىشىپ قالدى.",
+    "zh": "他和我疏远了。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "原句缺疏远的对象。",
+    "analysis": "مەندىن为从格对象，يىراقلىشىپ副动词加قالدى表达状态变化。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L5/L14/L15；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يىراقلىشىپ قالدى"
+  },
+  {
+    "id": "tb1809:0",
+    "ug": "دوستۇم يىزۇ.",
+    "zh": "我的朋友是彝族。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "直接展示朋友的民族身份。",
+    "analysis": "يىزۇ为民族名词作身份谓语，دوستۇم第一人称领属。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L1/L8；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "该民族名音译未获得独立词典确认，需民族名标准及教材复核。",
+    "target_form": "يىزۇ"
+  },
+  {
+    "id": "tb1810:0",
+    "ug": "ئۇ بالىلارنىڭ ئويۇنچۇقلىرىنى يىغدى.",
+    "zh": "他收拾了孩子们的玩具。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原“他收了”缺对象，明确选“收拾”义。",
+    "analysis": "بالىلارنىڭ属格，ئويۇنچۇقلىرىنى为复数领属宾格，يىغدى过去时。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L5/L8/L11；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يىغدى"
+  },
+  {
+    "id": "tb1811:0",
+    "ug": "بۈگۈن يىغىن بار.",
+    "zh": "今天有会议。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原“谈论了会”中文不自然，会议安排更实用。",
+    "analysis": "يىغىن作存在对象，بۈگۈن限定时间。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L10；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يىغىن"
+  },
+  {
+    "id": "tb1812:0",
+    "ug": "بۇ يەردە يىگىرمە كىتاب بار.",
+    "zh": "这里有二十本书。",
+    "issues": [],
+    "reason": "二十本书的数量及译文准确。",
+    "analysis": "يىگىرمە修饰单数كىتاب，بار为存在。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L6/L10；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يىگىرمە"
+  },
+  {
+    "id": "tb1813:0",
+    "ug": "بۇ يەردە يىگىرمە بىر كىتاب بار.",
+    "zh": "这里有二十一本书。",
+    "issues": [],
+    "reason": "二十一的数词组合正确，与中文数量对应。",
+    "analysis": "يىگىرمە بىر为21，后接名词不复数。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L6/L10；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يىگىرمە بىر"
+  },
+  {
+    "id": "tb1814:0",
+    "ug": "بۇ يەردە يىڭنە يوپۇرماقلىق قارىغاي بار.",
+    "zh": "这里有针叶松。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "将泛谈植物改为实际存在句。",
+    "analysis": "يىڭنە يوپۇرماقلىق修饰قارغاي所指松类，名词组作存在对象。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2/L10；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "待母语者复核",
+    "uncertainty": "该完整植物名称及قارغاي/قارىغاي规范拼写需植物名资料和教材复核，保留原词卡قارىغاي。",
+    "target_form": "يىڭنە يوپۇرماقلىق قارىغاي"
+  },
+  {
+    "id": "tb1815:0",
+    "ug": "بىر يىلدا ئون ئىككى ئاي بار.",
+    "zh": "一年有十二个月。",
+    "issues": [],
+    "reason": "一年十二个月的数量关系正确，时间处所格自然。",
+    "analysis": "يىلدا为“在一年中”，ئون ئىككى ئاي作存在对象。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L3/L6/L10；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يىل"
+  },
+  {
+    "id": "tb1816:0",
+    "ug": "بۇ دەرەخنىڭ يىلتىزى ئۇزۇن.",
+    "zh": "这棵树的根很长。",
+    "issues": [
+      "搭配自然度"
+    ],
+    "reason": "展示植物根与树的归属关系。",
+    "analysis": "دەرەخنىڭ属格，يىلتىز加领属ى，ئۇزۇن评价长度。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L2/L8；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يىلتىزى"
+  },
+  {
+    "id": "tb1817:0",
+    "ug": "بۇ مېنىڭ بىر يىللىق پىلانىم.",
+    "zh": "这是我的一年计划。",
+    "issues": [
+      "搭配自然度",
+      "中文翻译"
+    ],
+    "reason": "原“这件事年”把关系形容词独立作谓语，中文不成句。",
+    "analysis": "بىر يىللىق修饰پىلانىم，表达为期一年的计划。",
+    "basis": [
+      "G《Greetings from the Teklimakan》(2009) L1/L2/L8；支持本行所述结构，非整句出处。",
+      "U Kontovas (2021) Reading Uyghur §2 表1；ULY字母对应。"
+    ],
+    "status": "AI逐条审校通过（非母语者审定）",
+    "uncertainty": "",
+    "target_form": "يىللىق"
+  }
+]

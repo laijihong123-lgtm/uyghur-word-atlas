@@ -1,0 +1,5 @@
+upstream/
+**/__pycache__/
+audit/work/
+audit/reference/
+audit/reviews/*_notes.tsv

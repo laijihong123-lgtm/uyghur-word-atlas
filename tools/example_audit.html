@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>维语词光 · 全部例句审校表</title>
+<style>
+:root{font:16px/1.65 system-ui,sans-serif;color:#25382f;background:#f4f1e9}body{max-width:1150px;margin:auto;padding:24px}h1{font-size:1.8rem;margin-bottom:8px}a{color:#285b46}nav{display:flex;gap:18px;flex-wrap:wrap}header{margin-bottom:24px}.tools{position:sticky;top:0;background:#f4f1e9;padding:14px 0;border-bottom:1px solid #d3d8cf;z-index:1;display:flex;gap:18px;align-items:center;flex-wrap:wrap}input[type=search]{padding:11px;width:min(470px,95%);border:1px solid #9cae9c;border-radius:8px;font:inherit}article{padding:20px;background:#fffdf8;border:1px solid #dce1d5;border-radius:12px;margin:18px 0}.head{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}.pending{color:#8a5200;font-weight:600}.comparison{display:grid;grid-template-columns:1fr 1fr;gap:25px}.ug{direction:rtl;text-align:right;font:1.4rem/1.85 "Noto Sans Arabic",Arial,sans-serif;overflow-wrap:anywhere}.uly{overflow-wrap:anywhere;color:#526452}.label{font-size:.85rem;color:#697a6e;margin-bottom:0}.zh{margin:8px 0}.meta{font-size:.92rem}.muted{color:#657367}summary{cursor:pointer;color:#285b46}button{padding:11px 24px;background:#285b46;color:white;border:0;border-radius:8px;font:inherit}#more{margin:18px 0 40px}#error{color:#a12121}@media(max-width:700px){body{padding:15px}.comparison{grid-template-columns:1fr;gap:8px}h1{font-size:1.5rem}.ug{font-size:1.3rem}}
+</style>
+<header><a href="../../#/library">← 返回学习网站</a><h1>全部例句审校表</h1>
+<p id="stats">正在加载全部记录……</p><p class="muted">逐条AI语言审校，未由母语者审定。待复核句保留具体疑点。问题统计包含教学改写，同一条可有多个问题。</p>
+<nav><a download href="uyghur_examples_audit_1840.csv">下载完整CSV</a><a download href="reviewed_examples.json">完整JSON</a><a href="REVISION_NOTES.md">修订说明与统计</a><a href="sources.json">参考来源</a></nav></header>
+<div class="tools"><input id="query" type="search" aria-label="搜索词卡、例句或问题" placeholder="搜索维文、中文、ULY、ID或问题"><label><input id="pending" type="checkbox"> 只看待母语者复核</label><span id="count"></span></div>
+<p id="error" role="alert"></p><main id="rows"></main><button id="more" hidden>再显示50条</button>
+<script>
+let data=[],filtered=[],limit=50;
+const $=s=>document.querySelector(s);
+function node(tag,text,cls){const e=document.createElement(tag);if(text!==undefined)e.textContent=text;if(cls)e.className=cls;return e}
+function render(){const root=$('#rows');root.replaceChildren();for(const r of filtered.slice(0,limit)){
+ const a=node('article'),h=node('div',undefined,'head');h.append(node('strong',r.id+' · '+r.word),node('span',r.status,r.status==='待母语者复核'?'pending':'muted'));a.append(h,node('p',r.meaning,'meta'));
+ const comp=node('div',undefined,'comparison');for(const side of [false,true]){const c=node('section');c.append(node('p',side?'修订后':'原例句','label'));const u=node('p',side?r.revised_ug:r.ug,'ug');u.lang='ug';u.dir='rtl';c.append(u,node('p',side?r.revised_uly:r.uly,'uly'),node('p',side?r.revised_zh:r.zh,'zh'));comp.append(c)}a.append(comp);
+ if(r.uncertainty)a.append(node('p','待核：'+r.uncertainty,'pending'));
+ const d=node('details');d.append(node('summary',(r.issues.length?r.issues.join('、'):'未发现明确问题')+' · 查看原因和依据'),node('p',r.reason),node('p',r.analysis),node('p','实际词形：'+r.target_form));for(const b of r.basis)d.append(node('p',b,'meta'));a.append(d);root.append(a)
+ }$('#count').textContent='符合 '+filtered.length+' 条，显示 '+Math.min(limit,filtered.length)+' 条';$('#more').hidden=limit>=filtered.length}
+function filter(){const q=$('#query').value.trim().toLocaleLowerCase();filtered=data.filter(r=>(!$('#pending').checked||r.status==='待母语者复核')&&(!q||[r.id,r.wordId,r.word,r.meaning,r.ug,r.uly,r.zh,r.revised_ug,r.revised_uly,r.revised_zh,r.reason,r.analysis,r.uncertainty,...r.issues].join(' ').toLocaleLowerCase().includes(q)));limit=50;render()}
+$('#query').addEventListener('input',filter);$('#pending').addEventListener('change',filter);$('#more').addEventListener('click',()=>{limit+=50;render()});
+Promise.all(['reviewed_examples.json','statistics.json'].map(p=>fetch(p).then(r=>{if(!r.ok)throw Error('数据加载失败：'+r.status);return r.json()}))).then(([rows,s])=>{data=rows;$('#stats').textContent=`1,840条关联 · 1,813张词卡 · 修订${s.revisedRecords}条 · 待母语者复核${s.statusCounts['待母语者复核']||0}条`;filter()}).catch(e=>{$('#stats').textContent='未能加载审校表';$('#error').textContent=e.message});
+</script></html>
