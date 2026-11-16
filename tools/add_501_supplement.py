@@ -2,7 +2,8 @@
 """Append the 363 authorized 501-course records after the original audited build.
 
 The old pipeline and its exact example/audio checks remain intact. New cards
-have stable IDs, retain original glosses, and have no invented example sentences.
+have stable IDs, retain original glosses, and receive clearly labeled
+supplemental examples in a later, independently validated build step.
 """
 from bisect import bisect_left
 import shutil
@@ -161,6 +162,11 @@ def main():
     galaxy=root/'src/galaxy/Galaxy.tsx'
     gs=galaxy.read_text('utf-8')
     gs=gs.replace('playFile("voice-galaxy-hello.mp3", 0.9)', 'Promise.resolve()').replace('playFile("voice-galaxy-lit.mp3", 0.9)', 'Promise.resolve()')
+    # No longer call playFile anywhere in Galaxy: remove the import as well,
+    # otherwise strict TypeScript noUnusedLocals blocks the Pages build.
+    old_import='import { cue, playFile } from "../lib/sound";'
+    assert old_import in gs
+    gs=gs.replace(old_import,'import { cue } from "../lib/sound";')
     galaxy.write_text(gs,'utf-8')
     for file in [root/'src/pages/Today.tsx',root/'src/pages/Onboarding.tsx',root/'src/pages/About.tsx']:
         s=file.read_text('utf-8').replace('六组按常用程度与难度估计排序，同组穿插话题','按主题和语义小组学习，组内从基础词到扩展词')
