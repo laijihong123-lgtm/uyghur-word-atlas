@@ -498,9 +498,8 @@ def main():
           '<div className="segmented segmented-wide" style={{flexWrap:"wrap",borderRadius:16}}>')
 
 
-    # A self-paced 18-day path that preserves the original 6 stages.
-    # Exactly 17 lessons of 101 cards plus one of 96. Every card is
-    # selected by stable ID, so existing FSRS states and bookmarks carry over.
+    # Nineteen self-paced topic groups; a large group is learned in several
+    # sessions of at most 100 new cards. Stable word IDs preserve FSRS progress.
     patch("src/pages/Today.tsx",
           "        <LevelPath />",
           "        <ChallengePath />\n        <LevelPath />")
@@ -509,20 +508,21 @@ function ChallengePath() {
   const atlas = useAtlas();
   const progress = useStore((s) => s.progress);
   const settings = useStore((s) => s.settings);
-  const active = progress.session && !progress.session.finished;
-  const stageNames = ["入门", "基础", "日常", "拓展", "进阶", "专题"];
-  const lessons = useMemo(
-    () => Array.from({ length: 18 }, (_, day) =>
-      atlas.words.slice(day * 101, Math.min((day + 1) * 101, atlas.words.length))),
+  const active = !!(progress.session && !progress.session.finished);
+  const groups = useMemo(
+    () => atlas.topics.map((_, cat) => atlas.words.filter((w) => w.topic === cat)),
     [atlas]
   );
-  const learned = lessons.map((group) => group.reduce(
-    (n, w) => n + (progress.cards[w.id] ? 1 : 0), 0
-  ));
+  const learned = groups.map((words) =>
+    words.filter((w) => !!progress.cards[w.id]).length
+  );
   const totalSeen = learned.reduce((a, b) => a + b, 0);
-  const startLesson = (day: number) => {
+  const startGroup = (cat: number) => {
     if (active) return;
-    const ids = lessons[day].map((w) => w.id);
+    const group = groups[cat] || [];
+    const fresh = group.filter((w) => !progress.cards[w.id]);
+    const perSession = Math.max(5, Math.min(100, settings.dailyNew || 100));
+    const ids = (fresh.length ? fresh : group).slice(0, perSession).map((w) => w.id);
     if (!ids.length) return;
     const session = buildSession(atlas, progress, settings, { ids });
     if (!session.steps.length) return;
@@ -530,64 +530,54 @@ function ChallengePath() {
     if (settings.sfx) void cue("start");
     go({ page: "learn" });
   };
-
   return (
-    <section className="panel uy-challenge" aria-label="18天词汇学习挑战">
+    <section className="panel uy-challenge" aria-label="十九个语义分类学习组">
       <div className="panel-head">
         <div>
-          <h3 className="eyebrow">18 天学习挑战</h3>
-          <p className="uy-challenge-subtitle">6 个难度阶段 · 每阶段 3 关 · 新词由易到难</p>
+          <h3 className="eyebrow">19 个主题学习组</h3>
+          <p className="uy-challenge-subtitle">按主题和语义小组归类，再从常用到扩展</p>
         </div>
         <span className="uy-challenge-total">{totalSeen} / {atlas.count} 已学</span>
       </div>
       <p className="uy-challenge-note">
-        每关约 100 词，前 17 关各 101 词，最后一关 96 词。可以暂停、分几天完成；
-        已学不等于记牢，系统仍会安排间隔复习。
+        只使用网站现有的 1,813 张词卡。每次按每日新词设置学习，
+        一组可分多次完成；已学过的单词继续由间隔复习系统安排。
       </p>
       {active && (
         <div className="uy-challenge-active">
-          <span>已有进行中的旅程。完成或继续当前旅程后，再选择其他关卡。</span>
+          <span>当前旅程还未结束，可以继续或重新选组；已学习的记录会保留。</span>
           <button className="btn btn-primary" onClick={() => go({ page: "learn" })}>继续旅程</button>
           <button className="btn btn-ghost" onClick={() => {
-            if (window.confirm("结束当前未完成的旅程并重新选关？已经记录的学习进度会保留。")) {
+            if (window.confirm("结束当前未完成旅程并重新选组？已记录的学习进度会保留。")) {
               store.progress((p) => ({ ...p, session: null }));
             }
-          }}>重新选关</button>
+          }}>重新选组</button>
         </div>
       )}
       <div className="uy-challenge-stages">
-        {stageNames.map((stage, stageIndex) => (
-          <div className="uy-challenge-stage" key={stage}>
-            <div className="uy-challenge-stage-title">
-              <b>阶段 {stageIndex + 1} · {stage}</b>
-              <small>{lessons.slice(stageIndex * 3, stageIndex * 3 + 3)
-                .reduce((n, group) => n + group.length, 0)} 词</small>
+        {atlas.topics.map(([key, name], i) => {
+          const group = groups[i];
+          const seen = learned[i];
+          const complete = group.length > 0 && seen === group.length;
+          return (
+            <div className="uy-challenge-stage" key={key}>
+              <div className="uy-challenge-stage-title">
+                <b>第 {String(i + 1).padStart(2, "0")} 组 · {name}</b>
+                <small>{group.length} 词</small>
+              </div>
+              <button type="button"
+                disabled={active || !group.length}
+                onClick={() => startGroup(i)}
+                className={"uy-challenge-day" + (complete ? " is-complete" : "")}
+                aria-label={name + "，" + group.length + "词，已学" + seen + "词"}
+              >
+                <b>{seen}<small> / {group.length}</small></b>
+                <span className="uy-challenge-track"><i style={{width:(group.length ? seen / group.length * 100 : 0) + "%"}} /></span>
+                <span className="uy-challenge-action">{complete ? "巩固复习" : seen ? "继续本组" : "开始本组"}</span>
+              </button>
             </div>
-            <div className="uy-challenge-grid">
-              {[0, 1, 2].map((offset) => {
-                const day = stageIndex * 3 + offset;
-                const group = lessons[day];
-                const seen = learned[day];
-                const complete = seen === group.length;
-                return (
-                  <button
-                    key={day}
-                    type="button"
-                    disabled={!!active || group.length === 0}
-                    onClick={() => startLesson(day)}
-                    className={"uy-challenge-day" + (complete ? " is-complete" : "")}
-                    aria-label={"第" + (day + 1) + "关，" + group.length + "词，已学" + seen + "词"}
-                  >
-                    <span className="uy-challenge-day-title">第 {day + 1} 关</span>
-                    <b>{seen}<small> / {group.length}</small></b>
-                    <span className="uy-challenge-track"><i style={{ width: (group.length ? seen / group.length * 100 : 0) + "%" }} /></span>
-                    <span className="uy-challenge-action">{complete ? "巩固复习" : seen ? "继续学习" : "开始学习"}</span>
-                  </button>
-                );
-              })}
-            </div>
-          </div>
-        ))}
+          );
+        })}
       </div>
     </section>
   );
@@ -595,9 +585,16 @@ function ChallengePath() {
 
 """
     patch("src/pages/Today.tsx", "function LevelPath() {", challenge_component + "function LevelPath() {")
+    # The original six-stage graphic does not describe the 19 semantic groups.
+    today_file = ROOT / "src/pages/Today.tsx"
+    today_text = today_file.read_text("utf-8")
+    begin = today_text.index("function LevelPath() {")
+    finish = today_text.index("\nfunction Topics() {", begin)
+    today_text = today_text[:begin] + "function LevelPath() { return null; }\n" + today_text[finish:]
+    today_file.write_text(today_text, "utf-8")
 
     challenge_css = r"""
-/* Uyghur 18-day self-paced learning path. Touch-friendly on Safari. */
+/* Nineteen Uyghur semantic learning groups, touch-friendly on Safari. */
 .uy-challenge { grid-column:1 / -1; margin-top: 20px; }
 .uy-challenge .panel-head { display:flex; gap:12px; align-items:flex-start; justify-content:space-between; flex-wrap:wrap; }
 .uy-challenge-subtitle { font-size:14px; font-weight:600; margin:6px 0 0; color:var(--ink-2); }
@@ -609,6 +606,7 @@ function ChallengePath() {
 .uy-challenge-stage-title { display:flex; justify-content:space-between; flex-wrap:wrap; align-items:baseline; gap:8px; margin-bottom:12px; font-size:14px; color:var(--ink); }
 .uy-challenge-stage-title small { font-size:12px; color:var(--ink-3); }
 .uy-challenge-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:8px; }
+.uy-challenge-stage > .uy-challenge-day{width:100%}
 .uy-challenge-day { display:flex; flex-direction:column; align-items:stretch; text-align:left; min-height:116px; min-width:0; padding:11px 8px; border-radius:12px; border:1px solid var(--line); background:var(--card); color:var(--ink); transition:border-color .2s ease, transform .2s ease; }
 .uy-challenge-day:hover:not(:disabled),.uy-challenge-day:focus-visible { border-color:var(--terra); transform:translateY(-1px); }
 .uy-challenge-day:disabled { opacity:.65; cursor:not-allowed; }
@@ -626,7 +624,7 @@ function ChallengePath() {
     css_path.write_text(css_path.read_text("utf-8") + "\n" + challenge_css, "utf-8")
 
     patch("src/pages/Today.tsx",
-          "按雅思话题探索", "按词义辅助归类")
+          "按雅思话题探索", "按19主题分类探索")
     patch("src/pages/Today.tsx",
           'const list = pool.length ? pool : atlas.words;',
           'const list = pool.length ? pool : atlas.words.filter((w) => !w.word.endsWith("-"));')
