@@ -92,7 +92,7 @@ jobs:
           today=Path('upstream/src/pages/Today.tsx').read_text('utf-8')
           assert '<ChallengePath />' in today
           assert 'function ChallengePath()' in today
-          assert '19 个主题学习组' in today and 'startGroup(cat)' in today
+          assert '19 个主题学习组' in today and 'const startGroup = (cat: number)' in today
           assert 'startGroup(i)' in today
           assert 'disabled={active || !group.length}' in today
           print('SEMANTIC_GROUPS',cats,'TOTAL_WORDS',sum(cats),'SIX_DIFFICULTY_TIERS',counts,'FIRST_WORDS',[w[1] for w in idx['words'][:12]],flush=True)
