@@ -28,6 +28,7 @@ export function SubgroupPicker({ atlas, cat, active, onStart }: Props) {
     }
     return result;
   }, [atlas, cat]);
+  const available = bins.filter((group) => group.length > 0).length;
   if (!labels.length || !index) return null;
   return (
     <div className="uy-subgroup-section">
@@ -37,13 +38,14 @@ export function SubgroupPicker({ atlas, cat, active, onStart }: Props) {
         aria-expanded={expanded}
         onClick={() => setExpanded((value) => !value)}
       >
-        <span>{expanded ? "收起" : "展开"} {labels.length} 个语义子单元</span>
+        <span>{expanded ? "收起" : "展开"} {available} 个可学子单元</span>
         <span aria-hidden="true">{expanded ? "−" : "＋"}</span>
       </button>
       {expanded && (
         <div className="uy-subgroup-list">
           {labels.map((label, sub) => {
             const words = bins[sub] || [];
+            if (!words.length) return null;
             const seen = words.filter((w) => !!progress.cards[w.id]).length;
             const mastered = words.filter((w) => {
               const card = progress.cards[w.id];
