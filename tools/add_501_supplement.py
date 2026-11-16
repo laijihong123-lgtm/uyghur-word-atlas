@@ -158,6 +158,10 @@ def main():
         if file.exists():
             s=file.read_text('utf-8').replace('维语词光','维语星球').replace('Uyghur Atlas','ئۇيغۇرچە سەييارە')
             file.write_text(s,'utf-8')
+    galaxy=root/'src/galaxy/Galaxy.tsx'
+    gs=galaxy.read_text('utf-8')
+    gs=gs.replace('playFile("voice-galaxy-hello.mp3", 0.9)', 'Promise.resolve()').replace('playFile("voice-galaxy-lit.mp3", 0.9)', 'Promise.resolve()')
+    galaxy.write_text(gs,'utf-8')
     for file in [root/'src/pages/Today.tsx',root/'src/pages/Onboarding.tsx',root/'src/pages/About.tsx']:
         s=file.read_text('utf-8').replace('六组按常用程度与难度估计排序，同组穿插话题','按主题和语义小组学习，组内从基础词到扩展词')
         s=s.replace('欢迎来到维语星球','欢迎来到维语星球')
