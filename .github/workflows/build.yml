@@ -230,6 +230,26 @@ jobs:
         run: |
           python3 -m pip install --quiet pillow==11.3.0 cairosvg==2.8.2
           python3 tools/add_501_supplement.py
+      - name: Add and verify 362 supplemental example drafts in both word cards and study room
+        run: |
+          python3 tools/add_501_examples.py
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          root=Path('upstream/public/atlas')
+          idx=json.loads((root/'index.json').read_text('utf-8'))
+          entries=[e for p in (root/'entries').glob('*.json') for e in json.loads(p.read_text('utf-8'))]
+          examples=json.loads((root/'examples.json').read_text('utf-8'))
+          new=[e for e in entries if e['id'].startswith('s501')]
+          assert len(entries)==idx['count']==2175
+          assert len(new)==362 and all(len(e['ex'])==1 for e in new)
+          assert all(e['ex'] and all(x['en'] and x['zh'] and x['uly'] for x in e['ex']) for e in entries)
+          assert len(examples)==idx['examples']==2202
+          assert len({x['id'] for x in examples})==2202
+          assert len({x['wordId'] for x in examples})==2175
+          assert len([x for x in examples if x.get('source')=='ai_supplement_draft'])==362
+          print('ALL_2175_CARDS_HAVE_EXAMPLES',len(examples),flush=True)
+          PY
       - name: Synthesize missing Uyghur recordings for the supplemental cards
         timeout-minutes: 35
         env:
