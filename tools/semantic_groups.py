@@ -9,6 +9,9 @@ heuristic, NOT a claim of expert linguistic verification.
 from __future__ import annotations
 from collections import Counter
 import re
+import base64
+import zlib
+from pathlib import Path
 
 CATEGORY_NAMES = [
     "人称·指示·疑问与功能词",
@@ -62,6 +65,27 @@ SUBGROUPS = [s.split("|") for s in SUBGROUPS]
 assert len(SUBGROUPS)==19, len(SUBGROUPS)
 assert [len(s) for s in SUBGROUPS] == [11,8,6,8,4,8,5,13,9,9,20,9,8,6,6,12,12,17,8], [len(s) for s in SUBGROUPS]
 assert sum(map(len,SUBGROUPS)) == 179
+
+# First 997 exact historical classification records from the user's old
+# classified workbook. These are ONLY category/subgroup hints, never imported
+# Uyghur spellings or translations; matched on the website's original record ID.
+ORIGINAL_SUBGROUPS_FIRST_11 = [["人称、领属与反身","近指｜这、这个、这里","远指｜那、那个、那里","疑问人事与方式","肯定、否定与存在","并列、连接与并进","转折、让步与选择","因果、承接与递进","条件、因果与目的","范围、选择与指数量词","语气、应答与话语衔接"],["父母与祖辈","兄弟姐妹与子女","婚姻、家庭与亲戚","交友与人际称谓","年龄、性别与生命阶段","人、人类与人物","人民、群众与公众","成员、居民与社会群体"],["学生、教师与学术身份","政务、管理与公共职业","农牧、工矿与生产职业","医护、服务与商业职业","文艺、体育与其他职业","就业与职场日常"],["头面部与五官","身体、体格与身材","四肢、肩背与关节","内脏、血液与组织","生理、感觉与生命","疾病、症状与诊断","治疗、医院与药物","运动保健与体能"],["衣服与民族服饰","鞋帽与随身物品","洗漱、卫生与打扮","日常起居与个人习惯"],["饮食总称与餐次","主食与面点","肉类、畜产品与蛋奶","鲜果、瓜类与果汁","蔬菜、辛香与食材","茶水饮料与调味","烹饪、进食与宴饮","厨房、餐厅与炊具"],["家、房屋与房间","门窗、家具与寝具","家务工具与日用器皿","公共建筑与场馆","建造、设施与维修"],["学校、教室与院系","课堂、课程与考试","学习、研究与认知","书籍、文章与文献","词语、字母与文字","语言、语法与发音","书写、翻译与教学用具","书信、信函与署名","电话、电子与通信设备","新闻、报刊与出版传播","照片、图片与记录资料","声音、声学与音响","学术专业与理论概念"],["市场、买卖与商业往来","货币、价格与财富","农田、麦穗与粮食","种植、树苗与农事","收割、农业劳动与农产","牧业、养殖与畜群","工业、机械与资源","组织、经营与管理","质量、成果与效率"],["道路街巷与地点","东、西、南、北方向","上、下、前、后方位","左、右、里、外与周边","车辆与交通工具","交通设施与旅途","去、来、出发与返回","行走、路过与旅途","空间关系与位置表达"],["基本数字｜零至十","十位与复合数字","百、千、万与更大数","序数与名次｜第几、第X","数量、多寡与计量","多、少与总体数量","一点、一些与若干","今天、昨天与明天","昼夜与时辰","星期与周次","月份与年月","季节、节日与纪念日","从前、过去与以前","以后、未来与随后","经常、偶尔与反复","时间经过与持续表达","前后、持续与频率"]]
+for _i, _subnames in enumerate(ORIGINAL_SUBGROUPS_FIRST_11):
+    SUBGROUPS[_i] = _subnames
+# The original paper classification includes 179 secondary semantic groups.
+assert sum(map(len, SUBGROUPS)) == 179
+_ref_path = Path(__file__).resolve().parent.parent / "data/classification_original_first1000.b64"
+_ref_raw = zlib.decompress(base64.b64decode(_ref_path.read_text("ascii").strip()))
+if len(_ref_raw) != 1826 * 3:
+    raise RuntimeError("Original classification reference is malformed")
+ORIGINAL_CLASSIFICATION = {}
+for _origin in range(1,1826):
+    _cat,_sub,_stars = _ref_raw[_origin*3:_origin*3+3]
+    if _cat:
+        if _cat > 11 or not 1 <= _sub <= len(SUBGROUPS[_cat-1]):
+            raise RuntimeError("Invalid original category/subgroup at " + str(_origin))
+        ORIGINAL_CLASSIFICATION[str(_origin)] = (_cat-1, _sub-1, _stars)
+assert len(ORIGINAL_CLASSIFICATION) == 997
 
 # Website words have priority. Anchors merely decide a *category*, never
 # replace the spelling or silently apply a different source's meanings.
@@ -162,19 +186,28 @@ def order_by_semantics(dataset: list[dict], difficulty_fn):
     """Stable semantic ordering; same website cards and source glosses."""
     notes=[]
     for row in dataset:
-        cat=category_for(row)
-        sub=subgroup_for(row,cat)
+        original_number=str(row["sources"][0][0])
+        historical=ORIGINAL_CLASSIFICATION.get(original_number)
+        if historical:
+            cat,sub,priority=historical
+            source="original_classification"
+        else:
+            cat=category_for(row)
+            sub=subgroup_for(row,cat)
+            priority=0
+            source="inferred_from_site_gloss"
         row["semantic_category"]=cat
         row["semantic_subgroup"]=sub
         row["semantic_subgroup_name"]=SUBGROUPS[cat][sub]
-        # Smaller score = easier. Within the same semantic pocket,
-        # prioritize basic everyday forms before longer or technical forms.
+        row["semantic_match_source"]=source
+        row["semantic_priority"]=priority
+        # Smaller score = easier, and the actual vocabulary remains the website's.
         row["difficulty"]=difficulty_fn(row)[0]
         notes.append(row)
     # Group by category, then meaning pocket, THEN difficulty.
     result=sorted(notes,key=lambda r:(
         r["semantic_category"],r["semantic_subgroup"],
-        r["difficulty"],r["seq"]
+        -r["semantic_priority"],r["difficulty"],r["seq"]
     ))
     assert len(result)==len(dataset)==1813
     assert len({r["seq"] for r in result})==1813
