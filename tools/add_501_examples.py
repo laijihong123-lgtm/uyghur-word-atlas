@@ -109,6 +109,23 @@ def main() -> None:
     metadata["exampleDrafts"] = 362
     metadata["exampleStatus"] = LABEL
     metadata_path.write_text(json.dumps(metadata, ensure_ascii=False, indent=2), "utf-8")
+    # Bump both vocabulary and reading-room URLs so mobile browsers cannot
+    # silently reuse pre-example JSON from the earlier 501-card deployment.
+    loader_path = ROOT / "upstream/src/atlas/data.ts"
+    loader = loader_path.read_text("utf-8")
+    old_version = "501-merged-20261117"
+    if loader.count(old_version) != 1:
+        raise RuntimeError("Unable to safely version the atlas JSON loader")
+    loader_path.write_text(loader.replace(old_version, "501-examples-20261117"), "utf-8")
+    room_path = ROOT / "upstream/src/pages/StudyRoom.tsx"
+    room = room_path.read_text("utf-8")
+    old_fetch = 'fetch(base + "examples.json")'
+    if room.count(old_fetch) != 1:
+        raise RuntimeError("Unable to safely version the study-room example fetch")
+    room_path.write_text(
+        room.replace(old_fetch, 'fetch(base + "examples.json?v=501-examples-20261117")'),
+        "utf-8",
+    )
     print("SUPPLEMENT_EXAMPLES_COMPLETE", len(samples),
           "TOTAL_WORDS", len(entries), "TOTAL_LINKED_EXAMPLES", len(existing_examples),
           flush=True)
