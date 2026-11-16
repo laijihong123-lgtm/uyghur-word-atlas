@@ -9,6 +9,7 @@ import re
 import shutil
 import sys
 from pathlib import Path
+from semantic_groups import CATEGORY_NAMES, CATEGORY_KEYS, SUBGROUPS, order_by_semantics
 
 HERE = Path(__file__).resolve().parent.parent
 ROOT = HERE / "upstream"
@@ -358,7 +359,7 @@ def main():
         raise RuntimeError(f"Expected 1813 unique written forms from 1817 reviewed rows; got {len(dataset)}")
     # Preserve tbXXXX card IDs so prior study scores, bookmarks and review
     # scheduling in iPhone Safari remain attached to the SAME words.
-    dataset=order_learning_path(dataset)
+    dataset=order_by_semantics(dataset, learning_difficulty)
     safe_count=len(dataset)
     topics_cues=[
         ("education",("学校","学生","教师","教育","老师","课程","课本","教室","课堂","作业","大学","毕业","学期","考试","知识","班级","图书馆","学习")),
@@ -379,7 +380,15 @@ def main():
     idx = json.loads(index_file.read_text("utf-8"))
     if not isinstance(idx.get("words"), list) or not isinstance(idx.get("topics"), list):
         raise RuntimeError("Upstream index format changed.")
-    topics = [x[0] for x in idx["topics"]]
+    topics = CATEGORY_KEYS
+    difficulty_levels = {
+        row["seq"]: min(5,rank//303)
+        for rank,row in enumerate(sorted(dataset,key=learning_difficulty))
+    }
+    category_counts = [sum(row["semantic_category"]==i for row in dataset)
+                       for i in range(19)]
+    assert sum(category_counts)==1813 and all(category_counts)
+
 
     # Remove all English word entry chunks; do not accidentally serve English words.
     for name in ("entries", "img", "thumb", "audio"):
@@ -399,10 +408,10 @@ def main():
         joined=" ／ ".join(meanings)
         latin=to_uly(uy)
         if not latin:raise RuntimeError(f"Missing ULY transliteration for {uy}")
-        topic=inferred_topic(joined)
+        topic=CATEGORY_KEYS[row["semantic_category"]]
         wid=f"tb{row['seq']:04d}"
-        # Six equal-sized tiers in estimated daily usefulness/difficulty order.
-        level=min(5, i//303)
+        # Difficulty independent of thematic order.
+        level=difficulty_levels[row["seq"]]
         if topic not in topics:topic="daily"
         index_rows.append([wid,uy,joined,latin,level,topics.index(topic),32])
         provenance="；".join(f"原表{n}·教材第{p}页" for n,p,_ in row["sources"])
@@ -413,14 +422,18 @@ def main():
             "tip":("词尾 - 是教材的动词词干标记，不发音。拉丁转写按 ULY 规则自动生成（非 IPA）。"
                    if uy.endswith("-") else
                    "拉丁转写按 ULY 规则自动生成，帮助认字；不是 IPA 音标，未经过真人逐词核音。"),
-            "cefr":f"第{level+1}组","topic":topic,"m":32,
+            "cefr":f"难度{level+1}","topic":topic,"m":32,
             "note":"来自用户提供的逐条复核教材词表；"+provenance+
-                   "。学习分组按基础实用词、词形复杂度、词义领域及专有名词等估计排序；并非正式CEFR评级。",
+                   f"。主题分组：{CATEGORY_NAMES[row['semantic_category']]}／"
+                   f"{row['semantic_subgroup_name']}。类别分配为教学整理，未做母语者逐词审校。",
         })
     idx.update({"id":"uyghur-textbook-reviewed-20261113","name":"维语词光 · 教材逐条复核词库",
                 "count":len(index_rows),"examples":0,"illustrated":0,
-                "voiced":0,"chunk":100,"words":index_rows})
-    idx["cefr"]=[f"第{i}组" for i in range(1,7)]
+                "voiced":0,"chunk":100,"words":index_rows,
+                "topics":[[CATEGORY_KEYS[i],CATEGORY_NAMES[i]] for i in range(19)],
+                "semanticSubgroups":SUBGROUPS,
+                "semanticCategoryCounts":category_counts})
+    idx["cefr"]=[f"难度{i}" for i in range(1,7)]
     index_file.write_text(json.dumps(idx,ensure_ascii=False,separators=(",",":")),"utf-8")
     for n in range(0, len(entries), 100):
         (entries_dir / f"{n//100}.json").write_text(
@@ -456,7 +469,7 @@ def main():
     # Emulate the original easy-to-hard path, but DO NOT claim Uyghur CEFR certification.
     patch("src/pages/Today.tsx",
           "学习路线 · 从 A1 到 C2",
-          "学习路线 · 按实用与难度分六组")
+          "学习路线 · 难度辅助进度")
     patch("src/pages/Today.tsx",
           'const NAMES = ["入门", "基础", "进阶", "中高", "高级", "精通"];',
           'const NAMES = ["入门", "基础", "日常", "拓展", "进阶", "专题"];')
@@ -473,7 +486,7 @@ def main():
     # contains IELTS/CEFR labels, which are invalid for the Uyghur deck.
     patch("src/pages/Onboarding.tsx",
           'const LEVELS = [\n  ["A2", "基础", "日常词还不太稳"],\n  ["B1", "进阶", "目标 5.5 – 6 分"],\n  ["B2", "中高", "目标 6.5 – 7 分"],\n  ["C1", "高级", "冲刺 7.5 分以上"],\n];',
-          'const LEVELS = [\n  ["第1组", "入门", "最基础的实用词"],\n  ["第2组", "基础", "常见日常用语"],\n  ["第3组", "日常", "生活与交流词汇"],\n  ["第4组", "拓展", "更丰富的表达"],\n  ["第5组", "进阶", "较复杂的词义"],\n  ["第6组", "专题", "书面语和专门词"],\n];')
+          'const LEVELS = [\n  ["难度1", "入门", "最基础的实用词"],\n  ["难度2", "基础", "常见日常用语"],\n  ["难度3", "日常", "生活与交流词汇"],\n  ["难度4", "拓展", "更丰富的表达"],\n  ["难度5", "进阶", "较复杂的词义"],\n  ["难度6", "专题", "书面语和专门词"],\n];')
     patch("src/pages/Onboarding.tsx",
           'const [level, setLevel] = useState(1);',
           'const [level, setLevel] = useState(0);')
