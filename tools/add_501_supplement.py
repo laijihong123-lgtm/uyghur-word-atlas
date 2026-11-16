@@ -139,6 +139,29 @@ def main():
     new='const url = (p: string) => `${BASE}/atlas/${p}${p.endsWith(".json") ? "?v=501-merged-20261117" : ""}`;'
     assert old in text
     loader.write_text(text.replace(old,new))
+    # Final product copy and controls for the Uyghur edition.
+    root=HOME/'upstream'
+    me=root/'src/pages/Me.tsx'
+    ms=me.read_text('utf-8')
+    start=ms.index('          <Field label="发音">')
+    end=ms.index('          </Field>',start)+len('          </Field>')
+    ms=ms[:start]+'''          <Field label="维吾尔语读音" hint="单词使用维吾尔语 AI 合成录音；可在下方控制是否自动播放。">
+            <div>维吾尔语 AI 合成 · 单一读音</div>
+          </Field>'''+ms[end:]
+    ms=ms.replace('从哪个难度开始','学习起点').replace('跳过已经熟悉的低级别词。','选择开始学习的词汇范围；已学词继续按复习安排出现。')
+    me.write_text(ms,'utf-8')
+    for file in list((root/'src').rglob('*.tsx'))+[root/'index.html']:
+        s=file.read_text('utf-8').replace('维语词光 Uyghur Atlas','维语星球 ئۇيغۇرچە سەييارە').replace('维语词光','维语星球').replace('词光 Word Atlas','维语星球 ئۇيغۇرچە سەييارە').replace('词光','维语星球')
+        s=s.replace('欢迎来到雅思大门','欢迎来到维语星球').replace('欢迎来到维语大门','欢迎来到维语星球')
+        file.write_text(s,'utf-8')
+    for file in [root/'public/manifest.json',root/'public/manifest.webmanifest']:
+        if file.exists():
+            s=file.read_text('utf-8').replace('维语词光','维语星球').replace('Uyghur Atlas','ئۇيغۇرچە سەييارە')
+            file.write_text(s,'utf-8')
+    for file in [root/'src/pages/Today.tsx',root/'src/pages/Onboarding.tsx',root/'src/pages/About.tsx']:
+        s=file.read_text('utf-8').replace('六组按常用程度与难度估计排序，同组穿插话题','按主题和语义小组学习，组内从基础词到扩展词')
+        s=s.replace('欢迎来到维语星球','欢迎来到维语星球')
+        file.write_text(s,'utf-8')
     print('SUPPLEMENT_501_VERIFIED',idx['count'],idx['semanticCategoryCounts'],flush=True)
 
 if __name__=='__main__':main()
