@@ -227,7 +227,9 @@ jobs:
           print('ALL_UYGHUR_AUDIO_VERIFIED', idx['voiced'], flush=True)
           PY
       - name: Add all 363 authorized 501-course cards with existing semantic groups
-        run: python3 tools/add_501_supplement.py
+        run: |
+          python3 -m pip install --quiet pillow==11.3.0 cairosvg==2.8.2
+          python3 tools/add_501_supplement.py
       - name: Synthesize missing Uyghur recordings for the supplemental cards
         timeout-minutes: 35
         env:
