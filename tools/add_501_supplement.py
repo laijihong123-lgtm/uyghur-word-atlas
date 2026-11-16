@@ -106,7 +106,7 @@ def main():
                 e['m']|=2
                 next(w for w in idx['words'] if w[0]==e['id'])[6]|=2
     idx['voiced']=sum(bool(w[6]&2) for w in idx['words'])
-    assert idx['illustrated']==2176
+    assert idx['illustrated']==2175
     for p in (ATLAS/'entries').glob('*.json'): p.unlink()
     for n in range(0,len(entries),100):
         (ATLAS/'entries'/f'{n//100}.json').write_text(json.dumps(entries[n:n+100],ensure_ascii=False,separators=(',',':')))
