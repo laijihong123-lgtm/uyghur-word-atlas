@@ -1,0 +1,111 @@
+#!/usr/bin/env python3
+"""Append the 363 authorized 501-course records after the original audited build.
+
+The old pipeline and its exact example/audio checks remain intact. New cards
+have stable IDs, retain original glosses, and have no invented example sentences.
+"""
+from bisect import bisect_left
+import copy
+import csv
+import json
+import re
+from pathlib import Path
+from port_uyghur import to_uly, learning_difficulty
+from semantic_groups import CATEGORY_NAMES, CATEGORY_KEYS, SUBGROUPS
+
+HOME=Path(__file__).resolve().parent.parent
+ATLAS=HOME/'upstream/public/atlas'
+
+def build(idx, entries, records):
+    assert len(records)==363
+    assert len(entries)==len(idx['words'])==idx['count']==1813
+    assert len({e['id'] for e in entries})==1813
+    old=copy.deepcopy(entries)
+    byid={e['id']:e for e in entries}
+    words={r[0]:r for r in idx['words']}
+    forms={e['w']:e for e in entries}
+    ordering={}
+    old_scores=sorted(learning_difficulty({"uy":e["w"],"senses":[s["zh"] for s in e["senses"]],"seq":n})[0] for n,e in enumerate(entries))
+    for e in entries:
+        cat=words[e['id']][5]
+        label=e['note'].split('。主题分组：',1)[1].split('。类别分配',1)[0].split('／',1)[1]
+        sub=SUBGROUPS[cat].index(label)
+        score=learning_difficulty({"uy":e["w"],"senses":[s["zh"] for s in e["senses"]],"seq":list(words).index(e["id"])})[0]
+        ordering[e['id']]=(cat,sub,score,list(words).index(e['id']))
+    report=[]
+    for r in records:
+        i=r['seq'];w=r['word'];cat=r['category'];sub=r['subgroup']
+        assert 0<=cat<19 and 0<=sub<len(SUBGROUPS[cat])
+        assert w not in forms,('Duplicate spelling requires explicit merge',w)
+        assert w==('پالەك' if i==125 else r['originalWord'])
+        wid=f's501{i:04d}'
+        senses=[{'pos':'教材释义','zh':r['zh'],'en':''}]
+        if r['supplement']:
+            senses.append({'pos':'补充释义','zh':r['supplement'],'en':''})
+        latin=to_uly(w)
+        score=learning_difficulty({'uy':w,'senses':[r['zh']],'seq':1817+i})[0]
+        level=min(5,bisect_left(old_scores,score)//303)
+        joined=' ／ '.join(s['zh'] for s in senses)
+        e={'id':wid,'w':w,'uk':latin,'us':'','senses':senses,
+           'ex':[],'col':[],'fam':[],'syn':[],'ant':[],
+           'tip':'拉丁转写按 ULY 规则自动生成（非 IPA）。',
+           'cefr':f'难度{level+1}','topic':CATEGORY_KEYS[cat],'m':32,
+           'note':f"来自501句词语补充表；第{r['lesson']}课，原PDF第{r['pdfPages']}页，教材词条{r['sourceIds']}。主题分组：{CATEGORY_NAMES[cat]}／{SUBGROUPS[cat][sub]}。保留原中文，另列补充释义；未添加未经核对的例句。"}
+        byid[wid]=e; forms[w]=e
+        words[wid]=[wid,w,joined,latin,level,cat,32]
+        ordering[wid]=(cat,sub,score,1817+i)
+        report.append({'id':wid,**r,'categoryName':CATEGORY_NAMES[cat],'subgroupName':SUBGROUPS[cat][sub]})
+    order=sorted(words,key=lambda wid:ordering[wid])
+    idx['words']=[words[wid] for wid in order]
+    entries=[byid[wid] for wid in order]
+    idx['count']=len(entries)
+    idx['semanticCategoryCounts']=[sum(w[5]==i for w in idx['words']) for i in range(19)]
+    idx['supplement501']={'records':363,'spellingCorrections':1,'supplementalGlosses':8,'source':'supplement-501.json'}
+    assert idx['count']==2176 and sum(idx['semanticCategoryCounts'])==2176
+    assert len({w[1] for w in idx['words']})==2176
+    assert all(byid[e['id']]==e for e in old),'Original cards changed'
+    assert [w[5] for w in idx['words']]==sorted(w[5] for w in idx['words'])
+    assert len({w[0] for w in idx['words']})==2176
+    return idx,entries,report
+
+def main():
+    idx=json.loads((ATLAS/'index.json').read_text())
+    entries=[e for p in sorted((ATLAS/'entries').glob('*.json'),key=lambda p:int(p.stem)) for e in json.loads(p.read_text())]
+    records=json.loads((HOME/'data/supplement_501.json').read_text())
+    idx,entries,report=build(idx,entries,records)
+    # Use the site's established fallback illustration palette, with a distinct
+    # attribution file so the original attribution reports remain unchanged.
+    import generate_fast_illustrations as art
+    from PIL import Image
+    added=[w for w in idx['words'] if w[0].startswith('s501')]
+    icons={w[0]:art.mark_concept(w[2]) for w in added}
+    images=art.load_icons(icons)
+    for w in added:
+        icon,kind=icons[w[0]]
+        im=art.draw_one(w,icon,kind,images.get(icon))
+        for folder,size in [('img',384),('thumb',104)]:
+            dest=ATLAS/folder/(w[0]+'.webp')
+            dest.parent.mkdir(exist_ok=True)
+            im.resize((size,size),Image.Resampling.LANCZOS).save(dest,'WEBP',quality=75)
+            assert dest.stat().st_size>400
+        w[6]|=1
+    for e in entries:
+        if e['id'].startswith('s501'): e['m']|=1
+    idx['illustrated']=sum(bool(w[6]&1) for w in idx['words'])
+    idx['voiced']=sum(bool(w[6]&2) for w in idx['words'])
+    assert idx['illustrated']==2176
+    for p in (ATLAS/'entries').glob('*.json'): p.unlink()
+    for n in range(0,len(entries),100):
+        (ATLAS/'entries'/f'{n//100}.json').write_text(json.dumps(entries[n:n+100],ensure_ascii=False,separators=(',',':')))
+    (ATLAS/'index.json').write_text(json.dumps(idx,ensure_ascii=False,separators=(',',':')))
+    (ATLAS/'supplement-501.json').write_text(json.dumps({'records':report,'illustrationLicense':'Lucide ISC; same generated pictogram style as original cards'},ensure_ascii=False,indent=2))
+    for relative in ['src/pages/Today.tsx','index.html','UYGHUR_PORT_NOTICE.md']:
+        p=HOME/'upstream'/relative
+        text=p.read_text()
+        text=text.replace('只使用网站现有的 1,813 张词卡','使用全部 2,176 张词卡')
+        text=text.replace('已导入1,817条教材逐条复核记录；4组同形异义合并成1,813张词卡。','原有1,813张词卡，补入501句教材363条，共2,176张词卡。')
+        text=text.replace('教材逐条复核词表1,817条学习记录，合并为1,813张词卡','教材原有1,813张词卡，新增501句教材363条，共2,176张词卡')
+        p.write_text(text)
+    print('SUPPLEMENT_501_VERIFIED',idx['count'],idx['semanticCategoryCounts'],flush=True)
+
+if __name__=='__main__':main()

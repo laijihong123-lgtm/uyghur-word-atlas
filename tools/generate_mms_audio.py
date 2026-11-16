@@ -52,6 +52,11 @@ def main() -> None:
 
     for item in index["words"][:LIMIT]:
         word_id, word = item[:2]
+        # Reuse validated existing recordings; only synthesize missing cards.
+        existing = audio_dir / f"{word_id}.mp3"
+        if existing.is_file() and existing.stat().st_size > 1000 and item[6] & 2:
+            enabled.add(word_id)
+            continue
         # A terminal hyphen denotes a verb stem, not a sound.
         spoken = re.sub(r"\s*-\s*", " ", word).strip()
         if not spoken or not re.search(r"[\u0600-\u06ff]", spoken):

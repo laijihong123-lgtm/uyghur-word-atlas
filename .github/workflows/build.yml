@@ -226,6 +226,40 @@ jobs:
               assert 'mp3' in probe, (path, probe)
           print('ALL_UYGHUR_AUDIO_VERIFIED', idx['voiced'], flush=True)
           PY
+      - name: Add all 363 authorized 501-course cards with existing semantic groups
+        run: python3 tools/add_501_supplement.py
+      - name: Synthesize missing Uyghur recordings for the supplemental cards
+        timeout-minutes: 35
+        env:
+          UYGHUR_TTS_LIMIT: 2176
+          HF_HUB_DISABLE_TELEMETRY: 1
+        run: |
+          python3 -m pip install --quiet torch==2.4.1 --index-url https://download.pytorch.org/whl/cpu
+          python3 -m pip install --quiet transformers==4.44.2 'numpy<2'
+          python3 tools/generate_mms_audio.py
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          root=Path('upstream/public/atlas')
+          idx=json.loads((root/'index.json').read_text())
+          assert idx['count']==idx['voiced']==idx['illustrated']==2176
+          entries=[e for p in (root/'entries').glob('*.json') for e in json.loads(p.read_text())]
+          assert len(entries)==2176 and len({e['id'] for e in entries})==2176
+          assert len({e['w'] for e in entries})==2176
+          assert sum(idx['semanticCategoryCounts'])==2176
+          assert all(w[6]&1 and w[6]&2 and w[6]&32 for w in idx['words'])
+          for w in idx['words']:
+              assert (root/'audio/uk'/(w[0]+'.mp3')).stat().st_size>1000
+          byid={e['id']:e for e in entries}
+          source=json.loads(Path('data/supplement_501.json').read_text())
+          for r in source:
+              e=byid[f"s501{r['seq']:04d}"]
+              assert e['w']==r['word'] and e['senses'][0]['zh']==r['zh']
+              assert [x['zh'] for x in e['senses'][1:]]==([r['supplement']] if r['supplement'] else [])
+          assert byid['s5010125']['w']=='پالەك'
+          assert not any(e['w']=='پالەڭ' for e in entries)
+          print('ALL_2176_CARDS_AND_363_ADDITIONS_VERIFIED')
+          PY
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
