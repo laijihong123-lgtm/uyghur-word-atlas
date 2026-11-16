@@ -250,6 +250,27 @@ jobs:
           assert len([x for x in examples if x.get('source')=='ai_supplement_draft'])==362
           print('ALL_2175_CARDS_HAVE_EXAMPLES',len(examples),flush=True)
           PY
+      - name: Expose and verify all semantic subunits for independent learning
+        run: |
+          python3 tools/add_subgroup_learning.py
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          root=Path('upstream/public/atlas')
+          idx=json.loads((root/'index.json').read_text('utf-8'))
+          ids=[w[0] for w in idx['words']]
+          subs=idx['semanticWordSubgroups']
+          names=idx['semanticSubgroups']
+          counts=idx['semanticSubgroupCounts']
+          assert len(ids)==len(subs)==2175 and len(set(ids))==2175
+          assert len(names)==19 and sum(len(g) for g in names)==179
+          assert all(len(counts[i])==len(names[i]) for i in range(19))
+          assert all(0<=sub<len(names[w[5]]) for w,sub in zip(idx['words'],subs))
+          assert sum(sum(row) for row in counts)==2175
+          assert [sum(row) for row in counts]==idx['semanticCategoryCounts']
+          assert idx['id']=='uyghur-textbook-reviewed-20261113'
+          print('SEMANTIC_SUBUNITS_VALIDATED', len(names), sum(map(len,names)), len(ids))
+          PY
       - name: Synthesize missing Uyghur recordings for the supplemental cards
         timeout-minutes: 35
         env:
