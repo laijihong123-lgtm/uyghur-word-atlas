@@ -124,7 +124,7 @@ def main():
     for n in range(0,len(entries),100):
         (ATLAS/'entries'/f'{n//100}.json').write_text(json.dumps(entries[n:n+100],ensure_ascii=False,separators=(',',':')))
     (ATLAS/'index.json').write_text(json.dumps(idx,ensure_ascii=False,separators=(',',':')))
-    (ATLAS/'supplement-501.json').write_text(json.dumps({'records':report,'illustrationLicense':'Lucide ISC; same generated pictogram style as original cards'},ensure_ascii=False,indent=2))
+    (ATLAS/'supplement-501.json').write_text(json.dumps({'records':report,'illustrationLicense':'Lucide ISC (icon components), procedural muted watercolor scenes; original Word Atlas artwork retains CC BY 4.0 attribution'},ensure_ascii=False,indent=2))
     for relative in ['src/pages/Today.tsx','index.html','UYGHUR_PORT_NOTICE.md']:
         p=HOME/'upstream'/relative
         text=p.read_text()
@@ -137,7 +137,7 @@ def main():
     loader=HOME/'upstream/src/atlas/data.ts'
     text=loader.read_text()
     old='const url = (p: string) => `${BASE}/atlas/${p}`;'
-    new='const url = (p: string) => `${BASE}/atlas/${p}${p.endsWith(".json") ? "?v=501-merged-20261117" : ""}`;'
+    new='const url = (p: string) => `${BASE}/atlas/${p}${p.endsWith(".json") ? "?v=501-merged-20261117" : p.endsWith(".webp") ? "?v=painted-20261117" : ""}`;'
     assert old in text
     loader.write_text(text.replace(old,new))
     # Final product copy and controls for the Uyghur edition.
