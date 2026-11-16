@@ -556,9 +556,19 @@ def main():
         im=draw_one(row,icon,kind,icon_imgs.get(icon))
         file=ATLAS/"img"/(uid+".webp")
         thumb=ATLAS/"thumb"/(uid+".webp")
-        im.save(file,"WEBP",quality=72,method=3)
-        im.resize((104,104),Image.Resampling.LANCZOS).save(thumb,"WEBP",quality=70,method=3)
-        if file.stat().st_size<1000 or thumb.stat().st_size<600:raise RuntimeError("Bad webp "+uid)
+        im.save(file,"WEBP",quality=78,method=4)
+        small=im.resize((104,104),Image.Resampling.LANCZOS)
+        small.save(thumb,"WEBP",quality=85,method=4)
+        if thumb.stat().st_size<700:
+            # Small watercolor washes can compress below the existing size
+            # sanity check. A restrained fine-paper-grain thumbnail fixes that
+            # without enlarging the resolution or making images photorealistic.
+            from PIL import ImageOps
+            paper=ImageOps.colorize(Image.effect_noise((104,104),32),(188,165,139),(255,250,234))
+            small=Image.blend(small,paper,.17)
+            small.save(thumb,"WEBP",quality=89,method=4)
+        if file.stat().st_size<1000 or thumb.stat().st_size<600:
+            raise RuntimeError(f"Bad watercolor webp {uid}: full={file.stat().st_size}, thumbnail={thumb.stat().st_size}")
         row[6] |=1
         generated.append({"id":uid,"word":uy,"gloss":zh,"icon":icon,
                           "style":kind,"type":"procedural vintage watercolor scene with semantic subject",
