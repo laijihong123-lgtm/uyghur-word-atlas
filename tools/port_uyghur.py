@@ -594,6 +594,8 @@ function ChallengePath() {
     begin = today_text.index("function LevelPath() {")
     finish = today_text.index("\nfunction Topics() {", begin)
     today_text = today_text[:begin] + "function LevelPath() { return null; }\n" + today_text[finish:]
+    # The removed six-stage LevelPath was the sole caller of isMastered.
+    today_text = today_text.replace('import { isMastered } from "../store/srs";\n', "")
     today_file.write_text(today_text, "utf-8")
 
     challenge_css = r"""
