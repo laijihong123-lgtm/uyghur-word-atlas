@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Generate fast, compact, consistently styled pictographic illustrations for missing cards.
+"""Render consistent retro storybook-style pictures for missing vocabulary cards.
 
-This does NOT claim 952 bespoke scene paintings: each image is a distinct
-word-labeled painterly pictogram, chosen from a meaning-based icon palette.
-This is the deliberately fast visual fallback for complex/abstract vocabulary.
+These are low-resolution procedural watercolor-like scene compositions, not
+952 individually AI-painted scenes. Each uses meaning-selected subjects,
+and abstract words retain a restrained small text cue.
 The user's source spellings and definitions are never modified.
 Icons: Lucide (ISC license); original 855 pictures: Word Atlas CC BY 4.0.
 """
@@ -533,53 +533,12 @@ def display_label(zh):
     s=re.split(r"[；;／/，,、]",s)[0].strip()
     return s[:19] if s else "词汇"
 def draw_one(row,icon_name,kind,icon_img):
-    uid,uy,zh=row[0],row[1],row[2]
-    digest=int(hashlib.sha256(uid.encode()).hexdigest()[:12],16)
-    rng=random.Random(digest)
-    cream,land,ink=GROUP_COLORS[kind]
-    im=painter_background(digest,kind)
-    d=ImageDraw.Draw(im,"RGBA")
-    # Expressive painted frame and light illustration surface, same family as original artwork.
-    d.rounded_rectangle((27,56,WIDTH-27,316),radius=46,fill=(254,242,220,195),outline=land+(115,),width=3)
-    for j in range(14):
-        r=6+rng.randint(0,6)
-        cx=rng.randint(32,WIDTH-32);cy=rng.choice([rng.randint(75,105),rng.randint(277,310)])
-        d.ellipse((cx-r,cy-r,cx+r,cy+r),fill=land+(rng.randint(12,42),))
-    # Soft pastel blobs behind the hand-drawn pictogram.
-    d.ellipse((62,79,WIDTH-62,292),fill=blend(cream,land,.32)+(95,))
-    d.ellipse((95,109,WIDTH-95,267),fill=(255,248,229,116))
-    if icon_img:
-        # Drop a warm, low-opacity offset shadow under the actual semantic icon.
-        shadow=Image.new("RGBA",icon_img.size,(0,0,0,0))
-        alpha=icon_img.getchannel("A")
-        ink_shadow=Image.new("RGBA",icon_img.size,ink+(70,))
-        ink_shadow.putalpha(alpha.point(lambda v:int(v*.2)))
-        shadow.alpha_composite(ink_shadow)
-        im=im.convert("RGBA")
-        im.alpha_composite(shadow,(83,105))
-        im.alpha_composite(icon_img,(78,99))
-        im=im.convert("RGB")
-    else:
-        # Graceful offline fallback: a pictographic folio with a sunlit center.
-        d=ImageDraw.Draw(im,"RGB")
-        d.rounded_rectangle((140,148,244,233),radius=12,outline=ink,width=7)
-        d.line((192,149,192,233),fill=ink,width=5)
-    d=ImageDraw.Draw(im,"RGBA")
-    # Label makes ambiguous grammar/abstract-meaning icons identifiable without inventing a scene.
-    caption=display_label(zh)
-    f=FONT_LARGE if len(caption)<=10 else FONT_SMALL
-    maxw=WIDTH-42
-    # Center and auto shorten until line fits, retaining primary Chinese gloss.
-    while d.textbbox((0,0),caption,font=f)[2]>maxw and len(caption)>2:
-        caption=caption[:-1]
-    bounds=d.textbbox((0,0),caption,font=f)
-    tw=bounds[2]-bounds[0]
-    # Pale banner hugs caption without blocking pictorial component.
-    d.rounded_rectangle((27,326,WIDTH-27,371),radius=15,fill=(255,244,221,232))
-    d.text(((WIDTH-tw)/2,333),caption,font=f,fill=BG_INK+(255,),stroke_width=0)
-    # Harmonized perimeter brushmarks.
-    d.line([(31,39),(WIDTH-44,39)],fill=land+(120,),width=4)
-    return im
+    # Render every formerly icon-and-caption fallback as a low-resolution
+    # retro storybook scene with vintage watercolor washes and paper grain.
+    # Retains the existing meaning selector, stable filenames and word IDs.
+    from painted_cards import draw_card
+    return draw_card(row,icon_name,kind,icon_img)
+
 def main():
     idxpath=ATLAS/"index.json"
     idx=json.loads(idxpath.read_text("utf8"))
@@ -602,7 +561,7 @@ def main():
         if file.stat().st_size<1000 or thumb.stat().st_size<600:raise RuntimeError("Bad webp "+uid)
         row[6] |=1
         generated.append({"id":uid,"word":uy,"gloss":zh,"icon":icon,
-                          "style":kind,"type":"fast generated meaning-label + semantic pictogram",
+                          "style":kind,"type":"procedural vintage watercolor scene with semantic subject",
                           "full_size":file.stat().st_size,"thumb_size":thumb.stat().st_size})
         if no%200==0:print("GENERATED",no,flush=True)
     idx["illustrated"]=sum(bool(r[6]&1) for r in idx["words"])
@@ -615,8 +574,8 @@ def main():
             if e["id"] in byid:e["m"] |= 1
         p.write_text(json.dumps(es,ensure_ascii=False,separators=(",",":")),"utf8")
     (ATLAS/"fast-generated-illustrations.json").write_text(
-        json.dumps({"count":len(generated),"type":"fast vector/painterly graphical illustrations",
-                    "notes":"Symbolic pictograms (not bespoke AI-painted scenes), meaning labels from user-reviewed Chinese glosses",
+        json.dumps({"count":len(generated),"type":"storybook watercolor-style procedural illustrations",
+                    "notes":"Procedural watercolor-like scenes based on semantic pictograms; some abstract cards retain gloss labels. Not individually AI painted or mother-tongue-reviewed.",
                     "icon_license":"Lucide ISC",
                     "icon_source":"https://github.com/lucide-icons/lucide",
                     "items":generated},ensure_ascii=False,indent=2),"utf8")
