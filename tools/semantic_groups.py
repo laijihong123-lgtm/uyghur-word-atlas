@@ -224,7 +224,7 @@ def order_by_semantics(dataset: list[dict], difficulty_fn):
         # Smaller score = easier, and the actual vocabulary remains the website's.
         row["difficulty"]=difficulty_fn(row)[0]
         notes.append(row)
-    matched=sum(r["semantic_match_source"]=="exact_original_word_classification" for r in result)
+    matched=sum(r["semantic_match_source"]=="exact_original_word_classification" for r in notes)
     if matched < 920:
         raise RuntimeError(f"Too few exact historical semantic matches: {matched}")
     print("VERIFIED_ORIGINAL_SEMANTIC_WORD_MATCHES",matched,flush=True)
