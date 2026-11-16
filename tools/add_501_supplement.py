@@ -5,6 +5,7 @@ The old pipeline and its exact example/audio checks remain intact. New cards
 have stable IDs, retain original glosses, and have no invented example sentences.
 """
 from bisect import bisect_left
+import shutil
 import copy
 import csv
 import json
@@ -92,6 +93,18 @@ def main():
     for e in entries:
         if e['id'].startswith('s501'): e['m']|=1
     idx['illustrated']=sum(bool(w[6]&1) for w in idx['words'])
+    # Only reuse supplemental audio when the prior artifact carries the same
+    # stable IDs and exact word forms; never attach a recording by position.
+    prior=HOME/'previous-website/atlas'
+    metadata=prior/'supplement-501.json'
+    if metadata.is_file():
+        prior_words={r['id']:r['word'] for r in json.loads(metadata.read_text())['records']}
+        for e in entries:
+            audio=prior/'audio/uk'/(e['id']+'.mp3')
+            if e['id'].startswith('s501') and prior_words.get(e['id'])==e['w'] and audio.is_file() and audio.stat().st_size>1000:
+                shutil.copyfile(audio,ATLAS/'audio/uk'/(e['id']+'.mp3'))
+                e['m']|=2
+                next(w for w in idx['words'] if w[0]==e['id'])[6]|=2
     idx['voiced']=sum(bool(w[6]&2) for w in idx['words'])
     assert idx['illustrated']==2176
     for p in (ATLAS/'entries').glob('*.json'): p.unlink()
@@ -106,6 +119,14 @@ def main():
         text=text.replace('已导入1,817条教材逐条复核记录；4组同形异义合并成1,813张词卡。','原有1,813张词卡，补入501句教材363条，共2,176张词卡。')
         text=text.replace('教材逐条复核词表1,817条学习记录，合并为1,813张词卡','教材原有1,813张词卡，新增501句教材363条，共2,176张词卡')
         p.write_text(text)
+    # Version JSON requests so existing browsers cannot mix old index/chunks
+    # with the expanded deck. Dataset and card IDs stay stable for progress.
+    loader=HOME/'upstream/src/atlas/data.ts'
+    text=loader.read_text()
+    old='const url = (p: string) => `${BASE}/atlas/${p}`;'
+    new='const url = (p: string) => `${BASE}/atlas/${p}${p.endsWith(".json") ? "?v=501-20261117" : ""}`;'
+    assert old in text
+    loader.write_text(text.replace(old,new))
     print('SUPPLEMENT_501_VERIFIED',idx['count'],idx['semanticCategoryCounts'],flush=True)
 
 if __name__=='__main__':main()
