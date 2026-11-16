@@ -9,7 +9,10 @@ import re
 import shutil
 import sys
 from pathlib import Path
-from semantic_groups import CATEGORY_NAMES, CATEGORY_KEYS, SUBGROUPS, order_by_semantics
+try:
+    from semantic_groups import CATEGORY_NAMES, CATEGORY_KEYS, SUBGROUPS, order_by_semantics
+except ModuleNotFoundError:
+    from tools.semantic_groups import CATEGORY_NAMES, CATEGORY_KEYS, SUBGROUPS, order_by_semantics
 
 HERE = Path(__file__).resolve().parent.parent
 ROOT = HERE / "upstream"
