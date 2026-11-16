@@ -74,6 +74,18 @@ def main():
     entries=[e for p in sorted((ATLAS/'entries').glob('*.json'),key=lambda p:int(p.stem)) for e in json.loads(p.read_text())]
     records=json.loads((HOME/'data/supplement_501.json').read_text())
     idx,entries,report=build(idx,entries,records)
+    alias=next(e for e in entries if e['id']=='s5010294')
+    target=next(e for e in entries if e['id']=='tb1195')
+    assert re.sub(r'\s*-\s*','-',alias['w'])==target['w']
+    target['senses'].append({'pos':'501句教材补充释义','zh':alias['senses'][0]['zh'],'en':''})
+    target['note']+='；501句教材第42课词条42-03的空格异写已合并。'
+    next(w for w in idx['words'] if w[0]==target['id'])[2]=' ／ '.join(x['zh'] for x in target['senses'])
+    entries=[e for e in entries if e['id']!=alias['id']]
+    idx['words']=[w for w in idx['words'] if w[0]!=alias['id']]
+    idx['count']=2175
+    idx['semanticCategoryCounts']=[sum(w[5]==i for w in idx['words']) for i in range(19)]
+    idx['supplement501'].update(newCards=362,mergedRecords=1)
+    next(x for x in report if x['id']==alias['id'])['canonical_id']=target['id']
     # Use the site's established fallback illustration palette, with a distinct
     # attribution file so the original attribution reports remain unchanged.
     import generate_fast_illustrations as art
@@ -115,16 +127,16 @@ def main():
     for relative in ['src/pages/Today.tsx','index.html','UYGHUR_PORT_NOTICE.md']:
         p=HOME/'upstream'/relative
         text=p.read_text()
-        text=text.replace('只使用网站现有的 1,813 张词卡','使用全部 2,176 张词卡')
-        text=text.replace('已导入1,817条教材逐条复核记录；4组同形异义合并成1,813张词卡。','原有1,813张词卡，补入501句教材363条，共2,176张词卡。')
-        text=text.replace('教材逐条复核词表1,817条学习记录，合并为1,813张词卡','教材原有1,813张词卡，新增501句教材363条，共2,176张词卡')
+        text=text.replace('只使用网站现有的 1,813 张词卡','使用全部 2,175 张词卡')
+        text=text.replace('已导入1,817条教材逐条复核记录；4组同形异义合并成1,813张词卡。','原有1,813张词卡，补入501句教材363条，共2,175张词卡。')
+        text=text.replace('教材逐条复核词表1,817条学习记录，合并为1,813张词卡','教材原有1,813张词卡，新增501句教材363条，共2,175张词卡')
         p.write_text(text)
     # Version JSON requests so existing browsers cannot mix old index/chunks
     # with the expanded deck. Dataset and card IDs stay stable for progress.
     loader=HOME/'upstream/src/atlas/data.ts'
     text=loader.read_text()
     old='const url = (p: string) => `${BASE}/atlas/${p}`;'
-    new='const url = (p: string) => `${BASE}/atlas/${p}${p.endsWith(".json") ? "?v=501-20261117" : ""}`;'
+    new='const url = (p: string) => `${BASE}/atlas/${p}${p.endsWith(".json") ? "?v=501-merged-20261117" : ""}`;'
     assert old in text
     loader.write_text(text.replace(old,new))
     print('SUPPLEMENT_501_VERIFIED',idx['count'],idx['semanticCategoryCounts'],flush=True)
