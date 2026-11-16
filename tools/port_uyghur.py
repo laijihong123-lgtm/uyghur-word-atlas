@@ -622,12 +622,16 @@ function ChallengePath() {
 .uy-challenge-day.is-complete { border-color:var(--sage); }
 @media(max-width:820px) { .uy-challenge-stages { grid-template-columns:1fr; } }
 @media(max-width:420px) { .uy-challenge-stage { padding:12px; } .uy-challenge-grid { gap:6px; } .uy-challenge-day { padding:10px 7px; min-height:110px; } .uy-challenge-day-title { font-size:12px; } .uy-challenge-day b { font-size:17px; } }
+.uy-topic-icon {display:inline-flex;align-items:center;justify-content:center;min-width:48px;height:48px;border-radius:14px;background:var(--card-2);color:var(--terra);font-size:19px;font-weight:700;font-variant-numeric:tabular-nums}
 """
     css_path=ROOT/"src/styles/app.css"
     css_path.write_text(css_path.read_text("utf-8") + "\n" + challenge_css, "utf-8")
 
     patch("src/pages/Today.tsx",
           "按雅思话题探索", "按19主题分类探索")
+    patch("src/pages/Today.tsx",
+          '<img src={`${BRAND}/topic-${key}.webp`} alt="" loading="lazy" onError={(e) => (e.currentTarget.style.visibility = "hidden")} />',
+          '<span className="uy-topic-icon" aria-hidden="true">{i + 1}</span>')
     patch("src/pages/Today.tsx",
           'const list = pool.length ? pool : atlas.words;',
           'const list = pool.length ? pool : atlas.words.filter((w) => !w.word.endsWith("-"));')
