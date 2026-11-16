@@ -9,6 +9,7 @@ heuristic, NOT a claim of expert linguistic verification.
 from __future__ import annotations
 from collections import Counter
 import re
+import hashlib
 import base64
 import zlib
 from pathlib import Path
@@ -86,6 +87,25 @@ for _origin in range(1,1826):
             raise RuntimeError("Invalid original category/subgroup at " + str(_origin))
         ORIGINAL_CLASSIFICATION[str(_origin)] = (_cat-1, _sub-1, _stars)
 assert len(ORIGINAL_CLASSIFICATION) == 997
+# The site's source record numbers have shifted after vocabulary corrections.
+# Verify the actual WEBSITE spelling against a short cryptographic fingerprint,
+# rather than incorrectly assuming the old numeric record ID remains aligned.
+_hash_path = Path(__file__).resolve().parent.parent / "data/classification_original_first1000_hash.b64"
+_hash_raw = zlib.decompress(base64.b64decode(_hash_path.read_text("ascii").strip()))
+if len(_hash_raw) != 1826 * 3:
+    raise RuntimeError("Corrupted exact-word semantic fingerprints")
+ORIGINAL_BY_WORD_HASH = {}
+for _origin, _classification in ORIGINAL_CLASSIFICATION.items():
+    _ix = int(_origin)
+    _fingerprint = bytes(_hash_raw[_ix*3:_ix*3+3])
+    if not any(_fingerprint):
+        raise RuntimeError("A reference lexical fingerprint is missing")
+    if _fingerprint in ORIGINAL_BY_WORD_HASH and ORIGINAL_BY_WORD_HASH[_fingerprint] != _classification:
+        # Do not blindly resolve a rare 24-bit collision to the wrong meaning.
+        ORIGINAL_BY_WORD_HASH[_fingerprint] = None
+    elif _fingerprint not in ORIGINAL_BY_WORD_HASH:
+        ORIGINAL_BY_WORD_HASH[_fingerprint] = _classification
+assert len(ORIGINAL_BY_WORD_HASH) > 950
 
 # Website words have priority. Anchors merely decide a *category*, never
 # replace the spelling or silently apply a different source's meanings.
@@ -186,11 +206,11 @@ def order_by_semantics(dataset: list[dict], difficulty_fn):
     """Stable semantic ordering; same website cards and source glosses."""
     notes=[]
     for row in dataset:
-        original_number=str(row["sources"][0][0])
-        historical=ORIGINAL_CLASSIFICATION.get(original_number)
+        fingerprint=hashlib.blake2s(row["uy"].encode("utf-8"),digest_size=3).digest()
+        historical=ORIGINAL_BY_WORD_HASH.get(fingerprint)
         if historical:
             cat,sub,priority=historical
-            source="original_classification"
+            source="exact_original_word_classification"
         else:
             cat=category_for(row)
             sub=subgroup_for(row,cat)
@@ -204,6 +224,10 @@ def order_by_semantics(dataset: list[dict], difficulty_fn):
         # Smaller score = easier, and the actual vocabulary remains the website's.
         row["difficulty"]=difficulty_fn(row)[0]
         notes.append(row)
+    matched=sum(r["semantic_match_source"]=="exact_original_word_classification" for r in result)
+    if matched < 920:
+        raise RuntimeError(f"Too few exact historical semantic matches: {matched}")
+    print("VERIFIED_ORIGINAL_SEMANTIC_WORD_MATCHES",matched,flush=True)
     # Group by category, then meaning pocket, THEN difficulty.
     result=sorted(notes,key=lambda r:(
         r["semantic_category"],r["semantic_subgroup"],
