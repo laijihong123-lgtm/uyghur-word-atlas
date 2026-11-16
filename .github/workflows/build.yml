@@ -71,28 +71,31 @@ jobs:
           for n,row in enumerate(source,1):
             original_word_positions.setdefault(row['维吾尔语'],n)
           assert all(row[0]==f"tb{original_word_positions[row[1]]:04d}" for row in idx['words'])
-          assert [w[4] for w in idx['words']]==sorted(w[4] for w in idx['words'])
           counts=[sum(w[4]==lv for w in idx['words']) for lv in range(6)]
           assert counts==[303,303,303,303,303,298], counts
-          lessons=[idx['words'][i*101:min((i+1)*101,len(idx['words']))] for i in range(18)]
-          assert [len(g) for g in lessons]==[101]*17+[96]
-          assert [set(w[4] for w in group) for group in lessons]==[{i//3} for i in range(18)]
-          assert len({w[0] for group in lessons for w in group})==1813
-          assert idx['cefr']==[f'第{i}组' for i in range(1,7)]
+          assert len(idx['topics'])==19
+          assert len(idx['semanticSubgroups'])==19
+          assert sum(len(g) for g in idx['semanticSubgroups'])==179
+          cats=[sum(w[5]==i for w in idx['words']) for i in range(19)]
+          assert all(cats) and sum(cats)==1813
+          assert cats==idx['semanticCategoryCounts'], (cats,idx['semanticCategoryCounts'])
+          assert [w[5] for w in idx['words']]==sorted(w[5] for w in idx['words'])
+          assert len({w[0] for w in idx['words']})==1813
+          assert idx['cefr']==[f'难度{i}' for i in range(1,7)]
           assert idx['words'][0][1] in {'مەن','سەن','بىز','ئۇ'}
           assert any(w[1]=='مەن' and w[4]==0 for w in idx['words'])
           me=(Path('upstream/src/pages/Me.tsx').read_text('utf-8'))
           onboarding=(Path('upstream/src/pages/Onboarding.tsx').read_text('utf-8'))
           assert '[5, 10, 15, 20, 30, 100]' in me
           assert '[5, 10, 15, 20, 30, 100]' in onboarding
-          assert '"第1组", "入门"' in onboarding
+          assert '"难度1", "入门"' in onboarding
           today=Path('upstream/src/pages/Today.tsx').read_text('utf-8')
           assert '<ChallengePath />' in today
           assert 'function ChallengePath()' in today
-          assert 'length: 18' in today and 'day * 101' in today
-          assert 'startLesson(day)' in today
-          assert 'disabled={!!active || group.length === 0}' in today
-          print('SORTED_LEARNING_PATH',counts,'EIGHTEEN_LESSONS',[len(g) for g in lessons],'FIRST_WORDS',[w[1] for w in idx['words'][:12]],flush=True)
+          assert '19 个主题学习组' in today and 'startGroup(cat)' in today
+          assert 'startGroup(i)' in today
+          assert 'disabled={active || !group.length}' in today
+          print('SEMANTIC_GROUPS',cats,'TOTAL_WORDS',sum(cats),'SIX_DIFFICULTY_TIERS',counts,'FIRST_WORDS',[w[1] for w in idx['words'][:12]],flush=True)
           print('Verified source fidelity:',len(source),'source entries,',len(entries),'study cards,',len(deferred),'deferred')
           PY
       - name: Add Uyghur graded reading room, linked examples and bookmarks
