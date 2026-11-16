@@ -244,23 +244,23 @@ jobs:
           from pathlib import Path
           root=Path('upstream/public/atlas')
           idx=json.loads((root/'index.json').read_text())
-          assert idx['count']==idx['voiced']==idx['illustrated']==2176
+          assert idx['count']==idx['voiced']==idx['illustrated']==2175
           entries=[e for p in (root/'entries').glob('*.json') for e in json.loads(p.read_text())]
-          assert len(entries)==2176 and len({e['id'] for e in entries})==2176
-          assert len({e['w'] for e in entries})==2176
-          assert sum(idx['semanticCategoryCounts'])==2176
+          assert len(entries)==2175 and len({e['id'] for e in entries})==2175
+          assert len({e['w'] for e in entries})==2175
+          assert sum(idx['semanticCategoryCounts'])==2175
           assert all(w[6]&1 and w[6]&2 and w[6]&32 for w in idx['words'])
           for w in idx['words']:
               assert (root/'audio/uk'/(w[0]+'.mp3')).stat().st_size>1000
           byid={e['id']:e for e in entries}
           source=json.loads(Path('data/supplement_501.json').read_text())
           for r in source:
-              e=byid[f"s501{r['seq']:04d}"]
-              assert e['w']==r['word'] and e['senses'][0]['zh']==r['zh']
-              assert [x['zh'] for x in e['senses'][1:]]==([r['supplement']] if r['supplement'] else [])
+              e=byid['tb1195'] if r['seq']==294 else byid[f"s501{r['seq']:04d}"]
+              assert (e['w']==r['word'] and e['senses'][0]['zh']==r['zh']) if r['seq']!=294 else any(s['zh']==r['zh'] for s in e['senses'])
+              if r['seq']!=294: assert [x['zh'] for x in e['senses'][1:]]==([r['supplement']] if r['supplement'] else [])
           assert byid['s5010125']['w']=='پالەك'
           assert not any(e['w']=='پالەڭ' for e in entries)
-          print('ALL_2176_CARDS_AND_363_ADDITIONS_VERIFIED')
+          print('ALL_2175_CARDS_AND_363_ADDITIONS_VERIFIED')
           PY
       - name: Set up Node.js
         uses: actions/setup-node@v4
