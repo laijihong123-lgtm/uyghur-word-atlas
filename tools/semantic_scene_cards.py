@@ -459,6 +459,133 @@ def draw_item(d,scene,rng):
     else:
         draw_book(d)
 
+
+def improved_subject(d,scene,rng):
+    """Complete concrete scene set. Return True to suppress generic fallback."""
+    if scene in {"apple","banana","pear","fruit"}:
+        if scene=="banana":
+            d.arc((105,146,286,262),6,171,fill=(224,174,76),width=32)
+            d.arc((119,146,282,251),12,168,fill=(247,213,116),width=18)
+        elif scene=="pear":
+            ellipse(d,194,229,65,78,(204,173,89))
+            ellipse(d,194,172,31,36,(204,173,89))
+            line(d,(193,152,199,120),EARTH,8)
+            ellipse(d,213,126,24,10,GREEN)
+        else:
+            ellipse(d,191,224,81,79,(191,104,77))
+            ellipse(d,209,153,20,7,GREEN)
+            line(d,(192,157,193,128),EARTH,9)
+        return True
+    if scene in {"hat","shoes"}:
+        if scene=="hat":
+            ellipse(d,194,244,120,31,EARTH)
+            d.pieslice((115,115,275,283),182,359,fill=(166,121,95))
+            d.arc((121,130,269,267),180,359,fill=(224,187,131),width=8)
+        else:
+            for xx,yy in [(111,203),(217,234)]:
+                roundbox(d,(xx,yy,xx+118,yy+64),(151,107,91),21)
+                d.arc((xx+24,yy+7,xx+90,yy+35),182,355,fill=CREAM,width=6)
+                line(d,(xx,yy+57,xx+117,yy+57),INK,7)
+        return True
+    if scene in {"hand","feet","face"}:
+        if scene=="face":
+            ellipse(d,194,188,78,91,(223,174,125))
+            ellipse(d,162,179,6,6,INK)
+            ellipse(d,220,179,6,6,INK)
+            d.arc((163,179,222,241),10,170,fill=(141,99,80),width=5)
+            for xx in (112,275):ellipse(d,xx,185,18,27,(223,174,125))
+            d.arc((122,93,269,169),182,358,fill=(100,83,70),width=15)
+        elif scene=="hand":
+            roundbox(d,(138,183,238,288),(224,176,131),28)
+            for xx in (141,163,185,208):
+                roundbox(d,(xx,103,xx+21,230),(224,176,131),10)
+            line(d,(142,233,102,184),(224,176,131),26)
+        else:
+            for xx in (103,213):
+                roundbox(d,(xx,125,xx+49,279),(88,114,138),15)
+                ellipse(d,xx+37,285,43,22,(134,93,77))
+        return True
+    if scene in {"music","painting","camera","ball","football"}:
+        if scene=="music":
+            line(d,(147,171,147,273),INK,12);line(d,(246,137,246,248),INK,12)
+            line(d,(145,166,249,132),INK,13)
+            ellipse(d,123,272,31,21,INK)
+            ellipse(d,222,244,31,21,INK)
+        elif scene=="painting":
+            d.polygon([(95,255),(191,109),(280,256)],fill=(244,230,208),outline=EARTH,width=8)
+            ellipse(d,191,184,39,25,BLUE)
+            for xx,col in [(141,(195,105,92)),(192,YELLOW),(241,GREEN)]:
+                ellipse(d,xx,235,11,11,col)
+        elif scene=="camera":
+            roundbox(d,(74,171,313,280),DARKBLUE,15)
+            roundbox(d,(110,146,174,182),EARTH,7)
+            ellipse(d,193,222,55,54,INK)
+            ellipse(d,193,222,39,38,BLUE)
+            ellipse(d,193,222,17,16,(190,216,222))
+        else:
+            ellipse(d,191,203,86,86,(250,239,218),INK,9)
+            d.polygon([(173,163),(218,164),(240,202),(198,235),(155,209)],fill=INK)
+            for xx,yy in [(139,163),(231,154),(159,262),(229,259)]:
+                d.polygon([(xx,yy-14),(xx+17,yy-18),(xx+30,yy)],fill=INK)
+        return True
+    if scene=="swim":
+        # Make a legible human swimming horizontally in blue pool water.
+        d.rectangle((0,142,384,384),fill=BLUE)
+        for xx in (42,128,258):
+            d.arc((xx,244,xx+100,274),0,175,fill=CREAM,width=5)
+        ellipse(d,255,207,27,29,(221,171,123))
+        ellipse(d,256,187,29,11,DARKBLUE)
+        line(d,(224,218,137,238),(222,170,122),24)
+        line(d,(154,223,88,185),(222,170,122),17)
+        line(d,(135,244,68,261),(222,170,122),14)
+        return True
+    if scene in {"letter","road"}:
+        if scene=="letter":
+            d.polygon([(77,146),(305,146),(305,277),(77,277)],fill=(249,240,215),outline=EARTH,width=4)
+            d.polygon([(79,148),(192,217),(303,148)],fill=(235,221,186),outline=EARTH,width=3)
+        else:
+            d.polygon([(163,143),(215,143),(341,383),(35,383)],fill=(141,142,136))
+            line(d,(190,167,189,218),CREAM,7)
+            line(d,(190,258,190,331),CREAM,10)
+        return True
+    if scene=="money":
+        for xx,yy in [(120,205),(178,228),(245,190)]:
+            ellipse(d,xx,yy,43,43,(230,189,101),EARTH,5)
+            ellipse(d,xx,yy,25,24,(241,218,150),EARTH,3)
+        return True
+    if scene in {"running","walking","jumping","arriving","leaving"}:
+        # A single figure with clear limb gestures and an outdoor route.
+        ellipse(d,192,103,24,27,(226,173,128))
+        roundbox(d,(161,134,217,219),(195,124,98),16)
+        if scene in {"running","jumping"}:
+            line(d,(171,213,110,270),(86,118,144),17)
+            line(d,(207,216,272,246),(86,118,144),17)
+            line(d,(162,149,114,188),(226,173,128),13)
+            line(d,(213,152,254,116),(226,173,128),13)
+        else:
+            line(d,(175,213,146,289),(83,114,137),16)
+            line(d,(206,214,243,286),(83,114,137),16)
+            line(d,(164,155,119,192),(226,173,128),12)
+            line(d,(211,155,257,177),(226,173,128),12)
+        if scene in {"arriving","leaving"}:
+            x=282 if scene=="leaving" else 64
+            line(d,(x,300,x,222),DARKBLUE,5)
+            d.polygon([(x,221),(x-14,240),(x+14,240)],fill=DARKBLUE)
+        return True
+    if scene in {"numbers","calendar"}:
+        roundbox(d,(82,109,302,299),(247,235,211),14,EARTH,5)
+        d.rectangle((83,111,300,148),fill=(181,110,86))
+        if scene=="calendar":
+            for row in range(3):
+                for col in range(4):
+                    roundbox(d,(108+col*43,174+row*38,128+col*43,197+row*38),
+                             (204,188,158),4)
+        else:
+            for ii,n in enumerate(("1","2","3")):
+                d.text((111+ii*60,195),n,fill=INK)
+        return True
+    return False
+
 def text_fallback(im,zh,word):
     # If an image cannot depict the precise meaning, display a meaning card:
     # NO false notebook/pen icon. No unverified inferred situation.
@@ -501,6 +628,8 @@ def paint(row):
     d=ImageDraw.Draw(im)
     if scene=="meaning":
         text_fallback(im,zh,word)
+    elif improved_subject(d,scene,random.Random(seed_from(uid))):
+        pass
     elif scene in people:
         scene_people(d,scene)
     else:
