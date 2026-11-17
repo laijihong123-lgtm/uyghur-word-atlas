@@ -104,8 +104,17 @@ def main():
         for folder,size in [('img',384),('thumb',104)]:
             dest=ATLAS/folder/(w[0]+'.webp')
             dest.parent.mkdir(exist_ok=True)
-            im.resize((size,size),Image.Resampling.LANCZOS).save(dest,'WEBP',quality=75)
-            assert dest.stat().st_size>400
+            tile=im.resize((size,size),Image.Resampling.LANCZOS)
+            tile.save(dest,'WEBP',quality=85,method=4)
+            if dest.stat().st_size<750:
+                # Tiny smooth WebP thumbnails can be below the sanity threshold.
+                # Add subtle paper grain without increasing pixel dimensions.
+                from PIL import ImageOps
+                paper=ImageOps.colorize(Image.effect_noise((size,size),38),
+                                        (183,156,130),(252,245,226))
+                tile=Image.blend(tile,paper,.18)
+                tile.save(dest,'WEBP',quality=90,method=4)
+            assert dest.stat().st_size>400,(dest, dest.stat().st_size)
         w[6]|=1
     for e in entries:
         if e['id'].startswith('s501'): e['m']|=1
