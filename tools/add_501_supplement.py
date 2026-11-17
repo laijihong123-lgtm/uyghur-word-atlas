@@ -93,10 +93,14 @@ def main():
     from PIL import Image
     added=[w for w in idx['words'] if w[0].startswith('s501')]
     icons={w[0]:art.mark_concept(w[2]) for w in added}
-    images=art.load_icons(icons)
+    images={}  # Avoid downloading generic Lucide symbols for new word cards
+    from semantic_scene_cards import pick_scene
+    scene_counts={}
     for w in added:
         icon,kind=icons[w[0]]
-        im=art.draw_one(w,icon,kind,images.get(icon))
+        im=art.draw_one(w,icon,kind,None)
+        scene,_=pick_scene(w[1],w[2])
+        scene_counts[scene]=scene_counts.get(scene,0)+1
         for folder,size in [('img',384),('thumb',104)]:
             dest=ATLAS/folder/(w[0]+'.webp')
             dest.parent.mkdir(exist_ok=True)
@@ -124,7 +128,12 @@ def main():
     for n in range(0,len(entries),100):
         (ATLAS/'entries'/f'{n//100}.json').write_text(json.dumps(entries[n:n+100],ensure_ascii=False,separators=(',',':')))
     (ATLAS/'index.json').write_text(json.dumps(idx,ensure_ascii=False,separators=(',',':')))
-    (ATLAS/'supplement-501.json').write_text(json.dumps({'records':report,'illustrationLicense':'Lucide ISC (icon components), procedural muted watercolor scenes; original Word Atlas artwork retains CC BY 4.0 attribution'},ensure_ascii=False,indent=2))
+    (ATLAS/'supplement-501.json').write_text(json.dumps({
+        'records':report,
+        'imageTechnique':'Meaning-selected low-resolution procedural scene, with neutral meaning card for ambiguous grammar',
+        'sceneCounts':scene_counts,
+        'originalIllustrations':'Original Word Atlas CC BY 4.0, separate attribution file',
+    },ensure_ascii=False,indent=2))
     for relative in ['src/pages/Today.tsx','index.html','UYGHUR_PORT_NOTICE.md']:
         p=HOME/'upstream'/relative
         text=p.read_text()
@@ -137,7 +146,7 @@ def main():
     loader=HOME/'upstream/src/atlas/data.ts'
     text=loader.read_text()
     old='const url = (p: string) => `${BASE}/atlas/${p}`;'
-    new='const url = (p: string) => `${BASE}/atlas/${p}${p.endsWith(".json") ? "?v=501-merged-20261117" : p.endsWith(".webp") ? "?v=painted-20261117" : ""}`;'
+    new='const url = (p: string) => `${BASE}/atlas/${p}${p.endsWith(".json") ? "?v=501-merged-20261117" : p.endsWith(".webp") ? "?v=meaning-scenes-20261117" : ""}`;'
     assert old in text
     loader.write_text(text.replace(old,new))
     # Final product copy and controls for the Uyghur edition.
