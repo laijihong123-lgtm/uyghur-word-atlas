@@ -129,12 +129,13 @@ jobs:
         run: |
           python3 -m pip install --quiet pillow==11.3.0
           python3 tools/add_generated_scenes.py
-      - name: Generate 952 fast consistent word-specific illustrations
+      - name: Rebuild all missing vocabulary illustrations as low-resolution semantic scenes
         shell: bash
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y -qq fonts-wqy-microhei > /dev/null
           python3 -m pip install --quiet cairosvg==2.8.2
+          python3 tools/test_semantic_scene_cards.py
           python3 tools/generate_fast_illustrations.py
       - name: Validate image flags, files, and original content attribution
         shell: bash
