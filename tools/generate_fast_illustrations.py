@@ -536,8 +536,9 @@ def draw_one(row,icon_name,kind,icon_img):
     # Render every formerly icon-and-caption fallback as a low-resolution
     # retro storybook scene with vintage watercolor washes and paper grain.
     # Retains the existing meaning selector, stable filenames and word IDs.
-    from painted_cards import draw_card
-    return draw_card(row,icon_name,kind,icon_img)
+    from semantic_scene_cards import paint
+    image, _, _ = paint(row)
+    return image
 
 def main():
     idxpath=ATLAS/"index.json"
@@ -548,12 +549,18 @@ def main():
     if idx["count"]!=1813 or existing<800 or len(missing)>1013:
         raise RuntimeError("Original-image import did not cover the expected textbook cards")
     candidates={r[0]:mark_concept(r[2]) for r in missing}
-    icon_imgs=load_icons(candidates)
+    # No remote Lucide icons. Every unlicensed fallback is now a deliberately
+    # drawn scene or a clear meaning card, not an unrelated notebook glyph.
+    icon_imgs={}
+    from semantic_scene_cards import pick_scene
+    scenes=Counter()
     generated=[]
     for no,row in enumerate(missing,1):
         uid,uy,zh=row[0],row[1],row[2]
         icon,kind=candidates[uid]
-        im=draw_one(row,icon,kind,icon_imgs.get(icon))
+        im=draw_one(row,icon,kind,None)
+        scene,reason=pick_scene(uy,zh)
+        scenes[scene]+=1
         file=ATLAS/"img"/(uid+".webp")
         thumb=ATLAS/"thumb"/(uid+".webp")
         im.save(file,"WEBP",quality=78,method=4)
@@ -570,8 +577,9 @@ def main():
         if file.stat().st_size<1000 or thumb.stat().st_size<600:
             raise RuntimeError(f"Bad watercolor webp {uid}: full={file.stat().st_size}, thumbnail={thumb.stat().st_size}")
         row[6] |=1
-        generated.append({"id":uid,"word":uy,"gloss":zh,"icon":icon,
-                          "style":kind,"type":"procedural vintage watercolor scene with semantic subject",
+        generated.append({"id":uid,"word":uy,"gloss":zh,"scene":scene,
+                          "selection":reason,"style":kind,
+                          "type":"low-resolution semantic scene" if scene!="meaning" else "neutral Chinese meaning card",
                           "full_size":file.stat().st_size,"thumb_size":thumb.stat().st_size})
         if no%200==0:print("GENERATED",no,flush=True)
     idx["illustrated"]=sum(bool(r[6]&1) for r in idx["words"])
@@ -584,11 +592,10 @@ def main():
             if e["id"] in byid:e["m"] |= 1
         p.write_text(json.dumps(es,ensure_ascii=False,separators=(",",":")),"utf8")
     (ATLAS/"fast-generated-illustrations.json").write_text(
-        json.dumps({"count":len(generated),"type":"storybook watercolor-style procedural illustrations",
-                    "notes":"Procedural watercolor-like scenes based on semantic pictograms; some abstract cards retain gloss labels. Not individually AI painted or mother-tongue-reviewed.",
-                    "icon_license":"Lucide ISC",
-                    "icon_source":"https://github.com/lucide-icons/lucide",
-                    "items":generated},ensure_ascii=False,indent=2),"utf8")
+        json.dumps({"count":len(generated),"type":"meaning-first, low-resolution scenes or honest neutral meaning cards",
+                    "notes":"No generic pictograms: exact semantic scenes when reliably identified; unmatched grammatical and abstract terms use clear typographic meaning cards. These are procedural drawings, not individual ImageGen watercolor paintings.",
+                    "selectionMethod":"source gloss & exact-word overrides, never indiscriminate icon substitution",
+                    "scenes":dict(scenes),"items":generated},ensure_ascii=False,indent=2),"utf8")
     # A preview grid supports quality checking without opening every fallback file.
     preview=Image.new("RGB",(384*4,384*4),(255,246,231))
     for n,row in enumerate(missing[:16]):
