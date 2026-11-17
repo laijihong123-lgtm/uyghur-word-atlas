@@ -94,7 +94,7 @@ SCENES=[
  ("问候|你好|您好|见面|相逢|再见|告别","greeting"),
  ("帮助|援助|协助|合作|互助|互相","helping"),
  ("同意|答应|允许|可以|行；|行，|好吧","permission"),
- ("拒绝|不允许|不能|不要|禁止|否定","refuse"),
+ ("拒绝|不允许|不可以|不能|不要|禁止|否定","refuse"),
  ("可能|也许","possibility"),
  ("因为|原因|由于|缘故|因此|所以","reason"),
  ("如果|假如|条件","condition"),
@@ -154,16 +154,25 @@ def pick_scene(word, zh):
     if word in FUNCTION_EXACT:
         return FUNCTION_EXACT[word], "explicit"
     main=meaning_text(zh)
+    if re.search(r"不可以|不准|不可|不允许|不能|禁止",main):
+        return "refuse", "explicit_negation"
     if GRAMMAR_REGEX.search(main) and len(main)>12:
         return "meaning", "grammar"
-    # Concrete and scene-specific meanings have priority over the broad sense.
-    for phrase,scene in SCENES:
-        if any(p in main for p in phrase.split("|")):
-            return scene, "semantic"
-    # Extended meanings sometimes have the only picturable sense.
-    for phrase,scene in SCENES:
-        if any(len(p)>=2 and p in zh for p in phrase.split("|")):
-            return scene,"secondary"
+    # Prefer the MOST SPECIFIC matching sense. "书包" must select bag, not
+    # book; "游泳" must select swimming, not vague moving/walking.
+    def best_match(text,secondary=False):
+        hits=[]
+        for n,(patterns,scene) in enumerate(SCENES):
+            for p in patterns.split("|"):
+                if p in text and (len(p)>=2 or not secondary):
+                    hits.append((len(p),-n,scene))
+        if not hits:return None
+        hits.sort(reverse=True)
+        return hits[0][2]
+    match=best_match(main)
+    if match:return match,"semantic"
+    match=best_match(zh,secondary=True)
+    if match:return match,"secondary"
     return "meaning", "safe_fallback"
 
 def seed_from(uid):
